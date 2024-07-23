@@ -1,5 +1,6 @@
 
-# inspirelab-siteDESCRIPTION=An engaging 1-3 sentence description of your lab.'s Website
+# INSPIRE Lab Website
+
 
 Visit **[inspirelab-site.github.io](https://inspirelab-site.github.io)** 🚀
 
