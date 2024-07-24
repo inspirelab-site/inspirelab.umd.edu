@@ -1,247 +1,405 @@
 # DO NOT EDIT, GENERATED AUTOMATICALLY
 
-- id: doi:10.1093/nar/gkad1082
-  title: "The Monarch Initiative in 2024: an analytic platform integrating phenotypes,\
-    \ genes\_and diseases across species"
+- id: doi:10.1101/2024.05.23.595327
+  title: The Effects of Locus Coeruleus Optogenetic Stimulation on Global Spatiotemporal
+    Patterns in Rats
   authors:
-  - Tim E Putman
-  - Kevin Schaper
-  - Nicolas Matentzoglu
-  - "Vincent\_P Rubinetti"
-  - "Faisal\_S Alquaddoomi"
-  - Corey Cox
-  - J Harry Caufield
-  - Glass Elsarboukh
-  - Sarah Gehrke
-  - Harshad Hegde
-  - "Justin\_T Reese"
-  - Ian Braun
-  - "Richard\_M Bruskiewich"
-  - Luca Cappelletti
-  - Seth Carbon
-  - "Anita\_R Caron"
-  - "Lauren\_E Chan"
-  - "Christopher\_G Chute"
-  - "Katherina\_G Cortes"
-  - "Vin\xEDcius De\_Souza"
-  - Tommaso Fontana
-  - "Nomi\_L Harris"
-  - "Emily\_L Hartley"
-  - Eric Hurwitz
-  - "Julius\_O B Jacobsen"
-  - Madan Krishnamurthy
-  - "Bryan\_J Laraway"
-  - "James\_A McLaughlin"
-  - "Julie\_A McMurry"
-  - "Sierra\_A T Moxon"
-  - "Kathleen\_R Mullen"
-  - "Shawn\_T O\u2019Neil"
-  - "Kent\_A Shefchek"
-  - Ray Stefancsik
-  - Sabrina Toro
-  - "Nicole\_A Vasilevsky"
-  - "Ramona\_L Walls"
-  - "Patricia\_L Whetzel"
-  - David Osumi-Sutherland
-  - Damian Smedley
-  - "Peter\_N Robinson"
-  - "Christopher\_J Mungall"
-  - "Melissa\_A Haendel"
-  - "Monica\_C Munoz-Torres"
-  publisher: Nucleic Acids Research
-  date: '2023-11-24'
-  link: https://doi.org/gs6kmr
-  orcid: 0000-0002-4655-3773
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1101/2023.10.11.560955
-  title: Integration of 168,000 samples reveals global patterns of the human gut microbiome
-  authors:
-  - Richard J. Abdill
-  - Samantha P. Graham
-  - Vincent Rubinetti
-  - Frank W. Albert
-  - Casey S. Greene
-  - Sean Davis
-  - Ran Blekhman
+  - Nmachi Anumba
+  - Michael A. Kelberman
+  - Wenju Pan
+  - Alexia Marriott
+  - Xiaodi Zhang
+  - Nan Xu
+  - David Weinshenker
+  - Shella Keilholz
   publisher: Cold Spring Harbor Laboratory
-  date: '2023-10-11'
-  link: https://doi.org/gsvf5z
-  orcid: 0000-0002-4655-3773
+  date: '2024-05-23'
+  link: https://doi.org/gt44nb
+  orcid: 0000-0002-3900-3220
   plugin: orcid.py
   file: orcid.yaml
-- id: doi:10.1093/nar/gkad289
-  title: 'MyGeneset.info: an interactive and programmatic platform for community-curated
-    and user-created collections of genes'
+- id: doi:10.1101/2024.04.26.591295
+  title: Variation in the Distribution of Large-scale Spatiotemporal Patterns of Activity
+    Across Brain States
   authors:
-  - Ricardo Avila
-  - Vincent Rubinetti
-  - Xinghua Zhou
-  - Dongbo Hu
-  - Zhongchao Qian
-  - Marco Alvarado Cano
-  - Everaldo Rodolpho
-  - Ginger Tsueng
-  - Casey Greene
-  - Chunlei Wu
-  publisher: Nucleic Acids Research
-  date: '2023-04-18'
-  link: https://doi.org/gr5hb5
-  orcid: 0000-0002-4655-3773
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1101/2023.01.05.522941
-  title: Hetnet connectivity search provides rapid insights into how two biomedical
-    entities are related
-  authors:
-  - Daniel S. Himmelstein
-  - Michael Zietz
-  - Vincent Rubinetti
-  - Kyle Kloster
-  - Benjamin J. Heil
-  - Faisal Alquaddoomi
-  - Dongbo Hu
-  - David N. Nicholson
-  - Yun Hao
-  - Blair D. Sullivan
-  - Michael W. Nagle
-  - Casey S. Greene
+  - Lisa Meyer-Baese
+  - Nmachi Anumba
+  - T Bolt
+  - L Daley
+  - TJ LaGrow
+  - Xiaodi Zhang
+  - Nan Xu
+  - Wen-Ju Pan
+  - E Schumacher
+  - Shella Keilholz
   publisher: Cold Spring Harbor Laboratory
-  date: '2023-01-07'
-  link: https://doi.org/grmcb9
-  orcid: 0000-0002-4655-3773
+  date: '2024-04-29'
+  link: https://doi.org/gt44nc
+  orcid: 0000-0002-3900-3220
   plugin: orcid.py
   file: orcid.yaml
-- id: doi:10.1093/gigascience/giad047
-  title: Hetnet connectivity search provides rapid insights into how biomedical entities
-    are related
+- id: doi:10.1101/2023.09.25.559086
+  title: 'QPPLab: A generally applicable software package for detecting, analyzing,
+    and visualizing large-scale quasiperiodic spatiotemporal patterns (QPPs) of brain
+    activity'
   authors:
-  - Daniel S Himmelstein
-  - Michael Zietz
-  - Vincent Rubinetti
-  - Kyle Kloster
-  - Benjamin J Heil
-  - Faisal Alquaddoomi
-  - Dongbo Hu
-  - David N Nicholson
-  - Yun Hao
-  - Blair D Sullivan
-  - Michael W Nagle
-  - Casey S Greene
-  publisher: GigaScience
-  date: '2022-12-28'
-  link: https://doi.org/gsd85n
-  orcid: 0000-0002-4655-3773
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1101/2022.02.18.461833
-  title: 'MolEvolvR: A web-app for characterizing proteins using molecular evolution
-    and phylogeny'
-  authors:
-  - Jacob D Krol
-  - Joseph T Burke
-  - Samuel Z Chen
-  - Lo M Sosinski
-  - Faisal S Alquaddoomi
-  - Evan P Brenner
-  - Ethan P Wolfe
-  - Vincent P Rubinetti
-  - Shaddai Amolitos
-  - Kellen M Reason
-  - John B Johnston
-  - Janani Ravi
+  - Nan Xu
+  - Behnaz Yousefi
+  - Nmachi Anumba
+  - Theodore J. LaGrow
+  - Xiaodi Zhang
+  - Shella Keilholz
   publisher: Cold Spring Harbor Laboratory
-  date: '2022-02-22'
-  link: https://doi.org/gstx7j
-  orcid: 0000-0002-4655-3773
+  date: '2023-09-25'
+  link: https://doi.org/gt44nd
+  orcid: 0000-0002-3900-3220
   plugin: orcid.py
   file: orcid.yaml
-- id: doi:10.1186/s13059-020-02021-3
-  title: Compressing gene expression data using multiple latent space dimensionalities
-    learns complementary biological representations
+- id: doi:10.1002/mrm.29824
+  title: "Spatial and Spectral Components of the <scp>BOLD</scp> Global Signal in\
+    \ Rat <scp>Resting\u2010State</scp> Functional <scp>MRI</scp>"
   authors:
-  - Gregory P. Way
-  - Michael Zietz
-  - Vincent Rubinetti
-  - Daniel S. Himmelstein
-  - Casey S. Greene
-  publisher: Genome Biology
-  date: '2020-05-11'
-  link: https://doi.org/gg2mjh
-  orcid: 0000-0002-4655-3773
+  - Nmachi Anumba
+  - Eric Maltbie
+  - "Wen\u2010Ju Pan"
+  - Theodore J. LaGrow
+  - Nan Xu
+  - Shella Keilholz
+  publisher: Magnetic Resonance in Medicine
+  date: '2023-08-15'
+  link: https://doi.org/gt44nf
+  orcid: 0000-0002-3900-3220
   plugin: orcid.py
   file: orcid.yaml
-- id: doi:10.1371/journal.pcbi.1007128
-  title: Open collaborative writing with Manubot
+- id: doi:10.1162/imag_a_00002
+  title: "The interaction between random and systematic visual stimulation and\n \
+    \                   infraslow quasi-periodic spatiotemporal patterns of whole-brain\n\
+    \                    activity"
   authors:
-  - Daniel S. Himmelstein
-  - Vincent Rubinetti
-  - David R. Slochower
-  - Dongbo Hu
-  - Venkat S. Malladi
-  - Casey S. Greene
-  - Anthony Gitter
-  publisher: PLOS Computational Biology
-  date: '2020-12-04'
-  link: https://doi.org/c7np
-  orcid: 0000-0002-4655-3773
+  - Nan Xu
+  - Derek M. Smith
+  - George Jeno
+  - Dolly T. Seeburger
+  - Eric H. Schumacher
+  - Shella D. Keilholz
+  publisher: Imaging Neuroscience
+  date: '2023-08-01'
+  link: https://doi.org/gt44ng
+  orcid: 0000-0002-3900-3220
   plugin: sources.py
   file: sources.yaml
-  type: paper
-  description: Lorem ipsum _dolor_ **sit amet**, consectetur adipiscing elit, sed
-    do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  image: https://journals.plos.org/ploscompbiol/article/figure/image?size=inline&id=info:doi/10.1371/journal.pcbi.1007128.g001&rev=2
+  type: journal
+  description: Investigated the interaction between the BOLD dynamic processes that
+    tie to the infra-slow human brain activity and visual perception tasks. Discovered
+    that these intrinsic dynamic processes are highly robust and not likely to be
+    disrupted in humans, but they can still be perturbed in various ways. In particular,
+    they can swamp an overlapping BOLD response evoked by the flickering checkerboard,
+    but their phase-locked waveform can still be modulated by different sequences
+    of stimuli that affects the reaction time and sustained attention.
+  image: https://mitp.silverchair-cdn.com/mitp/content_public/journal/imag/1/10.1162_imag_a_00002/12/imag_a_00002_fig6.png?Expires=1724826478&Signature=ll7n7LPLllNN0LEmwKmY6UvV6T4268yyzq1MCVf6ChcpcFw5BUKf2y31BGVUxaQeNGm-K8PxA0MP1yHYibMXQPuwtCx2Nkx6eX8YDCBn8JBVBapwdtUxNWw63bjrEj2F25iCuEzfkvZo1-7rN~iIra27fXfuSCdKSaGrbcsFMQJBnHv6TWgwEpkclxwOkB2pgap5LDtVKtE~7secr6Su4-QZQaE-sGPD6ct0FXTepWx48Lj7Udjm7W9~W5tgk5f60oaDDv8CHAZJrjdjVF-~ouZlXM~j5Ewr08eTa~sMFYJiZR~QqJKLMkJEA90MrKTeN1JlswRFCKBIm0DTCVRO5Q__&Key-Pair-Id=APKAIE5G5CRDK6RD3PGA
   buttons:
-  - type: manubot
-    link: https://greenelab.github.io/meta-review/
   - type: source
-    text: Manuscript Source
-    link: https://github.com/greenelab/meta-review
-  - type: website
-    link: http://manubot.org/
+    text: preprocessing code
+    link: https://github.com/imnanxu/PartialHumanBrain_preprocessing
+  - type: source
+    text: analysis code
+    link: https://github.com/imnanxu/QPPLab
   tags:
   - open science
   - collaboration
-  repo: greenelab/meta-review
-- id: doi:10.1101/573782
-  title: Sequential compression of gene expression across dimensionalities and methods
-    reveals no single best method or dimensionality
+- id: doi:10.52294/001c.85075
+  title: Rodent Whole-Brain fMRI Data Preprocessing Toolbox
   authors:
-  - Gregory P. Way
-  - Michael Zietz
-  - Vincent Rubinetti
-  - Daniel S. Himmelstein
-  - Casey S. Greene
-  publisher: Cold Spring Harbor Laboratory
-  date: '2019-03-11'
-  link: https://doi.org/gfxjxf
-  orcid: 0000-0002-4655-3773
+  - Nan Xu
+  - Leo Zhang
+  - Sam Larson
+  - Zengmin Li
+  - Nmachi Anumba
+  - Lauren Daley
+  - Wen-Ju Pan
+  - Kai-Hsiang Chuang
+  - Shella D. Keilholz
+  publisher: Aperture Neuro
+  date: '2023-08-09'
+  link: https://doi.org/gt44nh
+  orcid: 0000-0002-3900-3220
   plugin: orcid.py
   file: orcid.yaml
-- id: doi:10.1016/j.csbj.2020.05.017
-  title: Constructing knowledge graphs and their biomedical applications
+- id: doi:10.1101/2023.06.22.546092
+  title: Time-varying Functional Connectivity Predicts Fluctuations in Sustained Attention
+    in a Serial Tapping Task
   authors:
-  - David N. Nicholson
-  - Casey S. Greene
-  publisher: Computational and Structural Biotechnology Journal
-  date: '2020-01-01'
-  link: https://doi.org/gg7m48
-  image: https://ars.els-cdn.com/content/image/1-s2.0-S2001037020302804-gr1.jpg
+  - Dolly T. Seeburger
+  - Nan Xu
+  - Marcus Ma
+  - Sam Larson
+  - Christine Godwin
+  - Shella D. Keilholz
+  - Eric H. Schumacher
+  publisher: Cold Spring Harbor Laboratory
+  date: '2023-06-25'
+  link: https://doi.org/gt44nj
+  orcid: 0000-0002-3900-3220
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.3389/fnins.2022.816331
+  title: Functional Connectivity of the Brain Across Rodents and Humans
+  authors:
+  - Nan Xu
+  - Theodore J. LaGrow
+  - Nmachi Anumba
+  - Azalea Lee
+  - Xiaodi Zhang
+  - Behnaz Yousefi
+  - Yasmine Bassil
+  - Gloria P. Clavijo
+  - Vahid Khalilzad Sharghi
+  - Eric Maltbie
+  - Lisa Meyer-Baese
+  - Maysam Nezafati
+  - Wen-Ju Pan
+  - Shella Keilholz
+  publisher: Frontiers in Neuroscience
+  date: '2022-03-08'
+  link: https://doi.org/gtdtsw
+  orcid: 0000-0002-3900-3220
   plugin: sources.py
   file: sources.yaml
-- id: doi:10.7554/eLife.32822
-  title: Sci-Hub provides access to nearly all scholarly literature
+  type: journal
+  image: https://www.frontiersin.org/files/Articles/816331/fnins-16-816331-HTML/image_m/fnins-16-816331-g003.jpg
+- id: doi:10.1137/20M1318183
+  title: Computation of Real-Valued Basis Functions which Transform as Irreducible
+    Representations of the Polyhedral Groups
   authors:
-  - Daniel S Himmelstein
-  - Ariel Rodriguez Romero
-  - Jacob G Levernier
-  - Thomas Anthony Munro
-  - Stephen Reid McLaughlin
-  - Bastian Greshake Tzovaras
-  - Casey S Greene
-  publisher: eLife
-  date: '2018-03-01'
-  link: https://doi.org/ckcj
-  image: https://iiif.elifesciences.org/lax:32822%2Felife-32822-fig8-v3.tif/full/863,/0/default.webp
+  - Nan Xu
+  - Peter Doerschuk
+  publisher: SIAM Journal on Scientific Computing
+  date: '2021-01-01'
+  link: https://doi.org/gt44nk
+  orcid: 0000-0002-3900-3220
+  plugin: sources.py
+  file: sources.yaml
+  type: journal
+  image: images/papers/xu-sisc-2021.png
+  buttons:
+  - type: source
+    text: code
+    link: https://github.com/imnanxu/PolyhedralBasisFunction/releases/tag/sisc2021
+  - type: source
+    text: numerical solutions
+    link: https://github.com/imnanxu/PolyhedralBasisFunction/releases/tag/sisc2021
+- id: doi:10.1016/j.neuroimage.2020.117628
+  title: Spatiotemporal functional interactivity among large-scale brain networks
+  authors:
+  - Nan Xu
+  - Peter C. Doerschuk
+  - Shella D. Keilholz
+  - R. Nathan Spreng
+  publisher: NeuroImage
+  date: '2021-02-01'
+  link: https://doi.org/gsx2rt
+  orcid: 0000-0002-3900-3220
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.3389/fnins.2020.550923
+  title: Relationship Between Basic Properties of BOLD Fluctuations and Calculated
+    Metrics of Complexity in the Human Connectome Project
+  authors:
+  - Shella Keilholz
+  - Eric Maltbie
+  - Xiaodi Zhang
+  - Behnaz Yousefi
+  - Wen-Ju Pan
+  - Nan Xu
+  - Maysam Nezafati
+  - Theodore J. LaGrow
+  - Ying Guo
+  publisher: Frontiers in Neuroscience
+  date: '2020-09-15'
+  link: https://doi.org/gt44nm
+  orcid: 0000-0002-3900-3220
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1109/tip.2019.2915631
+  title: Reconstruction of Stochastic 3D Signals With Symmetric Statistics From 2D
+    Projection Images Motivated by Cryo-Electron Microscopy
+  authors:
+  - Nan Xu
+  - Peter C. Doerschuk
+  publisher: IEEE Transactions on Image Processing
+  date: '2019-11-01'
+  link: https://doi.org/gmddq4
+  orcid: 0000-0002-3900-3220
+  plugin: orcid.py
+  file: orcid.yaml
+- id: pmid:31217565
+  title: 'Digging deeper: methodologies for high-content phenotyping in Caenorhabditis
+    elegans.'
+  authors:
+  - Nan Xu+
+  - Dhaval S Patel+
+  - Hang Lu
+  publisher: Lab animal
+  date: '2019-06-19'
+  link: https://www.ncbi.nlm.nih.gov/pubmed/31217565
+  orcid: 0000-0002-3900-3220
+  plugin: sources.py
+  file: sources.yaml
+  type: journal
+  description: +equal contributions
+- id: pmid:29331608
+  title: Allosteric effects in bacteriophage HK97 procapsids revealed directly from
+    covariance analysis of cryo EM data.
+  authors:
+  - Nan Xu
+  - David Veesler
+  - Peter C Doerschuk
+  - John E Johnson
+  publisher: Journal of structural biology
+  date: '2018-01-10'
+  link: https://www.ncbi.nlm.nih.gov/pubmed/29331608
+  orcid: 0000-0002-3900-3220
+  plugin: sources.py
+  file: sources.yaml
+  image: https://ars.els-cdn.com/content/image/1-s2.0-S1047847717302368-gr5_lrg.jpg
+  type: journal
+  description: "Using cryo-EM, we transform highly noisy and randomly-oriented projection\
+    \ images of 103\u2500106 virus particles into a 3D model of the virus. Unlike\
+    \ traditional methods that assume strict geometric symmetry, we adopted a more\
+    \ realistic approach, allowing individual particles to be asymmetric while maintaining\
+    \ symmetry in the overall mean and covariance. This novel method eliminates long-standing\
+    \ distortions along the symmetry axes. In collaboration with virologists from\
+    \ the Scripps Institute, we uncovered allosteric effects along the symmetry axes\
+    \ of the bacteriophage HK97. This represents a significant advancement in structural\
+    \ virology."
+- id: pmid:28559793
+  title: Initial Validation for the Estimation of Resting-State fMRI Effective Connectivity
+    by a Generalization of the Correlation Approach.
+  authors:
+  - Nan Xu
+  - R Nathan Spreng
+  - Peter C Doerschuk
+  publisher: Frontiers in neuroscience
+  date: '2017-05-16'
+  link: https://www.ncbi.nlm.nih.gov/pubmed/28559793
+  orcid: 0000-0002-3900-3220
+  plugin: sources.py
+  file: sources.yaml
+  type: journal
+  description: Correlation analysis is commonly used in fMRI studies for elucidating
+    the brain's static functional architecture but falls short in capturing crucial
+    causal interactions necessary for understanding brain dynamics. We developed "prediction
+    correlation" (p-corr), a novel computational method that enhances traditional
+    pairwise correlation analysis by integrating statistical learning, information
+    theory, and optimization. P-corr excels in identifying the directionality of causal
+    information flow in the brain and maintains sensitivity to network connectivity.
+    Additionally, its scalability allows it to handle hundreds of regions of interest
+    (ROIs), facilitating comprehensive assessments of whole-brain interregional connectivity
+    at an individual level.
+  image: https://www.frontiersin.org/files/Articles/219881/fnins-11-00271-HTML-r1/image_m/fnins-11-00271-g001.jpg
+  buttons:
+  - type: source
+    text: code
+    link: https://www.mathworks.com/matlabcentral/fileexchange/62781-pcorrelation
+- id: pmid:28269156
+  title: 'Statistical characterization of ensembles of symmetric virus particles:
+    3-D stochastic signal reconstruction from electron microscope images.'
+  authors:
+  - ' Nan Xu'
+  - Peter C Doerschuk
+  publisher: Annual International Conference of the IEEE Engineering in Medicine and
+    Biology Society. IEEE Engineering in Medicine and Biology Society. Annual International
+    Conference
+  date: '2016-08-01'
+  link: https://www.ncbi.nlm.nih.gov/pubmed/28269156
+  orcid: 0000-0002-3900-3220
+  plugin: orcid.py
+  file: orcid.yaml
+- id: pmid:27085980
+  title: Virus particle dynamics derived from CryoEM studies.
+  authors:
+  - Peter C Doerschuk
+  - Yunye Gong
+  - Nan Xu
+  - Tatiana Domitrovic
+  - John E Johnson
+  publisher: Current opinion in virology
+  date: '2016-04-14'
+  link: https://www.ncbi.nlm.nih.gov/pubmed/27085980
+  orcid: 0000-0002-3900-3220
+  plugin: sources.py
+  file: sources.yaml
+  type: journal
+  image: images/papers/doerschuk-opinion-virology-2016.png
+- id: doi:10.1117/12.2193791
+  title: Characterizing heterogeneity among virus particles by stochastic 3D signal
+    reconstruction
+  authors:
+  - Nan Xu
+  - Yunye Gong
+  - Qiu Wang
+  - Yili Zheng
+  - Peter C. Doerschuk
+  publisher: SPIE Proceedings
+  date: '2015-09-21'
+  link: https://doi.org/gt44nn
+  orcid: 0000-0002-3900-3220
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1109/ICIP.2015.7351039
+  title: 'Reconstruction for stochastic 3-D signals with symmetric statistics in noise:
+    Electron microscopy of virus particles'
+  authors:
+  - Nan Xu
+  - Peter C. Doerschuk
+  publisher: 2015 IEEE International Conference on Image Processing (ICIP)
+  date: '2015-09-01'
+  link: https://doi.org/gt44np
+  orcid: 0000-0002-3900-3220
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1364/srs.2014.stu3f.4
+  title: 3-D statistical characterization of the heterogeneity of biological macromolecular
+    complexes by electron microscopy
+  authors:
+  - Nan Xu
+  - Yunye Gong
+  - Yili Zheng
+  - Qiu Wang
+  - Peter C. Doerschuk
+  publisher: Imaging and Applied Optics 2014
+  date: '2014-01-01'
+  link: https://doi.org/gt44nq
+  orcid: 0000-0002-3900-3220
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1109/ICIP.2014.7025712
+  title: 'Directed interactivity of large-scale brain networks: Introducing a new
+    method for estimating resting-state effective connectivity MRI'
+  authors:
+  - Nan Xu
+  - R. Nathan Spreng
+  - Peter C. Doerschuk
+  publisher: 2014 IEEE International Conference on Image Processing (ICIP)
+  date: '2014-10-01'
+  link: https://doi.org/gt44nr
+  orcid: 0000-0002-3900-3220
+  plugin: orcid.py
+  file: orcid.yaml
+- id: pmid:38253775
+  title: Time-varying functional connectivity predicts fluctuations in sustained attention
+    in a serial tapping task.
+  authors:
+  - Dolly T Seeburger
+  - Nan Xu
+  - Marcus Ma
+  - Sam Larson
+  - Christine Godwin
+  - Shella D Keilholz
+  - Eric H Schumacher
+  publisher: Cognitive, affective & behavioral neuroscience
+  date: '2024-01-22'
+  link: https://www.ncbi.nlm.nih.gov/pubmed/38253775
+  type: journal
   plugin: sources.py
   file: sources.yaml
