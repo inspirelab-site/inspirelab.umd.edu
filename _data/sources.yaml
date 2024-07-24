@@ -1,23 +1,58 @@
-- id: doi:10.1371/journal.pcbi.1007128
-  type: paper
-  description: Lorem ipsum _dolor_ **sit amet**, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  date: 2020-12-4
-  image: https://journals.plos.org/ploscompbiol/article/figure/image?size=inline&id=info:doi/10.1371/journal.pcbi.1007128.g001&rev=2
+- id: doi:10.1162/imag_a_00002
+  type: journal
+  description: Investigated the interaction between the BOLD dynamic processes that tie to the infra-slow human brain activity and visual perception tasks. Discovered that these intrinsic dynamic processes are highly robust and not likely to be disrupted in humans, but they can still be perturbed in various ways. In particular, they can swamp an overlapping BOLD response evoked by the flickering checkerboard, but their phase-locked waveform can still be modulated by different sequences of stimuli that affects the reaction time and sustained attention.
+  image: https://mitp.silverchair-cdn.com/mitp/content_public/journal/imag/1/10.1162_imag_a_00002/12/imag_a_00002_fig6.png?Expires=1724826478&Signature=ll7n7LPLllNN0LEmwKmY6UvV6T4268yyzq1MCVf6ChcpcFw5BUKf2y31BGVUxaQeNGm-K8PxA0MP1yHYibMXQPuwtCx2Nkx6eX8YDCBn8JBVBapwdtUxNWw63bjrEj2F25iCuEzfkvZo1-7rN~iIra27fXfuSCdKSaGrbcsFMQJBnHv6TWgwEpkclxwOkB2pgap5LDtVKtE~7secr6Su4-QZQaE-sGPD6ct0FXTepWx48Lj7Udjm7W9~W5tgk5f60oaDDv8CHAZJrjdjVF-~ouZlXM~j5Ewr08eTa~sMFYJiZR~QqJKLMkJEA90MrKTeN1JlswRFCKBIm0DTCVRO5Q__&Key-Pair-Id=APKAIE5G5CRDK6RD3PGA
   buttons:
-    - type: manubot
-      link: https://greenelab.github.io/meta-review/
     - type: source
-      text: Manuscript Source
-      link: https://github.com/greenelab/meta-review
-    - type: website
-      link: http://manubot.org/
+      text: preprocessing code
+      link: https://github.com/imnanxu/PartialHumanBrain_preprocessing
+    - type: source
+      text: analysis code
+      link: https://github.com/imnanxu/QPPLab
   tags:
     - open science
     - collaboration
-  repo: greenelab/meta-review
 
-- id: doi:10.1016/j.csbj.2020.05.017
-  image: https://ars.els-cdn.com/content/image/1-s2.0-S2001037020302804-gr1.jpg
+- id: doi:10.1137/20M1318183
+  type: journal
+  image: images/papers/xu-sisc-2021.png
+  buttons:
+    - type: source
+      text: code
+      link: https://github.com/imnanxu/PolyhedralBasisFunction/releases/tag/sisc2021
+    - type: source
+      text: numerical solutions
+      link: https://github.com/imnanxu/PolyhedralBasisFunction/releases/tag/sisc2021
 
-- id: doi:10.7554/eLife.32822
-  image: https://iiif.elifesciences.org/lax:32822%2Felife-32822-fig8-v3.tif/full/863,/0/default.webp
+- id: doi:10.3389/fnins.2022.816331
+  type: journal
+  image: https://www.frontiersin.org/files/Articles/816331/fnins-16-816331-HTML/image_m/fnins-16-816331-g003.jpg
+
+- id: pmid:38253775
+  type: journal
+
+- id: pmid:29331608
+  image: https://ars.els-cdn.com/content/image/1-s2.0-S1047847717302368-gr5_lrg.jpg
+  type: journal
+  description: Using cryo-EM, we transform highly noisy and randomly-oriented projection images of 103─106 virus particles into a 3D model of the virus. Unlike traditional methods that assume strict geometric symmetry, we adopted a more realistic approach, allowing individual particles to be asymmetric while maintaining symmetry in the overall mean and covariance. This novel method eliminates long-standing distortions along the symmetry axes. In collaboration with virologists from the Scripps Institute, we uncovered allosteric effects along the symmetry axes of the bacteriophage HK97. This represents a significant advancement in structural virology.
+
+- id: pmid:31217565
+  type: journal
+  authors: 
+    - Nan Xu+
+    - Dhaval S Patel+ 
+    - Hang Lu  
+  description: +equal contributions
+
+- id: pmid:28559793
+  type: journal
+  description: Correlation analysis is commonly used in fMRI studies for elucidating the brain's static functional architecture but falls short in capturing crucial causal interactions necessary for understanding brain dynamics. We developed "prediction correlation" (p-corr), a novel computational method that enhances traditional pairwise correlation analysis by integrating statistical learning, information theory, and optimization. P-corr excels in identifying the directionality of causal information flow in the brain and maintains sensitivity to network connectivity. Additionally, its scalability allows it to handle hundreds of regions of interest (ROIs), facilitating comprehensive assessments of whole-brain interregional connectivity at an individual level. 
+  image: https://www.frontiersin.org/files/Articles/219881/fnins-11-00271-HTML-r1/image_m/fnins-11-00271-g001.jpg
+  buttons:
+  - type: source
+    text: code
+    link: https://www.mathworks.com/matlabcentral/fileexchange/62781-pcorrelation
+
+- id: pmid:27085980
+  type: journal
+  image: images/papers/doerschuk-opinion-virology-2016.png
