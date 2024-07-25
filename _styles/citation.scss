@@ -1,7 +1,7 @@
 ---
 ---
 
-$thumb-size: 180px;
+$thumb-size: 100px;
 $wrap: 800px;
 
 .citation-container {
@@ -51,6 +51,7 @@ $wrap: 800px;
 .citation-details,
 .citation-description {
   width: 100%;
+  font-size: 95%
 }
 
 .citation-title {
@@ -74,6 +75,7 @@ $wrap: 800px;
 .citation-description {
   color: var(--gray);
 }
+
 
 .citation-buttons {
   display: flex;

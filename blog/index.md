@@ -1,11 +1,11 @@
 ---
-title: News
+title: Blog & News
 nav:
   order: 5
   tooltip: Musings and miscellany
 ---
 
-# {% include icon.html icon="fa-solid fa-feather-pointed" %}News
+# {% include icon.html icon="fa-solid fa-feather-pointed" %}Blog & News
 {% include section.html %}
 
 {% include search-box.html %}

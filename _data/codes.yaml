@@ -1,9 +1,9 @@
 - title: QPPLab
   subtitle: Quasi-periodic patterns (Xu et al., bioRxiv, 2024)
   group: dynamics
-  image: images/photo.jpg
+  image: software/images/software.jpg
   link: https://github.com/imnanxu/QPPLab
-  description: A generally applicable MATLAB package for detecting, analyzing, and visualizing quasiperiodic spatiotemporal patterns (QPPs) of whole brain activity.
+  description: A generally applicable and user friendly toolbox for analyzing QPPs.
   repo: imnanxu
   tags:
    - computational neuro
@@ -12,9 +12,9 @@
 - title: p-Corr
   subtitle: Prediction Correlation (Xu et al., Front. Neurosci., 2017)
   group: dynamics
-  image: images/photo.jpg
+  image: software/images/software.jpg
   link: https://www.mathworks.com/matlabcentral/fileexchange/62781-pcorrelation
-  description: Matlab toolbox for estimating the strength and duration of the directed functional connectivity among brain networks.
+  description: Matlab toolbox for estimating the strength and duration of the information flow.
   repo: matlab-file-exchange
   tags:
     - computational neuro
@@ -22,9 +22,9 @@
 
 
 - title: Rodent Brain fMRI Preprocessing
-  subtitle: Featured at the Aperture Symposium of the OHBM 2024 Annual Meeting (Xu et al., Aperture, 2023)
+  subtitle: Featured at the OHBM 2024 Annual Meeting (Xu et al., Aperture, 2023)
   group: preprocessing
-  image: images/photo.jpg
+  image: software/images/software.jpg
   link: https://github.com/imnanxu/rodent-whole-brain-preprocessing-recipe
   description: A generally applicable whole-brain preprocessing toolbox for mice and rats.
   repo: imnanxu
@@ -35,7 +35,7 @@
 - title: Human Partial Brain fMRI Preprocessing
   subtitle: used in (Xu et al., Imaging Neurosci., 2023)
   group: preprocessing
-  image: images/photo.jpg
+  image: software/images/software.jpg
   link: https://github.com/imnanxu/PartialHumanBrain_preprocessing/releases/tag/in2023
   description: A software pipeline for processing EPI data of partially covered human brain
   repo: imnanxu
@@ -47,9 +47,9 @@
 - title: Real Polyhedral Basis Functions
   subtitle: (Xu & Doerschuk, SISC, 2021)
   group: scientific-comp
-  image: images/photo.jpg
+  image: software/images/software.jpg
   link: https://github.com/imnanxu/PolyhedralBasisFunction/releases/tag/sisc2021
-  description: Software and numerical solutions for computation of real-valued basis functions which transform as irreducible representations of the polyhedral groups.
+  description: Software and numerical results for computing real-valued polyhedral basis functions.
   repo: imnanxu
   tags:
     - data science

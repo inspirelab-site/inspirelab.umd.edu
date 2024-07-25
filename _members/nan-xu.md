@@ -1,6 +1,6 @@
 ---
 name: Nan Xu
-image: images/team/nan-xu.jpg
+image: team/images/nan-xu.jpg
 role: pi
 description: "Assistant Professor (Jan 2025)"
 affiliation: University of Maryland
