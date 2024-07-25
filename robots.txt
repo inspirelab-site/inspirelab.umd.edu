@@ -1,1 +1,1 @@
-Sitemap: https://inspirelab-site.github.io/sitemap.xml
+Sitemap: https://inspirelab-site.github.io/inspirelabsite.github.io/sitemap.xml
