@@ -12,6 +12,7 @@ links:
   # twitter: imnanxu
   linkedin: nan-xu2022  
   email: nanxu@umd.edu
+  cv: test
 ---
 Dr. Nan Xu is an incoming Assistant Professor (Jan 2025) at the Fischell Department of Bioengineering at the University of Maryland, College Park. She is also affiliated to the Department of Electrical & Computer Engineering, and the Program in Neuroscience & Cognitive Science. Nan directs Imaging- and Neuro-computations for Precision Informatics Research (INSPIRE) Lab. With a strong foundation as a computational scientist, her research spans statistical learning, applied mathematics, neuroscience, and various biomedical applications. Her primary efforts are centered on developing advanced computational models and analyses with functional neuroimaging data to uncover novel insights into brain functions and diseases. 
 
@@ -46,14 +47,9 @@ Nan completed her undergraduate studies at the University of Rochester, earning 
 - 2011- &emsp;&emsp; Phi Beta Kappa Honor Society
 - 2009- &emsp;&emsp;Tau Beta Pi Honor Society
 
-<details>
- <summary>Misc.</summary>
-
-  Nan has broad interests spanning music, fine arts, photography, sports, and travel. 
+#### Misc.
+ Nan has broad interests spanning music, fine arts, photography, sports, and travel. 
 
 - Music. She is a pianist, recognized as National Outstanding Pianist (China) in 2006, with top prizes at the Beijing Piano Festivals in 2004 and 2006, and the University of Rochester's Concerto Competition in 2009. She studied under Prof. Vincent Lenti at the Eastman School of Music (2007-2011), performed with the University of Rochester Symphony Orchestra and Cornell University Wind Ensemble, and enjoys music improvisation and composition, with some of her performances on [YouTube](https://www.youtube.com/watch?v=KgcuJSqEkYk) and music improvisation pieces on [SoundCloud](https://soundcloud.com/xu-nan-47854440).
-
 - Photography. As a Master Photographer on [GuruShots](https://gurushots.com/xiaonan.nxu/photos), her photos have been exhibited globally, with U.S. moments in an online [album](https://imnanxu.wixsite.com/west-coast-usa). 
-
 - Others. She played as a winger for the University of Rochester Women's Rugby Team, participating in the 2009 National Rugby Championship, and co-founded and presided over the International Tennis Club at Cornell University from 2013 to 2014.
-</details>

@@ -303,7 +303,7 @@
   - journal
   - image reconstruction
   buttons:
-  - type: paper
+  - type: preprint
     text: manuscript
     link: https://arxiv.org/pdf/1701.01206
 - id: pmid:31217565
@@ -327,7 +327,7 @@
   - deep phenotyping
   - big data
   buttons:
-  - type: paper
+  - type: preprint
     text: manuscript
     link: https://arxiv.org/pdf/1904.01096
 - id: pmid:29331608
