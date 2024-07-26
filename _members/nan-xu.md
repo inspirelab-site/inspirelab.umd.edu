@@ -14,6 +14,8 @@ links:
   email: nanxu@umd.edu
   cv: test
 ---
+[**TEAM**](/team/)/Principal Investigator
+
 Dr. Nan Xu is an incoming Assistant Professor (Jan 2025) at the Fischell Department of Bioengineering at the University of Maryland, College Park. She is also affiliated to the Department of Electrical & Computer Engineering, and the Program in Neuroscience & Cognitive Science. Nan directs Imaging- and Neuro-computations for Precision Informatics Research (INSPIRE) Lab. With a strong foundation as a computational scientist, her research spans statistical learning, applied mathematics, neuroscience, and various biomedical applications. Her primary efforts are centered on developing advanced computational models and analyses with functional neuroimaging data to uncover novel insights into brain functions and diseases. 
 
 Nan completed her undergraduate studies at the University of Rochester, earning a B.S. in Electrical and Computer Engineering and a B.A. in Mathematics, with a minor in Music, in 2011. She then pursued graduate studies at Cornell University, where she received her M.Sc. (2015) and Ph.D. (2017) in Electrical and Computer Engineering, minoring in Applied Mathematics and Cognitive Neuroscience. Throughout her postdoctoral journey, Nan gained extensive interdisciplinary research experience, including a fellowship in Chemical and Biomolecular Engineering at Georgia Tech (2017-2018), a research scientist role at the McGovern Brain Institute at MIT (2022), and a postdoctoral fellowship in Biomedical Engineering at Georgia Tech and Emory University (2019-2024). Her research is currently supported by a NIH BRAIN K99/R00 award.

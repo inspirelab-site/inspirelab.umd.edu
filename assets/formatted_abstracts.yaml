@@ -1,5 +1,4 @@
-- id: ohbm2024i
-  title: "The effects of locus coeruleus stimulation on quasi-periodic patterns in rats."
+- title: "The effects of locus coeruleus stimulation on quasi-periodic patterns in rats."
   authors:
     - Nmachi Anumba
     - Michael A. Keilberman
@@ -14,8 +13,7 @@
   tags:
     - conference
 
-- id: ohbm2024ii
-  title: "Time-varying causal interactions in the functional brain networks: Modeling and Validation"
+- title: "Time-varying causal interactions in the functional brain networks: Modeling and Validation"
   authors:
     - Nan Xu
     - Xiaodi Zhang
@@ -30,8 +28,7 @@
   tags:
     - conference
 
-- id: bi2024i
-  title: "Modeling and Validation of Dynamic Causal Interactions in Functional Brain Network."
+- title: "Modeling and Validation of Dynamic Causal Interactions in Functional Brain Network."
   authors:
     - Nan Xu
     - Xiaodi Zhang
@@ -46,8 +43,7 @@
   tags:
     - conference
 
-- id: asfnr2023i
-  title: "``Hyperconnected'' Vestibular State in Subacute and Chronic Post-Concussive Vestibular Dysfunction Using Dynamic Whole Brain Functional Connectivity Analysis"
+- title: "``Hyperconnected'' Vestibular State in Subacute and Chronic Post-Concussive Vestibular Dysfunction Using Dynamic Whole Brain Functional Connectivity Analysis"
   authors:
     - Anna Trofimova
     - Jeremy Smith
@@ -61,8 +57,7 @@
   tags:
     - conference
 
-- id: ohbm2023i
-  title: "Distribution of large-scale spatiotemporal patterns within and across individuals"
+- title: "Distribution of large-scale spatiotemporal patterns within and across individuals"
   authors:
     - Taylor Bolt
     - Nan Xu
@@ -77,8 +72,7 @@
   tags:
     - conference
 
-- id: ohbm2023ii
-  title: "The interaction between visual stimulation and intrinsic infraslow whole brain activity in humans"
+- title: "The interaction between visual stimulation and intrinsic infraslow whole brain activity in humans"
   authors:
     - Nan Xu
     - Derek Smith
@@ -92,8 +86,7 @@
   tags:
     - conference
 
-- id: ohbm2022i
-  title: "Dynamic spatiotemporal interactions in vestibular networks affected by concussive syndromes"
+- title: "Dynamic spatiotemporal interactions in vestibular networks affected by concussive syndromes"
   authors:
     - Nan Xu
     - Jeremy Smith
@@ -105,8 +98,7 @@
   tags:
     - conference
 
-- id: cns2022i
-  title: "Investigating the relationship between sustained attention and quasi-periodic brain activity patterns with the psychomotor vigilance task."
+- title: "Investigating the relationship between sustained attention and quasi-periodic brain activity patterns with the psychomotor vigilance task."
   authors:
     - Yunji Lee
     - Dolly T. Seeburger
@@ -125,8 +117,7 @@
   tags:
     - conference
 
-- id: cns2022ii
-  title: "Identifying the neural mechanisms of zone state performance using time-varying functional connectivity methods."
+- title: "Identifying the neural mechanisms of zone state performance using time-varying functional connectivity methods."
   authors:
     - Dolly T. Seeburger
     - Nan Xu
@@ -140,8 +131,7 @@
   tags:
     - conference
 
-- id: ohbm2021i
-  title: "Quasiperiodic patterns and BOLD response entrained by visual stimulation in the human brain."
+- title: "Quasiperiodic patterns and BOLD response entrained by visual stimulation in the human brain."
   authors:
     - Nan Xu
     - Derek M. Smith
@@ -155,8 +145,7 @@
   tags:
     - conference
 
-- id: ohbm2020i
-  title: "Investigation of spatiotemporal functional interactivity among large-scale brain networks"
+- title: "Investigation of spatiotemporal functional interactivity among large-scale brain networks"
   authors:
     - Nan Xu
     - R Nathan Spreng
@@ -167,8 +156,7 @@
   tags:
     - conference
 
-- id: embs2016i
-  title: "What are the most talkative brain regions?"
+- title: "What are the most talkative brain regions?"
   authors:
     - Nan Xu
     - Peter C. Doerschuk
@@ -179,8 +167,7 @@
   tags:
     - conference
 
-- id: cns2014i
-  title: "Directed interactivity of large-scale brain networks: Introducing a new method for estimating brain connectivity MRI."
+- title: "Directed interactivity of large-scale brain networks: Introducing a new method for estimating brain connectivity MRI."
   authors:
     - Nan Xu
     - R Nathan Spreng

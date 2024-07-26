@@ -127,14 +127,15 @@
   plugin: sources.py
   file: sources.yaml
   type: journal
-  description: Investigated the interaction between the BOLD dynamic processes that
-    tie to the infra-slow human brain activity and visual perception tasks. Discovered
-    that these intrinsic dynamic processes are highly robust and not likely to be
-    disrupted in humans, but they can still be perturbed in various ways. In particular,
-    they can swamp an overlapping BOLD response evoked by the flickering checkerboard,
-    but their phase-locked waveform can still be modulated by different sequences
-    of stimuli that affects the reaction time and sustained attention.
-  image: papers/images/in.png
+  description: 'Employed the statistical inferences techniques to study the interplay
+    between infraslow dynamic processes and visual perceptions. Discovered that these
+    intrinsic dynamic processes are notably resilient in humans, as contrast with
+    anesthetized rodents (Belloy et al., 2021). Yet, their stability can still be
+    affected in diverse ways: they can swamp an overlapping BOLD response evoked by
+    the flickering checkerboard, but their phase-locked waveform can still be modulated
+    by different sequences of stimuli that affects the reaction time and sustained
+    attention.'
+  image: papers/images/xu-in-2023.png
   buttons:
   - type: source
     text: preprocessing code
@@ -202,7 +203,6 @@
   plugin: sources.py
   file: sources.yaml
   type: journal
-  image: https://www.frontiersin.org/files/Articles/816331/fnins-16-816331-HTML/image_m/fnins-16-816331-g003.jpg
   tags:
   - journal
   - brain dynamics
@@ -248,7 +248,7 @@
   file: sources.yaml
   type: journal
   description: null
-  image: https://ars.els-cdn.com/content/image/1-s2.0-S1053811920311137-gr4_lrg.jpg
+  image: papers/images/xu-ni-2021-brain.jpg
   buttons:
   - type: source
     text: code
@@ -321,7 +321,6 @@
   file: sources.yaml
   type: journal
   description: +equal contributions
-  image: papers/images/xu-labanimal-2019.png
   tags:
   - journal
   - deep phenotyping
@@ -344,7 +343,6 @@
   orcid: 0000-0002-3900-3220
   plugin: sources.py
   file: sources.yaml
-  image: https://ars.els-cdn.com/content/image/1-s2.0-S1047847717302368-gr5_lrg.jpg
   type: journal
   description: We developed a cyro-EM image reconstruction algortihm for virus particles,
     allowing for asymmetry and eliminating distortions along symmetry axes (Xu & Doerschuk,
@@ -372,7 +370,7 @@
     flow in functional connectivity, maintains sensitivity in detecting modular architecture,
     and scales to handle hundreds of ROIs for comprehensive whole-brain connectivity
     assessments.'
-  image: https://www.frontiersin.org/files/Articles/219881/fnins-11-00271-HTML-r1/image_m/fnins-11-00271-g001.jpg
+  image: papers/images/xu-ft-2017-pcorr.png
   buttons:
   - type: source
     text: code
@@ -387,8 +385,7 @@
   authors:
   - ' Nan Xu'
   - Peter C Doerschuk
-  publisher: Annual International Conference of the IEEE Engineering in Medicine and
-    Biology Society. IEEE Engineering in Medicine and Biology Society. Annual International
+  publisher: IEEE Engineering In Medicine And Biology Society Annual International
     Conference
   date: '2016-08-01'
   link: https://ieeexplore.ieee.org/document/7591598
@@ -553,8 +550,7 @@
   - neuro disorders
   plugin: sources.py
   file: sources.yaml
-- id: ohbm2024i
-  title: The effects of locus coeruleus stimulation on quasi-periodic patterns in
+- title: The effects of locus coeruleus stimulation on quasi-periodic patterns in
     rats.
   authors:
   - Nmachi Anumba
@@ -573,8 +569,7 @@
   - cross-species
   plugin: sources.py
   file: sources.yaml
-- id: ohbm2024ii
-  title: 'Time-varying causal interactions in the functional brain networks: Modeling
+- title: 'Time-varying causal interactions in the functional brain networks: Modeling
     and Validation'
   authors:
   - Nan Xu
@@ -594,8 +589,7 @@
   - modeling
   plugin: sources.py
   file: sources.yaml
-- id: bic2024i
-  title: Modeling and Validation of Dynamic Causal Interactions in Functional Brain
+- title: Modeling and Validation of Dynamic Causal Interactions in Functional Brain
     Network.
   authors:
   - Nan Xu
@@ -615,8 +609,7 @@
   - modeling
   plugin: sources.py
   file: sources.yaml
-- id: asfnr2023i
-  title: '``Hyperconnected'''' Vestibular State in Subacute and Chronic Post-Concussive
+- title: '``Hyperconnected'''' Vestibular State in Subacute and Chronic Post-Concussive
     Vestibular Dysfunction Using Dynamic Whole Brain Functional Connectivity Analysis'
   description: '> **Oral Presentation.**'
   authors:
@@ -636,8 +629,7 @@
   - recognition
   plugin: sources.py
   file: sources.yaml
-- id: ohbm2023i
-  title: Distribution of large-scale spatiotemporal patterns within and across individuals
+- title: Distribution of large-scale spatiotemporal patterns within and across individuals
   authors:
   - Taylor Bolt
   - Nan Xu
@@ -654,8 +646,7 @@
   - brain dynamics
   plugin: sources.py
   file: sources.yaml
-- id: ohbm2023ii
-  title: The interaction between visual stimulation and intrinsic infraslow whole
+- title: The interaction between visual stimulation and intrinsic infraslow whole
     brain activity in humans
   authors:
   - Nan Xu
@@ -672,8 +663,7 @@
   - brain dynamics
   plugin: sources.py
   file: sources.yaml
-- id: ohbm2022i
-  title: Dynamic spatiotemporal interactions in vestibular networks affected by concussive
+- title: Dynamic spatiotemporal interactions in vestibular networks affected by concussive
     syndromes
   authors:
   - Nan Xu
@@ -689,8 +679,7 @@
   - neuro disorders
   plugin: sources.py
   file: sources.yaml
-- id: cns2022i
-  title: Investigating the relationship between sustained attention and quasi-periodic
+- title: Investigating the relationship between sustained attention and quasi-periodic
     brain activity patterns with the psychomotor vigilance task.
   authors:
   - Yunji Lee
@@ -713,8 +702,7 @@
   - cognitive functions
   plugin: sources.py
   file: sources.yaml
-- id: cns2022ii
-  title: Identifying the neural mechanisms of zone state performance using time-varying
+- title: Identifying the neural mechanisms of zone state performance using time-varying
     functional connectivity methods.
   description: '> **Oral Presentation.**'
   authors:
@@ -734,8 +722,7 @@
   - recognition
   plugin: sources.py
   file: sources.yaml
-- id: ohbm2021i
-  title: Quasiperiodic patterns and BOLD response entrained by visual stimulation
+- title: Quasiperiodic patterns and BOLD response entrained by visual stimulation
     in the human brain.
   authors:
   - Nan Xu
@@ -753,8 +740,7 @@
   - cognitive functions
   plugin: sources.py
   file: sources.yaml
-- id: ohbm2020i
-  title: Investigation of spatiotemporal functional interactivity among large-scale
+- title: Investigation of spatiotemporal functional interactivity among large-scale
     brain networks
   description: '> **Oral Presentation; Selected 4% of Accepted Abstract Papers.**'
   authors:
@@ -771,15 +757,14 @@
   - recognition
   plugin: sources.py
   file: sources.yaml
-- id: embs2016i
-  title: What are the most talkative brain regions?
+- title: What are the most talkative brain regions?
+  publisher: Annual International Conference Of The IEEE Engineering In Medicine And
+    Biology Society
   description: '> **Late-breaking Research Paper!**'
   authors:
   - Nan Xu
   - Peter C. Doerschuk
   - R Nathan Spreng
-  publisher: Annual International Conference Of The IEEE Engineering In Medicine And
-    Biology Society
   date: '2016-08-01'
   type: conference
   tags:
@@ -788,8 +773,7 @@
   - recognition
   plugin: sources.py
   file: sources.yaml
-- id: cns2014i
-  title: 'Directed interactivity of large-scale brain networks: Introducing a new
+- title: 'Directed interactivity of large-scale brain networks: Introducing a new
     method for estimating brain connectivity MRI.'
   authors:
   - Nan Xu

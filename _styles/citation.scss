@@ -1,7 +1,7 @@
 ---
 ---
 
-$thumb-size: 100px;
+$thumb-size: 150px;
 $wrap: 800px;
 
 .citation-container {
@@ -41,7 +41,7 @@ $wrap: 800px;
   height: min-content;
   padding: 20px;
   padding-left: 30px;
-  text-align: left;
+  text-align: justify;
   overflow-wrap: break-word;
   z-index: 0;
 }

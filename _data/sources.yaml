@@ -78,8 +78,12 @@
 #Xu-ImagNeuro-2023
 - id: doi:10.1162/imag_a_00002
   type: journal
-  description: Investigated the interaction between the BOLD dynamic processes that tie to the infra-slow human brain activity and visual perception tasks. Discovered that these intrinsic dynamic processes are highly robust and not likely to be disrupted in humans, but they can still be perturbed in various ways. In particular, they can swamp an overlapping BOLD response evoked by the flickering checkerboard, but their phase-locked waveform can still be modulated by different sequences of stimuli that affects the reaction time and sustained attention.
-  image: papers/images/in.png
+  description: "Employed the statistical inferences techniques to study the interplay between infraslow dynamic processes 
+  and visual perceptions. Discovered that these intrinsic dynamic processes are notably resilient in humans, as contrast with 
+  anesthetized rodents (Belloy et al., 2021). Yet, their stability can still be affected in diverse ways: they can swamp 
+  an overlapping BOLD response evoked by the flickering checkerboard, but their phase-locked waveform can still be modulated 
+  by different sequences of stimuli that affects the reaction time and sustained attention."
+  image: papers/images/xu-in-2023.png
   buttons:
     - type: source
       text: preprocessing code
@@ -112,7 +116,7 @@
 #Xu-FT-2022-rev
 - id: doi:10.3389/fnins.2022.816331
   type: journal
-  image: https://www.frontiersin.org/files/Articles/816331/fnins-16-816331-HTML/image_m/fnins-16-816331-g003.jpg
+  # image: https://www.frontiersin.org/files/Articles/816331/fnins-16-816331-HTML/image_m/fnins-16-816331-g003.jpg
   tags:
   - journal
   - brain dynamics
@@ -122,7 +126,7 @@
 - id: doi:10.1016/j.neuroimage.2020.117628
   type: journal
   description: 
-  image: https://ars.els-cdn.com/content/image/1-s2.0-S1053811920311137-gr4_lrg.jpg
+  image: papers/images/xu-ni-2021-brain.jpg
   buttons:
   - type: source
     text: code
@@ -131,21 +135,6 @@
   - journal
   - causal interactions
   - discovery
-
-# Xu-FT-2017
-- id: pmid:28559793
-  type: journal
-  description: "
-We developed p-corr, an innovative algorithm enhancing traditional correlation analysis with a causal dynamic model. P-corr identifies information flow in functional connectivity, maintains sensitivity in detecting modular architecture, and scales to handle hundreds of ROIs for comprehensive whole-brain connectivity assessments."
-  image: https://www.frontiersin.org/files/Articles/219881/fnins-11-00271-HTML-r1/image_m/fnins-11-00271-g001.jpg
-  buttons:
-  - type: source
-    text: code
-    link: https://www.mathworks.com/matlabcentral/fileexchange/62781-pcorrelation
-  tags:
-  - journal
-  - causal interactions
-  - modeling
 
 #Xu-SISC-2021
 - id: doi:10.1137/20M1318183
@@ -178,7 +167,7 @@ We developed p-corr, an innovative algorithm enhancing traditional correlation a
     - Dhaval S Patel+ 
     - Hang Lu  
   description: +equal contributions
-  image: papers/images/xu-labanimal-2019.png
+ # image: papers/images/xu-labanimal-2019.png
   tags:
     - journal
     - deep phenotyping
@@ -202,9 +191,26 @@ We developed p-corr, an innovative algorithm enhancing traditional correlation a
       text: manuscript
       link: https://arxiv.org/pdf/1701.01206
 
+
+# Xu-FT-2017
+- id: pmid:28559793
+  type: journal
+  description: "
+We developed p-corr, an innovative algorithm enhancing traditional correlation analysis with a causal dynamic model. P-corr identifies information flow in functional connectivity, maintains sensitivity in detecting modular architecture, and scales to handle hundreds of ROIs for comprehensive whole-brain connectivity assessments."
+  image: papers/images/xu-ft-2017-pcorr.png
+  buttons:
+  - type: source
+    text: code
+    link: https://www.mathworks.com/matlabcentral/fileexchange/62781-pcorrelation
+  tags:
+  - journal
+  - causal interactions
+  - modeling
+
+
 #Xu-JSB-2016
 - id: pmid:29331608
-  image: https://ars.els-cdn.com/content/image/1-s2.0-S1047847717302368-gr5_lrg.jpg
+  # image: papers/images/xu-jsb-2016.png
   type: journal
   description: "We developed a cyro-EM image reconstruction algortihm for virus particles, allowing for asymmetry and eliminating distortions along symmetry axes (Xu & Doerschuk, 2019).  
   In collaboration with virologists from the Scripps Institute, we uncovered allosteric effects along the symmetry axes of the bacteriophage HK97."
@@ -222,6 +228,7 @@ We developed p-corr, an innovative algorithm enhancing traditional correlation a
 
 #xu-embc-2016
 - id: pmid:28269156
+  publisher: IEEE Engineering In Medicine And Biology Society Annual International Conference
   description: "> **EMBS Student Paper Competition Finalist - Top 0.4% conference proceedings!**"
   link: https://ieeexplore.ieee.org/document/7591598
   buttons:
@@ -282,7 +289,7 @@ We developed p-corr, an innovative algorithm enhancing traditional correlation a
 ##################### Abstracts w/o official ids ################
 ###################################################################
 ###################################################################
-- id: ohbm2024i
+- #id: ohbm2024i
   title: "The effects of locus coeruleus stimulation on quasi-periodic patterns in rats."
   authors:
     - Nmachi Anumba
@@ -295,12 +302,12 @@ We developed p-corr, an innovative algorithm enhancing traditional correlation a
   publisher: Organization for Human Brain Mapping 2024 Annual Meeting
   date: '2024-06-23'
   type: conference
-  tags:
+  tags: 
     - conference
     - brain dynamics
     - cross-species
 
-- id: ohbm2024ii
+- #id: ohbm2024ii
   title: "Time-varying causal interactions in the functional brain networks: Modeling and Validation"
   authors:
     - Nan Xu
@@ -319,7 +326,7 @@ We developed p-corr, an innovative algorithm enhancing traditional correlation a
     - brain dynamics
     - modeling
 
-- id: bic2024i
+- #id: bic2024i
   title: "Modeling and Validation of Dynamic Causal Interactions in Functional Brain Network."
   authors:
     - Nan Xu
@@ -338,7 +345,7 @@ We developed p-corr, an innovative algorithm enhancing traditional correlation a
     - brain dynamics
     - modeling
 
-- id: asfnr2023i
+- #id: asfnr2023i
   title: "``Hyperconnected'' Vestibular State in Subacute and Chronic Post-Concussive Vestibular Dysfunction Using Dynamic Whole Brain Functional Connectivity Analysis"
   description: "> **Oral Presentation.**"
   authors:
@@ -357,7 +364,7 @@ We developed p-corr, an innovative algorithm enhancing traditional correlation a
     - neuro disorders
     - recognition
 
-- id: ohbm2023i
+- #id: ohbm2023i
   title: "Distribution of large-scale spatiotemporal patterns within and across individuals"
   authors:
     - Taylor Bolt
@@ -374,7 +381,7 @@ We developed p-corr, an innovative algorithm enhancing traditional correlation a
     - conference
     - brain dynamics
 
-- id: ohbm2023ii
+- #id: ohbm2023ii
   title: "The interaction between visual stimulation and intrinsic infraslow whole brain activity in humans"
   authors:
     - Nan Xu
@@ -390,7 +397,7 @@ We developed p-corr, an innovative algorithm enhancing traditional correlation a
     - conference
     - brain dynamics
 
-- id: ohbm2022i
+- #id: ohbm2022i
   title: "Dynamic spatiotemporal interactions in vestibular networks affected by concussive syndromes"
   authors:
     - Nan Xu
@@ -405,7 +412,7 @@ We developed p-corr, an innovative algorithm enhancing traditional correlation a
     - causal interactions
     - neuro disorders
 
-- id: cns2022i
+- #id: cns2022i
   title: "Investigating the relationship between sustained attention and quasi-periodic brain activity patterns with the psychomotor vigilance task."
   authors:
     - Yunji Lee
@@ -427,7 +434,7 @@ We developed p-corr, an innovative algorithm enhancing traditional correlation a
     - brain dynamics
     - cognitive functions
 
-- id: cns2022ii
+- #id: cns2022ii
   title: "Identifying the neural mechanisms of zone state performance using time-varying functional connectivity methods."
   description: "> **Oral Presentation.**"
   authors:
@@ -446,7 +453,7 @@ We developed p-corr, an innovative algorithm enhancing traditional correlation a
     - cognitive functions
     - recognition
 
-- id: ohbm2021i
+- #id: ohbm2021i
   title: "Quasiperiodic patterns and BOLD response entrained by visual stimulation in the human brain."
   authors:
     - Nan Xu
@@ -463,7 +470,7 @@ We developed p-corr, an innovative algorithm enhancing traditional correlation a
     - brain dynamics
     - cognitive functions
 
-- id: ohbm2020i
+- #id: ohbm2020i
   title: "Investigation of spatiotemporal functional interactivity among large-scale brain networks"
   description: "> **Oral Presentation; Selected 4% of Accepted Abstract Papers.**"
   authors:
@@ -479,8 +486,9 @@ We developed p-corr, an innovative algorithm enhancing traditional correlation a
     - cognitive functions
     - recognition
 
-- id: embs2016i
+- #id: embs2016i
   title: "What are the most talkative brain regions?"
+  publisher: IEEE Engineering In Medicine And Biology Society Annual International Conference
   description: "> **Late-breaking Research Paper!**"
   authors:
     - Nan Xu
@@ -494,7 +502,7 @@ We developed p-corr, an innovative algorithm enhancing traditional correlation a
     - causal interactions
     - recognition
 
-- id: cns2014i
+- #id: cns2014i
   title: "Directed interactivity of large-scale brain networks: Introducing a new method for estimating brain connectivity MRI."
   authors:
     - Nan Xu
