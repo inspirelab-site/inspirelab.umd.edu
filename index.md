@@ -4,10 +4,10 @@
 Imaging and Neuro-computations for Precision Informatics Research (INSPIRE) Lab, led by Dr. Nan Xu, is anchored at the intersection of data science and brain science. Our mission is to uncover brain function, neurological disorders, and other biological processes by developing novel data science approaches. Using multimodal functional neuroimaging data (e.g., fMRI-BOLD, LFP, optical imaging, MEG) from animals, humans, and patients, we decode complex brain processes and diseases, offering innovative insights for fundamental and translational brain science.
 {% include section.html %}
 ## Highlights
-{% include list.html data="posts" component="post-excerpt" filters="group:latest"%}
+{% include list.html data="posts" component="post-excerpt" lookup="2024-07-24"%}
 
 {% capture text %}
-We develop advanced data science approaches to interpret data from cutting-edge imaging techniques. 
+We develop advanced data science approaches to interpret data from cutting-edge imaging techniques, providing novel insights for brain science, informatics, and beyond.
 {%
   include button.html
   link="research"
@@ -28,7 +28,7 @@ We develop advanced data science approaches to interpret data from cutting-edge 
 
 {%
   include feature.html
-  image="images/research/research.jpg"
+  image="research/images/research.jpg"
   link="research"
   title="Our Research"
   text=text
@@ -56,7 +56,7 @@ We are an interdisciplinary team of researchers committed to innovative, rigorou
 
 {%
   include feature.html
-  image="images/team/team0.png"
+  image="team/images/team0.png"
   link="team"
   title="Our Team"
   text=text
@@ -76,7 +76,7 @@ Explore our new repositories of data science software tools. Our code is complet
 
 {%
   include feature.html
-  image="images/software/software.jpg"
+  image="software/images/software.jpg"
   title="Open Software"
   flip=true
   style="bare"

@@ -1,7 +1,89 @@
+# Please follow the order and template below to tag items
+#   tags for paper type:
+#     - book
+#     - preprint
+#     - journal
+#     - conference
+#   tags for research themes:
+#     - casual interactions
+#     - brain dynamics
+#     - neuro disorders
+#     - image reconstruction
+#   tags for other properties (limited to 2):
+#     - open science
+#     - other (e.g., recognition)
+
+#Anumba-IN-2023
+- id: doi:10.1101/2024.05.23.595327
+  tags:
+    - preprint
+    - brain dynamics
+    - cross-species
+    - neuro disorders
+
+#Meyer-Baese-FT-2024
+- id:  doi:10.1101/2024.04.26.591295
+  publisher: "Frontiers In Neuroscience (in press)"
+  tags:
+    - journal
+    - brain dynamics
+    - cross-species
+
+#Xu-SoftwareX-2024
+- id: doi:10.1101/2023.09.25.559086
+  type: software
+  buttons:
+    - type: source
+      text: code
+      link: https://github.com/imnanxu/QPPLab
+  tags:
+    - preprint
+    - brain dynamics
+
+#Seeburg-CABN-2024
+#Time-varying functional connectivity predicts fluctuations in sustained attention in a serial tapping task.
+- id: doi:10.1101/2023.06.22.546092
+  type: preprint
+  remove: true
+- id: pmid:38253775
+  type: journal
+  tags:
+    - journal
+    - brain dynamics
+
+#Anumba-MRM-2023
+- id: doi:10.1002/mrm.29824
+  tags:
+    - journal
+    - brain dynamics
+    - cross-species
+
+#Xu-Aperture-2023
+- id: doi:10.52294/001c.85075
+  type: software
+  description: "> **Featured at the Aperture Symposium of the OHBM 2024 Annual Meeting!**"
+  buttons:
+    - type: source
+      text: code
+      link: https://github.com/GT-EmoryMINDlab/rodent-whole-brain-preprocessing-recipe
+    - type: youtube
+      text: "tutorial"
+      link: https://www.youtube.com/playlist?list=PLzl6lxEF9yCb3i0Coc5noXWzINKqWXTOd
+  tags:
+    - journal
+    - preprocessing
+    - open science
+    - recognition
+
+#Xu-ImagNeuro-2023
 - id: doi:10.1162/imag_a_00002
   type: journal
-  description: Investigated the interaction between the BOLD dynamic processes that tie to the infra-slow human brain activity and visual perception tasks. Discovered that these intrinsic dynamic processes are highly robust and not likely to be disrupted in humans, but they can still be perturbed in various ways. In particular, they can swamp an overlapping BOLD response evoked by the flickering checkerboard, but their phase-locked waveform can still be modulated by different sequences of stimuli that affects the reaction time and sustained attention.
-  image: https://mitp.silverchair-cdn.com/mitp/content_public/journal/imag/1/10.1162_imag_a_00002/12/imag_a_00002_fig6.png?Expires=1724826478&Signature=ll7n7LPLllNN0LEmwKmY6UvV6T4268yyzq1MCVf6ChcpcFw5BUKf2y31BGVUxaQeNGm-K8PxA0MP1yHYibMXQPuwtCx2Nkx6eX8YDCBn8JBVBapwdtUxNWw63bjrEj2F25iCuEzfkvZo1-7rN~iIra27fXfuSCdKSaGrbcsFMQJBnHv6TWgwEpkclxwOkB2pgap5LDtVKtE~7secr6Su4-QZQaE-sGPD6ct0FXTepWx48Lj7Udjm7W9~W5tgk5f60oaDDv8CHAZJrjdjVF-~ouZlXM~j5Ewr08eTa~sMFYJiZR~QqJKLMkJEA90MrKTeN1JlswRFCKBIm0DTCVRO5Q__&Key-Pair-Id=APKAIE5G5CRDK6RD3PGA
+  description: "Employed the statistical inferences techniques to study the interplay between infraslow dynamic processes 
+  and visual perceptions. Discovered that these intrinsic dynamic processes are notably resilient in humans, as contrast with 
+  anesthetized rodents (Belloy et al., 2021). Yet, their stability can still be affected in diverse ways: they can swamp 
+  an overlapping BOLD response evoked by the flickering checkerboard, but their phase-locked waveform can still be modulated 
+  by different sequences of stimuli that affects the reaction time and sustained attention."
+  image: papers/images/xu-in-2023.png
   buttons:
     - type: source
       text: preprocessing code
@@ -10,12 +92,54 @@
       text: analysis code
       link: https://github.com/imnanxu/QPPLab
   tags:
+    - journal
+    - brain dynamics
     - open science
-    - collaboration
 
+#Anumba-ad-2022-missed Nan's name
+- id: doi:10.1002/alz.061608
+  authors: 
+  - Nmachi Anumba
+  - Michael Kelberman
+  - Corrie Smith
+  - Wen Ju Pan
+  - Perrin G Clavijo
+  - Nan Xu
+  - Alexia Marriott
+  - Ellen Kim
+  - David Weinshenker
+  - Shella Keilholz
+  tags:
+  - conference
+  - neuro disorders
+
+#Xu-FT-2022-rev
+- id: doi:10.3389/fnins.2022.816331
+  type: journal
+  # image: https://www.frontiersin.org/files/Articles/816331/fnins-16-816331-HTML/image_m/fnins-16-816331-g003.jpg
+  tags:
+  - journal
+  - brain dynamics
+  - cross-species
+
+#Xu-NI-2021
+- id: doi:10.1016/j.neuroimage.2020.117628
+  type: journal
+  description: 
+  image: papers/images/xu-ni-2021-brain.jpg
+  buttons:
+  - type: source
+    text: code
+    link: https://www.mathworks.com/matlabcentral/fileexchange/62781-pcorrelation
+  tags:
+  - journal
+  - causal interactions
+  - discovery
+
+#Xu-SISC-2021
 - id: doi:10.1137/20M1318183
   type: journal
-  image: images/papers/xu-sisc-2021.png
+  image: papers/images/xu-sisc-2021.png
   buttons:
     - type: source
       text: code
@@ -23,19 +147,19 @@
     - type: source
       text: numerical solutions
       link: https://github.com/imnanxu/PolyhedralBasisFunction/releases/tag/sisc2021
+  tags:
+  - journal
+  - scientific computing
+  - image reconstruction
+  - theory
 
-- id: doi:10.3389/fnins.2022.816331
-  type: journal
-  image: https://www.frontiersin.org/files/Articles/816331/fnins-16-816331-HTML/image_m/fnins-16-816331-g003.jpg
+#keilholz-ft-2020
+- id: doi:10.3389/fnins.2020.550923
+  tags:
+  - journal
+  - brain dynamics
 
-- id: pmid:38253775
-  type: journal
-
-- id: pmid:29331608
-  image: https://ars.els-cdn.com/content/image/1-s2.0-S1047847717302368-gr5_lrg.jpg
-  type: journal
-  description: Using cryo-EM, we transform highly noisy and randomly-oriented projection images of 103─106 virus particles into a 3D model of the virus. Unlike traditional methods that assume strict geometric symmetry, we adopted a more realistic approach, allowing individual particles to be asymmetric while maintaining symmetry in the overall mean and covariance. This novel method eliminates long-standing distortions along the symmetry axes. In collaboration with virologists from the Scripps Institute, we uncovered allosteric effects along the symmetry axes of the bacteriophage HK97. This represents a significant advancement in structural virology.
-
+#Xu-LabAn-2019
 - id: pmid:31217565
   type: journal
   authors: 
@@ -43,16 +167,351 @@
     - Dhaval S Patel+ 
     - Hang Lu  
   description: +equal contributions
+ # image: papers/images/xu-labanimal-2019.png
+  tags:
+    - journal
+    - deep phenotyping
+    - big data
+  buttons:
+    - type: preprint
+      text: manuscript
+      link: https://arxiv.org/pdf/1904.01096
 
+
+#Xu-TIP-2019
+- id: doi:10.1109/tip.2019.2915631
+  image: 
+  type: journal
+  description: Using cryo-EM, we transform highly noisy and randomly-oriented projection images of 103─106 virus particles into a 3D model of the virus. Unlike traditional methods that assume strict geometric symmetry, we adopted a more realistic approach, allowing individual particles to be asymmetric while maintaining symmetry in the overall mean and covariance. This novel method eliminates long-standing distortions along the symmetry axes. 
+  tags:
+  - journal
+  - image reconstruction
+  buttons:
+    - type: preprint
+      text: manuscript
+      link: https://arxiv.org/pdf/1701.01206
+
+
+# Xu-FT-2017
 - id: pmid:28559793
   type: journal
-  description: Correlation analysis is commonly used in fMRI studies for elucidating the brain's static functional architecture but falls short in capturing crucial causal interactions necessary for understanding brain dynamics. We developed "prediction correlation" (p-corr), a novel computational method that enhances traditional pairwise correlation analysis by integrating statistical learning, information theory, and optimization. P-corr excels in identifying the directionality of causal information flow in the brain and maintains sensitivity to network connectivity. Additionally, its scalability allows it to handle hundreds of regions of interest (ROIs), facilitating comprehensive assessments of whole-brain interregional connectivity at an individual level. 
-  image: https://www.frontiersin.org/files/Articles/219881/fnins-11-00271-HTML-r1/image_m/fnins-11-00271-g001.jpg
+  description: "
+We developed p-corr, an innovative algorithm enhancing traditional correlation analysis with a causal dynamic model. P-corr identifies information flow in functional connectivity, maintains sensitivity in detecting modular architecture, and scales to handle hundreds of ROIs for comprehensive whole-brain connectivity assessments."
+  image: papers/images/xu-ft-2017-pcorr.png
   buttons:
   - type: source
     text: code
     link: https://www.mathworks.com/matlabcentral/fileexchange/62781-pcorrelation
+  tags:
+  - journal
+  - causal interactions
+  - modeling
 
+
+#Xu-JSB-2016
+- id: pmid:29331608
+  # image: papers/images/xu-jsb-2016.png
+  type: journal
+  description: "We developed a cyro-EM image reconstruction algortihm for virus particles, allowing for asymmetry and eliminating distortions along symmetry axes (Xu & Doerschuk, 2019).  
+  In collaboration with virologists from the Scripps Institute, we uncovered allosteric effects along the symmetry axes of the bacteriophage HK97."
+  tags:
+  - journal
+  - image reconstruction
+
+#doeschuk-opinion-2016
 - id: pmid:27085980
   type: journal
-  image: images/papers/doerschuk-opinion-virology-2016.png
+  image: papers/images/doerschuk-opinion-virology-2016.png
+  tags:
+  - journal
+  - image reconstruction
+
+#xu-embc-2016
+- id: pmid:28269156
+  publisher: IEEE Engineering In Medicine And Biology Society Annual International Conference
+  description: "> **EMBS Student Paper Competition Finalist - Top 0.4% conference proceedings!**"
+  link: https://ieeexplore.ieee.org/document/7591598
+  buttons:
+    - type: paper
+      text: proceedings
+      link: "/papers/manuscripts/xu-embc-2016.pdf"
+  tags:
+  - conference
+  - image reconstruction
+  - recognition
+
+#xu-spie-2015
+- id: doi:10.1117/12.2193791
+  description: "> **Top 10% Paper Recognition; Top 34 papers demonstrated in the Show & Tell session!**"
+  buttons:
+    - type: paper
+      text: proceedings
+      link: "/papers/manuscripts/xu-spie-2015.pdf"
+  tags:
+  - conference
+  - image reconstruction
+  - recognition
+
+#xu-icip-2015
+- id: doi:10.1109/ICIP.2015.7351039
+  buttons:
+    - type: paper
+      text: proceedings
+      link: "/papers/manuscripts/xu-icip-2015.pdf"
+  tags:
+  - conference
+  - image reconstruction
+
+#xu-icip-2014
+- id: doi:10.1109/ICIP.2014.7025712
+  buttons:
+    - type: paper
+      text: proceedings
+      link: "/papers/manuscripts/xu-icip-2014.pdf"
+  tags:
+  - conference
+  - causal interactions
+  - modeling
+
+#xu-imagoptics-2014
+- id: doi:10.1364/srs.2014.stu3f.4
+  buttons:
+    - type: paper
+      text: proceedings
+      link: "/papers/manuscripts/xu-srs-2014.pdf"
+  tags:
+  - conference
+  - image reconstruction
+
+
+###################################################################
+###################################################################
+##################### Abstracts w/o official ids ################
+###################################################################
+###################################################################
+- #id: ohbm2024i
+  title: "The effects of locus coeruleus stimulation on quasi-periodic patterns in rats."
+  authors:
+    - Nmachi Anumba
+    - Michael A. Keilberman
+    - Wenju Pan
+    - Alexia Marriott
+    - Nan Xu
+    - David Weinshenker
+    - Shella Keilholz
+  publisher: Organization for Human Brain Mapping 2024 Annual Meeting
+  date: '2024-06-23'
+  type: conference
+  tags: 
+    - conference
+    - brain dynamics
+    - cross-species
+
+- #id: ohbm2024ii
+  title: "Time-varying causal interactions in the functional brain networks: Modeling and Validation"
+  authors:
+    - Nan Xu
+    - Xiaodi Zhang
+    - Wenju Pan
+    - Jeremy L. Smith
+    - Jason W. Allen
+    - Vince D. Calhoun
+    - Shella D. Keilholz
+  publisher: Organization for Human Brain Mapping 2024 Annual Meeting
+  date: '2024-06-23'
+  type: conference
+  tags:
+    - conference
+    - causal interactions
+    - brain dynamics
+    - modeling
+
+- #id: bic2024i
+  title: "Modeling and Validation of Dynamic Causal Interactions in Functional Brain Network."
+  authors:
+    - Nan Xu
+    - Xiaodi Zhang
+    - Wenju Pan
+    - Jeremy L. Smith
+    - Jason W. Allen
+    - Vince D. Calhoun
+    - Shella D. Keilholz
+  publisher: 10th Annual BRAIN Initiative Conference
+  date: '2024-06-18'
+  type: conference
+  tags:
+    - conference
+    - causal interactions
+    - brain dynamics
+    - modeling
+
+- #id: asfnr2023i
+  title: "``Hyperconnected'' Vestibular State in Subacute and Chronic Post-Concussive Vestibular Dysfunction Using Dynamic Whole Brain Functional Connectivity Analysis"
+  description: "> **Oral Presentation.**"
+  authors:
+    - Anna Trofimova
+    - Jeremy Smith
+    - Nan Xu
+    - Shella Keilholz
+    - Russell Gore
+    - Jason W. Allen
+  publisher: The 16th Annual Meeting of the American Society of Functional Neuroradiology
+  date: '2023-10-07'
+  type: conference
+  tags:
+    - conference
+    - brain dynamics
+    - neuro disorders
+    - recognition
+
+- #id: ohbm2023i
+  title: "Distribution of large-scale spatiotemporal patterns within and across individuals"
+  authors:
+    - Taylor Bolt
+    - Nan Xu
+    - Laren Daley
+    - T.J. LaGrow
+    - W-J Pan
+    - Eric Schumacher
+    - Shella Keilholz
+  publisher: Organization for Human Brain Mapping 2023 Annual Meeting
+  date: '2023-07-22'
+  type: conference
+  tags:
+    - conference
+    - brain dynamics
+
+- #id: ohbm2023ii
+  title: "The interaction between visual stimulation and intrinsic infraslow whole brain activity in humans"
+  authors:
+    - Nan Xu
+    - Derek Smith
+    - George Geno
+    - Dolly T. Seeburger
+    - Eric H. Schumacher
+    - Shella D. Keilholz
+  publisher: Organization for Human Brain Mapping 2023 Annual Meeting
+  date: '2023-07-22'
+  type: conference
+  tags:
+    - conference
+    - brain dynamics
+
+- #id: ohbm2022i
+  title: "Dynamic spatiotemporal interactions in vestibular networks affected by concussive syndromes"
+  authors:
+    - Nan Xu
+    - Jeremy Smith
+    - Jason Allen
+    - Shella Keilholz
+  publisher: Organization for Human Brain Mapping 2022 Annual Meeting
+  date: '2022-06-19'
+  type: conference
+  tags:
+    - conference   
+    - causal interactions
+    - neuro disorders
+
+- #id: cns2022i
+  title: "Investigating the relationship between sustained attention and quasi-periodic brain activity patterns with the psychomotor vigilance task."
+  authors:
+    - Yunji Lee
+    - Dolly T. Seeburger
+    - Sakshi Dhawan
+    - Tiffany Nguyen
+    - Nan Xu
+    - Marcus Ma
+    - Anzar Abbas
+    - Waqas Majeed
+    - Garth Thompson
+    - Shella D. Keilholz
+    - Eric H. Schumacher
+  publisher: Cognitive Neuroscience Society 2022 Annual Meeting
+  date: '2022-04-23'
+  type: conference
+  tags:
+    - conference
+    - brain dynamics
+    - cognitive functions
+
+- #id: cns2022ii
+  title: "Identifying the neural mechanisms of zone state performance using time-varying functional connectivity methods."
+  description: "> **Oral Presentation.**"
+  authors:
+    - Dolly T. Seeburger
+    - Nan Xu
+    - C Godwin
+    - Marcus Ma
+    - Shella D. Keilholz
+    - Eric H. Schumacher
+  publisher: Cognitive Neuroscience Society 2022 Annual Meeting
+  date: '2022-04-23'
+  type: conference
+  tags:
+    - conference
+    - brain dynamics
+    - cognitive functions
+    - recognition
+
+- #id: ohbm2021i
+  title: "Quasiperiodic patterns and BOLD response entrained by visual stimulation in the human brain."
+  authors:
+    - Nan Xu
+    - Derek M. Smith
+    - George Jeno
+    - Dolly T. Seeburger
+    - Eric H. Schumacher
+    - Shella D. Keilholz
+  publisher: Organization for Human Brain Mapping 2021 Annual Meeting
+  date: '2021-05-30'
+  type: conference
+  tags:
+    - conference
+    - brain dynamics
+    - cognitive functions
+
+- #id: ohbm2020i
+  title: "Investigation of spatiotemporal functional interactivity among large-scale brain networks"
+  description: "> **Oral Presentation; Selected 4% of Accepted Abstract Papers.**"
+  authors:
+    - Nan Xu
+    - R Nathan Spreng
+    - Shella D. Keilholz
+  publisher: Organization for Human Brain Mapping 2020 Annual Meeting
+  date: '2020-06-23'
+  type: conference
+  tags:
+    - conference
+    - causal interactions
+    - cognitive functions
+    - recognition
+
+- #id: embs2016i
+  title: "What are the most talkative brain regions?"
+  publisher: IEEE Engineering In Medicine And Biology Society Annual International Conference
+  description: "> **Late-breaking Research Paper!**"
+  authors:
+    - Nan Xu
+    - Peter C. Doerschuk
+    - R Nathan Spreng
+  publisher: Annual International Conference Of The IEEE Engineering In Medicine And Biology Society
+  date: '2016-08-01'
+  type: conference
+  tags:
+    - conference
+    - causal interactions
+    - recognition
+
+- #id: cns2014i
+  title: "Directed interactivity of large-scale brain networks: Introducing a new method for estimating brain connectivity MRI."
+  authors:
+    - Nan Xu
+    - R Nathan Spreng
+    - Peter C. Doerschuk
+  publisher: Cognitive Neuroscience Society 2014 Annual Meeting
+  date: '2014-04-07'
+  type: conference
+  tags:
+    - conference
+    - causal interactions
+
