@@ -24,6 +24,7 @@ Nan completed her undergraduate studies at the University of Rochester, earning 
 {% include list.html data="members" component="portrait" filters="role: postdoc" %}
 {% include list.html data="members" component="portrait" filters="role: phd" %}
 {% include list.html data="members" component="portrait" filters="role: undergrad" %}
+
 {% include section.html background="images/background.jpg" dark=true %}
 ## Collaborators
 INSPIRE Lab benefits from our talented collaborators from diverse fields around the world.
@@ -45,8 +46,9 @@ INSPIRE Lab benefits from our talented collaborators from diverse fields around 
 
 {% include section.html %}
 ## Funding
-We are grateful for our funders!
 {% capture content %}
-{% include figure.html image="images/funders/nih-brain.png" %}
+[![NIH Brain](/images/funders/nih-brain2.jpeg)](https://braininitiative.nih.gov/)
+
+[![UMD BioE](/images/funders/umd-bioe.png)](https://bioe.umd.edu/)
 {% endcapture %}
-{% include grid.html style="bare" content=content size="small"%}
+{% include grid.html style="cover" content=content %}
