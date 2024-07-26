@@ -12,9 +12,10 @@ At Imaging- and Neuro-computations for Precision Informatics Research (INSPIRE) 
 
 #### Why Choose Us?
 The INSPIRE Lab, part of the Fischell Department of Bioengineering, is located in A. James Clark Hall at the University of Maryland, College Park. Our lab is adjacent to advanced neuroimaging core facilities and equipped with high-performance computing resources. Besides the exciting research and resources, UMD's proximity to major government research institutions such as NIH, NSF, DOD, and FDA, as well as leading hospitals, presents extensive collaboration opportunities. Additionally, the campus is conveniently situated near Washington D.C. and Baltimore, offering a variety of living and recreational options.
-{%  include button.html  type="email"  text="nanxu@umd.com" link="nanxu@umd.com" %}
-{%  include button.html  type="address"  tooltip="Our location on Google Maps for easy navigation"  link="https://maps.app.goo.gl/gSpY6XH5o6Y69rD57" %}
 {%  include button.html  type="app"  text="Openings"  link="team/#openings" %}
+{%  include button.html  type="address"  tooltip="Our location on Google Maps for easy navigation"  link="https://maps.app.goo.gl/gSpY6XH5o6Y69rD57" %}
+{%  include button.html  type="email"  text="nanxu@umd.com" link="nanxu@umd.com" %}
+
 <!-- {%
   include button.html
   type="github"
