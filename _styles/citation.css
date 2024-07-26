@@ -13,7 +13,7 @@
 
 .citation-image {
   position: relative;
-  width: 180px;
+  width: 150px;
   flex-shrink: 0;
 }
 
@@ -34,7 +34,7 @@
   height: min-content;
   padding: 20px;
   padding-left: 30px;
-  text-align: left;
+  text-align: justify;
   overflow-wrap: break-word;
   z-index: 0;
 }
@@ -44,6 +44,7 @@
 .citation-details,
 .citation-description {
   width: 100%;
+  font-size: 95%;
 }
 
 .citation-title {
@@ -90,7 +91,7 @@
   }
   .citation-image {
     width: unset;
-    height: 180px;
+    height: 150px;
   }
 }
 
