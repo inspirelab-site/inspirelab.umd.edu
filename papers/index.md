@@ -17,6 +17,7 @@ nav:
 {% include search-box.html %}
 {% include tags.html tags="preprint, journal, conference, recognition" %}
 {% include tags.html tags="causal interactions, brain dynamics, neuro disorders, image reconstruction" %}
+<!-- {% include tags.html tags="recognition" %} -->
 {% include search-info.html %}
 
 {% include section.html %}

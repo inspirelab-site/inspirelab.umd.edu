@@ -42,10 +42,7 @@
 
 #Seeburg-CABN-2024
 #Time-varying functional connectivity predicts fluctuations in sustained attention in a serial tapping task.
-- id: doi:10.1101/2023.06.22.546092
-  type: preprint
-  remove: true
-- id: pmid:38253775
+- id: doi:10.3758/s13415-024-01156-1
   type: journal
   tags:
     - journal
@@ -63,12 +60,12 @@
   type: software
   description: "> **Featured at the Aperture Symposium of the OHBM 2024 Annual Meeting!**"
   buttons:
-    - type: source
-      text: code
-      link: https://github.com/GT-EmoryMINDlab/rodent-whole-brain-preprocessing-recipe
     - type: youtube
       text: "tutorial"
       link: https://www.youtube.com/playlist?list=PLzl6lxEF9yCb3i0Coc5noXWzINKqWXTOd
+    - type: source
+      text: code
+      link: https://github.com/GT-EmoryMINDlab/rodent-whole-brain-preprocessing-recipe 
   tags:
     - journal
     - preprocessing
