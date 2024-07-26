@@ -43,6 +43,11 @@ external:
   text: External Link
   tooltip: External link
 
+cv:
+  icon: fa-regular fa-book
+  text: C.V.
+  tooltip: C.V.
+
 home-page:
   icon: fa-solid fa-house-user
   text: Home Page

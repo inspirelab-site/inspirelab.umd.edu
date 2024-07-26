@@ -587,6 +587,7 @@
   - causal interactions
   - brain dynamics
   - modeling
+  - neuro disorders
   plugin: sources.py
   file: sources.yaml
 - title: Modeling and Validation of Dynamic Causal Interactions in Functional Brain
@@ -607,6 +608,7 @@
   - causal interactions
   - brain dynamics
   - modeling
+  - neuro disorders
   plugin: sources.py
   file: sources.yaml
 - title: '``Hyperconnected'''' Vestibular State in Subacute and Chronic Post-Concussive
