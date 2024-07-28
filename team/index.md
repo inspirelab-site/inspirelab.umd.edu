@@ -43,6 +43,7 @@ INSPIRE Lab benefits from our talented collaborators from diverse fields around 
 - Dr. Dan Barbasch Group @ Cornell, Mathematics
 - Dr. John E Johnson Group @ Scripps Research Institute, Structural Virology
 - The Veesler Lab @ University of Washington, Biochemistry 
+- Sam Larson (Independent Collaborator) Software Engineer @ YipitData
 
 {% include section.html %}
 ## Funding
