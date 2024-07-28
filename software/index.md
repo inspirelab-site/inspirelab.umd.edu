@@ -5,7 +5,7 @@ nav:
   tooltip: Software and code
 ---
 
-# {% include icon.html icon="fa-solid fa-code" %}Software
+# {% include icon.html icon="fa-brands fa-uncharted" %}Software
 * [Brain Spatiotemporal Dynamic Analysis Software](#section-1) 
 * [fMRI Brain Data (pre-)Processing Toolbox](#section-2)
 * [Scientific Computing Tools](#section-3)

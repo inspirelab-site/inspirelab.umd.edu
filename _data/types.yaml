@@ -3,7 +3,7 @@
 # team member roles
 
 pi:
-  icon: fa-solid fa-microscope
+  icon: fa-regular fa-person-chalkboard
   description: Principal Investigator
 
 postdoc:
@@ -21,7 +21,7 @@ undergrad:
 programmer:
   icon: fa-solid fa-code
   description: Programmer
-
+  
 mascot:
   icon: fa-solid fa-dog
   description: Mascot
@@ -44,7 +44,7 @@ external:
   tooltip: External link
 
 cv:
-  icon: fa-regular fa-book
+  icon: fa-solid fa-file
   text: C.V.
   tooltip: C.V.
 
@@ -216,6 +216,6 @@ data:
   tooltip: Data
 
 package:
-  icon: fa-solid fa-box
+  icon: fa-brands fa-uncharted
   text: Package
   tooltip: Package
