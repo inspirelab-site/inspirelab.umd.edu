@@ -6,7 +6,7 @@ nav:
 ---
 
 # {% include icon.html icon="fa-solid fa-microscope" %}Research
-We work in the interphase of data science and brain science, aiming to uncover brain function and cognitive mechanisms by modeling and analyzing the spatiotemporal brain dynamics. By employing multimodal functional neuroimaging data (e.g., fMRI-BOLD, LFP, optical imaging, MEG, etc.) from animals, humans, and patients, we decode complex processes shaping brain function and disease. This approach yields innovative insights for both fundamental and translational brain science. Below are research themes we have been working on.
+We work in the interphase of data science and brain science, aiming to uncover brain function and cognitive mechanisms by modeling and analyzing the spatiotemporal brain dynamics. By employing multimodal functional neuroimaging data (e.g., fMRI-BOLD, LFP, optical imaging, MEG, etc.) from animals, healthy humans, and patients, we decode complex processes shaping brain function and disease. This approach yields innovative insights for both fundamental and translational brain science. Below are research themes we have been working on.
 * [Modeling and Inferences in Causal Interactions among Brain Networks](#section-1) 
 * [Investigating Spatiotemporal Brain Dynamics across Species ](#section-2)
 * [Assessing Functional Brain Dynamics in Neurological Disorders](#section-3)
