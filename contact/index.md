@@ -5,7 +5,7 @@ nav:
   tooltip: Openings and contact
 ---
 
-# {% include icon.html icon="fa-regular fa-envelope" %}Join Us!
+# {% include icon.html icon="fa-solid fa-user-plus" %}Join Us!
 #### Join the Exciting Journey at INSPIRE Lab!
 At Imaging- and Neuro-computations for Precision Informatics Research (INSPIRE) Lab, we aim to uncover the intricacies of brain function, neurological disorders, and other biological processes by modeling and analyzing spatiotemporal dynamics. We leverage advanced data science techniques to interpret data from cutting-edge imaging technologies. By joining our team, you will contribute to groundbreaking discoveries in brain science, informatics, and beyond. We currently have multiple openings for postdocs, graduate, and undergraduate students.
 
