@@ -1,7 +1,6 @@
 ---
 ---
-
-$thumb-size: 200px;
+$thumb-size: 165px;
 $wrap: 800px;
 
 .post-excerpt-container {
@@ -35,8 +34,8 @@ $wrap: 800px;
 .post-excerpt-text {
   display: flex;
   flex-wrap: wrap;
-  gap: 20px;
-  padding: 20px 30px;
+  gap: 10px;
+  padding: 20px 20px;
   text-align: left;
 }
 

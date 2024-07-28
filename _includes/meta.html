@@ -21,9 +21,10 @@
 {% assign description = page.description | default: site.description %}
 {% if site.subtitle %}
   {% capture description -%}
-    {{ site.subtitle }}. {{ description }}
+    {{ description }}
   {%- endcapture %}
 {% endif %}
+
 {% capture url -%}
   {{ site.url }}{{ site.baseurl }}
 {%- endcapture %}
@@ -50,7 +51,7 @@
 <meta name="title" content="{{ title }}">
 <meta name="description" content="{{ description }}">
 
-<meta property="og:title" content="{{ title }}">
+<meta property="og:title" content="{{ title }}-{{description}}">
 <meta property="og:site_title" content="{{ site.title }}">
 <meta property="og:description" content="{{ description }}">
 <meta property="og:url" content="{{ url }}">
