@@ -7,8 +7,6 @@ group: hiring
 # links:
 #   github: john-doe 
 ---
-[**Openings**](/team/#openings)/Postdoctoral Researchers
-
 Postdoctoral researchers receive mentored experience in developing and running interdisciplinary research projects, writing grant, and mentoring students. We now have two postdoc openings starting in Jan 2025!
 
 - **Position 1**: This position will focus on developing new machine/deep learning, information-theoretic & statistical approaches, or other computational methodologies for neuroimaging data. Candidates must have a PhD in Electrical & Computer Engineering, Physics, Statistics, Computer Science, or a related field. Applicants with a strong quantitative background and a keen interest in brain science are encouraged to apply. For more information—including details on how to apply—download the [position flyer](/assets/hirings/hire2025_Postdoc_modeling.pdf).

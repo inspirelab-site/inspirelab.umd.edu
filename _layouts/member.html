@@ -1,6 +1,25 @@
 ---
 layout: default
 ---
+{% assign member = site.members | where_exp: "member", "member.slug == page.slug" | first %}
+{% assign type = site.data.types[member.role] %}
+<nav aria-label="breadcrumb" class="breadcrumb">
+  <ol class="breadcrumb px-0">
+    {% if page.name != "Hiring" %}
+      <li class="breadcrumb-item"><a href="/team">TEAM</a></li>
+      <li class="breadcrumb-item active" aria-current="page">
+        {% if member.role == "pi" %}{{ type.description }}
+        {% else %}{{ member.description | default: type.description }}
+        {% endif %}
+      </li>
+      <li class="breadcrumb-item active" aria-current="page">{{ page.name }}</li>
+    {% else %}
+      <li class="breadcrumb-item"><a href="/team/#openings">Openings</a></li>
+      <li class="breadcrumb-item active" aria-current="page"> {{ member.description | default: type.description }}</li>
+    {% endif %}
+  </ol>
+</nav>
+
 <style>
   .icon-container {
     display: flex;
