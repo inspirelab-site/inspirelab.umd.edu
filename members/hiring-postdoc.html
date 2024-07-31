@@ -410,43 +410,25 @@
   
   
 
-  <section class="background" data-size="100%">
+  <section class="background" data-size="135%">
     <style>
-  .container {
+  .icon-container {
     display: flex;
-  }
-  .left-column {
-    flex: 1;
-    padding: 20px 0 0 0;
-    text-align: center;
-    max-width: 240px;
-    font-size: 100%;
-  }
-  .right-column {
-    flex: 2;
-    padding: 20px;
-  }
-  .right-column * {
-    line-height: 2; /* Set line spacing for all elements inside right column */
-  }
-  .center {
-    display: flex;
-    flex-direction: column; /* Align icons vertically */
     justify-content: center;
-    flex-wrap: wrap;
-    gap: 0px; /* Adjust the gap between icons as needed */
-    font-size: 100%;
+    flex-direction: row;
+    gap: 0px; /* Adjust this value to control the space between icons */
+  }
+
+  .icon-container .icon {
+    font-size: 135%; /* Adjust this value to increase the size of the icons */
+    width: 20px; /* Optional: Set a specific width */
+    height: 0px; /* Optional: Set a specific height */
   }
 </style>
 
-<div class="container">
-  <div class="left-column">
-    
-    
-      
 
-
-
+<div class="float">
+  
 <div class="portrait-wrapper">
   <a class="portrait" data-style="" aria-label="Hiring">
     
@@ -473,13 +455,16 @@
 
   </a>
 </div>
-      <div class="center">
-        
-      </div>
-    
-  </div>
-  <div class="right-column">
-    <p><a href="/team/#openings"><strong>Openings</strong></a>/Postdoctoral Researchers</p>
+
+<div class="icon-container">
+  
+</div>
+
+
+</div>
+
+
+<p><a href="/team/#openings"><strong>Openings</strong></a>/Postdoctoral Researchers</p>
 
 <p>Postdoctoral researchers receive mentored experience in developing and running interdisciplinary research projects, writing grant, and mentoring students. We now have two postdoc openings starting in Jan 2025!</p>
 
@@ -502,8 +487,15 @@
 
 <!-- If you are interested in joining us, please email me with your CV and a cover letter. -->
 
-  </div>
-</div>
+
+
+<!--
+<p class="center">
+  <a href="">
+    See Hiring's posts on the Blog page
+  </a>
+</p>
+-->
   </section>
 
 

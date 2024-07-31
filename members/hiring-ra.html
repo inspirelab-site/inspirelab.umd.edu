@@ -410,43 +410,25 @@
   
   
 
-  <section class="background" data-size="100%">
+  <section class="background" data-size="135%">
     <style>
-  .container {
+  .icon-container {
     display: flex;
-  }
-  .left-column {
-    flex: 1;
-    padding: 20px 0 0 0;
-    text-align: center;
-    max-width: 240px;
-    font-size: 100%;
-  }
-  .right-column {
-    flex: 2;
-    padding: 20px;
-  }
-  .right-column * {
-    line-height: 2; /* Set line spacing for all elements inside right column */
-  }
-  .center {
-    display: flex;
-    flex-direction: column; /* Align icons vertically */
     justify-content: center;
-    flex-wrap: wrap;
-    gap: 0px; /* Adjust the gap between icons as needed */
-    font-size: 100%;
+    flex-direction: row;
+    gap: 0px; /* Adjust this value to control the space between icons */
+  }
+
+  .icon-container .icon {
+    font-size: 135%; /* Adjust this value to increase the size of the icons */
+    width: 20px; /* Optional: Set a specific width */
+    height: 0px; /* Optional: Set a specific height */
   }
 </style>
 
-<div class="container">
-  <div class="left-column">
-    
-    
-      
 
-
-
+<div class="float">
+  
 <div class="portrait-wrapper">
   <a class="portrait" data-style="" aria-label="Hiring">
     
@@ -473,18 +455,28 @@
 
   </a>
 </div>
-      <div class="center">
-        
-      </div>
-    
-  </div>
-  <div class="right-column">
-    <p><a href="/team/#openings"><strong>Openings</strong></a>/Research Technicians</p>
+
+<div class="icon-container">
+  
+</div>
+
+
+</div>
+
+
+<p><a href="/team/#openings"><strong>Openings</strong></a>/Research Technicians</p>
 
 <p>We are currently seeking a part-time or full-time CS/IT research technician with expertise in coding and system management. The ideal candidate will be responsible for assisting in the setup, development, and maintenance of imaging data, computing, and software systems on our servers. Additionally, this position will involve providing technical assistance in algorithm development to support various research projects. Strong problem-solving skills and the ability to work collaboratively with a diverse research team are essential for success in this role. An undergraduate or post-bachelor student in Computer Science or a related field is required. Wage will be commensurate with experience. If interested, please email me with your resume and transcript.</p>
 
-  </div>
-</div>
+
+
+<!--
+<p class="center">
+  <a href="">
+    See Hiring's posts on the Blog page
+  </a>
+</p>
+-->
   </section>
 
 

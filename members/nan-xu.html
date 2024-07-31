@@ -410,43 +410,25 @@
   
   
 
-  <section class="background" data-size="100%">
+  <section class="background" data-size="135%">
     <style>
-  .container {
+  .icon-container {
     display: flex;
-  }
-  .left-column {
-    flex: 1;
-    padding: 20px 0 0 0;
-    text-align: center;
-    max-width: 240px;
-    font-size: 100%;
-  }
-  .right-column {
-    flex: 2;
-    padding: 20px;
-  }
-  .right-column * {
-    line-height: 2; /* Set line spacing for all elements inside right column */
-  }
-  .center {
-    display: flex;
-    flex-direction: column; /* Align icons vertically */
     justify-content: center;
-    flex-wrap: wrap;
-    gap: 0px; /* Adjust the gap between icons as needed */
-    font-size: 100%;
+    flex-direction: row;
+    gap: 0px; /* Adjust this value to control the space between icons */
+  }
+
+  .icon-container .icon {
+    font-size: 135%; /* Adjust this value to increase the size of the icons */
+    width: 20px; /* Optional: Set a specific width */
+    height: 0px; /* Optional: Set a specific height */
   }
 </style>
 
-<div class="container">
-  <div class="left-column">
-    
-    
-      
 
-
-
+<div class="float">
+  
 <div class="portrait-wrapper">
   <a class="portrait" data-style="" aria-label="Nan Xu">
     
@@ -475,17 +457,18 @@
     
     
       <span class="portrait-affiliation">
-        University of Maryland
+        University of Maryland, College Park
       </span>
     
 
   </a>
 </div>
-      <div class="center">
-        
-          
-          
-          
+
+<div class="icon-container">
+  
+    
+    
+    
 
 
 
@@ -493,16 +476,14 @@
     <a class="button" href="/assets/cv-nx-072624.pdf" data-tooltip="C.V." data-style="bare" aria-label="C.V.">
       <i class="icon fa-solid fa-file"></i>
       
-        <span>C.V.</span>
-      
     </a>
   </div>
 
 
-        
-          
-          
-          
+  
+    
+    
+    
 
 
 
@@ -510,16 +491,14 @@
     <a class="button" href="https://scholar.google.com/citations?user=94oRMMcAAAAJ" data-tooltip="Google Scholar" data-style="bare" aria-label="Google Scholar">
       <i class="icon fa-brands fa-google"></i>
       
-        <span>Google Scholar</span>
-      
     </a>
   </div>
 
 
-        
-          
-          
-          
+  
+    
+    
+    
 
 
 
@@ -527,16 +506,14 @@
     <a class="button" href="https://orcid.org/0000-0002-3900-3220" data-tooltip="ORCID" data-style="bare" aria-label="ORCID">
       <i class="icon fa-brands fa-orcid"></i>
       
-        <span>ORCID</span>
-      
     </a>
   </div>
 
 
-        
-          
-          
-          
+  
+    
+    
+    
 
 
 
@@ -544,16 +521,14 @@
     <a class="button" href="https://github.com/imnanxu" data-tooltip="GitHub" data-style="bare" aria-label="GitHub">
       <i class="icon fa-brands fa-github"></i>
       
-        <span>GitHub</span>
-      
     </a>
   </div>
 
 
-        
-          
-          
-          
+  
+    
+    
+    
 
 
 
@@ -561,16 +536,14 @@
     <a class="button" href="https://www.linkedin.com/in/nan-xu2022" data-tooltip="LinkedIn" data-style="bare" aria-label="LinkedIn">
       <i class="icon fa-brands fa-linkedin"></i>
       
-        <span>LinkedIn</span>
-      
     </a>
   </div>
 
 
-        
-          
-          
-          
+  
+    
+    
+    
 
 
 
@@ -578,22 +551,26 @@
     <a class="button" href="mailto:nanxu@umd.edu" data-tooltip="Email" data-style="bare" aria-label="Email">
       <i class="icon fa-solid fa-envelope"></i>
       
-        <span>Email</span>
-      
     </a>
   </div>
 
 
-        
-      </div>
-    
-  </div>
-  <div class="right-column">
-    <p><a href="/team/"><strong>TEAM</strong></a>/Principal Investigator</p>
+  
+</div>
+
+
+</div>
+
+
+<p><a href="/team/"><strong>TEAM</strong></a>/Principal Investigator</p>
 
 <p>Dr. Nan Xu is an incoming Assistant Professor (starting January 2025) at the <a href="https://bioe.umd.edu">​Fischell Department of Bioengineering</a> at the University of Maryland, College Park. She is also affiliated to the <a href="https://nacs.umd.edu">Program in Neuroscience &amp; Cognitive Science</a>. Nan directs Imaging- and Neuro-computations for Precision Informatics Research (INSPIRE) Lab. With a strong foundation as a computational scientist, her research spans statistical learning, applied mathematics, neuroscience, and various biomedical applications. Her primary efforts are centered on developing advanced computational models and analyses with functional neuroimaging data to uncover novel insights into brain functions and diseases.</p>
 
 <p>Nan completed her undergraduate studies at the University of Rochester, earning a B.S. in Electrical and Computer Engineering and a B.A. in Mathematics, with a minor in Music, in 2011. She then pursued graduate studies at Cornell University, where she received her M.Sc. (2015) and Ph.D. (2017) in Electrical and Computer Engineering, minoring in Applied Mathematics and Cognitive Neuroscience. Throughout her postdoctoral journey, Nan gained extensive interdisciplinary research experience, including a fellowship in Chemical and Biomolecular Engineering at Georgia Tech (2017-2018), a visiting scientist role at the McGovern Brain Institute at MIT (2022), and a postdoctoral fellowship in Biomedical Engineering at Georgia Tech and Emory University (2019-2024). Her research is currently supported by a NIH BRAIN K99/R00 award.</p>
+<div class="float" data-clear="">
+  
+
+</div>
 
 <h4 id="selected-awards--honors">Selected Awards &amp; Honors</h4>
 <div class="bullet-year-container">
@@ -955,7 +932,7 @@
   <span class="year">2009 - </span>
   <span class="description">Tau Beta Pi Honor Society</span>
 </div>
-  
+  </section>
 
   
   
@@ -983,9 +960,15 @@
   </div>
 </details>
 
-  </section>
-</div>
-</div>
+
+
+<!--
+<p class="center">
+  <a href="">
+    See Nan Xu's posts on the Blog page
+  </a>
+</p>
+-->
   </section>
 
 
