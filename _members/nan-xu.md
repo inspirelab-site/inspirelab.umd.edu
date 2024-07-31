@@ -3,16 +3,16 @@ name: Nan Xu
 image: team/images/nan-xu.jpg
 role: pi
 description: "Assistant Professor (Jan 2025)"
-affiliation: "Fischell Department of Bioengineering, Program in Neuroscience & Cognitive Science"
+affiliation: "Fischell Department of Bioengineering, Neuroscience & Cognitive Science Program"
 brief-desc:  "University of Maryland, College Park"
 links:
-  cv: assets/cv-nx-072624.pdf
+  email: nanxu@umd.edu
+  linkedin: nan-xu2022
   google-scholar: 94oRMMcAAAAJ
   orcid: 0000-0002-3900-3220
   github: imnanxu
-  # twitter: imnanxu
-  linkedin: nan-xu2022  
-  email: nanxu@umd.edu
+  # twitter: imnanxu  
+  cv: assets/cv-nx-072624.pdf
 ---
 [**TEAM**](/team/)/Principal Investigator
 
