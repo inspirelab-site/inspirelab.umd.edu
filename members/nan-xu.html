@@ -220,6 +220,10 @@
   
 
   
+    <link href="/_styles/membernew.css" rel="stylesheet">
+  
+
+  
     <link href="/_styles/paragraph.css" rel="stylesheet">
   
 
@@ -410,19 +414,40 @@
   
   
 
-  <section class="background" data-size="135%">
+  <section class="background" data-size="120%">
     <style>
   .icon-container {
     display: flex;
-    justify-content: center;
-    flex-direction: row;
     gap: 0px; /* Adjust this value to control the space between icons */
+    align-items: center; /* Vertically align icons and text */
   }
 
   .icon-container .icon {
-    font-size: 135%; /* Adjust this value to increase the size of the icons */
-    width: 20px; /* Optional: Set a specific width */
-    height: 0px; /* Optional: Set a specific height */
+    font-size: 120%; /* Adjust this value to increase the size of the icons */
+    display: inline-flex;
+    align-items: center; /* Align text with the icon */
+    vertical-align: middle; /* Align text with icon */
+  }
+
+  .wide-icons {
+    display: none;
+    flex-flow: row wrap;
+    max-width: 240px;
+    justify-content: center;
+  }
+
+  .narrow-icons {
+    flex-flow: row wrap; /* Vertical layout for narrow screen */
+    justify-content: center;
+  }
+
+  @media (min-width: 769px) { /* Adjust the min-width value as needed */
+    .wide-icons {
+      display: flex;
+    }
+    .narrow-icons {
+      display: none;
+    }
   }
 </style>
 
@@ -451,7 +476,7 @@
 
     
       <span class="portrait-affiliation">
-        Fischell Department of Bioengineering, Program in Neuroscience &amp; Cognitive Science
+        Fischell Department of Bioengineering, Neuroscience &amp; Cognitive Science Program
       </span>
     
     
@@ -464,7 +489,8 @@
   </a>
 </div>
 
-<div class="icon-container">
+<!-- Narrow window icon container -->
+<div class="icon-container narrow-icons">
   
     
     
@@ -473,8 +499,23 @@
 
 
   <div class="button-wrapper">
-    <a class="button" href="/assets/cv-nx-072624.pdf" data-tooltip="C.V." data-style="bare" aria-label="C.V.">
-      <i class="icon fa-solid fa-file"></i>
+    <a class="button" href="mailto:nanxu@umd.edu" data-tooltip="Email" data-style="bare" aria-label="Email">
+      <i class="icon fa-solid fa-envelope"></i>
+      
+    </a>
+  </div>
+
+
+  
+    
+    
+    
+
+
+
+  <div class="button-wrapper">
+    <a class="button" href="https://www.linkedin.com/in/nan-xu2022" data-tooltip="LinkedIn" data-style="bare" aria-label="LinkedIn">
+      <i class="icon fa-brands fa-linkedin"></i>
       
     </a>
   </div>
@@ -533,8 +574,30 @@
 
 
   <div class="button-wrapper">
-    <a class="button" href="https://www.linkedin.com/in/nan-xu2022" data-tooltip="LinkedIn" data-style="bare" aria-label="LinkedIn">
-      <i class="icon fa-brands fa-linkedin"></i>
+    <a class="button" href="/assets/cv-nx-072624.pdf" data-tooltip="C.V." data-style="bare" aria-label="C.V.">
+      <i class="icon fa-solid fa-file"></i>
+      
+    </a>
+  </div>
+
+
+  
+</div>
+
+<!-- Wide window icon container -->
+<div class="icon-container wide-icons">
+  
+    
+    
+    
+
+
+
+  <div class="button-wrapper">
+    <a class="button" href="mailto:nanxu@umd.edu" data-tooltip="Email" data-style="bare" aria-label="Email">
+      <i class="icon fa-solid fa-envelope"></i>
+      
+        <span>Email</span>
       
     </a>
   </div>
@@ -548,8 +611,78 @@
 
 
   <div class="button-wrapper">
-    <a class="button" href="mailto:nanxu@umd.edu" data-tooltip="Email" data-style="bare" aria-label="Email">
-      <i class="icon fa-solid fa-envelope"></i>
+    <a class="button" href="https://www.linkedin.com/in/nan-xu2022" data-tooltip="LinkedIn" data-style="bare" aria-label="LinkedIn">
+      <i class="icon fa-brands fa-linkedin"></i>
+      
+        <span>LinkedIn</span>
+      
+    </a>
+  </div>
+
+
+  
+    
+    
+    
+
+
+
+  <div class="button-wrapper">
+    <a class="button" href="https://scholar.google.com/citations?user=94oRMMcAAAAJ" data-tooltip="Google Scholar" data-style="bare" aria-label="Google Scholar">
+      <i class="icon fa-brands fa-google"></i>
+      
+        <span>Google Scholar</span>
+      
+    </a>
+  </div>
+
+
+  
+    
+    
+    
+
+
+
+  <div class="button-wrapper">
+    <a class="button" href="https://orcid.org/0000-0002-3900-3220" data-tooltip="ORCID" data-style="bare" aria-label="ORCID">
+      <i class="icon fa-brands fa-orcid"></i>
+      
+        <span>ORCID</span>
+      
+    </a>
+  </div>
+
+
+  
+    
+    
+    
+
+
+
+  <div class="button-wrapper">
+    <a class="button" href="https://github.com/imnanxu" data-tooltip="GitHub" data-style="bare" aria-label="GitHub">
+      <i class="icon fa-brands fa-github"></i>
+      
+        <span>GitHub</span>
+      
+    </a>
+  </div>
+
+
+  
+    
+    
+    
+
+
+
+  <div class="button-wrapper">
+    <a class="button" href="/assets/cv-nx-072624.pdf" data-tooltip="C.V." data-style="bare" aria-label="C.V.">
+      <i class="icon fa-solid fa-file"></i>
+      
+        <span>C.V.</span>
       
     </a>
   </div>

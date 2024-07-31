@@ -220,6 +220,10 @@
   
 
   
+    <link href="/_styles/membernew.css" rel="stylesheet">
+  
+
+  
     <link href="/_styles/paragraph.css" rel="stylesheet">
   
 
@@ -410,19 +414,40 @@
   
   
 
-  <section class="background" data-size="135%">
+  <section class="background" data-size="120%">
     <style>
   .icon-container {
     display: flex;
-    justify-content: center;
-    flex-direction: row;
     gap: 0px; /* Adjust this value to control the space between icons */
+    align-items: center; /* Vertically align icons and text */
   }
 
   .icon-container .icon {
-    font-size: 135%; /* Adjust this value to increase the size of the icons */
-    width: 20px; /* Optional: Set a specific width */
-    height: 0px; /* Optional: Set a specific height */
+    font-size: 120%; /* Adjust this value to increase the size of the icons */
+    display: inline-flex;
+    align-items: center; /* Align text with the icon */
+    vertical-align: middle; /* Align text with icon */
+  }
+
+  .wide-icons {
+    display: none;
+    flex-flow: row wrap;
+    max-width: 240px;
+    justify-content: center;
+  }
+
+  .narrow-icons {
+    flex-flow: row wrap; /* Vertical layout for narrow screen */
+    justify-content: center;
+  }
+
+  @media (min-width: 769px) { /* Adjust the min-width value as needed */
+    .wide-icons {
+      display: flex;
+    }
+    .narrow-icons {
+      display: none;
+    }
   }
 </style>
 
@@ -456,7 +481,13 @@
   </a>
 </div>
 
-<div class="icon-container">
+<!-- Narrow window icon container -->
+<div class="icon-container narrow-icons">
+  
+</div>
+
+<!-- Wide window icon container -->
+<div class="icon-container wide-icons">
   
 </div>
 
