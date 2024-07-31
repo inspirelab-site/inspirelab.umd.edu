@@ -177,7 +177,7 @@
 
 #Xu-TIP-2019
 - id: doi:10.1109/tip.2019.2915631
-  image: 
+  image: papers/images/xu-TIP-2019.png
   type: journal
   description: Using cryo-EM, we transform highly noisy and randomly-oriented projection images of 103─106 virus particles into a 3D model of the virus. Unlike traditional methods that assume strict geometric symmetry, we adopted a more realistic approach, allowing individual particles to be asymmetric while maintaining symmetry in the overall mean and covariance. This novel method eliminates long-standing distortions along the symmetry axes. 
   tags:
@@ -218,7 +218,7 @@ We developed p-corr, an innovative algorithm enhancing traditional correlation a
 #doeschuk-opinion-2016
 - id: pmid:27085980
   type: journal
-  image: papers/images/doerschuk-opinion-virology-2016.png
+ # image: papers/images/doerschuk-opinion-virology-2016.png
   tags:
   - journal
   - image reconstruction

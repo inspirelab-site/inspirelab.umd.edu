@@ -1,7 +1,7 @@
 ---
 title: Software
 nav:
-  order: 4
+  order: 5
   tooltip: Software and code
 ---
 

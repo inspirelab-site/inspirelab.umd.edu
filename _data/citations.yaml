@@ -295,7 +295,7 @@
   orcid: 0000-0002-3900-3220
   plugin: sources.py
   file: sources.yaml
-  image: null
+  image: papers/images/xu-TIP-2019.png
   type: journal
   description: "Using cryo-EM, we transform highly noisy and randomly-oriented projection\
     \ images of 103\u2500106 virus particles into a 3D model of the virus. Unlike\
@@ -421,7 +421,6 @@
   plugin: sources.py
   file: sources.yaml
   type: journal
-  image: papers/images/doerschuk-opinion-virology-2016.png
   tags:
   - journal
   - image reconstruction

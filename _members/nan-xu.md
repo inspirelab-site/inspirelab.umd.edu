@@ -4,7 +4,7 @@ image: team/images/nan-xu.jpg
 role: pi
 description: "Assistant Professor (Jan 2025)"
 affiliation: "Fischell Department of Bioengineering, Program in Neuroscience & Cognitive Science"
-brief-desc:  
+brief-desc:  "University of Maryland"
 links:
   cv: assets/cv-nx-072624.pdf
   google-scholar: 94oRMMcAAAAJ
