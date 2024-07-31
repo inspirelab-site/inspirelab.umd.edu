@@ -1,0 +1,23 @@
+<div class="bullet-year-container">
+  <style>
+    .bullet-year-container {
+      display: flex;
+      align-items: flex-start;
+      margin-bottom: 7px; /* Adjust the spacing as needed */
+    }
+    .year {
+      display: inline-block;
+      width: 70px;
+      min-width: 80px; 
+      line-height: 1.5;
+      text-align: left;
+    }
+    .description {
+      display: inline-block;
+      line-height: 1.5;
+      text-align: left;
+    }
+  </style>
+  <span class="year">{{ include.year }}</span>
+  <span class="description">{{ include.text }}</span>
+</div>
