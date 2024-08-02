@@ -8,4 +8,4 @@ group: hiring
 #  email: xx@gmail.com
 #  twitter: xx
 ---
-We warmly invite highly motivated undergraduate students from BioE, ECE, CS, NACS, or any related fields to join our team! By participating, you will gain valuable experience in computational brain science research and benefit from guided mentorship throughout their research journey. If you are interested, please contact me by email and attach your resume and transcript.
+We welcome highly motivated undergraduate students from the computation or data science track of BioE, ECE, CS, NACS, or related fields to join our team! By participating, you will gain valuable experience in computational brain science research and benefit from guided mentorship throughout your research journey. If you are interested, please contact me via email and attach your resume and transcript.
