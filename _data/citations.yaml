@@ -283,6 +283,19 @@
   tags:
   - journal
   - brain dynamics
+- id: doi:10.1101/2020.04.14.041830
+  title: Spatiotemporal functional interactivity among large-scale brain networks
+  authors:
+  - Nan Xu
+  - Peter C. Doerschuk
+  - Shella D. Keilholz
+  - R. Nathan Spreng
+  publisher: Cold Spring Harbor Laboratory
+  date: '2020-04-16'
+  link: https://doi.org/gk2z6n
+  orcid: 0000-0002-3900-3220
+  plugin: orcid.py
+  file: orcid.yaml
 - id: doi:10.1109/tip.2019.2915631
   title: Reconstruction of Stochastic 3D Signals With Symmetric Statistics From 2D
     Projection Images Motivated by Cryo-Electron Microscopy
