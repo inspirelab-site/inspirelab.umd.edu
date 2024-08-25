@@ -18,6 +18,7 @@
   orcid: 0000-0002-3900-3220
   plugin: sources.py
   file: sources.yaml
+  type: journal
   tags:
   - preprint
   - brain dynamics
@@ -43,6 +44,7 @@
   orcid: 0000-0002-3900-3220
   plugin: sources.py
   file: sources.yaml
+  type: journal
   tags:
   - journal
   - brain dynamics
@@ -85,7 +87,7 @@
   orcid: 0000-0002-3900-3220
   plugin: sources.py
   file: sources.yaml
-  type: software
+  type: journal
   buttons:
   - type: source
     text: code
@@ -109,6 +111,7 @@
   orcid: 0000-0002-3900-3220
   plugin: sources.py
   file: sources.yaml
+  type: journal
   tags:
   - journal
   - brain dynamics
@@ -169,7 +172,7 @@
   orcid: 0000-0002-3900-3220
   plugin: sources.py
   file: sources.yaml
-  type: software
+  type: journal
   description: '> **Featured at the Aperture Symposium of the OHBM 2024 Annual Meeting!**'
   buttons:
   - type: youtube
@@ -280,6 +283,7 @@
   orcid: 0000-0002-3900-3220
   plugin: sources.py
   file: sources.yaml
+  type: journal
   tags:
   - journal
   - brain dynamics
@@ -382,11 +386,11 @@
   plugin: sources.py
   file: sources.yaml
   type: journal
-  description: ' We developed p-corr, an innovative algorithm enhancing traditional
+  description: We developed p-corr, an innovative algorithm enhancing traditional
     correlation analysis with a causal dynamic model. P-corr identifies information
     flow in functional connectivity, maintains sensitivity in detecting modular architecture,
     and scales to handle hundreds of ROIs for comprehensive whole-brain connectivity
-    assessments.'
+    assessments.
   image: papers/images/xu-ft-2017-pcorr.png
   buttons:
   - type: source
@@ -409,6 +413,7 @@
   orcid: 0000-0002-3900-3220
   plugin: sources.py
   file: sources.yaml
+  type: conference
   description: '> **EMBS Student Paper Competition Finalist - Top 0.4% conference
     proceedings!**'
   buttons:
@@ -452,6 +457,7 @@
   orcid: 0000-0002-3900-3220
   plugin: sources.py
   file: sources.yaml
+  type: conference
   description: '> **Top 10% Paper Recognition; Top 34 papers demonstrated in the Show
     & Tell session!**'
   buttons:
@@ -474,6 +480,7 @@
   orcid: 0000-0002-3900-3220
   plugin: sources.py
   file: sources.yaml
+  type: conference
   buttons:
   - type: paper
     text: proceedings
@@ -496,6 +503,7 @@
   orcid: 0000-0002-3900-3220
   plugin: sources.py
   file: sources.yaml
+  type: conference
   buttons:
   - type: paper
     text: proceedings
@@ -516,6 +524,7 @@
   orcid: 0000-0002-3900-3220
   plugin: sources.py
   file: sources.yaml
+  type: conference
   buttons:
   - type: paper
     text: proceedings

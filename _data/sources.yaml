@@ -15,6 +15,7 @@
 
 #Anumba-IN-2023
 - id: doi:10.1101/2024.05.23.595327
+  type: journal
   tags:
     - preprint
     - brain dynamics
@@ -23,6 +24,7 @@
 
 #Meyer-Baese-FT-2024
 - id:  doi:10.1101/2024.04.26.591295
+  type: journal
   publisher: "Frontiers In Neuroscience (in press)"
   tags:
     - journal
@@ -31,7 +33,7 @@
 
 #Xu-SoftwareX-2024
 - id: doi:10.1101/2023.09.25.559086
-  type: software
+  type: journal
   buttons:
     - type: source
       text: code
@@ -40,7 +42,7 @@
     - preprint
     - brain dynamics
 
-#Seeburg-CABN-2024
+#Seeburger-CABN-2024
 #Time-varying functional connectivity predicts fluctuations in sustained attention in a serial tapping task.
 - id: doi:10.3758/s13415-024-01156-1
   type: journal
@@ -50,6 +52,7 @@
 
 #Anumba-MRM-2023
 - id: doi:10.1002/mrm.29824
+  type: journal
   tags:
     - journal
     - brain dynamics
@@ -57,7 +60,7 @@
 
 #Xu-Aperture-2023
 - id: doi:10.52294/001c.85075
-  type: software
+  type: journal
   description: "> **Featured at the Aperture Symposium of the OHBM 2024 Annual Meeting!**"
   buttons:
     - type: youtube
@@ -152,6 +155,7 @@
 
 #keilholz-ft-2020
 - id: doi:10.3389/fnins.2020.550923
+  type: journal
   tags:
   - journal
   - brain dynamics
@@ -192,8 +196,7 @@
 # Xu-FT-2017
 - id: pmid:28559793
   type: journal
-  description: "
-We developed p-corr, an innovative algorithm enhancing traditional correlation analysis with a causal dynamic model. P-corr identifies information flow in functional connectivity, maintains sensitivity in detecting modular architecture, and scales to handle hundreds of ROIs for comprehensive whole-brain connectivity assessments."
+  description: "We developed p-corr, an innovative algorithm enhancing traditional correlation analysis with a causal dynamic model. P-corr identifies information flow in functional connectivity, maintains sensitivity in detecting modular architecture, and scales to handle hundreds of ROIs for comprehensive whole-brain connectivity assessments."
   image: papers/images/xu-ft-2017-pcorr.png
   buttons:
   - type: source
@@ -225,6 +228,7 @@ We developed p-corr, an innovative algorithm enhancing traditional correlation a
 
 #xu-embc-2016
 - id: pmid:28269156
+  type: conference
   publisher: IEEE Engineering In Medicine And Biology Society Annual International Conference
   description: "> **EMBS Student Paper Competition Finalist - Top 0.4% conference proceedings!**"
   link: https://ieeexplore.ieee.org/document/7591598
@@ -239,6 +243,7 @@ We developed p-corr, an innovative algorithm enhancing traditional correlation a
 
 #xu-spie-2015
 - id: doi:10.1117/12.2193791
+  type: conference
   description: "> **Top 10% Paper Recognition; Top 34 papers demonstrated in the Show & Tell session!**"
   buttons:
     - type: paper
@@ -251,6 +256,7 @@ We developed p-corr, an innovative algorithm enhancing traditional correlation a
 
 #xu-icip-2015
 - id: doi:10.1109/ICIP.2015.7351039
+  type: conference
   buttons:
     - type: paper
       text: proceedings
@@ -261,6 +267,7 @@ We developed p-corr, an innovative algorithm enhancing traditional correlation a
 
 #xu-icip-2014
 - id: doi:10.1109/ICIP.2014.7025712
+  type: conference
   buttons:
     - type: paper
       text: proceedings
@@ -272,6 +279,7 @@ We developed p-corr, an innovative algorithm enhancing traditional correlation a
 
 #xu-imagoptics-2014
 - id: doi:10.1364/srs.2014.stu3f.4
+  type: conference
   buttons:
     - type: paper
       text: proceedings
