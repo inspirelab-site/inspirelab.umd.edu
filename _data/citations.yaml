@@ -24,31 +24,6 @@
   - brain dynamics
   - cross-species
   - neuro disorders
-- id: doi:10.1101/2024.04.26.591295
-  title: Variation in the Distribution of Large-scale Spatiotemporal Patterns of Activity
-    Across Brain States
-  authors:
-  - Lisa Meyer-Baese
-  - Nmachi Anumba
-  - T Bolt
-  - L Daley
-  - TJ LaGrow
-  - Xiaodi Zhang
-  - Nan Xu
-  - Wen-Ju Pan
-  - E Schumacher
-  - Shella Keilholz
-  publisher: Frontiers In Neuroscience (in press)
-  date: '2024-04-29'
-  link: https://doi.org/gt44nc
-  orcid: 0000-0002-3900-3220
-  plugin: sources.py
-  file: sources.yaml
-  type: journal
-  tags:
-  - journal
-  - brain dynamics
-  - cross-species
 - id: doi:10.3758/s13415-024-01156-1
   title: Time-varying functional connectivity predicts fluctuations in sustained attention
     in a serial tapping task
@@ -287,19 +262,6 @@
   tags:
   - journal
   - brain dynamics
-- id: doi:10.1101/2020.04.14.041830
-  title: Spatiotemporal functional interactivity among large-scale brain networks
-  authors:
-  - Nan Xu
-  - Peter C. Doerschuk
-  - Shella D. Keilholz
-  - R. Nathan Spreng
-  publisher: Cold Spring Harbor Laboratory
-  date: '2020-04-16'
-  link: https://doi.org/gk2z6n
-  orcid: 0000-0002-3900-3220
-  plugin: orcid.py
-  file: orcid.yaml
 - id: doi:10.1109/tip.2019.2915631
   title: Reconstruction of Stochastic 3D Signals With Symmetric Statistics From 2D
     Projection Images Motivated by Cryo-Electron Microscopy
@@ -533,6 +495,30 @@
   - conference
   - causal interactions
   - modeling
+- id: doi:10.3389/fnsys.2024.1425491
+  title: Variation in the distribution of large-scale spatiotemporal patterns of activity
+    across brain states
+  authors:
+  - Lisa Meyer-Baese
+  - Nmachi Anumba
+  - T. Bolt
+  - L. Daley
+  - T. J. LaGrow
+  - Xiaodi Zhang
+  - Nan Xu
+  - Wen-Ju Pan
+  - E. H. Schumacher
+  - Shella Keilholz
+  publisher: Frontiers in Systems Neuroscience
+  date: '2024-08-02'
+  link: https://doi.org/gt7vkg
+  type: journal
+  tags:
+  - journal
+  - brain dynamics
+  - cross-species
+  plugin: sources.py
+  file: sources.yaml
 - id: doi:10.1002/alz.061608
   title: "The effects of locus coeruleus stimulation on the BOLD global signal in\
     \ TgF344\u2010AD rats"
@@ -556,7 +542,7 @@
   plugin: sources.py
   file: sources.yaml
 - title: The effects of locus coeruleus stimulation on quasi-periodic patterns in
-    rats.
+    rats
   authors:
   - Nmachi Anumba
   - Michael A. Keilberman
@@ -596,7 +582,7 @@
   plugin: sources.py
   file: sources.yaml
 - title: Modeling and Validation of Dynamic Causal Interactions in Functional Brain
-    Network.
+    Network
   authors:
   - Nan Xu
   - Xiaodi Zhang
@@ -781,7 +767,7 @@
   plugin: sources.py
   file: sources.yaml
 - title: 'Directed interactivity of large-scale brain networks: Introducing a new
-    method for estimating brain connectivity MRI.'
+    method for estimating brain connectivity MRI'
   authors:
   - Nan Xu
   - R Nathan Spreng

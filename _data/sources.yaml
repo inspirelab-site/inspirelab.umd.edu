@@ -23,9 +23,11 @@
     - neuro disorders
 
 #Meyer-Baese-FT-2024
-- id:  doi:10.1101/2024.04.26.591295
+- id: doi:10.1101/2024.04.26.591295
+  remove: true
+- id:  doi:10.3389/fnsys.2024.1425491
   type: journal
-  publisher: "Frontiers In Neuroscience (in press)"
+  #publisher: "Frontiers In Neuroscience (in press)"
   tags:
     - journal
     - brain dynamics
@@ -123,6 +125,8 @@
   - cross-species
 
 #Xu-NI-2021
+- id: doi:10.1101/2020.04.14.041830
+  remove: true
 - id: doi:10.1016/j.neuroimage.2020.117628
   type: journal
   description: 
@@ -295,7 +299,7 @@
 ###################################################################
 ###################################################################
 - #id: ohbm2024i
-  title: "The effects of locus coeruleus stimulation on quasi-periodic patterns in rats."
+  title: "The effects of locus coeruleus stimulation on quasi-periodic patterns in rats"
   authors:
     - Nmachi Anumba
     - Michael A. Keilberman
@@ -333,7 +337,7 @@
     - neuro disorders
 
 - #id: bic2024i
-  title: "Modeling and Validation of Dynamic Causal Interactions in Functional Brain Network."
+  title: "Modeling and Validation of Dynamic Causal Interactions in Functional Brain Network"
   authors:
     - Nan Xu
     - Xiaodi Zhang
@@ -510,7 +514,7 @@
     - recognition
 
 - #id: cns2014i
-  title: "Directed interactivity of large-scale brain networks: Introducing a new method for estimating brain connectivity MRI."
+  title: "Directed interactivity of large-scale brain networks: Introducing a new method for estimating brain connectivity MRI"
   authors:
     - Nan Xu
     - R Nathan Spreng
