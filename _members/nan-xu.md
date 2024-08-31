@@ -6,7 +6,7 @@ description: "Assistant Professor (Dec 2024)"
 affiliation: "Fischell Department of Bioengineering, Neuroscience & Cognitive Science Program"
 brief-desc:  "University of Maryland, College Park"
 links:
-  email: nanxu@umd.edu
+  email: im.nan.xu@gmail.com
   linkedin: nan-xu2022
   google-scholar: 94oRMMcAAAAJ
   orcid: 0000-0002-3900-3220
