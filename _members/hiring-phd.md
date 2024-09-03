@@ -8,9 +8,9 @@ group: hiring
 #  email: xx@gmail.com
 #  twitter: xx
 ---
-We have openings for graduate students who have received PhD admissions to UMD. Please note that admission decisions are made by the department's admission committee, not by individual labs. If you meet the criteria below and are interested, please email me your CV and transcript. Due to the high volume of inquiries, I can only respond to those who have been admitted.
+We have multiple openings for students who have been admitted to UMD’s graduate programs! Please note that admissions are managed and decided by the department, not individual labs. If you meet the criteria below and are excited to join us, send me your CV and transcript. Due to the high volume of inquiries, I’ll respond only to those who have been admitted.
 
-* **PhD students**: PhD students at INSPIRE Lab receive mentored research experience and guidance in conducting independent research. We encourage our PhD students to take data science courses to stay at the forefront of the field and apply their technical expertise to brain science research. Our projects involve developing machine learning, statistical, and deep learning models, as well as novel analyses for neuroimaging data.
-    **Criteria**: We can only recruit students who have been admitted to one of UMD’s PhD programs. We particularly welcome candidates with a strong theoretical or quantitative foundation, coding proficiency, and either a keen interest in or background in computational brain science. If you’re genuinely interested in joining us, please apply to the ECE, BioE, or NACS PhD programs at UMD and specify your interest in our lab in your application statement.
+* **PhD students**: At INSPIRE Lab, our PhD students engage in cutting-edge research, with mentorship and guidance on independent projects. We work on developing machine learning/statistical/deep learning models and novel analyses for functional neuroimaging data.
+    **Criteria**: We’re looking for students with a strong theoretical or quantitative background, coding skills, and a passion for computational brain science. If this sounds like you, your first step is to apply to the ECE, BioE, or NACS PhD programs at UMD, and mention your interest in our lab in your application. Once you receive admission, we might just get the chance to work together!
 
-* **Master students**: If you are admitted to any of the data science-related master's programs at UMD College Park and are interested in conducting research projects or a thesis in INSPIRE Lab, please contact me.
+* **Master students**: If you’ve been admitted to a data science-related master’s program at UMD College Park and are interested in research or a thesis project at INSPIRE Lab, welcome to contact me!
