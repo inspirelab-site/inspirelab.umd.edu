@@ -3,7 +3,7 @@
 # team member roles
 
 pi:
-  icon: fa-regular fa-person-chalkboard
+  icon: fa-solid fa-person-chalkboard
   description: Principal Investigator
 
 postdoc:
