@@ -16,8 +16,9 @@
 #Anumba-IN-2023
 - id: doi:10.1101/2024.05.23.595327
   type: journal
+  publisher: "Imaging Neuroscience (in press)"
   tags:
-    - preprint
+    - journal
     - brain dynamics
     - cross-species
     - neuro disorders

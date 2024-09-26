@@ -12,7 +12,7 @@
   - Nan Xu
   - David Weinshenker
   - Shella Keilholz
-  publisher: Cold Spring Harbor Laboratory
+  publisher: Imaging Neuroscience (in press)
   date: '2024-05-23'
   link: https://doi.org/gt44nb
   orcid: 0000-0002-3900-3220
@@ -20,7 +20,7 @@
   file: sources.yaml
   type: journal
   tags:
-  - preprint
+  - journal
   - brain dynamics
   - cross-species
   - neuro disorders
