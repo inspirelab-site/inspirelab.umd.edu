@@ -20,10 +20,8 @@ Nan completed her undergraduate studies at the University of Rochester, earning 
 
 {% include section.html%}
 ## Openings!
-{% include list.html data="members" component="portrait" filters="role: programmer" %}
-{% include list.html data="members" component="portrait" filters="role: postdoc" %}
-{% include list.html data="members" component="portrait" filters="role: phd" %}
-{% include list.html data="members" component="portrait" filters="role: undergrad" %}
+{% include list.html data="members" component="portrait" filters="group: hiring" %}
+
 
 {% include section.html background="images/background.jpg" dark=true %}
 ## Collaborators
