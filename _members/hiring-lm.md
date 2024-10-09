@@ -22,7 +22,7 @@ We are seeking a **Lab Manager** to join our team on a part-time or full-time ba
 - **Documentation and Reporting:** Keep accurate records and prepare reports.
 
 #### Qualifications
-- **Education:** Junior/Senior Undergraduate or post-bachelor’s degree in a relevant field (e.g., Neuroscience, Bioengineering, Data Science).
+- **Education:** Senior Undergraduate or post-bachelor’s degree in a relevant field (e.g., Neuroscience, Bioengineering, Data Science).
 - **Skills:**
   - Strong organizational and leadership abilities.
   - Excellent communication and interpersonal skills.
