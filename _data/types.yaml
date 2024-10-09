@@ -21,7 +21,11 @@ undergrad:
 programmer:
   icon: fa-solid fa-code
   description: Programmer
-  
+
+manager:
+  icon: fa-solid fa-list-check
+  description: Lab Manager
+    
 mascot:
   icon: fa-solid fa-dog
   description: Mascot

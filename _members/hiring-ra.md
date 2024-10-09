@@ -1,11 +1,11 @@
 ---
-name: Hiring
+name: Nirmal Shiju
 image: images/photo.jpg
 description: IT Research Technician
 role: programmer
-group: hiring
+group: member
 # links:
-#  email: xx@gmail.com
+  email: nshiju@terpmail.umd.edu
 #  github: xxx
 #  twitter: xx
 ---
