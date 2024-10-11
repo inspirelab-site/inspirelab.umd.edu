@@ -12,14 +12,14 @@ group: hiring
 We are seeking a **Lab Manager** to join our team on a part-time or full-time basis. The ideal candidate will be responsible for:
 
 #### Responsibilities
-- **Oversee Daily Operations:** Manage the lab calendar and coordinate daily activities to ensure seamless and efficient laboratory functioning.
-- **Provide Mentorship During Onboarding:** Guide new lab personnel through the onboarding process to ensure their successful integration into the team.
-- **Inventory Management:** Maintain and order lab supplies and equipment.
-- **Compliance and Safety:** Ensure adherence to safety regulations and policies.
-- **Equipment Maintenance:** Oversee maintenance and calibration of lab equipment.
-- **Research Support:** Assist in planning and executing research projects.
-- **Budget Management:** Manage the lab's budget and track expenses.
-- **Documentation and Reporting:** Keep accurate records and prepare reports.
+- **Daily Operations:** Manage the lab calendar, coordinate activities, and oversee daily operations.
+- **Onboarding:** Guide new personnel through the onboarding process.
+- **Inventory:** Maintain and order lab supplies, including equipment and potentially a printer.
+- **Research Support:** Assist in research project planning and data management.
+- **Travel & Logistics:** Arrange travel and manage trip bookings.
+- **Administrative Tasks:** Complete and submit required forms.
+- **Budget Management:** Track lab expenses and manage the budget.
+- **Documentation:** Maintain accurate records and prepare reports.
 
 #### Qualifications
 - **Education:** Senior Undergraduate or post-bachelor’s degree in a relevant field (e.g., Neuroscience, Bioengineering, Data Science).
