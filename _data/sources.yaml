@@ -81,11 +81,7 @@
 #Xu-ImagNeuro-2023
 - id: doi:10.1162/imag_a_00002
   type: journal
-  description: "Employed the statistical inferences techniques to study the interplay between infraslow dynamic processes 
-  and visual perceptions. Discovered that these intrinsic dynamic processes are notably resilient in humans, as contrast with 
-  anesthetized rodents (Belloy et al., 2021). Yet, their stability can still be affected in diverse ways: they can swamp 
-  an overlapping BOLD response evoked by the flickering checkerboard, but their phase-locked waveform can still be modulated 
-  by different sequences of stimuli that affects the reaction time and sustained attention."
+  description: "Employed the statistical inferences techniques to study the interplay between infraslow dynamic processes and visual perceptions. Discovered that these intrinsic dynamic processes are notably resilient in humans, as contrast with anesthetized rodents (Belloy et al., 2021). Yet, their stability can still be affected in diverse ways: they can swamp an overlapping BOLD response evoked by the flickering checkerboard, but their phase-locked waveform can still be modulated by different sequences of stimuli that affects the reaction time and sustained attention."
   image: papers/images/xu-in-2023.png
   buttons:
     - type: source
