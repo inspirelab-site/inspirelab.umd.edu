@@ -14,7 +14,7 @@ We are seeking a **Lab Manager** to join our team on a part-time or full-time ba
 #### Responsibilities
 - **Daily Operations:** Manage the lab calendar, coordinate activities, and oversee daily operations.
 - **Onboarding:** Guide new personnel through the onboarding process.
-- **Inventory:** Maintain and order lab supplies, including equipment and potentially a printer.
+- **Inventory:** Maintain and order lab supplies and equipment.
 - **Research Support:** Assist in research project planning and data management.
 - **Travel & Logistics:** Arrange travel and manage trip bookings.
 - **Administrative Tasks:** Complete and submit required forms.
