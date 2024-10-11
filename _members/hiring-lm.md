@@ -16,7 +16,7 @@ We are seeking a **Lab Manager** to join our team on a part-time or full-time ba
 - **Onboarding:** Guide new personnel through the onboarding process.
 - **Inventory:** Maintain and order lab supplies and equipment.
 - **Research Support:** Assist in research project planning and data management.
-- **Travel & Logistics:** Arrange travel and manage trip bookings.
+- **Travel & Logistics:** Coordinate travel arrangements and handle trip bookings for lab members.
 - **Administrative Tasks:** Complete and submit required forms.
 - **Budget Management:** Track lab expenses and manage the budget.
 - **Documentation:** Maintain accurate records and prepare reports.
