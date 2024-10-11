@@ -217,8 +217,7 @@
 - id: pmid:29331608
   # image: papers/images/xu-jsb-2016.png
   type: journal
-  description: "We developed a cyro-EM image reconstruction algortihm for virus particles, allowing for asymmetry and eliminating distortions along symmetry axes (Xu & Doerschuk, 2019).  
-  In collaboration with virologists from the Scripps Institute, we uncovered allosteric effects along the symmetry axes of the bacteriophage HK97."
+  description: "We developed a cyro-EM image reconstruction algortihm for virus particles, allowing for asymmetry and eliminating distortions along symmetry axes (Xu & Doerschuk, 2019). In collaboration with virologists from the Scripps Institute, we uncovered allosteric effects along the symmetry axes of the bacteriophage HK97."
   tags:
   - journal
   - image reconstruction
