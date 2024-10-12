@@ -169,7 +169,6 @@
     - Dhaval S Patel+ 
     - Hang Lu  
   description: +equal contributions
- # image: papers/images/xu-labanimal-2019.png
   tags:
     - journal
     - deep phenotyping
@@ -178,7 +177,7 @@
     - type: preprint
       text: manuscript
       link: https://arxiv.org/pdf/1904.01096
-
+ # image: papers/images/xu-labanimal-2019.png
 
 #Xu-TIP-2019
 - id: doi:10.1109/tip.2019.2915631
