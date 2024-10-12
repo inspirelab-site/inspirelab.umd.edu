@@ -5,7 +5,7 @@ nav:
   tooltip: Homepage
 ---
 # Welcome to INSPIRE Lab!
-**I**maging- and **N**euro-computation**s** for **P**recision **I**nformatics **Re**search (**INSPIRE**) Lab, led by [Dr. Nan Xu](members/nan-xu.html), is anchored at the intersection of data science and brain science. We are dedicated to developing novel data science approaches to uncover brain function, neurological disorders, and other biological processes. Using multimodal functional neuroimaging data (e.g., fMRI-BOLD, LFP, optical imaging, MEG) from animals, healthy humans, and patients, we decode complex brain processes and diseases, offering novel insights for fundamental and translational brain science.
+**I**maging- and **N**euro-computation**s** for **P**recision **I**nformatics **Re**search (**INSPIRE**) Lab, led by [Dr. Nan Xu](members/nan-xu.html), is anchored at the intersection of data science and brain science. We are dedicated to developing advanced computational models and data science approaches to uncover brain function, neurological disorders, and other biological processes. By leveraging multimodal functional neuroimaging data—including fMRI-BOLD, LFP, optical imaging, and MEG—from animal models, healthy individuals, and patients, we decode complex brain activities and diseases. This integrative approach aims to provide groundbreaking insights that advance both fundamental understanding and translational applications in brain science, informatics, and beyond.
 ## Highlights
 {% include list.html data="posts" component="post-excerpt" lookup="2024-07-31-open" style="small"%}
 
