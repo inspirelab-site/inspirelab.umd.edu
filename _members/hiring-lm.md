@@ -9,6 +9,7 @@ group: hiring
 #  github: xxx
 #  twitter: xx
 ---
+
 We are seeking a **Lab Manager** to join our team on a part-time or full-time basis. The ideal candidate will be responsible for:
 #### Responsibilities
 - **Daily Operations:** Manage the lab calendar, coordinate activities, and oversee daily operations.
