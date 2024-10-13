@@ -263,6 +263,32 @@
   - scientific computing
   - image reconstruction
   - theory
+- id: doi:10.1016/j.neuroimage.2020.117628
+  title: Spatiotemporal functional interactivity among large-scale brain networks
+  authors:
+  - Nan Xu
+  - Peter C. Doerschuk
+  - Shella D. Keilholz
+  - R. Nathan Spreng
+  publisher: NeuroImage
+  pmid: '33316394'
+  date: '2021-02-01'
+  link: https://doi.org/gsx2rt
+  orcid: 0000-0002-3900-3220
+  nan-xu-list: true
+  plugin: sources.py
+  file: sources.yaml
+  type: journal
+  description: null
+  image: papers/images/xu-ni-2021-brain.jpg
+  buttons:
+  - type: source
+    text: code
+    link: https://www.mathworks.com/matlabcentral/fileexchange/62781-pcorrelation
+  tags:
+  - journal
+  - causal interactions
+  - discovery
 - id: doi:10.3389/fnins.2020.550923
   title: Relationship Between Basic Properties of BOLD Fluctuations and Calculated
     Metrics of Complexity in the Human Connectome Project
@@ -407,6 +433,7 @@
   - Peter C. Doerschuk
   publisher: IEEE Engineering In Medicine And Biology Society Annual International
     Conference
+  pmid: '28269156'
   date: '2016-08-01'
   link: https://ieeexplore.ieee.org/document/7591598
   orcid: 0000-0002-3900-3220
@@ -558,30 +585,6 @@
   tags:
   - conference
   - neuro disorders
-  plugin: sources.py
-  file: sources.yaml
-- id: doi:10.1016/j.neuroimage.2020.117628
-  title: Spatiotemporal functional interactivity among large-scale brain networks
-  authors:
-  - Nan Xu
-  - Peter C. Doerschuk
-  - Shella D. Keilholz
-  - R. Nathan Spreng
-  publisher: NeuroImage
-  pmid: '33316394'
-  date: '2021-02-01'
-  link: https://doi.org/gsx2rt
-  type: journal
-  description: null
-  image: papers/images/xu-ni-2021-brain.jpg
-  buttons:
-  - type: source
-    text: code
-    link: https://www.mathworks.com/matlabcentral/fileexchange/62781-pcorrelation
-  tags:
-  - journal
-  - causal interactions
-  - discovery
   plugin: sources.py
   file: sources.yaml
 - title: The effects of locus coeruleus stimulation on quasi-periodic patterns in
