@@ -13,10 +13,9 @@
 #     - open science
 #     - other (e.g., recognition)
 
-#Anumba-IN-2023
-- id: doi:10.1101/2024.05.23.595327
+#Anumba-IN-2024
+- id: doi:10.1162/imag_a_00314
   type: journal
-  publisher: "Imaging Neuroscience (in press)"
   tags:
     - journal
     - brain dynamics
@@ -24,11 +23,8 @@
     - neuro disorders
 
 #Meyer-Baese-FT-2024
-- id: doi:10.1101/2024.04.26.591295
-  remove: true
-- id:  doi:10.3389/fnsys.2024.1425491
+- id: doi:10.3389/fnsys.2024.1425491
   type: journal
-  #publisher: "Frontiers In Neuroscience (in press)"
   tags:
     - journal
     - brain dynamics
@@ -162,8 +158,9 @@
   - brain dynamics
 
 #Xu-LabAn-2019
-- id: pmid:31217565
+- id: doi:10.1038/s41684-019-0326-6
   type: journal
+  link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8102135/
   authors: 
     - Nan Xu+
     - Dhaval S Patel+ 
@@ -174,7 +171,7 @@
     - deep phenotyping
     - big data
   buttons:
-    - type: preprint
+    - type: journal
       text: manuscript
       link: https://arxiv.org/pdf/1904.01096
  # image: papers/images/xu-labanimal-2019.png
@@ -188,13 +185,13 @@
   - journal
   - image reconstruction
   buttons:
-    - type: preprint
+    - type: journal
       text: manuscript
       link: https://arxiv.org/pdf/1701.01206
 
 
 # Xu-FT-2017
-- id: pmid:28559793
+- id: doi:10.3389/fnins.2017.00271
   type: journal
   description: "We developed p-corr, an innovative algorithm enhancing traditional correlation analysis with a causal dynamic model. P-corr identifies information flow in functional connectivity, maintains sensitivity in detecting modular architecture, and scales to handle hundreds of ROIs for comprehensive whole-brain connectivity assessments."
   image: papers/images/xu-ft-2017-pcorr.png
@@ -209,7 +206,7 @@
 
 
 #Xu-JSB-2016
-- id: pmid:29331608
+- id: doi:10.1016/j.jsb.2017.12.013
   # image: papers/images/xu-jsb-2016.png
   type: journal
   description: "We developed a cyro-EM image reconstruction algortihm for virus particles, allowing for asymmetry and eliminating distortions along symmetry axes (Xu & Doerschuk, 2019). In collaboration with virologists from the Scripps Institute, we uncovered allosteric effects along the symmetry axes of the bacteriophage HK97."
@@ -218,15 +215,15 @@
   - image reconstruction
 
 #doeschuk-opinion-2016
-- id: pmid:27085980
-  type: journal
+- id: doi:10.1016/j.coviro.2016.02.011
+#  type: journal
 # image: papers/images/doerschuk-opinion-virology-2016.png
   tags:
   - journal
   - image reconstruction
 
 #xu-embc-2016
-- id: pmid:28269156
+- id: doi:10.1109/embc.2016.7591598
   type: conference
   publisher: IEEE Engineering In Medicine And Biology Society Annual International Conference
   description: "> **EMBS Student Paper Competition Finalist - Top 0.4% conference proceedings!**"
@@ -500,7 +497,6 @@
     - Nan Xu
     - Peter C. Doerschuk
     - R Nathan Spreng
-  publisher: Annual International Conference Of The IEEE Engineering In Medicine And Biology Society
   date: '2016-08-01'
   type: conference
   tags:
@@ -520,4 +516,3 @@
   tags:
     - conference
     - causal interactions
-
