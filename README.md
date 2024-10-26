@@ -1,7 +1,7 @@
 
 # INSPIRE Lab Website
 
-Visit **[www.inspirelab.site](https://www.inspirelab.site)** 🚀
+Visit **[www.inspirelab.site](http://www.inspirelab.site)** 🚀
 
 
 
