@@ -10,7 +10,7 @@ title: Teaching
 <a name="section-1"></a>
 {% include section.html %}
 ### Network Neuroscience & Brain Dynamic Analysis 
-This course explores the emerging interdisciplinary field of network neuroscience, integrating principles from neuroscience, systems engineering, data science, and neural engineering. Students will dive into both classical and modern mathematical models of network connectivity, along with novel approaches for analyzing brain dynamics. These models and analytical techniques will then be applied to functional neuroimaging data. The course features hands-on analysis of EEG, LFP, and/or fMRI data from open databases, with a strong emphasis on practical data handling, analytical skills, and collaborative research through interdisciplinary team projects. 
+This course explores the emerging interdisciplinary field of network neuroscience, integrating concepts from neuroscience, systems engineering, data science, and neural engineering. Students will engage with both classical and modern mathematical models of network sciences, as well as advanced approaches for analyzing brain dynamics. In addition, they will develop skills in peer reviewing journal articles and writing reviewer reports. Students will gain hands-on experience in neuro data analysis by applying these models and analyses to functional neuroimaging datasets such as EEG, LFP, and/or fMRI. The course emphasizes building intuition for the types of problems in brain science that can be addressed through network-based approaches, while also fostering analytical skills and promoting interdisciplinary research through team projects.
 
 ### Tentative Course Schedule
 
