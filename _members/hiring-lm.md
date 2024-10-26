@@ -3,7 +3,7 @@ name: Hiring
 image: images/photo.jpg
 description: Lab Maneger
 role: manager
-group: hiring
+group: hired
 # links:
 #  email: xxx
 #  github: xxx
