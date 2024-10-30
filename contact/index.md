@@ -23,10 +23,10 @@ We are currently recruiting **postdocs, graduate, and undergraduate students** t
 
 
 #### Lab Core Values
-At INSPIRE Lab, our values foster a supportive, innovative, and collaborative research environment. These principles are central to our lab culture:
+At INSPIRE Lab, we aim to foster a supportive, innovative, and collaborative research environment. These principles are central to our lab culture:
 - **Pursue What Fulfills You**: Engage in work that genuinely fulfills you intellectually. Avoid limiting yourself to something narrowly defined. We value interdisciplinary research and encourage lowering the boundaries between disciplines, allowing for risk-taking and embracing "wild" ideas.
 - **Follow Your Own Pace and Execute Steadily**: Everyone’s journey is unique, and real progress comes from steady, focused action. Move forward at your own rhythm, building upon each step. Your journey here is about discovering and maximizing your scientific potentials.
-- **Ethics First**: Good science is built on strong ethical principles. Uphold the highest moral standards in both our research and personal conduct. This means honesty in data handling, integrity in reporting, and respect for all individuals involved. Let ethical considerations guide every decision, ensuring your contributions are responsible and trustworthy.
+- **Ethics First**: Good science is built on strong ethical principles. Uphold the highest moral standards in both our research and personal conduct. This means honesty in data handling, integrity in reporting, and respect for all individuals involved. Embrace accountability by acknowledging and learning from prior mistakes. Let ethical considerations guide every decision, ensuring your contributions are responsible and trustworthy.
 - **Embrace Diversity**: Collaborate with individuals from different backgrounds, cultures, or methodologies. Diversity enriches perspectives and fosters creativity. Be open to frictions, learn from them, and value unique insights.
 - **Stay Problem-Focused**: Keep the core problem at the forefront of your work. Tools and techniques are means to solve a challenge, not the goal itself. Let the problem guide your choice of methods, adapting as needed to find the best solutions.
 - **Balance and Well-being**: Work in focused blocks, take breaks, and stay physically active. Balance not only enhances productivity but also boosts your overall well-being.
