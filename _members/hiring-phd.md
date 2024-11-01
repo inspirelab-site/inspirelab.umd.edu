@@ -9,7 +9,7 @@ group: hiring
 #  twitter: xx
 ---
 We are seeking highly motivated graduate students to join us at INSPIRE Lab! Our research is centered on advancing machine learning, statistical, and deep learning methods to analyze functional neuroimaging data. Current research directions include but not limited to:
-  1. **Computational Brain Imaging & Brain Science**: Modeling functional brain networks using information theory, graphical models, and network science.
+  1. **Computational Brain Imaging & Brain Science**: Modeling functional brain networks using information theory, statistical inference, and network science.
   2. **Artificial Intelligence and Data Analytics**: Developing bio-inspired AI, AI models to predict therapy response, and statistical learning applications, etc.
   3. **Functional Brain Dynamics**: Applying statistical and machine learning techniques to explore the spatiotemporal dynamics of the brain through multimodal neuroimaging.
 

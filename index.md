@@ -49,7 +49,7 @@ We are an interdisciplinary team of researchers passionate about innovative, rig
 %}
 {%
   include button.html
-  link="team/#openings"
+  link="contact"
   text="Join us!"
   icon="fa-solid fa-arrow-right"
   flip=true
