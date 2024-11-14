@@ -1,1 +1,1 @@
-Sitemap: http://www.inspirelab.site/sitemap.xml
+Sitemap: http://inspirelab.umd.edu/sitemap.xml
