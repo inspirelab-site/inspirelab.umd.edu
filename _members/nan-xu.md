@@ -13,6 +13,7 @@ links:
   github: imnanxu
   # twitter: imnanxu  
   cv: assets/cv-nx.pdf
+  faculty-page: https://faculty.eng.umd.edu/clark/faculty/1901/Nan-Xu
 ---
 Dr. Nan Xu is an incoming Assistant Professor (starting December 2024) in the [​Fischell Department of Bioengineering](https://bioe.umd.edu) with affiliations in the [Department of Electrical & Computer Engineering](http://ece.umd.edu) and the [Neuroscience & Cognitive Science Program](https://nacs.umd.edu) at the University of Maryland, College Park. Nan directs Imaging- and Neuro-computations for Precision Informatics Research (INSPIRE) Lab. With a strong foundation in computational science, her research spans statistical and machine learning, applied mathematics, neuroscience, and various biomedical applications. Her current work focuses on developing advanced computational models and analyses of functional neuroimaging data to gain new insights into brain function, neurological diseases, and broader informatics applications.
 

@@ -16,7 +16,7 @@ We work in the interphase of data science and brain science. We develop advanced
 {% include section.html %}
 ### Modeling and Inferences in Causal Interactions among Brain Networks
 {% capture text %}
-Functional brain dynamics, captured through neuroimaging techniques such as fMRI, MEG, and EEG, are sensitive indicators of brain disorders. However, understanding altered brain interactions requires integrating causal information. To address this, we develop advanced computational methods—including, but not limited to, information theory, statistical learning, machine/deep learning, optimization, and network science—to model dynamic causal interactions. These approaches offer novel insights into the spatiotemporal dynamics of both neurophysiological and cognitive functions.
+Functional brain dynamics, captured through neuroimaging techniques such as fMRI, MEG, and optical imaging, are sensitive indicators of brain disorders, each providing insights at different spatial and temporal scales. However, understanding altered brain interactions requires integrating causal information. To address this, we develop advanced computational methods—including but not limited to, information theory, statistical/machine/deep learning, optimization, and network science—to model dynamic causal interactions. These approaches offer novel insights into the spatiotemporal dynamics of both neurophysiological and cognitive functions.
 {%
   include button.html
   link="papers/?search=%22tag:%20causal-interactions%22"
@@ -63,7 +63,8 @@ In collaboration with our clinical partners, we develop innovative biomarkers fo
 
 ### 3D Reconstruction from Cryo-EM: Statistical Characterization of Virus Particles
 {% capture text %}
-Cryo-electron microscopy (cryo-EM) provides essential 2D projection images of nano-scale bio-particles like viruses for understanding their biological function. Unlike traditional methods that assume strict geometric symmetry, we adopted a more realistic approach, allowing for individual particle asymmetry while maintaining overall mean and covariance symmetry. This novel method eliminated long-standing distortions in 3D reconstructions. Collaborating with virologists from the Scripps Institute, we uncovered allosteric effects along the symmetry axes of bacteriophage HK97. This algorithm can be applicable to most spherical virus particles with icosahedral and octahedral symmetries. {%
+Cryo-electron microscopy (cryo-EM) provides essential 2D projection images of nano-scale bio-particles like viruses for understanding their biological function. Unlike traditional methods that assume strict geometric symmetry, we adopted a more realistic approach, allowing for individual particle asymmetry while maintaining overall mean and covariance symmetry. Specifically, we introduced a novel theorem in group representation theory and developed new statistical inference models and algorithms.
+ This novel method eliminated long-standing distortions in 3D reconstructions. Collaborating with virologists from the Scripps Institute, we uncovered allosteric effects along the symmetry axes of bacteriophage HK97. This algorithm can be applicable to most spherical virus particles with icosahedral and octahedral symmetries. {%
   include button.html
   link="papers/?search=%22tag:%20image-reconstruction%22"
   text="Browse our 'image-reconstruction' papers"
