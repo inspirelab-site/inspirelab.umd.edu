@@ -16,7 +16,7 @@ We work in the interphase of data science and brain science. We develop advanced
 {% include section.html %}
 ### Modeling and Inferences in Causal Interactions among Brain Networks
 {% capture text %}
-fMRI BOLD brain dynamics are sensitive indicators for brain disorders, but understanding altered brain causal interactions requires incorporating causal information. To address this, we develop methods to model dynamic causal interactions, enhancing traditional correlation analysis by identifying the directionality of information flow and assessing whole-brain connectivity. These metrics reveal new insights into the spatiotemporal nature of cognitive functions, including memory consolidation. 
+Functional brain dynamics, captured through neuroimaging techniques such as fMRI, MEG, and EEG, are sensitive indicators of brain disorders. However, understanding altered brain interactions requires integrating causal information. To address this, we develop advanced computational methods—including, but not limited to, information theory, statistical learning, machine/deep learning, optimization, and network science—to model dynamic causal interactions. These approaches offer novel insights into the spatiotemporal dynamics of both neurophysiological and cognitive functions.
 {%
   include button.html
   link="papers/?search=%22tag:%20causal-interactions%22"
@@ -32,7 +32,7 @@ fMRI BOLD brain dynamics are sensitive indicators for brain disorders, but under
 
 ### Investigating Spatiotemporal Brain Dynamics across Species 
 {% capture text %}
-We develop novel analytical methods to investigate spontaneous fluctuations in blood oxygen level-dependent (BOLD) signals measured by fMRI. Using rodent models, we study the neuronal processes behind these fluctuations and translate our findings to human studies, focusing on similarities and differences in brain function and anatomy. Additionally, we explore how these dynamic processes respond to various cognitive tasks in humans. 
+We develop novel analytical methods leveraging statistical and machine learning techniques to explore the spatiotemporal dynamics of the brain using multimodal neuroimaging data from both rodents and humans. Using rodent models, we study the neuronal processes behind these fluctuations and translate our findings to human studies, focusing on similarities and differences in brain function and anatomy. Additionally, we explore how these dynamic processes respond to various cognitive tasks in humans. 
 {%
   include button.html
   link="papers/?search=%22tag:%20brain-dynamics%22"
@@ -46,7 +46,9 @@ We develop novel analytical methods to investigate spontaneous fluctuations in b
 {% include feature.html image="research/images/cross-species.png"  link="https://doi.org/10.3389/fnins.2022.816331" flip=true  style="square"  text=text%}
 
 ### Assessing Functional Brain Dynamics in Neurological Disorders
-{% capture text %} In collaboration with our clinical partners, we develop innovative analyses to assess functional brain dynamics in various neurological disorders measured by functional neuroimaging data. Specifically, we quantify the spatiotemporal dynamic processes in functional brain systems to decipher the neuropathophysiology of brain diseases such as post-concussive syndrome, obesity, and prenatal opioid exposure. {%
+{% capture text %} 
+In collaboration with our clinical partners, we develop innovative biomarkers for neurological disorders using functional neuroimaging data. We employ statistical learning to quantify the spatiotemporal dynamics of functional brain systems, aiming to decipher the neuropathophysiology of conditions like post-concussive syndrome, obesity, and prenatal opioid exposure. Additionally, we leverage artificial intelligence models to predict therapy responses and enhance our understanding of these conditions.
+{%
   include button.html
   link="papers/?search=%22tag:%20neuro-disorders%22"
   text="See our 'neuro-disorders' papers"
