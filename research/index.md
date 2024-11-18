@@ -63,7 +63,8 @@ In collaboration with our clinical partners, we develop innovative biomarkers fo
 
 ### 3D Reconstruction from Cryo-EM: Statistical Characterization of Virus Particles
 {% capture text %}
-Cryo-electron microscopy (cryo-EM) provides essential 2D projection images of nano-scale bio-particles like viruses for understanding their biological function. Unlike traditional methods that assume strict geometric symmetry, we adopted a more realistic approach, allowing for individual particle asymmetry while maintaining overall mean and covariance symmetry. This novel method eliminated long-standing distortions in 3D reconstructions. Collaborating with virologists from the Scripps Institute, we uncovered allosteric effects along the symmetry axes of bacteriophage HK97. This algorithm can be applicable to most spherical virus particles with icosahedral and octahedral symmetries. {%
+Cryo-electron microscopy (cryo-EM) provides essential 2D projection images of nano-scale bio-particles like viruses for understanding their biological function. Unlike traditional methods that assume strict geometric symmetry, we adopted a more realistic approach, allowing for individual particle asymmetry while maintaining overall mean and covariance symmetry. Specifically, we introduced a novel theorem in group representation theory and developed new statistical inference models and algorithms.
+ This novel method eliminated long-standing distortions in 3D reconstructions. Collaborating with virologists from the Scripps Institute, we uncovered allosteric effects along the symmetry axes of bacteriophage HK97. This algorithm can be applicable to most spherical virus particles with icosahedral and octahedral symmetries. {%
   include button.html
   link="papers/?search=%22tag:%20image-reconstruction%22"
   text="Browse our 'image-reconstruction' papers"
