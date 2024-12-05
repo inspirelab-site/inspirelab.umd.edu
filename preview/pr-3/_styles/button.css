@@ -12,8 +12,8 @@ button {
   align-items: center;
   gap: 10px;
   max-width: calc(100% - 5px - 5px);
-  margin: 5px;
-  padding: 10px 15px;
+  margin: 2px;
+  padding: 10px 10px;
   border: none;
   border-radius: var(--rounded);
   background: var(--primary);

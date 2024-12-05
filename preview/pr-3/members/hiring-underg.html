@@ -37,6 +37,7 @@
 
 
 
+
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
 <title>Hiring | INSPIRE Lab</title>
@@ -44,20 +45,20 @@
 <link rel="icon" href="/preview/pr-3/images/icon.png">
 
 <meta name="title" content="Hiring">
-<meta name="description" content="Imaging- and Neuro-computations for Precision Informatics Research. Undergraduate Students">
+<meta name="description" content="Undergraduate Students">
 
-<meta property="og:title" content="Hiring">
+<meta property="og:title" content="Hiring-Undergraduate Students">
 <meta property="og:site_title" content="INSPIRE Lab">
-<meta property="og:description" content="Imaging- and Neuro-computations for Precision Informatics Research. Undergraduate Students">
+<meta property="og:description" content="Undergraduate Students">
 <meta property="og:url" content="/preview/pr-3">
-<meta property="og:image" content="/preview/pr-3/images/share.jpg">
+<meta property="og:image" content="/preview/pr-3/images/share.png">
 <meta property="og:locale" content="en_US">
 
 <meta property="twitter:title" content="Hiring">
-<meta property="twitter:description" content="Imaging- and Neuro-computations for Precision Informatics Research. Undergraduate Students">
+<meta property="twitter:description" content="Undergraduate Students">
 <meta property="twitter:url" content="/preview/pr-3">
 <meta property="twitter:card" content="summary_large_image">
-<meta property="twitter:image" content="/preview/pr-3/images/share.jpg">
+<meta property="twitter:image" content="/preview/pr-3/images/share.png">
 
 
   <meta property="og:type" content="website">
@@ -70,7 +71,7 @@
       "@type": "WebSite",
     
     "name": "Hiring",
-    "description": "Imaging- and Neuro-computations for Precision Informatics Research. Undergraduate Students",
+    "description": "Undergraduate Students",
     "headline": "Hiring",
     "publisher": {
       "@type": "Organization",
@@ -90,9 +91,9 @@
 
 <!-- Font Awesome icons (load asynchronously due to size) -->
 
-<link href="https://use.fontawesome.com/releases/v6.5.0/css/all.css" rel="stylesheet" media="none" onload="this.removeAttribute('media'); this.onload = null;">
+<link href="https://use.fontawesome.com/releases/v6.6.0/css/all.css" rel="stylesheet" media="none" onload="this.removeAttribute('media'); this.onload = null;">
 <noscript>
-  <link href="https://use.fontawesome.com/releases/v6.5.0/css/all.css" rel="stylesheet">
+  <link href="https://use.fontawesome.com/releases/v6.6.0/css/all.css" rel="stylesheet">
 </noscript>
 
   <!-- third party styles -->
@@ -219,6 +220,10 @@
   
 
   
+    <link href="/preview/pr-3/_styles/membernew.css" rel="stylesheet">
+  
+
+  
     <link href="/preview/pr-3/_styles/paragraph.css" rel="stylesheet">
   
 
@@ -264,6 +269,10 @@
 
   
     <link href="/preview/pr-3/_styles/tags.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-3/_styles/talk.css" rel="stylesheet">
   
 
   
@@ -344,7 +353,13 @@
     
     
       
-        <a href="/preview/pr-3/research/" data-tooltip="Software, datasets, and more">
+        <a href="/preview/pr-3/" data-tooltip="Homepage">
+          Home
+        </a>
+      
+    
+      
+        <a href="/preview/pr-3/research/" data-tooltip="Research themes and works">
           Research
         </a>
       
@@ -369,13 +384,13 @@
     
       
         <a href="/preview/pr-3/blog/" data-tooltip="Musings and miscellany">
-          Blog &amp; News
+          News
         </a>
       
     
       
-        <a href="/preview/pr-3/contact/" data-tooltip="Email, address, and location">
-          Contact
+        <a href="/preview/pr-3/contact/" data-tooltip="Openings and contact">
+          Join Us!
         </a>
       
     
@@ -399,8 +414,56 @@
   
   
 
-  <section class="background" data-size="page">
-    <div class="float">
+  <section class="background" data-size="120%">
+    <nav aria-label="breadcrumb" class="breadcrumb">
+  <ol class="breadcrumb px-0">
+    
+      <li class="breadcrumb-item"><a href="/team/#openings">Openings</a></li>
+      <li class="breadcrumb-item active" aria-current="page"> Undergraduate Students</li>
+    
+  </ol>
+</nav>
+
+<style>
+  .icon-container {
+    display: flex;
+    gap: 0px; /* Adjust this value to control the space between icons */
+    align-items: center; /* Vertically align icons and text */
+    padding-top: 10px;
+    padding-left: 10px;
+  }
+
+  .icon-container .icon {
+    display: inline-flex;
+    align-items: center; /* Align text with the icon */
+    vertical-align: middle; /* Align text with icon */
+  }
+
+  .wide-icons {
+    display: none;
+    flex-flow: row wrap;
+    max-width: 250px;
+    justify-content: center;
+  }
+
+  .narrow-icons {
+    flex-flow: row wrap; /* Vertical layout for narrow screen */
+    justify-content: center;
+    font-size: 120%; /* Adjust this value to increase the size of the icons */
+  }
+
+  @media (min-width: 769px) { /* Adjust the min-width value as needed */
+    .wide-icons {
+      display: flex;
+    }
+    .narrow-icons {
+      display: none;
+    }
+  }
+</style>
+
+
+<div class="float">
   
 <div class="portrait-wrapper">
   <a class="portrait" data-style="" aria-label="Hiring">
@@ -423,10 +486,19 @@
     
 
     
+    
+    
+
   </a>
 </div>
 
-<div>
+<!-- Narrow window icon container -->
+<div class="icon-container narrow-icons">
+  
+</div>
+
+<!-- Wide window icon container -->
+<div class="icon-container wide-icons">
   
 </div>
 
@@ -434,26 +506,13 @@
 </div>
 
 
-<p><a href="/team/#openings"><strong>Openings</strong></a>/Undergraduate Students</p>
-
-<p>We warmly invite highly motivated undergraduate students from BioE, ECE, CS, NACS, or any related fields to join our team! By participating, you will gain valuable experience in computational brain science research and benefit from guided mentorship throughout their research journey. If you are interested, please contact me by email and attach your resume and transcript.</p>
+<p>We welcome highly motivated undergraduate students from the computation or data science tracks in BioE, ECE, CS, NACS, or related fields to join us for research credits! Proficiency in Python, MATLAB, and basic data science is required. By participating, you will gain valuable experience in computational brain science research and benefit from guided mentorship throughout your research journey. If you are interested, please apply <a href="https://forms.gle/F7e7NPFDkQFSyP5b7">here</a>.</p>
 
 
 
 <!--
-
-
 <p class="center">
-  <a href="/preview/pr-3/research/?search=%22Hiring%22%20">
-    Search for Hiring's papers on the Research page
-  </a>
-</p>
-
-
-
-
-<p class="center">
-  <a href="/preview/pr-3/blog/?search=Hiring">
+  <a href="">
     See Hiring's posts on the Blog page
   </a>
 </p>

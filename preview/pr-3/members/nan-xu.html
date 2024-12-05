@@ -37,6 +37,7 @@
 
 
 
+
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
 <title>Nan Xu | INSPIRE Lab</title>
@@ -44,20 +45,20 @@
 <link rel="icon" href="/preview/pr-3/images/icon.png">
 
 <meta name="title" content="Nan Xu">
-<meta name="description" content="Imaging- and Neuro-computations for Precision Informatics Research. Assistant Professor (Jan 2025)">
+<meta name="description" content="Assistant Professor">
 
-<meta property="og:title" content="Nan Xu">
+<meta property="og:title" content="Nan Xu-Assistant Professor">
 <meta property="og:site_title" content="INSPIRE Lab">
-<meta property="og:description" content="Imaging- and Neuro-computations for Precision Informatics Research. Assistant Professor (Jan 2025)">
+<meta property="og:description" content="Assistant Professor">
 <meta property="og:url" content="/preview/pr-3">
-<meta property="og:image" content="/preview/pr-3/images/share.jpg">
+<meta property="og:image" content="/preview/pr-3/images/share.png">
 <meta property="og:locale" content="en_US">
 
 <meta property="twitter:title" content="Nan Xu">
-<meta property="twitter:description" content="Imaging- and Neuro-computations for Precision Informatics Research. Assistant Professor (Jan 2025)">
+<meta property="twitter:description" content="Assistant Professor">
 <meta property="twitter:url" content="/preview/pr-3">
 <meta property="twitter:card" content="summary_large_image">
-<meta property="twitter:image" content="/preview/pr-3/images/share.jpg">
+<meta property="twitter:image" content="/preview/pr-3/images/share.png">
 
 
   <meta property="og:type" content="website">
@@ -70,7 +71,7 @@
       "@type": "WebSite",
     
     "name": "Nan Xu",
-    "description": "Imaging- and Neuro-computations for Precision Informatics Research. Assistant Professor (Jan 2025)",
+    "description": "Assistant Professor",
     "headline": "Nan Xu",
     "publisher": {
       "@type": "Organization",
@@ -90,9 +91,9 @@
 
 <!-- Font Awesome icons (load asynchronously due to size) -->
 
-<link href="https://use.fontawesome.com/releases/v6.5.0/css/all.css" rel="stylesheet" media="none" onload="this.removeAttribute('media'); this.onload = null;">
+<link href="https://use.fontawesome.com/releases/v6.6.0/css/all.css" rel="stylesheet" media="none" onload="this.removeAttribute('media'); this.onload = null;">
 <noscript>
-  <link href="https://use.fontawesome.com/releases/v6.5.0/css/all.css" rel="stylesheet">
+  <link href="https://use.fontawesome.com/releases/v6.6.0/css/all.css" rel="stylesheet">
 </noscript>
 
   <!-- third party styles -->
@@ -219,6 +220,10 @@
   
 
   
+    <link href="/preview/pr-3/_styles/membernew.css" rel="stylesheet">
+  
+
+  
     <link href="/preview/pr-3/_styles/paragraph.css" rel="stylesheet">
   
 
@@ -264,6 +269,10 @@
 
   
     <link href="/preview/pr-3/_styles/tags.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-3/_styles/talk.css" rel="stylesheet">
   
 
   
@@ -344,7 +353,13 @@
     
     
       
-        <a href="/preview/pr-3/research/" data-tooltip="Software, datasets, and more">
+        <a href="/preview/pr-3/" data-tooltip="Homepage">
+          Home
+        </a>
+      
+    
+      
+        <a href="/preview/pr-3/research/" data-tooltip="Research themes and works">
           Research
         </a>
       
@@ -369,13 +384,13 @@
     
       
         <a href="/preview/pr-3/blog/" data-tooltip="Musings and miscellany">
-          Blog &amp; News
+          News
         </a>
       
     
       
-        <a href="/preview/pr-3/contact/" data-tooltip="Email, address, and location">
-          Contact
+        <a href="/preview/pr-3/contact/" data-tooltip="Openings and contact">
+          Join Us!
         </a>
       
     
@@ -399,13 +414,65 @@
   
   
 
-  <section class="background" data-size="page">
-    <div class="float">
+  <section class="background" data-size="120%">
+    <nav aria-label="breadcrumb" class="breadcrumb">
+  <ol class="breadcrumb px-0">
+    
+      <li class="breadcrumb-item"><a href="/team">TEAM</a></li>
+      <li class="breadcrumb-item active" aria-current="page">
+        Principal Investigator
+        
+      </li>
+      <li class="breadcrumb-item active" aria-current="page">Nan Xu</li>
+    
+  </ol>
+</nav>
+
+<style>
+  .icon-container {
+    display: flex;
+    gap: 0px; /* Adjust this value to control the space between icons */
+    align-items: center; /* Vertically align icons and text */
+    padding-top: 10px;
+    padding-left: 10px;
+  }
+
+  .icon-container .icon {
+    display: inline-flex;
+    align-items: center; /* Align text with the icon */
+    vertical-align: middle; /* Align text with icon */
+  }
+
+  .wide-icons {
+    display: none;
+    flex-flow: row wrap;
+    max-width: 250px;
+    justify-content: center;
+  }
+
+  .narrow-icons {
+    flex-flow: row wrap; /* Vertical layout for narrow screen */
+    justify-content: center;
+    font-size: 120%; /* Adjust this value to increase the size of the icons */
+  }
+
+  @media (min-width: 769px) { /* Adjust the min-width value as needed */
+    .wide-icons {
+      display: flex;
+    }
+    .narrow-icons {
+      display: none;
+    }
+  }
+</style>
+
+
+<div class="float">
   
 <div class="portrait-wrapper">
   <a class="portrait" data-style="" aria-label="Nan Xu">
     
-      <i class="icon fa-solid fa-microscope"></i>
+      <i class="icon fa-solid fa-person-chalkboard"></i>
     
 
     <img src="/preview/pr-3/team/images/nan-xu.jpg" class="portrait-image" alt="member portrait" loading="lazy" onerror="this.src = '/preview/pr-3/images/fallback.svg'; this.onerror = null;">
@@ -418,19 +485,27 @@
 
     
       <span class="portrait-description">
-        Assistant Professor (Jan 2025)
+        Assistant Professor
       </span>
     
 
     
       <span class="portrait-affiliation">
-        University of Maryland
+        Fischell Department of Bioengineering, Department of Electrical &amp; Computer Engineering, Neuroscience &amp; Cognitive Science Program
       </span>
     
+    
+    
+      <span class="portrait-affiliation">
+        University of Maryland, College Park
+      </span>
+    
+
   </a>
 </div>
 
-<div>
+<!-- Narrow window icon container -->
+<div class="icon-container narrow-icons">
   
     
     
@@ -439,49 +514,13 @@
 
 
   <div class="button-wrapper">
-    <a class="button" href="https://scholar.google.com/citations?user=94oRMMcAAAAJ" data-tooltip="Google Scholar" data-style="bare" aria-label="Google Scholar">
-      <i class="icon fa-brands fa-google"></i>
-      
-        <span>Google Scholar</span>
+    <a class="button" href="mailto:nanxu@umd.edu" data-tooltip="Email" data-style="bare" aria-label="Email">
+      <i class="icon fa-solid fa-envelope"></i>
       
     </a>
   </div>
 
-<br>
-  
-    
-    
-    
 
-
-
-  <div class="button-wrapper">
-    <a class="button" href="https://orcid.org/0000-0002-3900-3220" data-tooltip="ORCID" data-style="bare" aria-label="ORCID">
-      <i class="icon fa-brands fa-orcid"></i>
-      
-        <span>ORCID</span>
-      
-    </a>
-  </div>
-
-<br>
-  
-    
-    
-    
-
-
-
-  <div class="button-wrapper">
-    <a class="button" href="https://github.com/imnanxu" data-tooltip="GitHub" data-style="bare" aria-label="GitHub">
-      <i class="icon fa-brands fa-github"></i>
-      
-        <span>GitHub</span>
-      
-    </a>
-  </div>
-
-<br>
   
     
     
@@ -493,12 +532,90 @@
     <a class="button" href="https://www.linkedin.com/in/nan-xu2022" data-tooltip="LinkedIn" data-style="bare" aria-label="LinkedIn">
       <i class="icon fa-brands fa-linkedin"></i>
       
-        <span>LinkedIn</span>
+    </a>
+  </div>
+
+
+  
+    
+    
+    
+
+
+
+  <div class="button-wrapper">
+    <a class="button" href="https://scholar.google.com/citations?user=94oRMMcAAAAJ" data-tooltip="Google Scholar" data-style="bare" aria-label="Google Scholar">
+      <i class="icon fa-brands fa-google"></i>
       
     </a>
   </div>
 
-<br>
+
+  
+    
+    
+    
+
+
+
+  <div class="button-wrapper">
+    <a class="button" href="https://orcid.org/0000-0002-3900-3220" data-tooltip="ORCID" data-style="bare" aria-label="ORCID">
+      <i class="icon fa-brands fa-orcid"></i>
+      
+    </a>
+  </div>
+
+
+  
+    
+    
+    
+
+
+
+  <div class="button-wrapper">
+    <a class="button" href="https://github.com/imnanxu" data-tooltip="GitHub" data-style="bare" aria-label="GitHub">
+      <i class="icon fa-brands fa-github"></i>
+      
+    </a>
+  </div>
+
+
+  
+    
+    
+    
+
+
+
+  <div class="button-wrapper">
+    <a class="button" href="/preview/pr-3/assets/cv-nx.pdf" data-tooltip="C.V." data-style="bare" aria-label="C.V.">
+      <i class="icon fa-solid fa-file"></i>
+      
+    </a>
+  </div>
+
+
+  
+    
+    
+    
+
+
+
+  <div class="button-wrapper">
+    <a class="button" href="https://faculty.eng.umd.edu/clark/faculty/1901/Nan-Xu" data-tooltip="Faculty Page" data-style="bare" aria-label="Faculty Page">
+      <i class="icon fa-solid fa-arrow-up-right-from-square"></i>
+      
+    </a>
+  </div>
+
+
+  
+</div>
+
+<!-- Wide window icon container -->
+<div class="icon-container wide-icons">
   
     
     
@@ -515,7 +632,7 @@
     </a>
   </div>
 
-<br>
+
   
     
     
@@ -524,13 +641,100 @@
 
 
   <div class="button-wrapper">
-    <a class="button" href="/preview/pr-3/test" data-style="bare" aria-label="button">
+    <a class="button" href="https://www.linkedin.com/in/nan-xu2022" data-tooltip="LinkedIn" data-style="bare" aria-label="LinkedIn">
+      <i class="icon fa-brands fa-linkedin"></i>
       
+        <span>LinkedIn</span>
       
     </a>
   </div>
 
-<br>
+
+  
+    
+    
+    
+
+
+
+  <div class="button-wrapper">
+    <a class="button" href="https://scholar.google.com/citations?user=94oRMMcAAAAJ" data-tooltip="Google Scholar" data-style="bare" aria-label="Google Scholar">
+      <i class="icon fa-brands fa-google"></i>
+      
+        <span>Google Scholar</span>
+      
+    </a>
+  </div>
+
+
+  
+    
+    
+    
+
+
+
+  <div class="button-wrapper">
+    <a class="button" href="https://orcid.org/0000-0002-3900-3220" data-tooltip="ORCID" data-style="bare" aria-label="ORCID">
+      <i class="icon fa-brands fa-orcid"></i>
+      
+        <span>ORCID</span>
+      
+    </a>
+  </div>
+
+
+  
+    
+    
+    
+
+
+
+  <div class="button-wrapper">
+    <a class="button" href="https://github.com/imnanxu" data-tooltip="GitHub" data-style="bare" aria-label="GitHub">
+      <i class="icon fa-brands fa-github"></i>
+      
+        <span>GitHub</span>
+      
+    </a>
+  </div>
+
+
+  
+    
+    
+    
+
+
+
+  <div class="button-wrapper">
+    <a class="button" href="/preview/pr-3/assets/cv-nx.pdf" data-tooltip="C.V." data-style="bare" aria-label="C.V.">
+      <i class="icon fa-solid fa-file"></i>
+      
+        <span>C.V.</span>
+      
+    </a>
+  </div>
+
+
+  
+    
+    
+    
+
+
+
+  <div class="button-wrapper">
+    <a class="button" href="https://faculty.eng.umd.edu/clark/faculty/1901/Nan-Xu" data-tooltip="Faculty Page" data-style="bare" aria-label="Faculty Page">
+      <i class="icon fa-solid fa-arrow-up-right-from-square"></i>
+      
+        <span>Faculty Page</span>
+      
+    </a>
+  </div>
+
+
   
 </div>
 
@@ -538,78 +742,401 @@
 </div>
 
 
-<p><a href="/team/"><strong>TEAM</strong></a>/Principal Investigator</p>
+<p>Dr. Nan Xu is an Assistant Professor in the <a href="https://bioe.umd.edu">​Fischell Department of Bioengineering</a> with affiliations in the <a href="http://ece.umd.edu">Department of Electrical &amp; Computer Engineering</a> and the <a href="https://nacs.umd.edu">Neuroscience &amp; Cognitive Science Program</a> at the University of Maryland, College Park. Nan directs Imaging- and Neuro-computations for Precision Informatics Research (INSPIRE) Lab. With a strong foundation in computational science, her research spans statistical and machine learning, applied mathematics, neuroscience, and various biomedical applications. Her current work focuses on developing advanced computational models and analyses of functional neuroimaging data to gain new insights into brain function, neurological diseases, and broader informatics applications.</p>
 
-<p>Dr. Nan Xu is an incoming Assistant Professor (Jan 2025) at the Fischell Department of Bioengineering at the University of Maryland, College Park. She is also affiliated to the Department of Electrical &amp; Computer Engineering, and the Program in Neuroscience &amp; Cognitive Science. Nan directs Imaging- and Neuro-computations for Precision Informatics Research (INSPIRE) Lab. With a strong foundation as a computational scientist, her research spans statistical learning, applied mathematics, neuroscience, and various biomedical applications. Her primary efforts are centered on developing advanced computational models and analyses with functional neuroimaging data to uncover novel insights into brain functions and diseases.</p>
+<p>Nan earned a B.S. in Electrical and Computer Engineering and a B.A. in Mathematics from the University of Rochester in 2011. She completed her M.Sc. (2015) and Ph.D. (2017) in Electrical and Computer Engineering at Cornell University, with minors in both Applied Mathematics and Cognitive Neuroscience. Her interdisciplinary postdoctoral experience includes a fellowship in Chemical and Biomolecular Engineering at Georgia Tech (2017-2018), a visiting scientist position at the McGovern Brain Institute at MIT (2022), and a postdoctoral fellowship in Biomedical Engineering at Georgia Tech and Emory University (2019-2024). Her research is currently supported by the NIH BRAIN Initiative K99/R00 award.</p>
+<div class="float" data-clear="">
+  
 
-<p>Nan completed her undergraduate studies at the University of Rochester, earning a B.S. in Electrical and Computer Engineering and a B.A. in Mathematics, with a minor in Music, in 2011. She then pursued graduate studies at Cornell University, where she received her M.Sc. (2015) and Ph.D. (2017) in Electrical and Computer Engineering, minoring in Applied Mathematics and Cognitive Neuroscience. Throughout her postdoctoral journey, Nan gained extensive interdisciplinary research experience, including a fellowship in Chemical and Biomolecular Engineering at Georgia Tech (2017-2018), a research scientist role at the McGovern Brain Institute at MIT (2022), and a postdoctoral fellowship in Biomedical Engineering at Georgia Tech and Emory University (2019-2024). Her research is currently supported by a NIH BRAIN K99/R00 award.</p>
+</div>
 
-<h3 id="degrees">DEGREES</h3>
-<h4 id="cornell-university">Cornell University</h4>
-<ul>
-  <li>2011-17	  Ph.D., Electrical and Computer Engineering
-    <ul>
-      <li>Minor in Applied Mathematics</li>
-      <li>Minor in Cognitive Neuroscience</li>
-    </ul>
-  </li>
-  <li>2011-15   M.S., Electrical and Computer Engineering</li>
-</ul>
+<h4 id="selected-awards--honors">Selected Awards &amp; Honors</h4>
+<div class="bullet-year-container">
+  <style>
+    .bullet-year-container {
+      display: flex;
+      align-items: flex-start;
+      margin-bottom: 7px; /* Adjust the spacing as needed */
+    }
+    .year {
+      display: inline-block;
+      width: 70px;
+      min-width: 80px; 
+      line-height: 1.5;
+      text-align: left;
+    }
+    .description {
+      display: inline-block;
+      line-height: 1.5;
+      text-align: left;
+    }
+  </style>
+  <span class="year">2023 - 27</span>
+  <span class="description">NIH BRAIN K99/R00 Pathway to Independence Award</span>
+</div>
 
-<h4 id="university-of-rochester">University of Rochester</h4>
-<ul>
-  <li>2007-11	   B.S., Electrical and Computer Engineering,</li>
-  <li>2007-11	   B.A., Mathematics
-    <ul>
-      <li>Minor in Music</li>
-    </ul>
-  </li>
-</ul>
+<div class="bullet-year-container">
+  <style>
+    .bullet-year-container {
+      display: flex;
+      align-items: flex-start;
+      margin-bottom: 7px; /* Adjust the spacing as needed */
+    }
+    .year {
+      display: inline-block;
+      width: 70px;
+      min-width: 80px; 
+      line-height: 1.5;
+      text-align: left;
+    }
+    .description {
+      display: inline-block;
+      line-height: 1.5;
+      text-align: left;
+    }
+  </style>
+  <span class="year">2020</span>
+  <span class="description">OHBM Annual Meeting Oral Presentation - Selected 4.5% OHBM abstracts</span>
+</div>
 
-<h3 id="selected-awards--honors">SELECTED AWARDS &amp; HONORS</h3>
-<ul>
-  <li>2023-27   NIH BRAIN K99/R00 Pathway to Independence Award</li>
-  <li>2020    OHBM Annual Meeting Oral Presentation - Selected 4.5% OHBM abstracts</li>
-  <li>2016    EMBS Student Paper Competition Finalist - Top 0.4% EMBS conference proceedings</li>
-  <li>2016    Travel Award, IEEE International Conference of EMBS</li>
-  <li>2016    Conference and Research Travel Grant, Cornell University</li>
-  <li>2015    “Top 10%” Paper Recognition, IEEE International Conference on Image Processing</li>
-  <li>2011-12      Goldman Sachs &amp; Co. Scholarship - Top 0.15% applicants in America</li>
-  <li>2012    Edgar Maeyer Fellowship, Cornell University</li>
-  <li>2011    John M. Olin Fellowship, Cornell University</li>
-  <li>2011    ECE Faculty Award, University of Rochester - most accomplished ECE student(s)</li>
-  <li>2010    Deans’ Prizes, Undergraduate Research Symposium, University of Rochester</li>
-  <li>2009    Distributed REU Award, Computing Research Association - Top 15% applicants in America, funded summer research at Brown University</li>
-  <li>2009    First Place, Concerto Competition, University of Rochester</li>
-  <li>2011-    Phi Beta Kappa Honor Society</li>
-  <li>2009-   Tau Beta Pi Honor Society</li>
-</ul>
+<div class="bullet-year-container">
+  <style>
+    .bullet-year-container {
+      display: flex;
+      align-items: flex-start;
+      margin-bottom: 7px; /* Adjust the spacing as needed */
+    }
+    .year {
+      display: inline-block;
+      width: 70px;
+      min-width: 80px; 
+      line-height: 1.5;
+      text-align: left;
+    }
+    .description {
+      display: inline-block;
+      line-height: 1.5;
+      text-align: left;
+    }
+  </style>
+  <span class="year">2016</span>
+  <span class="description">EMBS Student Paper Competition Finalist - Top 0.4% EMBS conference proceedings</span>
+</div>
 
-<h4 id="misc">Misc.</h4>
-<p>Nan has broad interests spanning music, fine arts, photography, sports, and travel.</p>
+<div class="bullet-year-container">
+  <style>
+    .bullet-year-container {
+      display: flex;
+      align-items: flex-start;
+      margin-bottom: 7px; /* Adjust the spacing as needed */
+    }
+    .year {
+      display: inline-block;
+      width: 70px;
+      min-width: 80px; 
+      line-height: 1.5;
+      text-align: left;
+    }
+    .description {
+      display: inline-block;
+      line-height: 1.5;
+      text-align: left;
+    }
+  </style>
+  <span class="year">2016</span>
+  <span class="description">Travel Award, IEEE International Conference of EMBS</span>
+</div>
 
-<ul>
-  <li>Music. She is a pianist, recognized as National Outstanding Pianist (China) in 2006, with top prizes at the Beijing Piano Festivals in 2004 and 2006, and the University of Rochester’s Concerto Competition in 2009. She studied under Prof. Vincent Lenti at the Eastman School of Music (2007-2011), performed with the University of Rochester Symphony Orchestra and Cornell University Wind Ensemble, and enjoys music improvisation and composition, with some of her performances on <a href="https://www.youtube.com/watch?v=KgcuJSqEkYk">YouTube</a> and music improvisation pieces on <a href="https://soundcloud.com/xu-nan-47854440">SoundCloud</a>.</li>
-  <li>Photography. As a Master Photographer on <a href="https://gurushots.com/xiaonan.nxu/photos">GuruShots</a>, her photos have been exhibited globally, with U.S. moments in an online <a href="https://imnanxu.wixsite.com/west-coast-usa">album</a>.</li>
-  <li>Others. She played as a winger for the University of Rochester Women’s Rugby Team, participating in the 2009 National Rugby Championship, and co-founded and presided over the International Tennis Club at Cornell University from 2013 to 2014.</li>
-</ul>
+<div class="bullet-year-container">
+  <style>
+    .bullet-year-container {
+      display: flex;
+      align-items: flex-start;
+      margin-bottom: 7px; /* Adjust the spacing as needed */
+    }
+    .year {
+      display: inline-block;
+      width: 70px;
+      min-width: 80px; 
+      line-height: 1.5;
+      text-align: left;
+    }
+    .description {
+      display: inline-block;
+      line-height: 1.5;
+      text-align: left;
+    }
+  </style>
+  <span class="year">2016</span>
+  <span class="description">Conference and Research Travel Grant, Cornell University</span>
+</div>
+
+<div class="bullet-year-container">
+  <style>
+    .bullet-year-container {
+      display: flex;
+      align-items: flex-start;
+      margin-bottom: 7px; /* Adjust the spacing as needed */
+    }
+    .year {
+      display: inline-block;
+      width: 70px;
+      min-width: 80px; 
+      line-height: 1.5;
+      text-align: left;
+    }
+    .description {
+      display: inline-block;
+      line-height: 1.5;
+      text-align: left;
+    }
+  </style>
+  <span class="year">2015</span>
+  <span class="description">``Top 10%'' Paper Recognition, IEEE International Conference on Image Processing</span>
+</div>
+
+<div class="bullet-year-container">
+  <style>
+    .bullet-year-container {
+      display: flex;
+      align-items: flex-start;
+      margin-bottom: 7px; /* Adjust the spacing as needed */
+    }
+    .year {
+      display: inline-block;
+      width: 70px;
+      min-width: 80px; 
+      line-height: 1.5;
+      text-align: left;
+    }
+    .description {
+      display: inline-block;
+      line-height: 1.5;
+      text-align: left;
+    }
+  </style>
+  <span class="year">2011 - 12</span>
+  <span class="description">Goldman Sachs &amp; Co. Scholarship - Top 0.15% applicants in America</span>
+</div>
+
+<div class="bullet-year-container">
+  <style>
+    .bullet-year-container {
+      display: flex;
+      align-items: flex-start;
+      margin-bottom: 7px; /* Adjust the spacing as needed */
+    }
+    .year {
+      display: inline-block;
+      width: 70px;
+      min-width: 80px; 
+      line-height: 1.5;
+      text-align: left;
+    }
+    .description {
+      display: inline-block;
+      line-height: 1.5;
+      text-align: left;
+    }
+  </style>
+  <span class="year">2012</span>
+  <span class="description">Edgar Maeyer Fellowship, Cornell University</span>
+</div>
+
+<div class="bullet-year-container">
+  <style>
+    .bullet-year-container {
+      display: flex;
+      align-items: flex-start;
+      margin-bottom: 7px; /* Adjust the spacing as needed */
+    }
+    .year {
+      display: inline-block;
+      width: 70px;
+      min-width: 80px; 
+      line-height: 1.5;
+      text-align: left;
+    }
+    .description {
+      display: inline-block;
+      line-height: 1.5;
+      text-align: left;
+    }
+  </style>
+  <span class="year">2012</span>
+  <span class="description">John M. Olin Fellowship, Cornell University</span>
+</div>
+
+<div class="bullet-year-container">
+  <style>
+    .bullet-year-container {
+      display: flex;
+      align-items: flex-start;
+      margin-bottom: 7px; /* Adjust the spacing as needed */
+    }
+    .year {
+      display: inline-block;
+      width: 70px;
+      min-width: 80px; 
+      line-height: 1.5;
+      text-align: left;
+    }
+    .description {
+      display: inline-block;
+      line-height: 1.5;
+      text-align: left;
+    }
+  </style>
+  <span class="year">2011</span>
+  <span class="description">ECE Faculty Award, University of Rochester - most accomplished ECE student(s)</span>
+</div>
+
+<div class="bullet-year-container">
+  <style>
+    .bullet-year-container {
+      display: flex;
+      align-items: flex-start;
+      margin-bottom: 7px; /* Adjust the spacing as needed */
+    }
+    .year {
+      display: inline-block;
+      width: 70px;
+      min-width: 80px; 
+      line-height: 1.5;
+      text-align: left;
+    }
+    .description {
+      display: inline-block;
+      line-height: 1.5;
+      text-align: left;
+    }
+  </style>
+  <span class="year">2010</span>
+  <span class="description">Deans' Prizes, Undergraduate Research Symposium, University of Rochester</span>
+</div>
+
+<div class="bullet-year-container">
+  <style>
+    .bullet-year-container {
+      display: flex;
+      align-items: flex-start;
+      margin-bottom: 7px; /* Adjust the spacing as needed */
+    }
+    .year {
+      display: inline-block;
+      width: 70px;
+      min-width: 80px; 
+      line-height: 1.5;
+      text-align: left;
+    }
+    .description {
+      display: inline-block;
+      line-height: 1.5;
+      text-align: left;
+    }
+  </style>
+  <span class="year">2009</span>
+  <span class="description">Distributed REU Award, Computing Research Association - Top 15% applicants in America, funded summer research at Brown University</span>
+</div>
+
+<div class="bullet-year-container">
+  <style>
+    .bullet-year-container {
+      display: flex;
+      align-items: flex-start;
+      margin-bottom: 7px; /* Adjust the spacing as needed */
+    }
+    .year {
+      display: inline-block;
+      width: 70px;
+      min-width: 80px; 
+      line-height: 1.5;
+      text-align: left;
+    }
+    .description {
+      display: inline-block;
+      line-height: 1.5;
+      text-align: left;
+    }
+  </style>
+  <span class="year">2009</span>
+  <span class="description">First Place, Concerto Competition, University of Rochester</span>
+</div>
+
+<div class="bullet-year-container">
+  <style>
+    .bullet-year-container {
+      display: flex;
+      align-items: flex-start;
+      margin-bottom: 7px; /* Adjust the spacing as needed */
+    }
+    .year {
+      display: inline-block;
+      width: 70px;
+      min-width: 80px; 
+      line-height: 1.5;
+      text-align: left;
+    }
+    .description {
+      display: inline-block;
+      line-height: 1.5;
+      text-align: left;
+    }
+  </style>
+  <span class="year">2011 - </span>
+  <span class="description">Phi Beta Kappa Honor Society</span>
+</div>
+
+<div class="bullet-year-container">
+  <style>
+    .bullet-year-container {
+      display: flex;
+      align-items: flex-start;
+      margin-bottom: 7px; /* Adjust the spacing as needed */
+    }
+    .year {
+      display: inline-block;
+      width: 70px;
+      min-width: 80px; 
+      line-height: 1.5;
+      text-align: left;
+    }
+    .description {
+      display: inline-block;
+      line-height: 1.5;
+      text-align: left;
+    }
+  </style>
+  <span class="year">2009 - </span>
+  <span class="description">Tau Beta Pi Honor Society</span>
+</div>
+  </section>
+
+  
+  
+  
+
+  <section class="background" data-size="page">
+    <!--
+  background: ;
+  dark: ;
+  size: ;
+-->
+
+<details>
+  <summary style="text-align: left; font-size: 1.25em; font-weight: bold;">Misc.</summary>
+  <div class="content" style="line-height: 1.5; text-align: left;">
+    <p> Nan has a rich and diverse background in music, recognized as the National Outstanding Pianist in China (2006), winning first prizes at the Beijing Piano Music Festival (2004, 2006), and the University of Rochester's Concerto Competition (2009). She studied with Prof. Vincent Lenti at the Eastman School of Music (2007–2011), performed with the University of Rochester Symphony Orchestra and the Cornell University Wind Ensemble, while also hosting personal recitals and those with friends. Though preparing for recitals has become increasingly challenging, she still find joys in dabbling in music improvisation whenever she can. You can enjoy some of her performances on <a href="https://www.youtube.com/watch?v=KgcuJSqEkYk">YouTube</a> and catch a few of her creations on <a href="https://soundcloud.com/xu-nan-47854440">SoundCloud</a>!</p>
+      
+    <p> Nan is also passionate about travel and photography, as seen in her work on <a href="https://gurushots.com/xiaonan.nxu/photos">GuruShots</a> and her curated <a href="https://imnanxu.wixsite.com/west-coast-usa">U.S. moments</a>. She enjoys staying active with friends, having played as a winger on the University of Rochester women’s rugby team and co-founding the International Tennis Club at Cornell.</p>
+  </div>
+</details>
 
 
 
 <!--
-
-
 <p class="center">
-  <a href="/preview/pr-3/research/?search=%22Nan%20Xu%22%20">
-    Search for Nan Xu's papers on the Research page
-  </a>
-</p>
-
-
-
-
-<p class="center">
-  <a href="/preview/pr-3/blog/?search=Nan%20Xu">
+  <a href="">
     See Nan Xu's posts on the Blog page
   </a>
 </p>

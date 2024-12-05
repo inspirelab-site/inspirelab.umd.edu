@@ -37,6 +37,7 @@
 
 
 
+
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
 <title>Hiring | INSPIRE Lab</title>
@@ -44,20 +45,20 @@
 <link rel="icon" href="/preview/pr-3/images/icon.png">
 
 <meta name="title" content="Hiring">
-<meta name="description" content="Imaging- and Neuro-computations for Precision Informatics Research. Graduate Students">
+<meta name="description" content="Graduate Students">
 
-<meta property="og:title" content="Hiring">
+<meta property="og:title" content="Hiring-Graduate Students">
 <meta property="og:site_title" content="INSPIRE Lab">
-<meta property="og:description" content="Imaging- and Neuro-computations for Precision Informatics Research. Graduate Students">
+<meta property="og:description" content="Graduate Students">
 <meta property="og:url" content="/preview/pr-3">
-<meta property="og:image" content="/preview/pr-3/images/share.jpg">
+<meta property="og:image" content="/preview/pr-3/images/share.png">
 <meta property="og:locale" content="en_US">
 
 <meta property="twitter:title" content="Hiring">
-<meta property="twitter:description" content="Imaging- and Neuro-computations for Precision Informatics Research. Graduate Students">
+<meta property="twitter:description" content="Graduate Students">
 <meta property="twitter:url" content="/preview/pr-3">
 <meta property="twitter:card" content="summary_large_image">
-<meta property="twitter:image" content="/preview/pr-3/images/share.jpg">
+<meta property="twitter:image" content="/preview/pr-3/images/share.png">
 
 
   <meta property="og:type" content="website">
@@ -70,7 +71,7 @@
       "@type": "WebSite",
     
     "name": "Hiring",
-    "description": "Imaging- and Neuro-computations for Precision Informatics Research. Graduate Students",
+    "description": "Graduate Students",
     "headline": "Hiring",
     "publisher": {
       "@type": "Organization",
@@ -90,9 +91,9 @@
 
 <!-- Font Awesome icons (load asynchronously due to size) -->
 
-<link href="https://use.fontawesome.com/releases/v6.5.0/css/all.css" rel="stylesheet" media="none" onload="this.removeAttribute('media'); this.onload = null;">
+<link href="https://use.fontawesome.com/releases/v6.6.0/css/all.css" rel="stylesheet" media="none" onload="this.removeAttribute('media'); this.onload = null;">
 <noscript>
-  <link href="https://use.fontawesome.com/releases/v6.5.0/css/all.css" rel="stylesheet">
+  <link href="https://use.fontawesome.com/releases/v6.6.0/css/all.css" rel="stylesheet">
 </noscript>
 
   <!-- third party styles -->
@@ -219,6 +220,10 @@
   
 
   
+    <link href="/preview/pr-3/_styles/membernew.css" rel="stylesheet">
+  
+
+  
     <link href="/preview/pr-3/_styles/paragraph.css" rel="stylesheet">
   
 
@@ -264,6 +269,10 @@
 
   
     <link href="/preview/pr-3/_styles/tags.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-3/_styles/talk.css" rel="stylesheet">
   
 
   
@@ -344,7 +353,13 @@
     
     
       
-        <a href="/preview/pr-3/research/" data-tooltip="Software, datasets, and more">
+        <a href="/preview/pr-3/" data-tooltip="Homepage">
+          Home
+        </a>
+      
+    
+      
+        <a href="/preview/pr-3/research/" data-tooltip="Research themes and works">
           Research
         </a>
       
@@ -369,13 +384,13 @@
     
       
         <a href="/preview/pr-3/blog/" data-tooltip="Musings and miscellany">
-          Blog &amp; News
+          News
         </a>
       
     
       
-        <a href="/preview/pr-3/contact/" data-tooltip="Email, address, and location">
-          Contact
+        <a href="/preview/pr-3/contact/" data-tooltip="Openings and contact">
+          Join Us!
         </a>
       
     
@@ -399,8 +414,56 @@
   
   
 
-  <section class="background" data-size="page">
-    <div class="float">
+  <section class="background" data-size="120%">
+    <nav aria-label="breadcrumb" class="breadcrumb">
+  <ol class="breadcrumb px-0">
+    
+      <li class="breadcrumb-item"><a href="/team/#openings">Openings</a></li>
+      <li class="breadcrumb-item active" aria-current="page"> Graduate Students</li>
+    
+  </ol>
+</nav>
+
+<style>
+  .icon-container {
+    display: flex;
+    gap: 0px; /* Adjust this value to control the space between icons */
+    align-items: center; /* Vertically align icons and text */
+    padding-top: 10px;
+    padding-left: 10px;
+  }
+
+  .icon-container .icon {
+    display: inline-flex;
+    align-items: center; /* Align text with the icon */
+    vertical-align: middle; /* Align text with icon */
+  }
+
+  .wide-icons {
+    display: none;
+    flex-flow: row wrap;
+    max-width: 250px;
+    justify-content: center;
+  }
+
+  .narrow-icons {
+    flex-flow: row wrap; /* Vertical layout for narrow screen */
+    justify-content: center;
+    font-size: 120%; /* Adjust this value to increase the size of the icons */
+  }
+
+  @media (min-width: 769px) { /* Adjust the min-width value as needed */
+    .wide-icons {
+      display: flex;
+    }
+    .narrow-icons {
+      display: none;
+    }
+  }
+</style>
+
+
+<div class="float">
   
 <div class="portrait-wrapper">
   <a class="portrait" data-style="" aria-label="Hiring">
@@ -423,10 +486,19 @@
     
 
     
+    
+    
+
   </a>
 </div>
 
-<div>
+<!-- Narrow window icon container -->
+<div class="icon-container narrow-icons">
+  
+</div>
+
+<!-- Wide window icon container -->
+<div class="icon-container wide-icons">
   
 </div>
 
@@ -434,34 +506,40 @@
 </div>
 
 
-<p><a href="/team/#openings"><strong>Openings</strong></a>/Graduate Students</p>
+<p>We are seeking highly motivated graduate students to join us at INSPIRE Lab! Our research is centered on advancing machine learning, statistical, and deep learning methods to analyze functional neuroimaging data. Current research directions include but not limited to:</p>
+<ol>
+  <li>
+<strong>Computational Brain Imaging &amp; Brain Science</strong>: Modeling functional brain networks using information theory, statistical inference, and network science.</li>
+  <li>
+<strong>Artificial Intelligence and Data Analytics</strong>: Developing bio-inspired AI, AI models to predict therapy response, and statistical learning applications, etc.</li>
+  <li>
+<strong>Functional Brain Dynamics</strong>: Applying statistical and machine learning techniques to explore the spatiotemporal dynamics of the brain through multimodal neuroimaging.</li>
+</ol>
 
-<p>We have multiple openings for graduate students. If eligible (see criteria below), please email me your CV and transcript.</p>
 <ul>
   <li>
-    <p><strong>PhD students</strong>: PhD students receive mentored research experience and guidance in conducting independent research. At INSPIRE Lab, PhD students are encouraged to take data science courses to stay at the forefront of the field and apply technical expertise to brain science research. Projects involve developing machine/statistical/deep learning models and novel analyses for neuroimaging data. As we can only recruit PhD students admitted to UMD’s BioE, ECE, or NACS programs. If you’re interested in joining us, please apply to one of these PhD programs.</p>
-  </li>
+<strong>PhD Students</strong>: We are currently recruiting Ph.D. students with solid mathematical and quantitative skills, coding experience, and a genuine interest in computational brain science. If this sounds like you, please apply directly through the <a href="https://bioe.umd.edu/graduate/prospective-students/admissions">BioE</a>, <a href="https://ece.umd.edu/graduate/prospective-students/admissions">ECE</a>, or <a href="https://nacs.umd.edu/students/application">NACS</a> PhD programs at UMD, and mention my name and your areas of interest in your application.</li>
+</ul>
+
+<div class="alert" style="--color: #F59E0B">
+  
+  <i class="icon fa-solid fa-circle-exclamation"></i>
+  <div class="alert-content">
+    <p>PhD admissions at UMD are managed by the respective departments rather than individual labs. We look forward to discussing specific projects and delving into details once you’ve been admitted or formally invited through the admissions process. If this applies to you, please feel free to send along your CV and transcript. Due to the high volume of inquiries, I’m only able to respond to applicants who meet these criteria. Good luck with your applications!</p>
+
+  </div>
+</div>
+
+<ul>
   <li>
-    <p><strong>Master students</strong>: If you are admitted to any of the data science-related master’s programs at UMD College Park and are interested in conducting research projects or a thesis in INSPIRE Lab, please contact me.</p>
-  </li>
+<strong>Master’s Students</strong>: If you’ve been admitted to a data science-related master’s program at UMD and are interested in pursuing a thesis at INSPIRE Lab, feel free to reach out with your CV and transcript.</li>
 </ul>
 
 
 
 <!--
-
-
 <p class="center">
-  <a href="/preview/pr-3/research/?search=%22Hiring%22%20">
-    Search for Hiring's papers on the Research page
-  </a>
-</p>
-
-
-
-
-<p class="center">
-  <a href="/preview/pr-3/blog/?search=Hiring">
+  <a href="">
     See Hiring's posts on the Blog page
   </a>
 </p>
