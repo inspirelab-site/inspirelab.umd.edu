@@ -3,7 +3,7 @@ name: Hiring
 image: images/photo.jpg
 description: Postdoctoral Researchers
 role: postdoc
-group: hiring
+group: hired
 # links:
 #   github: john-doe 
 ---
