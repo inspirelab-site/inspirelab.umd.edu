@@ -2,7 +2,7 @@
 name: Nan Xu
 image: team/images/nan-xu.jpg
 role: pi
-description: "Assistant Professor (Dec 2024)"
+description: "Assistant Professor"
 affiliation: "Fischell Department of Bioengineering, Department of Electrical & Computer Engineering, Neuroscience & Cognitive Science Program"
 brief-desc:  "University of Maryland, College Park"
 links:
@@ -15,7 +15,7 @@ links:
   cv: assets/cv-nx.pdf
   faculty-page: https://faculty.eng.umd.edu/clark/faculty/1901/Nan-Xu
 ---
-Dr. Nan Xu is an incoming Assistant Professor (starting December 2024) in the [​Fischell Department of Bioengineering](https://bioe.umd.edu) with affiliations in the [Department of Electrical & Computer Engineering](http://ece.umd.edu) and the [Neuroscience & Cognitive Science Program](https://nacs.umd.edu) at the University of Maryland, College Park. Nan directs Imaging- and Neuro-computations for Precision Informatics Research (INSPIRE) Lab. With a strong foundation in computational science, her research spans statistical and machine learning, applied mathematics, neuroscience, and various biomedical applications. Her current work focuses on developing advanced computational models and analyses of functional neuroimaging data to gain new insights into brain function, neurological diseases, and broader informatics applications.
+Dr. Nan Xu is an Assistant Professor in the [​Fischell Department of Bioengineering](https://bioe.umd.edu) with affiliations in the [Department of Electrical & Computer Engineering](http://ece.umd.edu) and the [Neuroscience & Cognitive Science Program](https://nacs.umd.edu) at the University of Maryland, College Park. Nan directs Imaging- and Neuro-computations for Precision Informatics Research (INSPIRE) Lab. With a strong foundation in computational science, her research spans statistical and machine learning, applied mathematics, neuroscience, and various biomedical applications. Her current work focuses on developing advanced computational models and analyses of functional neuroimaging data to gain new insights into brain function, neurological diseases, and broader informatics applications.
 
 Nan earned a B.S. in Electrical and Computer Engineering and a B.A. in Mathematics from the University of Rochester in 2011. She completed her M.Sc. (2015) and Ph.D. (2017) in Electrical and Computer Engineering at Cornell University, with minors in both Applied Mathematics and Cognitive Neuroscience. Her interdisciplinary postdoctoral experience includes a fellowship in Chemical and Biomolecular Engineering at Georgia Tech (2017-2018), a visiting scientist position at the McGovern Brain Institute at MIT (2022), and a postdoctoral fellowship in Biomedical Engineering at Georgia Tech and Emory University (2019-2024). Her research is currently supported by the NIH BRAIN Initiative K99/R00 award.
   {% include float.html clear=true %}
