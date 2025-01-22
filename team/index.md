@@ -58,23 +58,23 @@ Hi! My name is Nirmal, and I am an undergrad at the University of Maryland study
 {% endcapture %}
 
 
-{% include float.html content=nishkal flip=false %}
+{% include float.html content=nishkal flip=true %}
 # nishkal bio
 {% include float.html clear=true %}
 
-{% include float.html content=benjamin flip=true %}
+{% include float.html content=benjamin flip=false %}
 # benjamin bio
 {% include float.html clear=true %}
 
-{% include float.html content=olaniyi flip=false %}
+{% include float.html content=olaniyi flip=true %}
 Hello, my name is Olaniyi Oluwaniolami Salami, a junior currently studying Computer Science and Math at the University of Maryland. Outside of classes, I was born and raised in Baltimore County, Maryland, and in my free time enjoy gaming and game development, crocheting, and learning languages. I am studying the functional Brain Dynamics Biomarkers in Children with obesity. Super excited to work on this computational research and hope to truly make a difference.
 {% include float.html clear=true %}
 
-{% include float.html content=archana flip=true %}
+{% include float.html content=archana flip=false %}
 # archana bio
 {% include float.html clear=true %}
 
-{% include float.html content=yin flip=false %}
+{% include float.html content=yin flip=true %}
 # yin bio
 {% include float.html clear=true %}
 
