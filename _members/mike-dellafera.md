@@ -4,7 +4,8 @@ image: team/images/mike-dellafera.jpg
 role: manager
 description: "Lab Manager"
 affiliation: "Physiology and Neurobiology, Psychology"
-group: hired
+group: member
+brief-desc:  "2024--"
 links:
   email: mdellafe@umd.edu
   # linkedin: 
