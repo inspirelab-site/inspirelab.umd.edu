@@ -19,6 +19,8 @@ Dr. Nan Xu directs Imaging- and Neuro-computations for Precision Informatics Res
 Nan earned a B.S. in Electrical and Computer Engineering and a B.A. in Mathematics from the University of Rochester in 2011. She completed her M.Sc. (2015) and Ph.D. (2017) in Electrical and Computer Engineering at Cornell University, with minors in both Applied Mathematics and Cognitive Neuroscience. Her interdisciplinary postdoctoral experience includes a fellowship in Chemical and Biomolecular Engineering at Georgia Tech (2017-2018), a visiting scientist position at the McGovern Brain Institute at MIT (2022), and a postdoctoral fellowship in Biomedical Engineering at Georgia Tech and Emory University (2019-2024). Her research is currently supported by an NIH BRAIN K99/R00 award. <a href="/members/nan-xu.html">[Learn more...]</a>
 
 {% include section.html%}
+
+
 ## Lab Manager
 {% capture floatcontent %}
 {% include portrait.html lookup="mike-dellafera" %}
@@ -27,6 +29,8 @@ Nan earned a B.S. in Electrical and Computer Engineering and a B.A. in Mathemati
 {% include float.html content=floatcontent flip=true %}
 
 {% include section.html%}
+
+
 ## Research Technician
 {% capture floatcontent %}
 {% include portrait.html lookup="nirmal-shiju" %}
@@ -36,11 +40,9 @@ Nan earned a B.S. in Electrical and Computer Engineering and a B.A. in Mathemati
 Hi! My name is Nirmal, and I am an undergrad at the University of Maryland studying Computer Science and Math. I enjoy solving puzzles and want to use my knowledge of software engineering to tackle real-world problems. In my spare time, I am a passionate badminton player and enjoy hiking and other outdoor activities. 
 
 {% include section.html%}
-## Undergraduate Researchers
-{% capture nishkal %}
-{% include portrait.html lookup="nishkal-hundia" %}
-{% endcapture %}
 
+
+## Undergraduate Researchers
 {% capture benjamin %}
 {% include portrait.html lookup="benjamin-li" %}
 {% endcapture %}
@@ -58,32 +60,32 @@ Hi! My name is Nirmal, and I am an undergrad at the University of Maryland study
 {% endcapture %}
 
 
-{% include float.html content=nishkal flip=true %}
-# nishkal bio
-{% include float.html clear=true %}
-
-{% include float.html content=benjamin flip=false %}
+{% include float.html content=benjamin flip=true %}
 # benjamin bio
 {% include float.html clear=true %}
 
-{% include float.html content=olaniyi flip=true %}
+{% include float.html content=olaniyi flip=false %}
 Hello, my name is Olaniyi Oluwaniolami Salami, a junior currently studying Computer Science and Math at the University of Maryland. Outside of classes, I was born and raised in Baltimore County, Maryland, and in my free time enjoy gaming and game development, crocheting, and learning languages. I am studying the functional Brain Dynamics Biomarkers in Children with obesity. Super excited to work on this computational research and hope to truly make a difference.
 {% include float.html clear=true %}
 
-{% include float.html content=archana flip=false %}
+{% include float.html content=archana flip=true %}
 # archana bio
 {% include float.html clear=true %}
 
-{% include float.html content=yin flip=true %}
+{% include float.html content=yin flip=false %}
 # yin bio
 {% include float.html clear=true %}
 
 
 {% include section.html%}
+
+
 ## Openings!
 {% include list.html data="members" component="portrait" filters="group: hiring" %}
 
 {% include section.html background="images/background.jpg" dark=true %}
+
+
 ## Collaborators
 INSPIRE Lab benefits from our talented collaborators from diverse fields around the world.
 - Keilholz MIND Lab @ Gatech-Emory, BME
@@ -104,6 +106,8 @@ INSPIRE Lab benefits from our talented collaborators from diverse fields around 
 - Sam Larson (Independent Collaborator) Software Engineer @ YipitData
 
 {% include section.html %}
+
+
 ## Funding
 {% capture content %}
 [![NIH Brain](/images/funders/nih-brain2.jpeg)](https://braininitiative.nih.gov/)
