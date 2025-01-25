@@ -4,7 +4,8 @@ image: team/images/nirmal-shiju.jpg
 role: programmer
 description: "IT Research Technician"
 affiliation: "Computer Science, Mathematics"
-group: hired
+brief-desc:  "2024--"
+group: member
 links:
   email: nshiju@umd.edu
   linkedin: nirmalshiju
