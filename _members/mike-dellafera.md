@@ -5,7 +5,7 @@ role: manager
 description: "Lab Manager"
 affiliation: "Physiology and Neurobiology, Psychology"
 group: member
-brief-desc:  "2024--"
+brief-desc:  "2024--now"
 links:
   email: mdellafe@umd.edu
   # linkedin: 
