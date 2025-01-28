@@ -3,6 +3,7 @@ name: Nirmal Shiju
 image: team/images/nirmal-shiju.jpg
 role: programmer
 description: "IT Research Technician"
+start: 2025
 affiliation: "Computer Science, Mathematics"
 brief-desc:  "University of Maryland, College Park"
 group: member
