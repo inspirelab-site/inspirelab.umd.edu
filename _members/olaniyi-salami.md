@@ -3,8 +3,10 @@ name: Olaniyi Oluwaniolami Salami
 image: team/images/olaniyi-salami.jpg
 role: undergrad
 description: "Undergraduate Researcher"
+start: 2025
 affiliation: "Computer Science, Mathematics"
 brief-desc:  "University of Maryland, College Park"
+group: member
 links:
   email: osalami2@umd.edu
   # linkedin: 
