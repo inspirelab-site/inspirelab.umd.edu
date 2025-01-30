@@ -10,6 +10,8 @@ nav:
 {%  include button.html  type="email"  text="nanxu@umd.edu" link="nanxu@umd.edu" %}
 <br>
 {% include list.html data="members" component="portrait" filters="group: hiring" %}
+
+{% include section.html %}
 #### Join the Exciting Journey at INSPIRE Lab!
 At **I**maging- and **N**euro-computation**s** for **P**recision **I**nformatics **R**esearch (**INSPIRE**) Lab, we strive to unravel the complexities of brain function, neurological disorders, and biological processes through advanced modeling and analysis of spatiotemporal dynamics. Our research focuses on pioneering machine learning, statistical, and deep learning methods to interpret data from cutting-edge imaging technologies. By joining our team, you will contribute to groundbreaking discoveries in brain science, informatics, and beyond. 
 

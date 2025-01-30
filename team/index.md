@@ -18,7 +18,7 @@ Dr. Nan Xu directs Imaging- and Neuro-computations for Precision Informatics Res
 
 Nan earned a B.S. in Electrical and Computer Engineering and a B.A. in Mathematics from the University of Rochester in 2011. She completed her M.Sc. (2015) and Ph.D. (2017) in Electrical and Computer Engineering at Cornell University, with minors in both Applied Mathematics and Cognitive Neuroscience. Her interdisciplinary postdoctoral experience includes a fellowship in Chemical and Biomolecular Engineering at Georgia Tech (2017-2018), a visiting scientist position at the McGovern Brain Institute at MIT (2022), and a postdoctoral fellowship in Biomedical Engineering at Georgia Tech and Emory University (2019-2024). Her research is currently supported by an NIH BRAIN K99/R00 award. <a href="/members/nan-xu.html">[Learn more...]</a>
 
-{% include section.html%}
+{% include section.html %}
 ## Team Members
 {% include list.html data="members" component="portrait" filters="group: member, role: manager" %}
 {% include list.html data="members" component="portrait" filters="group: member, role: programmer" %}
