@@ -27,6 +27,15 @@ Nan earned a B.S. in Electrical and Computer Engineering and a B.A. in Mathemati
 {% include list.html data="members" component="portrait" filters="group: member, role: masters" %}
 {% include list.html data="members" component="portrait" filters="group: member, role: undergrad" %}
 
+## Alumni
+
+{% include list.html data="members" component="portrait" filters="group: former, role: manager" %}
+{% include list.html data="members" component="portrait" filters="group: former, role: programmer" %}
+{% include list.html data="members" component="portrait" filters="group: former, role: postdoc" %}
+{% include list.html data="members" component="portrait" filters="group: former, role: phd" %}
+{% include list.html data="members" component="portrait" filters="group: former, role: masters" %}
+{% include list.html data="members" component="portrait" filters="group: former, role: undergrad" %}
+
 {% include section.html background="images/background.jpg" dark=true %}
 ## Collaborators
 INSPIRE Lab benefits from our talented collaborators from diverse fields around the world.

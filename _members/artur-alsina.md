@@ -4,9 +4,10 @@ image: team/images/artur-alsina.jpg
 role: masters
 description: "Graduate Researcher | Master's Student"
 start: Apr 2025
+end: May 2025
 affiliation: "Electrical and Computer Engineering"
 brief-desc:  "University of Maryland, College Park"
-group: member
+group: former
 links:
   email: artur@umd.edu
   linkedin: artur-alsina

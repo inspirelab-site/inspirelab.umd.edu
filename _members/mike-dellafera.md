@@ -4,9 +4,10 @@ image: team/images/mike-dellafera.png
 role: manager
 description: "Lab Manager"
 start: Jan 2025
+end: Jul 2025
 affiliation: "Physiology and Neurobiology, Psychology"
 brief-desc:  "University of Maryland, College Park"
-group: member
+group: former
 links:
   email: mdellafe@umd.edu
   linkedin: michael-dellafera-7a991517b

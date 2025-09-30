@@ -2,7 +2,7 @@
 name: Ali Fayyaz
 image: team/images/ali-fayyaz.jpg
 role: phd
-description: "Former Member | Graduate Researcher | PhD Rotational Student"
+description: "Graduate Researcher | PhD Rotational Student"
 start: Feb 2025
 end: Apr 2025
 affiliation: "Biophysics"
