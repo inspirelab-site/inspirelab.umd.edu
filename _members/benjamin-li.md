@@ -17,4 +17,4 @@ links:
   # cv: 
   # faculty-page: 
 ---
-Benjamin Li is a freshman at the University of Maryland College Park studying Computer Science. His research interests are in AI, networks, and the intersection of natural and artificial intelligence. His other interests include math, philosophy, volleyball, fencing, and reading.
+Benjamin Li is an undergraduate at the University of Maryland College Park studying Computer Science. His research interests are in AI, networks, and the intersection of natural and artificial intelligence. His other interests include math, philosophy, volleyball, fencing, and reading.

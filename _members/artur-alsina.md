@@ -5,8 +5,9 @@ role: masters
 description: "Graduate Researcher | Master's Student"
 start: Apr 2025
 end: May 2025
-affiliation: "Electrical and Computer Engineering"
-brief-desc:  "University of Maryland, College Park"
+# affiliation: "Electrical and Computer Engineering"
+affiliation: "Now SDE @ Amazon"
+# brief-desc: "University of Maryland, College Park"
 group: former
 links:
   email: artur@umd.edu
@@ -18,5 +19,4 @@ links:
   # cv: 
   # faculty-page: 
 ---
-I'm a Master’s student in Electrical and Computer Engineering at the University of Maryland, currently in my final semester. My interests lie in computer architecture, machine learning, and more recently, network neuroscience. My current research focuses on analyzing differences in brain dynamics in patients with Post-Concussion
-Vestibular Disorder. On my spare time I enjoy hiking, reading, and traveling across the U.S. with friends.
+Artur is a Master’s student in Electrical and Computer Engineering at the University of Maryland. His interests lie in computer architecture, machine learning, and more recently, network neuroscience. His research with the INSPIRE Lab focused on analyzing differences in brain dynamics in patients with Post-Concussion Vestibular Disorder. In his spare time he enjoys hiking, reading, and traveling across the U.S. with friends. He is now working as an SDE at Amazon. 

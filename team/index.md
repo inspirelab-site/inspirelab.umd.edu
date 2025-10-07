@@ -20,9 +20,9 @@ Nan earned a B.S. in Electrical and Computer Engineering and a B.A. in Mathemati
 
 {% include section.html %}
 ## Team Members
-{% include list.html data="members" component="portrait" filters="group: member, role: postdoc" %}
 {% include list.html data="members" component="portrait" filters="group: member, role: manager" %}
 {% include list.html data="members" component="portrait" filters="group: member, role: programmer" %}
+{% include list.html data="members" component="portrait" filters="group: member, role: postdoc" %}
 {% include list.html data="members" component="portrait" filters="group: member, role: phd" %}
 {% include list.html data="members" component="portrait" filters="group: member, role: masters" %}
 {% include list.html data="members" component="portrait" filters="group: member, role: undergrad" %}
