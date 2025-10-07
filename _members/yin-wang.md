@@ -5,8 +5,8 @@ role: undergrad
 description: "Undergraduate Researcher" 
 start: Jan 2025
 end: May 2025
-# affiliation: "Computer Science"
-affiliation: "Now SDE @ Amazon"
+affiliation: "Computer Science"
+post: "Now SDE @ Amazon"
 # brief-desc:  "University of Maryland, College Park"
 group: former
 links:

@@ -6,6 +6,7 @@ description: "Graduate Researcher | PhD Rotational Student"
 start: Feb 2025
 end: Apr 2025
 affiliation: "Biophysics"
+post: "Now researcher at Weitz Group"
 brief-desc:  "University of Maryland, College Park"
 group: former
 links:

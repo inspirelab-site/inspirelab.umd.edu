@@ -5,8 +5,8 @@ role: manager
 description: "Lab Manager"
 start: Jan 2025
 end: Jul 2025
-# affiliation: "Physiology and Neurobiology, Psychology"
-affiliation: "Now Laboratory Technician @ University of Florida"
+affiliation: "Physiology and Neurobiology, Psychology"
+post: "Now Laboratory Technician @ University of Florida"
 # brief-desc:  "University of Maryland, College Park"
 group: former
 links:

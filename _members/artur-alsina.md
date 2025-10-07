@@ -5,8 +5,8 @@ role: masters
 description: "Graduate Researcher | Master's Student"
 start: Apr 2025
 end: May 2025
-# affiliation: "Electrical and Computer Engineering"
-affiliation: "Now SDE @ Amazon"
+affiliation: "Electrical and Computer Engineering"
+post: "Now SDE @ Amazon"
 # brief-desc: "University of Maryland, College Park"
 group: former
 links:
