@@ -4,7 +4,7 @@ image: team/images/junhao-zhao.jpg
 role: phd
 description: "Graduate Researcher | PhD Student"
 start: Aug 2025
-affiliation: "Artificial Intelligence"
+affiliation: "Electrical and Computer Engineering"
 brief-desc:  "University of Maryland, College Park"
 group: member
 links:
