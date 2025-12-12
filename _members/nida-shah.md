@@ -4,9 +4,11 @@ image: team/images/nida-shah.jpg
 role: phd
 description: "Graduate Researcher | PhD Rotational Student"
 start: Oct 2025
+end: Nov 2025
 affiliation: "Bioengineering"
+post: "Now researcher at UMD School of Medicine"
 brief-desc:  "University of Maryland, College Park"
-group: member
+group: former
 links:
   email: nidashah@umd.edu
   linkedin: nida-s
