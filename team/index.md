@@ -39,9 +39,12 @@ Nan earned a B.S. in Electrical and Computer Engineering and a B.A. in Mathemati
 {% include section.html background="images/background.jpg" dark=true %}
 ## Collaborators
 INSPIRE Lab benefits from our talented collaborators from diverse fields around the world.
+- Dr. Nikolas Francis Lab @ University of Maryland, Brain and Behavior Institute
+- Dr. Anna Li Lab @ University of Maryland, Brain and Behavior Institute
+- Dr. Edward Bernat @ University of Maryland, Brain and Behavior Institute
 - Keilholz MIND Lab @ Gatech-Emory, BME
 - Chuang's Lab @ Queensland Brain Institute
-- Dr. Evelyn Lake group @ Yale School of Medicine, Radiology & Biomedical Imaging
+- Dr. Evelyn Lake Group @ Yale School of Medicine, Radiology & Biomedical Imaging
 - Small Animal MR Facility @ University of Maryland, Brain and Behavior Institute
 - Center for Translational Research in Neuroimaging and Data Science
 - Dr. Jason Allen Group @ Indiana University Medical School, Radiology & Imaging Science; Emory Med School, Radiology
