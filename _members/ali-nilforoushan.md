@@ -4,7 +4,7 @@ image: team/images/ali-nilforoushan.jpg
 role: undergrad
 description: "Undergraduate Researcher"
 start: Jan 2025
-affiliation: "Computer Science, Mathematics"
+affiliation: "Computer Science, Psychology"
 brief-desc:  "University of Maryland, College Park"
 group: member
 links:
