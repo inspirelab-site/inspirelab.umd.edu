@@ -68,6 +68,8 @@ INSPIRE Lab benefits from our talented collaborators from diverse fields around 
 {% capture content %}
 [![NIH Brain](/images/funders/nih-brain2.jpeg)](https://braininitiative.nih.gov/)
 
-[![UMD BioE](/images/funders/umd-bioe.png)](https://bioe.umd.edu/)g
+[![UMD BioE](/images/funders/umd-bioe.png)](https://bioe.umd.edu/)
+
+[![UMD BBI](/images/funders/umd-bbi-resized2.png)](https://bbi.umd.edu/)
 {% endcapture %}
 {% include grid.html style="cover" content=content %}
