@@ -1,8 +1,5 @@
 ---
 title: Alumni
-nav:
-  order: 3
-  tooltip: Former lab members
 ---
 # {% include icon.html icon="fa-solid fa-graduation-cap" %}Alumni
 We represent a growing network of researchers who have contributed to the INSPIRE Lab. We are proud of our former members and their next steps in their careers.

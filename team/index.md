@@ -27,14 +27,16 @@ Nan earned a B.S. in Electrical and Computer Engineering and a B.A. in Mathemati
 {% include list.html data="members" component="portrait" filters="group: member, role: masters" %}
 {% include list.html data="members" component="portrait" filters="group: member, role: undergrad" %}
 
-{%
-  include button.html
-  link="alumni"
-  text="View Alumni Page"
-  icon="fa-solid fa-arrow-right"
-  flip=false
-  style="bare"
-%}
+<div style="font-size: 1.75em;">
+  {%
+    include button.html
+    link="alumni"
+    text="View Alumni Page"
+    icon="fa-solid fa-arrow-right"
+    flip=false
+    style="bare"
+  %}
+</div>
 
 {% include section.html background="images/background.jpg" dark=true %}
 ## Collaborators
@@ -66,6 +68,6 @@ INSPIRE Lab benefits from our talented collaborators from diverse fields around 
 {% capture content %}
 [![NIH Brain](/images/funders/nih-brain2.jpeg)](https://braininitiative.nih.gov/)
 
-[![UMD BioE](/images/funders/umd-bioe.png)](https://bioe.umd.edu/)
+[![UMD BioE](/images/funders/umd-bioe.png)](https://bioe.umd.edu/)g
 {% endcapture %}
 {% include grid.html style="cover" content=content %}
