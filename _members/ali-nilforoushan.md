@@ -3,7 +3,7 @@ name: Ali Nilforoushan
 image: team/images/ali-nilforoushan.jpg
 role: undergrad
 description: "Undergraduate Researcher"
-start: Jan 2025
+start: Feb 2026
 affiliation: "Computer Science, Psychology"
 brief-desc:  "University of Maryland, College Park"
 group: member
