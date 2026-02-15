@@ -16,6 +16,13 @@
 #Seeburger-PNAS-2026
 - id: doi:10.31234/osf.io/qzv47_v1
   type: journal
+  authors: 
+  - Dolly Tan Seeburger
+  - Jason Tsukahara
+  - Nan Xu
+  - Vishwadeep Ahluwalia
+  - Shella Keilholz
+  - Randall W Engle
   tags:
     - journal
     - brain dynamics
@@ -295,6 +302,21 @@
 ##################### Abstracts w/o official ids ################
 ###################################################################
 ###################################################################
+- #id: ohbm2025
+  title: "Sliding-window prediction correlation (SWpC): a sensitive approach for detecting task-specific directed functional connectivity dynamics"
+  authors:
+    - Nan Xu
+    - Vince D. Calhoun
+    - Shella D. Keilholz
+  publisher: Organization for Human Brain Mapping 2024 Annual Meeting
+  date: '2025-06-24'
+  type: conference
+  tags:
+    - conference
+    - causal interactions
+    - brain dynamics
+    - modeling
+    
 - #id: ohbm2024i
   title: "The effects of locus coeruleus stimulation on quasi-periodic patterns in rats"
   authors:
@@ -314,7 +336,7 @@
     - cross-species
 
 - #id: ohbm2024ii
-  title: "Time-varying causal interactions in the functional brain networks: Modeling and Validation"
+  title: "Time-varying causal interactions in the functional brain networks: modeling and validation"
   authors:
     - Nan Xu
     - Xiaodi Zhang
@@ -334,7 +356,7 @@
     - neuro disorders
 
 - #id: bic2024i
-  title: "Modeling and Validation of Dynamic Causal Interactions in Functional Brain Network"
+  title: "Modeling and validation of dynamic causal interactions in functional brain network"
   authors:
     - Nan Xu
     - Xiaodi Zhang
@@ -354,7 +376,7 @@
     - neuro disorders
 
 - #id: asfnr2023i
-  title: "``Hyperconnected'' Vestibular State in Subacute and Chronic Post-Concussive Vestibular Dysfunction Using Dynamic Whole Brain Functional Connectivity Analysis"
+  title: "``Hyperconnected'' vestibular state in subacute and chronic post-concussive vestibular dysfunction using dynamic whole brain functional connectivity analysis"
   description: "> **Oral Presentation.**"
   authors:
     - Anna Trofimova
