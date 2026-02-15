@@ -6,7 +6,7 @@
   authors:
   - Dolly Tan Seeburger
   - Jason Tsukahara
-  - ' Nan'
+  - Nan Xu
   - Vishwadeep Ahluwalia
   - Shella Keilholz
   - Randall W Engle
@@ -117,6 +117,7 @@
   - Eric H. Schumacher
   publisher: Cognitive, Affective, &amp; Behavioral Neuroscience
   pmid: '38253775'
+  pmcid: PMC10979291
   date: '2024-01-22'
   link: https://doi.org/gt44tf
   orcid: 0000-0002-3900-3220
@@ -247,6 +248,7 @@
   - Shella Keilholz
   publisher: Frontiers in Neuroscience
   pmid: '35350561'
+  pmcid: PMC8957796
   date: '2022-03-08'
   link: https://doi.org/gtdtsw
   orcid: 0000-0002-3900-3220
@@ -425,6 +427,7 @@
   - Peter C. Doerschuk
   publisher: Frontiers in Neuroscience
   pmid: '28559793'
+  pmcid: PMC5433247
   date: '2017-05-16'
   link: https://doi.org/gt44mv
   orcid: 0000-0002-3900-3220
@@ -608,6 +611,22 @@
   - neuro disorders
   plugin: sources.py
   file: sources.yaml
+- title: 'Sliding-window prediction correlation (SWpC): a sensitive approach for detecting
+    task-specific directed functional connectivity dynamics'
+  authors:
+  - Nan Xu
+  - Vince D. Calhoun
+  - Shella D. Keilholz
+  publisher: Organization for Human Brain Mapping 2024 Annual Meeting
+  date: '2025-06-24'
+  type: conference
+  tags:
+  - conference
+  - causal interactions
+  - brain dynamics
+  - modeling
+  plugin: sources.py
+  file: sources.yaml
 - title: The effects of locus coeruleus stimulation on quasi-periodic patterns in
     rats
   authors:
@@ -627,8 +646,8 @@
   - cross-species
   plugin: sources.py
   file: sources.yaml
-- title: 'Time-varying causal interactions in the functional brain networks: Modeling
-    and Validation'
+- title: 'Time-varying causal interactions in the functional brain networks: modeling
+    and validation'
   authors:
   - Nan Xu
   - Xiaodi Zhang
@@ -648,8 +667,8 @@
   - neuro disorders
   plugin: sources.py
   file: sources.yaml
-- title: Modeling and Validation of Dynamic Causal Interactions in Functional Brain
-    Network
+- title: Modeling and validation of dynamic causal interactions in functional brain
+    network
   authors:
   - Nan Xu
   - Xiaodi Zhang
@@ -669,8 +688,8 @@
   - neuro disorders
   plugin: sources.py
   file: sources.yaml
-- title: '``Hyperconnected'''' Vestibular State in Subacute and Chronic Post-Concussive
-    Vestibular Dysfunction Using Dynamic Whole Brain Functional Connectivity Analysis'
+- title: '``Hyperconnected'''' vestibular state in subacute and chronic post-concussive
+    vestibular dysfunction using dynamic whole brain functional connectivity analysis'
   description: '> **Oral Presentation.**'
   authors:
   - Anna Trofimova
