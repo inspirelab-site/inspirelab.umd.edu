@@ -611,6 +611,23 @@
   - neuro disorders
   plugin: sources.py
   file: sources.yaml
+- title: Validation of channel capacity as an effective connectivity measure in fMRI
+  authors:
+  - Jianan Jian
+  - Benjamin Li
+  - Nurahmed Multezem
+  - Francesca Mandino
+  - Evelyn Lake
+  - Nan Xu
+  publisher: Organization for Human Brain Mapping 2026 Annual Meeting
+  date: '2026-06-14'
+  type: conference
+  tags:
+  - conference
+  - causal interactions
+  - brain dynamics
+  plugin: sources.py
+  file: sources.yaml
 - title: 'Sliding-window prediction correlation (SWpC): a sensitive approach for detecting
     task-specific directed functional connectivity dynamics'
   authors:
