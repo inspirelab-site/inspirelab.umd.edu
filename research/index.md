@@ -27,7 +27,7 @@ Functional brain dynamics, captured through neuroimaging techniques such as fMRI
 %}
 {% endcapture %}
 <a name="section-2"></a>
-{% include feature.html image="research/images/information-flow-diagram.tif" link="https://doi.org/10.3389/fnins.2017.00271" flip=false  style="bare"  text=text%}
+{% include feature.html image="research/images/information-flow-diagram1.png" link="https://doi.org/10.3389/fnins.2017.00271" flip=false  style="bare"  text=text%}
 
 
 ### Investigating Spatiotemporal Brain Dynamics across Species 
