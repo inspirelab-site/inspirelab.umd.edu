@@ -615,6 +615,19 @@
   - conference
   - causal interactions
   - modeling
+- title: 'A comprehensive analysis of brain network complexity in task-based fMRI
+    using entropy: Systematic Review'
+  type: journal
+  authors:
+  - Jeonghoon Park
+  - Nan Xu
+  - Maysam Nezafati
+  publisher: Brain Imaging and Behavior (Accepted)
+  tags:
+  - journal
+  - brain dynamics
+  plugin: sources.py
+  file: sources.yaml
 - id: doi:10.1002/alz.061608
   title: "The effects of locus coeruleus stimulation on the BOLD global signal in\
     \ TgF344\u2010AD rats"
