@@ -13,11 +13,10 @@
 #     - open science
 #     - other (e.g., recognition)
 
-#-
 #Park-Entropy-2026
-- id: review
+- #id: review
+  title: A comprehensive analysis of brain network complexity in task-based fMRI using entropy: Systematic Review  
   type: journal
-  title: A comprehensive analysis of brain network complexity in task-based fMRI using entropy: Systematic Review
   authors: 
   - Jeonghoon Park
   - Nan Xu
