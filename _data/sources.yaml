@@ -13,9 +13,10 @@
 #     - open science
 #     - other (e.g., recognition)
 
+    
 #Park-Entropy-2026
 - #id: review
-  title: A comprehensive analysis of brain network complexity in task-based fMRI using entropy: Systematic Review  
+  title: "A comprehensive analysis of brain network complexity in task-based fMRI using entropy: Systematic Review"  
   type: journal
   authors: 
   - Jeonghoon Park
@@ -338,6 +339,7 @@
   tags:
     - conference
     - brain dynamics
+    
 - #id: ohbm2026a
   title: "Validation of channel capacity as an effective connectivity measure in fMRI"
   authors:
