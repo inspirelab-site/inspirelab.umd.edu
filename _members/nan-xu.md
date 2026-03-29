@@ -3,7 +3,7 @@ name: Nan Xu
 image: team/images/nan-xu.jpg
 role: pi
 description: "Assistant Professor"
-affiliation: "Fischell Department of Bioengineering, Department of Electrical & Computer Engineering, Neuroscience & Cognitive Science Program"
+affiliation: "Fischell Department of Bioengineering, Department of Electrical & Computer Engineering, Brain and Behavior Institute"
 brief-desc:  "University of Maryland, College Park"
 links:
   email: nanxu@umd.edu
