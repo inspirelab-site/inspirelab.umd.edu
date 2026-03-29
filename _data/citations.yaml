@@ -1,5 +1,40 @@
 # DO NOT EDIT, GENERATED AUTOMATICALLY
 
+- id: doi:10.1007/s11682-026-01124-y
+  title: 'A comprehensive analysis of brain network complexity in task-based fMRI
+    using entropy: systematic review'
+  authors:
+  - Jeonghoon Park
+  - Nan Xu
+  - Maysam Nezafati
+  publisher: Brain Imaging and Behavior
+  pmid: '41886027'
+  pmcid: PMC13021814
+  date: '2026-03-26'
+  link: https://doi.org/hbt82b
+  orcid: 0000-0002-3900-3220
+  nan-xu-list: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.64898/2026.03.26.713939
+  title: 'Harmonizing brain rhythms: cortex-wide neuronal dynamics underpin quasi-periodic
+    patterns in resting-state fMRI'
+  authors:
+  - Francesca Mandino
+  - Xilin Shen
+  - Corey Horien
+  - Xenophon Papademetris
+  - Stephen M. Strittmatter
+  - Shella Keilholz
+  - Nan Xu
+  - Evelyn MR Lake
+  publisher: openRxiv
+  date: '2026-03-26'
+  link: https://doi.org/hbt82c
+  orcid: 0000-0002-3900-3220
+  nan-xu-list: true
+  plugin: orcid.py
+  file: orcid.yaml
 - id: doi:10.64898/2026.02.15.706049
   title: 'Time-Varying Directed Interactions in Functional Brain Networks: Modeling
     and Validation'
