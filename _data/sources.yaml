@@ -338,6 +338,21 @@
 ##################### Abstracts w/o official ids ################
 ###################################################################
 ###################################################################
+- #id: nebec2026
+  title: "Task-sensitivity and subcortical propagation of patterned spatiotemporal neural activity"
+  description: "> **Oral Presentation.**"
+  authors:
+    - Archana Sathiyamoorthy 
+    - Matthew Wang
+    - Linnea Hoheisel
+    - Nan Xu
+  publisher: 2026 Northeast Bioengineering Conference
+  date: '2026-04-16'
+  type: conference
+  tags:
+    - conference
+    - brain dynamics
+    
 - #id: ohbm2026b
   title: "Brain states in simultaneous EEG-fMRI"
   authors:
