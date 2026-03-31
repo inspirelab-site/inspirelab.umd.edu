@@ -51,7 +51,7 @@ INSPIRE Lab benefits from our talented collaborators from diverse fields!
 <!-- - Center for Translational Research in Neuroimaging and Data Science -->
 - Dr. Jason Allen Group @ Indiana University Medical School, Radiology & Imaging Science; Emory Med School, Radiology
 - Dr. Rupa Radhakrishnan Group @ Indiana University Medical School, Radiology & Imaging Science
-- Dr. Ellen Schur Group @ University of Washington Medicine Diabetes Institute 
+<!-- - Dr. Ellen Schur Group @ University of Washington Medicine Diabetes Institute -->
 <!-- - CoNTRoL Lab @ Gatech, Psychology -->
 <!-- - Attention & Working Memory Lab @ Gatech, Psychology -->
 <!-- - Lab of Brain and Cognition @ McGill University, Neurology and Neurosurgery -->
