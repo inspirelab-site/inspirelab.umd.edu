@@ -13,19 +13,30 @@
 #     - open science
 #     - other (e.g., recognition)
 
+#Jian-SWcC-2026
+ - id: doi:10.64898/2026.03.28.714906 
+   type: journal
+   tags:
+    - preprint
+    - causal interactions
+    - brain dynamics
+    - cross-species
+    - modeling
     
-#Park-Entropy-2026
-# - id: review
-#   title: "A comprehensive analysis of brain network complexity in task-based fMRI using entropy: Systematic Review"  
-#   type: journal
-#   authors: 
-#   - Jeonghoon Park
-#   - Nan Xu
-#   - Maysam Nezafati
-#   publisher: Brain Imaging and Behavior (Accepted)
-#   tags:
-#     - journal
-#     - brain dynamics
+#Mandino-QPP-2026
+ - id: doi:10.64898/2026.03.26.713939 
+   type: journal
+   tags:
+    - preprint
+    - brain dynamics
+    
+#Park-Entropy-review-2026
+ - id: doi:10.1007/s11682-026-01124-y 
+   type: journal
+   tags:
+     - journal
+     - brain dynamics
+     - causal interactions
   
 #Xu-SWpC-2026
 - id: doi:10.64898/2026.02.15.706049
