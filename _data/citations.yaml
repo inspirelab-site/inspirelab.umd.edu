@@ -14,8 +14,15 @@
   link: https://doi.org/hbvg32
   orcid: 0000-0002-3900-3220
   nan-xu-list: true
-  plugin: orcid.py
-  file: orcid.yaml
+  plugin: sources.py
+  file: sources.yaml
+  type: journal
+  tags:
+  - preprint
+  - causal interactions
+  - brain dynamics
+  - cross-species
+  - modeling
 - id: doi:10.1007/s11682-026-01124-y
   title: 'A comprehensive analysis of brain network complexity in task-based fMRI
     using entropy: systematic review'
@@ -30,8 +37,13 @@
   link: https://doi.org/hbt82b
   orcid: 0000-0002-3900-3220
   nan-xu-list: true
-  plugin: orcid.py
-  file: orcid.yaml
+  plugin: sources.py
+  file: sources.yaml
+  type: journal
+  tags:
+  - journal
+  - brain dynamics
+  - causal interactions
 - id: doi:10.64898/2026.03.26.713939
   title: 'Harmonizing brain rhythms: cortex-wide neuronal dynamics underpin quasi-periodic
     patterns in resting-state fMRI'
@@ -49,8 +61,12 @@
   link: https://doi.org/hbt82c
   orcid: 0000-0002-3900-3220
   nan-xu-list: true
-  plugin: orcid.py
-  file: orcid.yaml
+  plugin: sources.py
+  file: sources.yaml
+  type: journal
+  tags:
+  - preprint
+  - brain dynamics
 - id: doi:10.64898/2026.02.15.706049
   title: 'Time-Varying Directed Interactions in Functional Brain Networks: Modeling
     and Validation'
@@ -360,7 +376,6 @@
   plugin: sources.py
   file: sources.yaml
   type: journal
-  description: null
   image: papers/images/xu-ni-2021-brain.jpg
   buttons:
   - type: source
@@ -687,6 +702,22 @@
   tags:
   - conference
   - neuro disorders
+  plugin: sources.py
+  file: sources.yaml
+- title: Task-sensitivity and subcortical propagation of patterned spatiotemporal
+    neural activity
+  description: '> **Oral Presentation.**'
+  authors:
+  - Archana Sathiyamoorthy
+  - Matthew Wang
+  - Linnea Hoheisel
+  - Nan Xu
+  publisher: 2026 Northeast Bioengineering Conference
+  date: '2026-04-16'
+  type: conference
+  tags:
+  - conference
+  - brain dynamics
   plugin: sources.py
   file: sources.yaml
 - title: Brain states in simultaneous EEG-fMRI
