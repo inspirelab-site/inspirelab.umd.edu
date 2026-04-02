@@ -16,6 +16,10 @@
 #Jian-SWcC-2026
 - id: doi:10.64898/2026.03.28.714906 
   type: journal
+  buttons:
+    - type: source
+      text: code
+      link: https://github.com/inspirelab-site/swcc
   tags:
   - preprint
   - causal interactions
@@ -41,6 +45,10 @@
 #Xu-SWpC-2026
 - id: doi:10.64898/2026.02.15.706049
   type: journal
+  buttons:
+    - type: source
+      text: code
+      link: https://github.com/inspirelab-site/swpc
   tags:
     - preprint
     - causal interactions
