@@ -31,19 +31,8 @@
   link: https://doi.org/hbvg32
   orcid: 0000-0002-3900-3220
   nan-xu-list: true
-  plugin: sources.py
-  file: sources.yaml
-  type: journal
-  buttons:
-  - type: source
-    text: code
-    link: https://github.com/inspirelab-site/swcc
-  tags:
-  - preprint
-  - causal interactions
-  - brain dynamics
-  - cross-species
-  - modeling
+  plugin: orcid.py
+  file: orcid.yaml
 - id: doi:10.1007/s11682-026-01124-y
   title: 'A comprehensive analysis of brain network complexity in task-based fMRI
     using entropy: systematic review'
@@ -56,13 +45,8 @@
   link: https://doi.org/hbt82b
   orcid: 0000-0002-3900-3220
   nan-xu-list: true
-  plugin: sources.py
-  file: sources.yaml
-  type: journal
-  tags:
-  - journal
-  - brain dynamics
-  - causal interactions
+  plugin: orcid.py
+  file: orcid.yaml
 - id: doi:10.64898/2026.03.26.713939
   title: 'Harmonizing brain rhythms: cortex-wide neuronal dynamics underpin quasi-periodic
     patterns in resting-state fMRI'
@@ -80,12 +64,8 @@
   link: https://doi.org/hbt82c
   orcid: 0000-0002-3900-3220
   nan-xu-list: true
-  plugin: sources.py
-  file: sources.yaml
-  type: journal
-  tags:
-  - preprint
-  - brain dynamics
+  plugin: orcid.py
+  file: orcid.yaml
 - id: doi:10.64898/2026.02.15.706049
   title: 'Time-resolved directional organization of brain networks: distinct strength
     and temporal signatures from neurophysiology to disease'
@@ -103,20 +83,8 @@
   link: https://doi.org/hbptzh
   orcid: 0000-0002-3900-3220
   nan-xu-list: true
-  plugin: sources.py
-  file: sources.yaml
-  type: journal
-  buttons:
-  - type: source
-    text: code
-    link: https://github.com/inspirelab-site/swpc
-  tags:
-  - preprint
-  - causal interactions
-  - brain dynamics
-  - neuro disorders
-  - cross-species
-  - modeling
+  plugin: orcid.py
+  file: orcid.yaml
 - id: doi:10.1016/j.softx.2025.102067
   title: 'QPPLab: A generally applicable software package for detecting, analyzing,
     and visualizing large-scale quasiperiodic spatiotemporal patterns (QPPs) of brain
@@ -133,16 +101,8 @@
   link: https://doi.org/g83xt7
   orcid: 0000-0002-3900-3220
   nan-xu-list: true
-  plugin: sources.py
-  file: sources.yaml
-  type: journal
-  buttons:
-  - type: source
-    text: code
-    link: https://github.com/imnanxu/QPPLab
-  tags:
-  - journal
-  - brain dynamics
+  plugin: orcid.py
+  file: orcid.yaml
 - id: doi:10.1162/imag_a_00314
   title: "The effects of locus coeruleus optogenetic stimulation on global\n     \
     \               spatiotemporal patterns in rats"
@@ -160,14 +120,8 @@
   link: https://doi.org/g79q3n
   orcid: 0000-0002-3900-3220
   nan-xu-list: true
-  plugin: sources.py
-  file: sources.yaml
-  type: journal
-  tags:
-  - journal
-  - brain dynamics
-  - cross-species
-  - neuro disorders
+  plugin: orcid.py
+  file: orcid.yaml
 - id: doi:10.3389/fnsys.2024.1425491
   title: Variation in the distribution of large-scale spatiotemporal patterns of activity
     across brain states
@@ -187,13 +141,8 @@
   link: https://doi.org/gt7vkg
   orcid: 0000-0002-3900-3220
   nan-xu-list: true
-  plugin: sources.py
-  file: sources.yaml
-  type: journal
-  tags:
-  - journal
-  - brain dynamics
-  - cross-species
+  plugin: orcid.py
+  file: orcid.yaml
 - id: doi:10.3758/s13415-024-01156-1
   title: Time-varying functional connectivity predicts fluctuations in sustained attention
     in a serial tapping task
@@ -210,12 +159,8 @@
   link: https://doi.org/gt44tf
   orcid: 0000-0002-3900-3220
   nan-xu-list: true
-  plugin: sources.py
-  file: sources.yaml
-  type: journal
-  tags:
-  - journal
-  - brain dynamics
+  plugin: orcid.py
+  file: orcid.yaml
 - id: doi:10.1002/mrm.29824
   title: "Spatial and Spectral Components of the\n                    <scp>BOLD</scp>\n\
     \                    Global Signal in Rat\n                    <scp>Resting\u2010\
@@ -232,13 +177,8 @@
   link: https://doi.org/gt44nf
   orcid: 0000-0002-3900-3220
   nan-xu-list: true
-  plugin: sources.py
-  file: sources.yaml
-  type: journal
-  tags:
-  - journal
-  - brain dynamics
-  - cross-species
+  plugin: orcid.py
+  file: orcid.yaml
 - id: doi:10.1162/imag_a_00002
   title: "The interaction between random and systematic visual stimulation and\n \
     \                   infraslow quasi-periodic spatiotemporal patterns of whole-brain\n\
@@ -255,29 +195,8 @@
   link: https://doi.org/gt44ng
   orcid: 0000-0002-3900-3220
   nan-xu-list: true
-  plugin: sources.py
-  file: sources.yaml
-  type: journal
-  description: 'Employed the statistical inferences techniques to study the interplay
-    between infraslow dynamic processes and visual perceptions. Discovered that these
-    intrinsic dynamic processes are notably resilient in humans, as contrast with
-    anesthetized rodents (Belloy et al., 2021). Yet, their stability can still be
-    affected in diverse ways: they can swamp an overlapping BOLD response evoked by
-    the flickering checkerboard, but their phase-locked waveform can still be modulated
-    by different sequences of stimuli that affects the reaction time and sustained
-    attention.'
-  image: papers/images/xu-in-2023.png
-  buttons:
-  - type: source
-    text: preprocessing code
-    link: https://github.com/imnanxu/PartialHumanBrain_preprocessing
-  - type: source
-    text: analysis code
-    link: https://github.com/imnanxu/QPPLab
-  tags:
-  - journal
-  - brain dynamics
-  - open science
+  plugin: orcid.py
+  file: orcid.yaml
 - id: doi:10.52294/001c.85075
   title: Rodent Whole-Brain fMRI Data Preprocessing Toolbox
   authors:
@@ -295,22 +214,8 @@
   link: https://doi.org/gt44nh
   orcid: 0000-0002-3900-3220
   nan-xu-list: true
-  plugin: sources.py
-  file: sources.yaml
-  type: journal
-  description: '> **Featured at the Aperture Symposium of the OHBM 2024 Annual Meeting!**'
-  buttons:
-  - type: youtube
-    text: tutorial
-    link: https://www.youtube.com/playlist?list=PLzl6lxEF9yCb3i0Coc5noXWzINKqWXTOd
-  - type: source
-    text: code
-    link: https://github.com/GT-EmoryMINDlab/rodent-whole-brain-preprocessing-recipe
-  tags:
-  - journal
-  - preprocessing
-  - open science
-  - recognition
+  plugin: orcid.py
+  file: orcid.yaml
 - id: doi:10.3389/fnins.2022.816331
   title: Functional Connectivity of the Brain Across Rodents and Humans
   authors:
@@ -333,13 +238,8 @@
   link: https://doi.org/gtdtsw
   orcid: 0000-0002-3900-3220
   nan-xu-list: true
-  plugin: sources.py
-  file: sources.yaml
-  type: journal
-  tags:
-  - journal
-  - brain dynamics
-  - cross-species
+  plugin: orcid.py
+  file: orcid.yaml
 - id: doi:10.1137/20M1318183
   title: Computation of Real-Valued Basis Functions which Transform as Irreducible
     Representations of the Polyhedral Groups
@@ -351,22 +251,8 @@
   link: https://doi.org/gt44nk
   orcid: 0000-0002-3900-3220
   nan-xu-list: true
-  plugin: sources.py
-  file: sources.yaml
-  type: journal
-  image: papers/images/xu-sisc-2021.png
-  buttons:
-  - type: source
-    text: code
-    link: https://github.com/imnanxu/PolyhedralBasisFunction/releases/tag/sisc2021
-  - type: source
-    text: numerical solutions
-    link: https://github.com/imnanxu/PolyhedralBasisFunction/releases/tag/sisc2021
-  tags:
-  - journal
-  - scientific computing
-  - image reconstruction
-  - theory
+  plugin: orcid.py
+  file: orcid.yaml
 - id: doi:10.1016/j.neuroimage.2020.117628
   title: Spatiotemporal functional interactivity among large-scale brain networks
   authors:
@@ -379,18 +265,8 @@
   link: https://doi.org/gsx2rt
   orcid: 0000-0002-3900-3220
   nan-xu-list: true
-  plugin: sources.py
-  file: sources.yaml
-  type: journal
-  image: papers/images/xu-ni-2021-brain.jpg
-  buttons:
-  - type: source
-    text: code
-    link: https://www.mathworks.com/matlabcentral/fileexchange/62781-pcorrelation
-  tags:
-  - journal
-  - causal interactions
-  - discovery
+  plugin: orcid.py
+  file: orcid.yaml
 - id: doi:10.3389/fnins.2020.550923
   title: Relationship Between Basic Properties of BOLD Fluctuations and Calculated
     Metrics of Complexity in the Human Connectome Project
@@ -409,12 +285,8 @@
   link: https://doi.org/gt44nm
   orcid: 0000-0002-3900-3220
   nan-xu-list: true
-  plugin: sources.py
-  file: sources.yaml
-  type: journal
-  tags:
-  - journal
-  - brain dynamics
+  plugin: orcid.py
+  file: orcid.yaml
 - id: doi:10.1109/tip.2019.2915631
   title: Reconstruction of Stochastic 3D Signals With Symmetric Statistics From 2D
     Projection Images Motivated by Cryo-Electron Microscopy
@@ -426,47 +298,22 @@
   link: https://doi.org/gmddq4
   orcid: 0000-0002-3900-3220
   nan-xu-list: true
-  plugin: sources.py
-  file: sources.yaml
-  image: papers/images/xu-TIP-2019.png
-  type: journal
-  description: "Using cryo-EM, we transform highly noisy and randomly-oriented projection\
-    \ images of 103\u2500106 virus particles into a 3D model of the virus. Unlike\
-    \ traditional methods that assume strict geometric symmetry, we adopted a more\
-    \ realistic approach, allowing individual particles to be asymmetric while maintaining\
-    \ symmetry in the overall mean and covariance. This novel method eliminates long-standing\
-    \ distortions along the symmetry axes."
-  tags:
-  - journal
-  - image reconstruction
-  buttons:
-  - type: journal
-    text: manuscript
-    link: https://arxiv.org/pdf/1701.01206
+  plugin: orcid.py
+  file: orcid.yaml
 - id: doi:10.1038/s41684-019-0326-6
   title: 'Digging deeper: methodologies for high-content phenotyping in Caenorhabditis
     elegans'
   authors:
-  - Nan Xu+
-  - Dhaval S Patel+
+  - Dhaval S. Patel
+  - Nan Xu
   - Hang Lu
   publisher: Lab Animal
   date: '2019-06-19'
-  link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8102135/
+  link: https://doi.org/g79xmj
   orcid: 0000-0002-3900-3220
   nan-xu-list: true
-  plugin: sources.py
-  file: sources.yaml
-  type: journal
-  description: +equal contributions
-  tags:
-  - journal
-  - deep phenotyping
-  - big data
-  buttons:
-  - type: journal
-    text: manuscript
-    link: https://arxiv.org/pdf/1904.01096
+  plugin: orcid.py
+  file: orcid.yaml
 - id: doi:10.1016/j.jsb.2017.12.013
   title: Allosteric effects in bacteriophage HK97 procapsids revealed directly from
     covariance analysis of cryo EM data
@@ -480,16 +327,8 @@
   link: https://doi.org/gdc4w6
   orcid: 0000-0002-3900-3220
   nan-xu-list: true
-  plugin: sources.py
-  file: sources.yaml
-  type: journal
-  description: We developed a cyro-EM image reconstruction algortihm for virus particles,
-    allowing for asymmetry and eliminating distortions along symmetry axes (Xu & Doerschuk,
-    2019). In collaboration with virologists from the Scripps Institute, we uncovered
-    allosteric effects along the symmetry axes of the bacteriophage HK97.
-  tags:
-  - journal
-  - image reconstruction
+  plugin: orcid.py
+  file: orcid.yaml
 - id: doi:10.3389/fnins.2017.00271
   title: Initial Validation for the Estimation of Resting-State fMRI Effective Connectivity
     by a Generalization of the Correlation Approach
@@ -502,48 +341,22 @@
   link: https://doi.org/gt44mv
   orcid: 0000-0002-3900-3220
   nan-xu-list: true
-  plugin: sources.py
-  file: sources.yaml
-  type: journal
-  description: We developed p-corr, an innovative algorithm enhancing traditional
-    correlation analysis with a causal dynamic model. P-corr identifies information
-    flow in functional connectivity, maintains sensitivity in detecting modular architecture,
-    and scales to handle hundreds of ROIs for comprehensive whole-brain connectivity
-    assessments.
-  image: papers/images/xu-ft-2017-pcorr.png
-  buttons:
-  - type: source
-    text: code
-    link: https://www.mathworks.com/matlabcentral/fileexchange/62781-pcorrelation
-  tags:
-  - journal
-  - causal interactions
-  - modeling
+  plugin: orcid.py
+  file: orcid.yaml
 - id: doi:10.1109/embc.2016.7591598
   title: 'Statistical characterization of ensembles of symmetric virus particles:
     3-D stochastic signal reconstruction from electron microscope images'
   authors:
   - Nan Xu
   - Peter C. Doerschuk
-  publisher: IEEE Engineering In Medicine And Biology Society Annual International
-    Conference
+  publisher: 2016 38th Annual International Conference of the IEEE Engineering in
+    Medicine and Biology Society (EMBC)
   date: '2016-08-01'
-  link: https://ieeexplore.ieee.org/document/7591598
+  link: https://doi.org/g78mfw
   orcid: 0000-0002-3900-3220
   nan-xu-list: true
-  plugin: sources.py
-  file: sources.yaml
-  type: conference
-  description: '> **EMBS Student Paper Competition Finalist - Top 0.4% conference
-    proceedings!**'
-  buttons:
-  - type: paper
-    text: proceedings
-    link: /papers/manuscripts/xu-embc-2016.pdf
-  tags:
-  - conference
-  - image reconstruction
-  - recognition
+  plugin: orcid.py
+  file: orcid.yaml
 - id: doi:10.1016/j.coviro.2016.02.011
   title: Virus particle dynamics derived from CryoEM studies
   authors:
@@ -557,11 +370,8 @@
   link: https://doi.org/gt44ms
   orcid: 0000-0002-3900-3220
   nan-xu-list: true
-  plugin: sources.py
-  file: sources.yaml
-  tags:
-  - journal
-  - image reconstruction
+  plugin: orcid.py
+  file: orcid.yaml
 - id: doi:10.1117/12.2193791
   title: Characterizing heterogeneity among virus particles by stochastic 3D signal
     reconstruction
@@ -576,19 +386,8 @@
   link: https://doi.org/gt44nn
   orcid: 0000-0002-3900-3220
   nan-xu-list: true
-  plugin: sources.py
-  file: sources.yaml
-  type: conference
-  description: '> **Top 10% Paper Recognition; Top 34 papers demonstrated in the Show
-    & Tell session!**'
-  buttons:
-  - type: paper
-    text: proceedings
-    link: /papers/manuscripts/xu-spie-2015.pdf
-  tags:
-  - conference
-  - image reconstruction
-  - recognition
+  plugin: orcid.py
+  file: orcid.yaml
 - id: doi:10.1109/ICIP.2015.7351039
   title: 'Reconstruction for stochastic 3-D signals with symmetric statistics in noise:
     Electron microscopy of virus particles'
@@ -600,16 +399,8 @@
   link: https://doi.org/gt44np
   orcid: 0000-0002-3900-3220
   nan-xu-list: true
-  plugin: sources.py
-  file: sources.yaml
-  type: conference
-  buttons:
-  - type: paper
-    text: proceedings
-    link: /papers/manuscripts/xu-icip-2015.pdf
-  tags:
-  - conference
-  - image reconstruction
+  plugin: orcid.py
+  file: orcid.yaml
 - id: doi:10.1364/srs.2014.stu3f.4
   title: 3-D statistical characterization of the heterogeneity of biological macromolecular
     complexes by electron microscopy
@@ -624,16 +415,8 @@
   link: https://doi.org/gt44nq
   orcid: 0000-0002-3900-3220
   nan-xu-list: true
-  plugin: sources.py
-  file: sources.yaml
-  type: conference
-  buttons:
-  - type: paper
-    text: proceedings
-    link: /papers/manuscripts/xu-srs-2014.pdf
-  tags:
-  - conference
-  - image reconstruction
+  plugin: orcid.py
+  file: orcid.yaml
 - id: doi:10.1109/ICIP.2014.7025712
   title: 'Directed interactivity of large-scale brain networks: Introducing a new
     method for estimating resting-state effective connectivity MRI'
@@ -646,359 +429,5 @@
   link: https://doi.org/gt44nr
   orcid: 0000-0002-3900-3220
   nan-xu-list: true
-  plugin: sources.py
-  file: sources.yaml
-  type: conference
-  buttons:
-  - type: paper
-    text: proceedings
-    link: /papers/manuscripts/xu-icip-2014.pdf
-  tags:
-  - conference
-  - causal interactions
-  - modeling
-- id: doi:10.31234/osf.io/qzv47_v1
-  title: Trait-level Attention Control Emerges from Dynamic Frontoparietal Control
-    Network Interactions
-  authors:
-  - Dolly Tan Seeburger
-  - Jason Tsukahara
-  - Nan Xu
-  - Vishwadeep Ahluwalia
-  - Shella Keilholz
-  - Randall W Engle
-  publisher: Center for Open Science
-  date: '2025-10-02'
-  link: https://doi.org/hbcj4r
-  type: journal
-  tags:
-  - preprint
-  - brain dynamics
-  plugin: sources.py
-  file: sources.yaml
-- id: doi:10.1002/alz.061608
-  title: "The effects of locus coeruleus stimulation on the BOLD global signal in\
-    \ TgF344\u2010AD rats"
-  authors:
-  - Nmachi Anumba
-  - Michael Kelberman
-  - Corrie Smith
-  - Wen Ju Pan
-  - Perrin G Clavijo
-  - Nan Xu
-  - Alexia Marriott
-  - Ellen Kim
-  - David Weinshenker
-  - Shella Keilholz
-  publisher: Alzheimer's &amp; Dementia
-  date: '2022-12-01'
-  link: https://doi.org/gt46xm
-  tags:
-  - conference
-  - neuro disorders
-  plugin: sources.py
-  file: sources.yaml
-- title: Task-sensitivity and subcortical propagation of patterned spatiotemporal
-    neural activity
-  description: '> **Oral Presentation.**'
-  authors:
-  - Archana Sathiyamoorthy
-  - Matthew Wang
-  - Linnea Hoheisel
-  - Nan Xu
-  publisher: 2026 Northeast Bioengineering Conference
-  date: '2026-04-16'
-  type: conference
-  tags:
-  - conference
-  - brain dynamics
-  plugin: sources.py
-  file: sources.yaml
-- title: Brain states in simultaneous EEG-fMRI
-  authors:
-  - Linnea Hoheisel
-  - Kavya Rajendran
-  - Edward Bernat
-  - Nan Xu
-  publisher: Organization for Human Brain Mapping 2026 Annual Meeting (Accepted)
-  date: '2026-06-14'
-  type: conference
-  tags:
-  - conference
-  - brain dynamics
-  plugin: sources.py
-  file: sources.yaml
-- title: Validation of channel capacity as an effective connectivity measure in fMRI
-  authors:
-  - Jianan Jian
-  - Benjamin Li
-  - Nurahmed Multezem
-  - Francesca Mandino
-  - Evelyn Lake
-  - Nan Xu
-  publisher: Organization for Human Brain Mapping 2026 Annual Meeting (Accepted)
-  date: '2026-06-14'
-  type: conference
-  tags:
-  - conference
-  - causal interactions
-  - brain dynamics
-  - cross-species
-  - modeling
-  plugin: sources.py
-  file: sources.yaml
-- title: 'Sliding-window prediction correlation (SWpC): a sensitive approach for detecting
-    task-specific directed functional connectivity dynamics'
-  authors:
-  - Nan Xu
-  - Vince D. Calhoun
-  - Shella D. Keilholz
-  publisher: Organization for Human Brain Mapping 2025 Annual Meeting
-  date: '2025-06-24'
-  type: conference
-  tags:
-  - conference
-  - causal interactions
-  - brain dynamics
-  - modeling
-  plugin: sources.py
-  file: sources.yaml
-- title: The effects of locus coeruleus stimulation on quasi-periodic patterns in
-    rats
-  authors:
-  - Nmachi Anumba
-  - Michael A. Keilberman
-  - Wenju Pan
-  - Alexia Marriott
-  - Nan Xu
-  - David Weinshenker
-  - Shella Keilholz
-  publisher: Organization for Human Brain Mapping 2024 Annual Meeting
-  date: '2024-06-23'
-  type: conference
-  tags:
-  - conference
-  - brain dynamics
-  - cross-species
-  plugin: sources.py
-  file: sources.yaml
-- title: 'Time-varying causal interactions in the functional brain networks: modeling
-    and validation'
-  authors:
-  - Nan Xu
-  - Xiaodi Zhang
-  - Wenju Pan
-  - Jeremy L. Smith
-  - Jason W. Allen
-  - Vince D. Calhoun
-  - Shella D. Keilholz
-  publisher: Organization for Human Brain Mapping 2024 Annual Meeting
-  date: '2024-06-23'
-  type: conference
-  tags:
-  - conference
-  - causal interactions
-  - brain dynamics
-  - modeling
-  - neuro disorders
-  plugin: sources.py
-  file: sources.yaml
-- title: Modeling and validation of dynamic causal interactions in functional brain
-    network
-  authors:
-  - Nan Xu
-  - Xiaodi Zhang
-  - Wenju Pan
-  - Jeremy L. Smith
-  - Jason W. Allen
-  - Vince D. Calhoun
-  - Shella D. Keilholz
-  publisher: 10th Annual BRAIN Initiative Conference
-  date: '2024-06-18'
-  type: conference
-  tags:
-  - conference
-  - causal interactions
-  - brain dynamics
-  - modeling
-  - neuro disorders
-  plugin: sources.py
-  file: sources.yaml
-- title: '``Hyperconnected'''' vestibular state in subacute and chronic post-concussive
-    vestibular dysfunction using dynamic whole brain functional connectivity analysis'
-  description: '> **Oral Presentation.**'
-  authors:
-  - Anna Trofimova
-  - Jeremy Smith
-  - Nan Xu
-  - Shella Keilholz
-  - Russell Gore
-  - Jason W. Allen
-  publisher: The 16th Annual Meeting of the American Society of Functional Neuroradiology
-  date: '2023-10-07'
-  type: conference
-  tags:
-  - conference
-  - brain dynamics
-  - neuro disorders
-  - recognition
-  plugin: sources.py
-  file: sources.yaml
-- title: Distribution of large-scale spatiotemporal patterns within and across individuals
-  authors:
-  - Taylor Bolt
-  - Nan Xu
-  - Laren Daley
-  - T.J. LaGrow
-  - W-J Pan
-  - Eric Schumacher
-  - Shella Keilholz
-  publisher: Organization for Human Brain Mapping 2023 Annual Meeting
-  date: '2023-07-22'
-  type: conference
-  tags:
-  - conference
-  - brain dynamics
-  plugin: sources.py
-  file: sources.yaml
-- title: The interaction between visual stimulation and intrinsic infraslow whole
-    brain activity in humans
-  authors:
-  - Nan Xu
-  - Derek Smith
-  - George Geno
-  - Dolly T. Seeburger
-  - Eric H. Schumacher
-  - Shella D. Keilholz
-  publisher: Organization for Human Brain Mapping 2023 Annual Meeting
-  date: '2023-07-22'
-  type: conference
-  tags:
-  - conference
-  - brain dynamics
-  plugin: sources.py
-  file: sources.yaml
-- title: Dynamic spatiotemporal interactions in vestibular networks affected by concussive
-    syndromes
-  authors:
-  - Nan Xu
-  - Jeremy Smith
-  - Jason Allen
-  - Shella Keilholz
-  publisher: Organization for Human Brain Mapping 2022 Annual Meeting
-  date: '2022-06-19'
-  type: conference
-  tags:
-  - conference
-  - causal interactions
-  - neuro disorders
-  plugin: sources.py
-  file: sources.yaml
-- title: Investigating the relationship between sustained attention and quasi-periodic
-    brain activity patterns with the psychomotor vigilance task.
-  authors:
-  - Yunji Lee
-  - Dolly T. Seeburger
-  - Sakshi Dhawan
-  - Tiffany Nguyen
-  - Nan Xu
-  - Marcus Ma
-  - Anzar Abbas
-  - Waqas Majeed
-  - Garth Thompson
-  - Shella D. Keilholz
-  - Eric H. Schumacher
-  publisher: Cognitive Neuroscience Society 2022 Annual Meeting
-  date: '2022-04-23'
-  type: conference
-  tags:
-  - conference
-  - brain dynamics
-  - cognitive functions
-  plugin: sources.py
-  file: sources.yaml
-- title: Identifying the neural mechanisms of zone state performance using time-varying
-    functional connectivity methods.
-  description: '> **Oral Presentation.**'
-  authors:
-  - Dolly T. Seeburger
-  - Nan Xu
-  - C Godwin
-  - Marcus Ma
-  - Shella D. Keilholz
-  - Eric H. Schumacher
-  publisher: Cognitive Neuroscience Society 2022 Annual Meeting
-  date: '2022-04-23'
-  type: conference
-  tags:
-  - conference
-  - brain dynamics
-  - cognitive functions
-  - recognition
-  plugin: sources.py
-  file: sources.yaml
-- title: Quasiperiodic patterns and BOLD response entrained by visual stimulation
-    in the human brain.
-  authors:
-  - Nan Xu
-  - Derek M. Smith
-  - George Jeno
-  - Dolly T. Seeburger
-  - Eric H. Schumacher
-  - Shella D. Keilholz
-  publisher: Organization for Human Brain Mapping 2021 Annual Meeting
-  date: '2021-05-30'
-  type: conference
-  tags:
-  - conference
-  - brain dynamics
-  - cognitive functions
-  plugin: sources.py
-  file: sources.yaml
-- title: Investigation of spatiotemporal functional interactivity among large-scale
-    brain networks
-  description: '> **Oral Presentation; Selected 4% of Accepted Abstract Papers.**'
-  authors:
-  - Nan Xu
-  - R Nathan Spreng
-  - Shella D. Keilholz
-  publisher: Organization for Human Brain Mapping 2020 Annual Meeting
-  date: '2020-06-23'
-  type: conference
-  tags:
-  - conference
-  - causal interactions
-  - cognitive functions
-  - recognition
-  plugin: sources.py
-  file: sources.yaml
-- title: What are the most talkative brain regions?
-  publisher: IEEE Engineering In Medicine And Biology Society Annual International
-    Conference
-  description: '> **Late-breaking Research Paper!**'
-  authors:
-  - Nan Xu
-  - Peter C. Doerschuk
-  - R Nathan Spreng
-  date: '2016-08-01'
-  type: conference
-  tags:
-  - conference
-  - causal interactions
-  - recognition
-  plugin: sources.py
-  file: sources.yaml
-- title: 'Directed interactivity of large-scale brain networks: Introducing a new
-    method for estimating brain connectivity MRI'
-  authors:
-  - Nan Xu
-  - R Nathan Spreng
-  - Peter C. Doerschuk
-  publisher: Cognitive Neuroscience Society 2014 Annual Meeting
-  date: '2014-04-07'
-  type: conference
-  tags:
-  - conference
-  - causal interactions
-  plugin: sources.py
-  file: sources.yaml
+  plugin: orcid.py
+  file: orcid.yaml
