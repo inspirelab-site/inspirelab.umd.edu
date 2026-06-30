@@ -220,10 +220,6 @@
   
 
   
-    <link href="/_styles/membernew.css" rel="stylesheet">
-  
-
-  
     <link href="/_styles/paragraph.css" rel="stylesheet">
   
 
@@ -485,6 +481,7 @@
         href="http://inspirelab.umd.edu/papers/?search=&quot;tag: modeling&quot;"
         class="tag"
         data-tooltip="Show items with the tag &quot;modeling&quot;"
+        onclick="onTagClick('modeling')"
       >
         modeling
       </a>
@@ -493,6 +490,7 @@
         href="http://inspirelab.umd.edu/papers/?search=&quot;tag: computations&quot;"
         class="tag"
         data-tooltip="Show items with the tag &quot;computations&quot;"
+        onclick="onTagClick('computations')"
       >
         computations
       </a>
@@ -501,6 +499,7 @@
         href="http://inspirelab.umd.edu/papers/?search=&quot;tag: analysis&quot;"
         class="tag"
         data-tooltip="Show items with the tag &quot;analysis&quot;"
+        onclick="onTagClick('analysis')"
       >
         analysis
       </a>
@@ -509,6 +508,7 @@
         href="http://inspirelab.umd.edu/papers/?search=&quot;tag: software&quot;"
         class="tag"
         data-tooltip="Show items with the tag &quot;software&quot;"
+        onclick="onTagClick('software')"
       >
         software
       </a>
@@ -517,6 +517,7 @@
         href="http://inspirelab.umd.edu/papers/?search=&quot;tag: computational-imaging&quot;"
         class="tag"
         data-tooltip="Show items with the tag &quot;computational-imaging&quot;"
+        onclick="onTagClick('computational-imaging')"
       >
         computational-imaging
       </a>
@@ -525,6 +526,7 @@
         href="http://inspirelab.umd.edu/papers/?search=&quot;tag: neuroscience&quot;"
         class="tag"
         data-tooltip="Show items with the tag &quot;neuroscience&quot;"
+        onclick="onTagClick('neuroscience')"
       >
         neuroscience
       </a>
@@ -672,6 +674,7 @@
         href="http://inspirelab.umd.edu/papers/?search=&quot;tag: journal&quot;"
         class="tag"
         data-tooltip="Show items with the tag &quot;journal&quot;"
+        onclick="onTagClick('journal')"
       >
         journal
       </a>
@@ -680,6 +683,7 @@
         href="http://inspirelab.umd.edu/papers/?search=&quot;tag: brain-dynamics&quot;"
         class="tag"
         data-tooltip="Show items with the tag &quot;brain-dynamics&quot;"
+        onclick="onTagClick('brain-dynamics')"
       >
         brain-dynamics
       </a>
@@ -688,6 +692,7 @@
         href="http://inspirelab.umd.edu/papers/?search=&quot;tag: open-science&quot;"
         class="tag"
         data-tooltip="Show items with the tag &quot;open-science&quot;"
+        onclick="onTagClick('open-science')"
       >
         open-science
       </a>
@@ -723,19 +728,19 @@
 
 <div class="tags" data-link="http://inspirelab.umd.edu/papers/">
     
-      <a href="http://inspirelab.umd.edu/papers/?search=%22tag:%20preprint%22" class="tag" data-tooltip='Show items with the tag "preprint"'>
+      <a href="http://inspirelab.umd.edu/papers/?search=%22tag:%20preprint%22" class="tag" data-tooltip='Show items with the tag "preprint"' onclick="onTagClick('preprint')">
         preprint
       </a>
     
-      <a href="http://inspirelab.umd.edu/papers/?search=%22tag:%20journal%22" class="tag" data-tooltip='Show items with the tag "journal"'>
+      <a href="http://inspirelab.umd.edu/papers/?search=%22tag:%20journal%22" class="tag" data-tooltip='Show items with the tag "journal"' onclick="onTagClick('journal')">
         journal
       </a>
     
-      <a href="http://inspirelab.umd.edu/papers/?search=%22tag:%20conference%22" class="tag" data-tooltip='Show items with the tag "conference"'>
+      <a href="http://inspirelab.umd.edu/papers/?search=%22tag:%20conference%22" class="tag" data-tooltip='Show items with the tag "conference"' onclick="onTagClick('conference')">
         conference
       </a>
     
-      <a href="http://inspirelab.umd.edu/papers/?search=%22tag:%20recognition%22" class="tag" data-tooltip='Show items with the tag "recognition"'>
+      <a href="http://inspirelab.umd.edu/papers/?search=%22tag:%20recognition%22" class="tag" data-tooltip='Show items with the tag "recognition"' onclick="onTagClick('recognition')">
         recognition
       </a>
     
@@ -743,19 +748,19 @@
 
 <div class="tags" data-link="http://inspirelab.umd.edu/papers/">
     
-      <a href="http://inspirelab.umd.edu/papers/?search=%22tag:%20causal-interactions%22" class="tag" data-tooltip='Show items with the tag "causal-interactions"'>
+      <a href="http://inspirelab.umd.edu/papers/?search=%22tag:%20causal-interactions%22" class="tag" data-tooltip='Show items with the tag "causal-interactions"' onclick="onTagClick('causal-interactions')">
         causal-interactions
       </a>
     
-      <a href="http://inspirelab.umd.edu/papers/?search=%22tag:%20brain-dynamics%22" class="tag" data-tooltip='Show items with the tag "brain-dynamics"'>
+      <a href="http://inspirelab.umd.edu/papers/?search=%22tag:%20brain-dynamics%22" class="tag" data-tooltip='Show items with the tag "brain-dynamics"' onclick="onTagClick('brain-dynamics')">
         brain-dynamics
       </a>
     
-      <a href="http://inspirelab.umd.edu/papers/?search=%22tag:%20neuro-disorders%22" class="tag" data-tooltip='Show items with the tag "neuro-disorders"'>
+      <a href="http://inspirelab.umd.edu/papers/?search=%22tag:%20neuro-disorders%22" class="tag" data-tooltip='Show items with the tag "neuro-disorders"' onclick="onTagClick('neuro-disorders')">
         neuro-disorders
       </a>
     
-      <a href="http://inspirelab.umd.edu/papers/?search=%22tag:%20image-reconstruction%22" class="tag" data-tooltip='Show items with the tag "image-reconstruction"'>
+      <a href="http://inspirelab.umd.edu/papers/?search=%22tag:%20image-reconstruction%22" class="tag" data-tooltip='Show items with the tag "image-reconstruction"' onclick="onTagClick('image-reconstruction')">
         image-reconstruction
       </a>
     
@@ -776,6 +781,7 @@
         href="http://inspirelab.umd.edu/papers/?search=&quot;tag: recognition&quot;"
         class="tag"
         data-tooltip="Show items with the tag &quot;recognition&quot;"
+        onclick="onTagClick('recognition')"
       >
         recognition
       </a>
@@ -840,23 +846,23 @@
 
   <div class="tags" data-link="http://inspirelab.umd.edu/papers/">
     
-      <a href="http://inspirelab.umd.edu/papers/?search=%22tag:%20conference%22" class="tag" data-tooltip='Show items with the tag "conference"'>
+      <a href="http://inspirelab.umd.edu/papers/?search=%22tag:%20conference%22" class="tag" data-tooltip='Show items with the tag "conference"' onclick="onTagClick('conference')">
         conference
       </a>
     
-      <a href="http://inspirelab.umd.edu/papers/?search=%22tag:%20causal-interactions%22" class="tag" data-tooltip='Show items with the tag "causal-interactions"'>
+      <a href="http://inspirelab.umd.edu/papers/?search=%22tag:%20causal-interactions%22" class="tag" data-tooltip='Show items with the tag "causal-interactions"' onclick="onTagClick('causal-interactions')">
         causal-interactions
       </a>
     
-      <a href="http://inspirelab.umd.edu/papers/?search=%22tag:%20brain-dynamics%22" class="tag" data-tooltip='Show items with the tag "brain-dynamics"'>
+      <a href="http://inspirelab.umd.edu/papers/?search=%22tag:%20brain-dynamics%22" class="tag" data-tooltip='Show items with the tag "brain-dynamics"' onclick="onTagClick('brain-dynamics')">
         brain-dynamics
       </a>
     
-      <a href="http://inspirelab.umd.edu/papers/?search=%22tag:%20cross-species%22" class="tag" data-tooltip='Show items with the tag "cross-species"'>
+      <a href="http://inspirelab.umd.edu/papers/?search=%22tag:%20cross-species%22" class="tag" data-tooltip='Show items with the tag "cross-species"' onclick="onTagClick('cross-species')">
         cross-species
       </a>
     
-      <a href="http://inspirelab.umd.edu/papers/?search=%22tag:%20modeling%22" class="tag" data-tooltip='Show items with the tag "modeling"'>
+      <a href="http://inspirelab.umd.edu/papers/?search=%22tag:%20modeling%22" class="tag" data-tooltip='Show items with the tag "modeling"' onclick="onTagClick('modeling')">
         modeling
       </a>
     
@@ -910,11 +916,11 @@
 
   <div class="tags" data-link="http://inspirelab.umd.edu/papers/">
     
-      <a href="http://inspirelab.umd.edu/papers/?search=%22tag:%20conference%22" class="tag" data-tooltip='Show items with the tag "conference"'>
+      <a href="http://inspirelab.umd.edu/papers/?search=%22tag:%20conference%22" class="tag" data-tooltip='Show items with the tag "conference"' onclick="onTagClick('conference')">
         conference
       </a>
     
-      <a href="http://inspirelab.umd.edu/papers/?search=%22tag:%20brain-dynamics%22" class="tag" data-tooltip='Show items with the tag "brain-dynamics"'>
+      <a href="http://inspirelab.umd.edu/papers/?search=%22tag:%20brain-dynamics%22" class="tag" data-tooltip='Show items with the tag "brain-dynamics"' onclick="onTagClick('brain-dynamics')">
         brain-dynamics
       </a>
     
@@ -1018,11 +1024,11 @@
 
   <div class="tags" data-link="http://inspirelab.umd.edu/papers/">
     
-      <a href="http://inspirelab.umd.edu/papers/?search=%22tag:%20conference%22" class="tag" data-tooltip='Show items with the tag "conference"'>
+      <a href="http://inspirelab.umd.edu/papers/?search=%22tag:%20conference%22" class="tag" data-tooltip='Show items with the tag "conference"' onclick="onTagClick('conference')">
         conference
       </a>
     
-      <a href="http://inspirelab.umd.edu/papers/?search=%22tag:%20brain-dynamics%22" class="tag" data-tooltip='Show items with the tag "brain-dynamics"'>
+      <a href="http://inspirelab.umd.edu/papers/?search=%22tag:%20brain-dynamics%22" class="tag" data-tooltip='Show items with the tag "brain-dynamics"' onclick="onTagClick('brain-dynamics')">
         brain-dynamics
       </a>
     
@@ -1052,7 +1058,7 @@
       </a>
 
       <div class="citation-authors" tabindex="0">
-        Jianan Jian, Benjamin Li, Nurahmed Multezem, Francesca Mandino, Evelyn MR Lake, Nan Xu
+        Jianan Jian, Benjamin Li, Nurahmed Multezem, Francesca Mandino, Evelyn Lake, Nan Xu
 
       </div>
 
@@ -1097,23 +1103,23 @@
 
   <div class="tags" data-link="http://inspirelab.umd.edu/papers/">
     
-      <a href="http://inspirelab.umd.edu/papers/?search=%22tag:%20preprint%22" class="tag" data-tooltip='Show items with the tag "preprint"'>
+      <a href="http://inspirelab.umd.edu/papers/?search=%22tag:%20preprint%22" class="tag" data-tooltip='Show items with the tag "preprint"' onclick="onTagClick('preprint')">
         preprint
       </a>
     
-      <a href="http://inspirelab.umd.edu/papers/?search=%22tag:%20causal-interactions%22" class="tag" data-tooltip='Show items with the tag "causal-interactions"'>
+      <a href="http://inspirelab.umd.edu/papers/?search=%22tag:%20causal-interactions%22" class="tag" data-tooltip='Show items with the tag "causal-interactions"' onclick="onTagClick('causal-interactions')">
         causal-interactions
       </a>
     
-      <a href="http://inspirelab.umd.edu/papers/?search=%22tag:%20brain-dynamics%22" class="tag" data-tooltip='Show items with the tag "brain-dynamics"'>
+      <a href="http://inspirelab.umd.edu/papers/?search=%22tag:%20brain-dynamics%22" class="tag" data-tooltip='Show items with the tag "brain-dynamics"' onclick="onTagClick('brain-dynamics')">
         brain-dynamics
       </a>
     
-      <a href="http://inspirelab.umd.edu/papers/?search=%22tag:%20cross-species%22" class="tag" data-tooltip='Show items with the tag "cross-species"'>
+      <a href="http://inspirelab.umd.edu/papers/?search=%22tag:%20cross-species%22" class="tag" data-tooltip='Show items with the tag "cross-species"' onclick="onTagClick('cross-species')">
         cross-species
       </a>
     
-      <a href="http://inspirelab.umd.edu/papers/?search=%22tag:%20modeling%22" class="tag" data-tooltip='Show items with the tag "modeling"'>
+      <a href="http://inspirelab.umd.edu/papers/?search=%22tag:%20modeling%22" class="tag" data-tooltip='Show items with the tag "modeling"' onclick="onTagClick('modeling')">
         modeling
       </a>
     
@@ -1143,7 +1149,7 @@
       </a>
 
       <div class="citation-authors" tabindex="0">
-        Francesca Mandino, Xilin Shen, Corey Horien, Xenophon Papademetris, Stephen M. Strittmatter, Shella Keilholz, Nan Xu, Evelyn MR Lake
+        Francesca Mandino, Xilin Shen, Corey Horien, Xenophon Papademetris, Stephen M. Strittmatter, Shella D. Keilholz, Nan Xu, Evelyn M.R. Lake
 
       </div>
 
@@ -1169,11 +1175,11 @@
 
   <div class="tags" data-link="http://inspirelab.umd.edu/papers/">
     
-      <a href="http://inspirelab.umd.edu/papers/?search=%22tag:%20preprint%22" class="tag" data-tooltip='Show items with the tag "preprint"'>
+      <a href="http://inspirelab.umd.edu/papers/?search=%22tag:%20preprint%22" class="tag" data-tooltip='Show items with the tag "preprint"' onclick="onTagClick('preprint')">
         preprint
       </a>
     
-      <a href="http://inspirelab.umd.edu/papers/?search=%22tag:%20brain-dynamics%22" class="tag" data-tooltip='Show items with the tag "brain-dynamics"'>
+      <a href="http://inspirelab.umd.edu/papers/?search=%22tag:%20brain-dynamics%22" class="tag" data-tooltip='Show items with the tag "brain-dynamics"' onclick="onTagClick('brain-dynamics')">
         brain-dynamics
       </a>
     
@@ -1229,15 +1235,15 @@
 
   <div class="tags" data-link="http://inspirelab.umd.edu/papers/">
     
-      <a href="http://inspirelab.umd.edu/papers/?search=%22tag:%20journal%22" class="tag" data-tooltip='Show items with the tag "journal"'>
+      <a href="http://inspirelab.umd.edu/papers/?search=%22tag:%20journal%22" class="tag" data-tooltip='Show items with the tag "journal"' onclick="onTagClick('journal')">
         journal
       </a>
     
-      <a href="http://inspirelab.umd.edu/papers/?search=%22tag:%20brain-dynamics%22" class="tag" data-tooltip='Show items with the tag "brain-dynamics"'>
+      <a href="http://inspirelab.umd.edu/papers/?search=%22tag:%20brain-dynamics%22" class="tag" data-tooltip='Show items with the tag "brain-dynamics"' onclick="onTagClick('brain-dynamics')">
         brain-dynamics
       </a>
     
-      <a href="http://inspirelab.umd.edu/papers/?search=%22tag:%20causal-interactions%22" class="tag" data-tooltip='Show items with the tag "causal-interactions"'>
+      <a href="http://inspirelab.umd.edu/papers/?search=%22tag:%20causal-interactions%22" class="tag" data-tooltip='Show items with the tag "causal-interactions"' onclick="onTagClick('causal-interactions')">
         causal-interactions
       </a>
     
@@ -1253,8 +1259,8 @@
 <div class="citation-container">
   <div class="citation">
     
-      <a href="https://doi.org/hbptzh" class="citation-image" aria-label="Time-Varying Directed Interactions in Functional Brain Networks: Modeling and Validation">
-        <img src="" alt="Time-Varying Directed Interactions in Functional Brain Networks: Modeling and Validation" loading="lazy" onerror="this.style.display='none';">
+      <a href="https://doi.org/hbptzh" class="citation-image" aria-label="Time-resolved directional organization of brain networks: distinct strength and temporal signatures from neurophysiology to disease">
+        <img src="" alt="Time-resolved directional organization of brain networks: distinct strength and temporal signatures from neurophysiology to disease" loading="lazy" onerror="this.style.display='none';">
       </a>
     
 
@@ -1263,7 +1269,7 @@
       <i class="icon fa-regular fa-newspaper"></i>
 
       <a href="https://doi.org/hbptzh" class="citation-title">
-        Time-Varying Directed Interactions in Functional Brain Networks: Modeling and Validation
+        Time-resolved directional organization of brain networks: distinct strength and temporal signatures from neurophysiology to disease
       </a>
 
       <div class="citation-authors" tabindex="0">
@@ -1312,27 +1318,27 @@
 
   <div class="tags" data-link="http://inspirelab.umd.edu/papers/">
     
-      <a href="http://inspirelab.umd.edu/papers/?search=%22tag:%20preprint%22" class="tag" data-tooltip='Show items with the tag "preprint"'>
+      <a href="http://inspirelab.umd.edu/papers/?search=%22tag:%20preprint%22" class="tag" data-tooltip='Show items with the tag "preprint"' onclick="onTagClick('preprint')">
         preprint
       </a>
     
-      <a href="http://inspirelab.umd.edu/papers/?search=%22tag:%20causal-interactions%22" class="tag" data-tooltip='Show items with the tag "causal-interactions"'>
+      <a href="http://inspirelab.umd.edu/papers/?search=%22tag:%20causal-interactions%22" class="tag" data-tooltip='Show items with the tag "causal-interactions"' onclick="onTagClick('causal-interactions')">
         causal-interactions
       </a>
     
-      <a href="http://inspirelab.umd.edu/papers/?search=%22tag:%20brain-dynamics%22" class="tag" data-tooltip='Show items with the tag "brain-dynamics"'>
+      <a href="http://inspirelab.umd.edu/papers/?search=%22tag:%20brain-dynamics%22" class="tag" data-tooltip='Show items with the tag "brain-dynamics"' onclick="onTagClick('brain-dynamics')">
         brain-dynamics
       </a>
     
-      <a href="http://inspirelab.umd.edu/papers/?search=%22tag:%20neuro-disorders%22" class="tag" data-tooltip='Show items with the tag "neuro-disorders"'>
+      <a href="http://inspirelab.umd.edu/papers/?search=%22tag:%20neuro-disorders%22" class="tag" data-tooltip='Show items with the tag "neuro-disorders"' onclick="onTagClick('neuro-disorders')">
         neuro-disorders
       </a>
     
-      <a href="http://inspirelab.umd.edu/papers/?search=%22tag:%20cross-species%22" class="tag" data-tooltip='Show items with the tag "cross-species"'>
+      <a href="http://inspirelab.umd.edu/papers/?search=%22tag:%20cross-species%22" class="tag" data-tooltip='Show items with the tag "cross-species"' onclick="onTagClick('cross-species')">
         cross-species
       </a>
     
-      <a href="http://inspirelab.umd.edu/papers/?search=%22tag:%20modeling%22" class="tag" data-tooltip='Show items with the tag "modeling"'>
+      <a href="http://inspirelab.umd.edu/papers/?search=%22tag:%20modeling%22" class="tag" data-tooltip='Show items with the tag "modeling"' onclick="onTagClick('modeling')">
         modeling
       </a>
     
@@ -1390,11 +1396,11 @@
 
   <div class="tags" data-link="http://inspirelab.umd.edu/papers/">
     
-      <a href="http://inspirelab.umd.edu/papers/?search=%22tag:%20preprint%22" class="tag" data-tooltip='Show items with the tag "preprint"'>
+      <a href="http://inspirelab.umd.edu/papers/?search=%22tag:%20preprint%22" class="tag" data-tooltip='Show items with the tag "preprint"' onclick="onTagClick('preprint')">
         preprint
       </a>
     
-      <a href="http://inspirelab.umd.edu/papers/?search=%22tag:%20brain-dynamics%22" class="tag" data-tooltip='Show items with the tag "brain-dynamics"'>
+      <a href="http://inspirelab.umd.edu/papers/?search=%22tag:%20brain-dynamics%22" class="tag" data-tooltip='Show items with the tag "brain-dynamics"' onclick="onTagClick('brain-dynamics')">
         brain-dynamics
       </a>
     
@@ -1448,19 +1454,19 @@
 
   <div class="tags" data-link="http://inspirelab.umd.edu/papers/">
     
-      <a href="http://inspirelab.umd.edu/papers/?search=%22tag:%20conference%22" class="tag" data-tooltip='Show items with the tag "conference"'>
+      <a href="http://inspirelab.umd.edu/papers/?search=%22tag:%20conference%22" class="tag" data-tooltip='Show items with the tag "conference"' onclick="onTagClick('conference')">
         conference
       </a>
     
-      <a href="http://inspirelab.umd.edu/papers/?search=%22tag:%20causal-interactions%22" class="tag" data-tooltip='Show items with the tag "causal-interactions"'>
+      <a href="http://inspirelab.umd.edu/papers/?search=%22tag:%20causal-interactions%22" class="tag" data-tooltip='Show items with the tag "causal-interactions"' onclick="onTagClick('causal-interactions')">
         causal-interactions
       </a>
     
-      <a href="http://inspirelab.umd.edu/papers/?search=%22tag:%20brain-dynamics%22" class="tag" data-tooltip='Show items with the tag "brain-dynamics"'>
+      <a href="http://inspirelab.umd.edu/papers/?search=%22tag:%20brain-dynamics%22" class="tag" data-tooltip='Show items with the tag "brain-dynamics"' onclick="onTagClick('brain-dynamics')">
         brain-dynamics
       </a>
     
-      <a href="http://inspirelab.umd.edu/papers/?search=%22tag:%20modeling%22" class="tag" data-tooltip='Show items with the tag "modeling"'>
+      <a href="http://inspirelab.umd.edu/papers/?search=%22tag:%20modeling%22" class="tag" data-tooltip='Show items with the tag "modeling"' onclick="onTagClick('modeling')">
         modeling
       </a>
     
@@ -1535,11 +1541,11 @@
 
   <div class="tags" data-link="http://inspirelab.umd.edu/papers/">
     
-      <a href="http://inspirelab.umd.edu/papers/?search=%22tag:%20journal%22" class="tag" data-tooltip='Show items with the tag "journal"'>
+      <a href="http://inspirelab.umd.edu/papers/?search=%22tag:%20journal%22" class="tag" data-tooltip='Show items with the tag "journal"' onclick="onTagClick('journal')">
         journal
       </a>
     
-      <a href="http://inspirelab.umd.edu/papers/?search=%22tag:%20brain-dynamics%22" class="tag" data-tooltip='Show items with the tag "brain-dynamics"'>
+      <a href="http://inspirelab.umd.edu/papers/?search=%22tag:%20brain-dynamics%22" class="tag" data-tooltip='Show items with the tag "brain-dynamics"' onclick="onTagClick('brain-dynamics')">
         brain-dynamics
       </a>
     
@@ -1597,15 +1603,15 @@
 
   <div class="tags" data-link="http://inspirelab.umd.edu/papers/">
     
-      <a href="http://inspirelab.umd.edu/papers/?search=%22tag:%20journal%22" class="tag" data-tooltip='Show items with the tag "journal"'>
+      <a href="http://inspirelab.umd.edu/papers/?search=%22tag:%20journal%22" class="tag" data-tooltip='Show items with the tag "journal"' onclick="onTagClick('journal')">
         journal
       </a>
     
-      <a href="http://inspirelab.umd.edu/papers/?search=%22tag:%20brain-dynamics%22" class="tag" data-tooltip='Show items with the tag "brain-dynamics"'>
+      <a href="http://inspirelab.umd.edu/papers/?search=%22tag:%20brain-dynamics%22" class="tag" data-tooltip='Show items with the tag "brain-dynamics"' onclick="onTagClick('brain-dynamics')">
         brain-dynamics
       </a>
     
-      <a href="http://inspirelab.umd.edu/papers/?search=%22tag:%20cross-species%22" class="tag" data-tooltip='Show items with the tag "cross-species"'>
+      <a href="http://inspirelab.umd.edu/papers/?search=%22tag:%20cross-species%22" class="tag" data-tooltip='Show items with the tag "cross-species"' onclick="onTagClick('cross-species')">
         cross-species
       </a>
     
@@ -1659,23 +1665,23 @@
 
   <div class="tags" data-link="http://inspirelab.umd.edu/papers/">
     
-      <a href="http://inspirelab.umd.edu/papers/?search=%22tag:%20conference%22" class="tag" data-tooltip='Show items with the tag "conference"'>
+      <a href="http://inspirelab.umd.edu/papers/?search=%22tag:%20conference%22" class="tag" data-tooltip='Show items with the tag "conference"' onclick="onTagClick('conference')">
         conference
       </a>
     
-      <a href="http://inspirelab.umd.edu/papers/?search=%22tag:%20causal-interactions%22" class="tag" data-tooltip='Show items with the tag "causal-interactions"'>
+      <a href="http://inspirelab.umd.edu/papers/?search=%22tag:%20causal-interactions%22" class="tag" data-tooltip='Show items with the tag "causal-interactions"' onclick="onTagClick('causal-interactions')">
         causal-interactions
       </a>
     
-      <a href="http://inspirelab.umd.edu/papers/?search=%22tag:%20brain-dynamics%22" class="tag" data-tooltip='Show items with the tag "brain-dynamics"'>
+      <a href="http://inspirelab.umd.edu/papers/?search=%22tag:%20brain-dynamics%22" class="tag" data-tooltip='Show items with the tag "brain-dynamics"' onclick="onTagClick('brain-dynamics')">
         brain-dynamics
       </a>
     
-      <a href="http://inspirelab.umd.edu/papers/?search=%22tag:%20modeling%22" class="tag" data-tooltip='Show items with the tag "modeling"'>
+      <a href="http://inspirelab.umd.edu/papers/?search=%22tag:%20modeling%22" class="tag" data-tooltip='Show items with the tag "modeling"' onclick="onTagClick('modeling')">
         modeling
       </a>
     
-      <a href="http://inspirelab.umd.edu/papers/?search=%22tag:%20neuro-disorders%22" class="tag" data-tooltip='Show items with the tag "neuro-disorders"'>
+      <a href="http://inspirelab.umd.edu/papers/?search=%22tag:%20neuro-disorders%22" class="tag" data-tooltip='Show items with the tag "neuro-disorders"' onclick="onTagClick('neuro-disorders')">
         neuro-disorders
       </a>
     
@@ -1729,15 +1735,15 @@
 
   <div class="tags" data-link="http://inspirelab.umd.edu/papers/">
     
-      <a href="http://inspirelab.umd.edu/papers/?search=%22tag:%20conference%22" class="tag" data-tooltip='Show items with the tag "conference"'>
+      <a href="http://inspirelab.umd.edu/papers/?search=%22tag:%20conference%22" class="tag" data-tooltip='Show items with the tag "conference"' onclick="onTagClick('conference')">
         conference
       </a>
     
-      <a href="http://inspirelab.umd.edu/papers/?search=%22tag:%20brain-dynamics%22" class="tag" data-tooltip='Show items with the tag "brain-dynamics"'>
+      <a href="http://inspirelab.umd.edu/papers/?search=%22tag:%20brain-dynamics%22" class="tag" data-tooltip='Show items with the tag "brain-dynamics"' onclick="onTagClick('brain-dynamics')">
         brain-dynamics
       </a>
     
-      <a href="http://inspirelab.umd.edu/papers/?search=%22tag:%20cross-species%22" class="tag" data-tooltip='Show items with the tag "cross-species"'>
+      <a href="http://inspirelab.umd.edu/papers/?search=%22tag:%20cross-species%22" class="tag" data-tooltip='Show items with the tag "cross-species"' onclick="onTagClick('cross-species')">
         cross-species
       </a>
     
@@ -1791,23 +1797,23 @@
 
   <div class="tags" data-link="http://inspirelab.umd.edu/papers/">
     
-      <a href="http://inspirelab.umd.edu/papers/?search=%22tag:%20conference%22" class="tag" data-tooltip='Show items with the tag "conference"'>
+      <a href="http://inspirelab.umd.edu/papers/?search=%22tag:%20conference%22" class="tag" data-tooltip='Show items with the tag "conference"' onclick="onTagClick('conference')">
         conference
       </a>
     
-      <a href="http://inspirelab.umd.edu/papers/?search=%22tag:%20causal-interactions%22" class="tag" data-tooltip='Show items with the tag "causal-interactions"'>
+      <a href="http://inspirelab.umd.edu/papers/?search=%22tag:%20causal-interactions%22" class="tag" data-tooltip='Show items with the tag "causal-interactions"' onclick="onTagClick('causal-interactions')">
         causal-interactions
       </a>
     
-      <a href="http://inspirelab.umd.edu/papers/?search=%22tag:%20brain-dynamics%22" class="tag" data-tooltip='Show items with the tag "brain-dynamics"'>
+      <a href="http://inspirelab.umd.edu/papers/?search=%22tag:%20brain-dynamics%22" class="tag" data-tooltip='Show items with the tag "brain-dynamics"' onclick="onTagClick('brain-dynamics')">
         brain-dynamics
       </a>
     
-      <a href="http://inspirelab.umd.edu/papers/?search=%22tag:%20modeling%22" class="tag" data-tooltip='Show items with the tag "modeling"'>
+      <a href="http://inspirelab.umd.edu/papers/?search=%22tag:%20modeling%22" class="tag" data-tooltip='Show items with the tag "modeling"' onclick="onTagClick('modeling')">
         modeling
       </a>
     
-      <a href="http://inspirelab.umd.edu/papers/?search=%22tag:%20neuro-disorders%22" class="tag" data-tooltip='Show items with the tag "neuro-disorders"'>
+      <a href="http://inspirelab.umd.edu/papers/?search=%22tag:%20neuro-disorders%22" class="tag" data-tooltip='Show items with the tag "neuro-disorders"' onclick="onTagClick('neuro-disorders')">
         neuro-disorders
       </a>
     
@@ -1863,11 +1869,11 @@
 
   <div class="tags" data-link="http://inspirelab.umd.edu/papers/">
     
-      <a href="http://inspirelab.umd.edu/papers/?search=%22tag:%20journal%22" class="tag" data-tooltip='Show items with the tag "journal"'>
+      <a href="http://inspirelab.umd.edu/papers/?search=%22tag:%20journal%22" class="tag" data-tooltip='Show items with the tag "journal"' onclick="onTagClick('journal')">
         journal
       </a>
     
-      <a href="http://inspirelab.umd.edu/papers/?search=%22tag:%20brain-dynamics%22" class="tag" data-tooltip='Show items with the tag "brain-dynamics"'>
+      <a href="http://inspirelab.umd.edu/papers/?search=%22tag:%20brain-dynamics%22" class="tag" data-tooltip='Show items with the tag "brain-dynamics"' onclick="onTagClick('brain-dynamics')">
         brain-dynamics
       </a>
     
@@ -1926,19 +1932,19 @@
 
   <div class="tags" data-link="http://inspirelab.umd.edu/papers/">
     
-      <a href="http://inspirelab.umd.edu/papers/?search=%22tag:%20journal%22" class="tag" data-tooltip='Show items with the tag "journal"'>
+      <a href="http://inspirelab.umd.edu/papers/?search=%22tag:%20journal%22" class="tag" data-tooltip='Show items with the tag "journal"' onclick="onTagClick('journal')">
         journal
       </a>
     
-      <a href="http://inspirelab.umd.edu/papers/?search=%22tag:%20brain-dynamics%22" class="tag" data-tooltip='Show items with the tag "brain-dynamics"'>
+      <a href="http://inspirelab.umd.edu/papers/?search=%22tag:%20brain-dynamics%22" class="tag" data-tooltip='Show items with the tag "brain-dynamics"' onclick="onTagClick('brain-dynamics')">
         brain-dynamics
       </a>
     
-      <a href="http://inspirelab.umd.edu/papers/?search=%22tag:%20cross-species%22" class="tag" data-tooltip='Show items with the tag "cross-species"'>
+      <a href="http://inspirelab.umd.edu/papers/?search=%22tag:%20cross-species%22" class="tag" data-tooltip='Show items with the tag "cross-species"' onclick="onTagClick('cross-species')">
         cross-species
       </a>
     
-      <a href="http://inspirelab.umd.edu/papers/?search=%22tag:%20neuro-disorders%22" class="tag" data-tooltip='Show items with the tag "neuro-disorders"'>
+      <a href="http://inspirelab.umd.edu/papers/?search=%22tag:%20neuro-disorders%22" class="tag" data-tooltip='Show items with the tag "neuro-disorders"' onclick="onTagClick('neuro-disorders')">
         neuro-disorders
       </a>
     
@@ -2001,19 +2007,19 @@
 
   <div class="tags" data-link="http://inspirelab.umd.edu/papers/">
     
-      <a href="http://inspirelab.umd.edu/papers/?search=%22tag:%20conference%22" class="tag" data-tooltip='Show items with the tag "conference"'>
+      <a href="http://inspirelab.umd.edu/papers/?search=%22tag:%20conference%22" class="tag" data-tooltip='Show items with the tag "conference"' onclick="onTagClick('conference')">
         conference
       </a>
     
-      <a href="http://inspirelab.umd.edu/papers/?search=%22tag:%20brain-dynamics%22" class="tag" data-tooltip='Show items with the tag "brain-dynamics"'>
+      <a href="http://inspirelab.umd.edu/papers/?search=%22tag:%20brain-dynamics%22" class="tag" data-tooltip='Show items with the tag "brain-dynamics"' onclick="onTagClick('brain-dynamics')">
         brain-dynamics
       </a>
     
-      <a href="http://inspirelab.umd.edu/papers/?search=%22tag:%20neuro-disorders%22" class="tag" data-tooltip='Show items with the tag "neuro-disorders"'>
+      <a href="http://inspirelab.umd.edu/papers/?search=%22tag:%20neuro-disorders%22" class="tag" data-tooltip='Show items with the tag "neuro-disorders"' onclick="onTagClick('neuro-disorders')">
         neuro-disorders
       </a>
     
-      <a href="http://inspirelab.umd.edu/papers/?search=%22tag:%20recognition%22" class="tag" data-tooltip='Show items with the tag "recognition"'>
+      <a href="http://inspirelab.umd.edu/papers/?search=%22tag:%20recognition%22" class="tag" data-tooltip='Show items with the tag "recognition"' onclick="onTagClick('recognition')">
         recognition
       </a>
     
@@ -2084,15 +2090,15 @@
 
   <div class="tags" data-link="http://inspirelab.umd.edu/papers/">
     
-      <a href="http://inspirelab.umd.edu/papers/?search=%22tag:%20journal%22" class="tag" data-tooltip='Show items with the tag "journal"'>
+      <a href="http://inspirelab.umd.edu/papers/?search=%22tag:%20journal%22" class="tag" data-tooltip='Show items with the tag "journal"' onclick="onTagClick('journal')">
         journal
       </a>
     
-      <a href="http://inspirelab.umd.edu/papers/?search=%22tag:%20brain-dynamics%22" class="tag" data-tooltip='Show items with the tag "brain-dynamics"'>
+      <a href="http://inspirelab.umd.edu/papers/?search=%22tag:%20brain-dynamics%22" class="tag" data-tooltip='Show items with the tag "brain-dynamics"' onclick="onTagClick('brain-dynamics')">
         brain-dynamics
       </a>
     
-      <a href="http://inspirelab.umd.edu/papers/?search=%22tag:%20cross-species%22" class="tag" data-tooltip='Show items with the tag "cross-species"'>
+      <a href="http://inspirelab.umd.edu/papers/?search=%22tag:%20cross-species%22" class="tag" data-tooltip='Show items with the tag "cross-species"' onclick="onTagClick('cross-species')">
         cross-species
       </a>
     
@@ -2189,19 +2195,19 @@
 
   <div class="tags" data-link="http://inspirelab.umd.edu/papers/">
     
-      <a href="http://inspirelab.umd.edu/papers/?search=%22tag:%20journal%22" class="tag" data-tooltip='Show items with the tag "journal"'>
+      <a href="http://inspirelab.umd.edu/papers/?search=%22tag:%20journal%22" class="tag" data-tooltip='Show items with the tag "journal"' onclick="onTagClick('journal')">
         journal
       </a>
     
-      <a href="http://inspirelab.umd.edu/papers/?search=%22tag:%20preprocessing%22" class="tag" data-tooltip='Show items with the tag "preprocessing"'>
+      <a href="http://inspirelab.umd.edu/papers/?search=%22tag:%20preprocessing%22" class="tag" data-tooltip='Show items with the tag "preprocessing"' onclick="onTagClick('preprocessing')">
         preprocessing
       </a>
     
-      <a href="http://inspirelab.umd.edu/papers/?search=%22tag:%20open-science%22" class="tag" data-tooltip='Show items with the tag "open-science"'>
+      <a href="http://inspirelab.umd.edu/papers/?search=%22tag:%20open-science%22" class="tag" data-tooltip='Show items with the tag "open-science"' onclick="onTagClick('open-science')">
         open-science
       </a>
     
-      <a href="http://inspirelab.umd.edu/papers/?search=%22tag:%20recognition%22" class="tag" data-tooltip='Show items with the tag "recognition"'>
+      <a href="http://inspirelab.umd.edu/papers/?search=%22tag:%20recognition%22" class="tag" data-tooltip='Show items with the tag "recognition"' onclick="onTagClick('recognition')">
         recognition
       </a>
     
@@ -2302,15 +2308,15 @@
 
   <div class="tags" data-link="http://inspirelab.umd.edu/papers/">
     
-      <a href="http://inspirelab.umd.edu/papers/?search=%22tag:%20journal%22" class="tag" data-tooltip='Show items with the tag "journal"'>
+      <a href="http://inspirelab.umd.edu/papers/?search=%22tag:%20journal%22" class="tag" data-tooltip='Show items with the tag "journal"' onclick="onTagClick('journal')">
         journal
       </a>
     
-      <a href="http://inspirelab.umd.edu/papers/?search=%22tag:%20brain-dynamics%22" class="tag" data-tooltip='Show items with the tag "brain-dynamics"'>
+      <a href="http://inspirelab.umd.edu/papers/?search=%22tag:%20brain-dynamics%22" class="tag" data-tooltip='Show items with the tag "brain-dynamics"' onclick="onTagClick('brain-dynamics')">
         brain-dynamics
       </a>
     
-      <a href="http://inspirelab.umd.edu/papers/?search=%22tag:%20open-science%22" class="tag" data-tooltip='Show items with the tag "open-science"'>
+      <a href="http://inspirelab.umd.edu/papers/?search=%22tag:%20open-science%22" class="tag" data-tooltip='Show items with the tag "open-science"' onclick="onTagClick('open-science')">
         open-science
       </a>
     
@@ -2364,11 +2370,11 @@
 
   <div class="tags" data-link="http://inspirelab.umd.edu/papers/">
     
-      <a href="http://inspirelab.umd.edu/papers/?search=%22tag:%20conference%22" class="tag" data-tooltip='Show items with the tag "conference"'>
+      <a href="http://inspirelab.umd.edu/papers/?search=%22tag:%20conference%22" class="tag" data-tooltip='Show items with the tag "conference"' onclick="onTagClick('conference')">
         conference
       </a>
     
-      <a href="http://inspirelab.umd.edu/papers/?search=%22tag:%20brain-dynamics%22" class="tag" data-tooltip='Show items with the tag "brain-dynamics"'>
+      <a href="http://inspirelab.umd.edu/papers/?search=%22tag:%20brain-dynamics%22" class="tag" data-tooltip='Show items with the tag "brain-dynamics"' onclick="onTagClick('brain-dynamics')">
         brain-dynamics
       </a>
     
@@ -2422,11 +2428,11 @@
 
   <div class="tags" data-link="http://inspirelab.umd.edu/papers/">
     
-      <a href="http://inspirelab.umd.edu/papers/?search=%22tag:%20conference%22" class="tag" data-tooltip='Show items with the tag "conference"'>
+      <a href="http://inspirelab.umd.edu/papers/?search=%22tag:%20conference%22" class="tag" data-tooltip='Show items with the tag "conference"' onclick="onTagClick('conference')">
         conference
       </a>
     
-      <a href="http://inspirelab.umd.edu/papers/?search=%22tag:%20brain-dynamics%22" class="tag" data-tooltip='Show items with the tag "brain-dynamics"'>
+      <a href="http://inspirelab.umd.edu/papers/?search=%22tag:%20brain-dynamics%22" class="tag" data-tooltip='Show items with the tag "brain-dynamics"' onclick="onTagClick('brain-dynamics')">
         brain-dynamics
       </a>
     
@@ -2484,11 +2490,11 @@
 
   <div class="tags" data-link="http://inspirelab.umd.edu/papers/">
     
-      <a href="http://inspirelab.umd.edu/papers/?search=%22tag:%20conference%22" class="tag" data-tooltip='Show items with the tag "conference"'>
+      <a href="http://inspirelab.umd.edu/papers/?search=%22tag:%20conference%22" class="tag" data-tooltip='Show items with the tag "conference"' onclick="onTagClick('conference')">
         conference
       </a>
     
-      <a href="http://inspirelab.umd.edu/papers/?search=%22tag:%20neuro-disorders%22" class="tag" data-tooltip='Show items with the tag "neuro-disorders"'>
+      <a href="http://inspirelab.umd.edu/papers/?search=%22tag:%20neuro-disorders%22" class="tag" data-tooltip='Show items with the tag "neuro-disorders"' onclick="onTagClick('neuro-disorders')">
         neuro-disorders
       </a>
     
@@ -2542,15 +2548,15 @@
 
   <div class="tags" data-link="http://inspirelab.umd.edu/papers/">
     
-      <a href="http://inspirelab.umd.edu/papers/?search=%22tag:%20conference%22" class="tag" data-tooltip='Show items with the tag "conference"'>
+      <a href="http://inspirelab.umd.edu/papers/?search=%22tag:%20conference%22" class="tag" data-tooltip='Show items with the tag "conference"' onclick="onTagClick('conference')">
         conference
       </a>
     
-      <a href="http://inspirelab.umd.edu/papers/?search=%22tag:%20causal-interactions%22" class="tag" data-tooltip='Show items with the tag "causal-interactions"'>
+      <a href="http://inspirelab.umd.edu/papers/?search=%22tag:%20causal-interactions%22" class="tag" data-tooltip='Show items with the tag "causal-interactions"' onclick="onTagClick('causal-interactions')">
         causal-interactions
       </a>
     
-      <a href="http://inspirelab.umd.edu/papers/?search=%22tag:%20neuro-disorders%22" class="tag" data-tooltip='Show items with the tag "neuro-disorders"'>
+      <a href="http://inspirelab.umd.edu/papers/?search=%22tag:%20neuro-disorders%22" class="tag" data-tooltip='Show items with the tag "neuro-disorders"' onclick="onTagClick('neuro-disorders')">
         neuro-disorders
       </a>
     
@@ -2611,19 +2617,19 @@
 
   <div class="tags" data-link="http://inspirelab.umd.edu/papers/">
     
-      <a href="http://inspirelab.umd.edu/papers/?search=%22tag:%20conference%22" class="tag" data-tooltip='Show items with the tag "conference"'>
+      <a href="http://inspirelab.umd.edu/papers/?search=%22tag:%20conference%22" class="tag" data-tooltip='Show items with the tag "conference"' onclick="onTagClick('conference')">
         conference
       </a>
     
-      <a href="http://inspirelab.umd.edu/papers/?search=%22tag:%20brain-dynamics%22" class="tag" data-tooltip='Show items with the tag "brain-dynamics"'>
+      <a href="http://inspirelab.umd.edu/papers/?search=%22tag:%20brain-dynamics%22" class="tag" data-tooltip='Show items with the tag "brain-dynamics"' onclick="onTagClick('brain-dynamics')">
         brain-dynamics
       </a>
     
-      <a href="http://inspirelab.umd.edu/papers/?search=%22tag:%20cognitive-functions%22" class="tag" data-tooltip='Show items with the tag "cognitive-functions"'>
+      <a href="http://inspirelab.umd.edu/papers/?search=%22tag:%20cognitive-functions%22" class="tag" data-tooltip='Show items with the tag "cognitive-functions"' onclick="onTagClick('cognitive-functions')">
         cognitive-functions
       </a>
     
-      <a href="http://inspirelab.umd.edu/papers/?search=%22tag:%20recognition%22" class="tag" data-tooltip='Show items with the tag "recognition"'>
+      <a href="http://inspirelab.umd.edu/papers/?search=%22tag:%20recognition%22" class="tag" data-tooltip='Show items with the tag "recognition"' onclick="onTagClick('recognition')">
         recognition
       </a>
     
@@ -2677,15 +2683,15 @@
 
   <div class="tags" data-link="http://inspirelab.umd.edu/papers/">
     
-      <a href="http://inspirelab.umd.edu/papers/?search=%22tag:%20conference%22" class="tag" data-tooltip='Show items with the tag "conference"'>
+      <a href="http://inspirelab.umd.edu/papers/?search=%22tag:%20conference%22" class="tag" data-tooltip='Show items with the tag "conference"' onclick="onTagClick('conference')">
         conference
       </a>
     
-      <a href="http://inspirelab.umd.edu/papers/?search=%22tag:%20brain-dynamics%22" class="tag" data-tooltip='Show items with the tag "brain-dynamics"'>
+      <a href="http://inspirelab.umd.edu/papers/?search=%22tag:%20brain-dynamics%22" class="tag" data-tooltip='Show items with the tag "brain-dynamics"' onclick="onTagClick('brain-dynamics')">
         brain-dynamics
       </a>
     
-      <a href="http://inspirelab.umd.edu/papers/?search=%22tag:%20cognitive-functions%22" class="tag" data-tooltip='Show items with the tag "cognitive-functions"'>
+      <a href="http://inspirelab.umd.edu/papers/?search=%22tag:%20cognitive-functions%22" class="tag" data-tooltip='Show items with the tag "cognitive-functions"' onclick="onTagClick('cognitive-functions')">
         cognitive-functions
       </a>
     
@@ -2741,15 +2747,15 @@
 
   <div class="tags" data-link="http://inspirelab.umd.edu/papers/">
     
-      <a href="http://inspirelab.umd.edu/papers/?search=%22tag:%20journal%22" class="tag" data-tooltip='Show items with the tag "journal"'>
+      <a href="http://inspirelab.umd.edu/papers/?search=%22tag:%20journal%22" class="tag" data-tooltip='Show items with the tag "journal"' onclick="onTagClick('journal')">
         journal
       </a>
     
-      <a href="http://inspirelab.umd.edu/papers/?search=%22tag:%20brain-dynamics%22" class="tag" data-tooltip='Show items with the tag "brain-dynamics"'>
+      <a href="http://inspirelab.umd.edu/papers/?search=%22tag:%20brain-dynamics%22" class="tag" data-tooltip='Show items with the tag "brain-dynamics"' onclick="onTagClick('brain-dynamics')">
         brain-dynamics
       </a>
     
-      <a href="http://inspirelab.umd.edu/papers/?search=%22tag:%20cross-species%22" class="tag" data-tooltip='Show items with the tag "cross-species"'>
+      <a href="http://inspirelab.umd.edu/papers/?search=%22tag:%20cross-species%22" class="tag" data-tooltip='Show items with the tag "cross-species"' onclick="onTagClick('cross-species')">
         cross-species
       </a>
     
@@ -2805,15 +2811,15 @@
 
   <div class="tags" data-link="http://inspirelab.umd.edu/papers/">
     
-      <a href="http://inspirelab.umd.edu/papers/?search=%22tag:%20conference%22" class="tag" data-tooltip='Show items with the tag "conference"'>
+      <a href="http://inspirelab.umd.edu/papers/?search=%22tag:%20conference%22" class="tag" data-tooltip='Show items with the tag "conference"' onclick="onTagClick('conference')">
         conference
       </a>
     
-      <a href="http://inspirelab.umd.edu/papers/?search=%22tag:%20brain-dynamics%22" class="tag" data-tooltip='Show items with the tag "brain-dynamics"'>
+      <a href="http://inspirelab.umd.edu/papers/?search=%22tag:%20brain-dynamics%22" class="tag" data-tooltip='Show items with the tag "brain-dynamics"' onclick="onTagClick('brain-dynamics')">
         brain-dynamics
       </a>
     
-      <a href="http://inspirelab.umd.edu/papers/?search=%22tag:%20cognitive-functions%22" class="tag" data-tooltip='Show items with the tag "cognitive-functions"'>
+      <a href="http://inspirelab.umd.edu/papers/?search=%22tag:%20cognitive-functions%22" class="tag" data-tooltip='Show items with the tag "cognitive-functions"' onclick="onTagClick('cognitive-functions')">
         cognitive-functions
       </a>
     
@@ -2888,15 +2894,15 @@
 
   <div class="tags" data-link="http://inspirelab.umd.edu/papers/">
     
-      <a href="http://inspirelab.umd.edu/papers/?search=%22tag:%20journal%22" class="tag" data-tooltip='Show items with the tag "journal"'>
+      <a href="http://inspirelab.umd.edu/papers/?search=%22tag:%20journal%22" class="tag" data-tooltip='Show items with the tag "journal"' onclick="onTagClick('journal')">
         journal
       </a>
     
-      <a href="http://inspirelab.umd.edu/papers/?search=%22tag:%20causal-interactions%22" class="tag" data-tooltip='Show items with the tag "causal-interactions"'>
+      <a href="http://inspirelab.umd.edu/papers/?search=%22tag:%20causal-interactions%22" class="tag" data-tooltip='Show items with the tag "causal-interactions"' onclick="onTagClick('causal-interactions')">
         causal-interactions
       </a>
     
-      <a href="http://inspirelab.umd.edu/papers/?search=%22tag:%20discovery%22" class="tag" data-tooltip='Show items with the tag "discovery"'>
+      <a href="http://inspirelab.umd.edu/papers/?search=%22tag:%20discovery%22" class="tag" data-tooltip='Show items with the tag "discovery"' onclick="onTagClick('discovery')">
         discovery
       </a>
     
@@ -2986,19 +2992,19 @@
 
   <div class="tags" data-link="http://inspirelab.umd.edu/papers/">
     
-      <a href="http://inspirelab.umd.edu/papers/?search=%22tag:%20journal%22" class="tag" data-tooltip='Show items with the tag "journal"'>
+      <a href="http://inspirelab.umd.edu/papers/?search=%22tag:%20journal%22" class="tag" data-tooltip='Show items with the tag "journal"' onclick="onTagClick('journal')">
         journal
       </a>
     
-      <a href="http://inspirelab.umd.edu/papers/?search=%22tag:%20scientific-computing%22" class="tag" data-tooltip='Show items with the tag "scientific-computing"'>
+      <a href="http://inspirelab.umd.edu/papers/?search=%22tag:%20scientific-computing%22" class="tag" data-tooltip='Show items with the tag "scientific-computing"' onclick="onTagClick('scientific-computing')">
         scientific-computing
       </a>
     
-      <a href="http://inspirelab.umd.edu/papers/?search=%22tag:%20image-reconstruction%22" class="tag" data-tooltip='Show items with the tag "image-reconstruction"'>
+      <a href="http://inspirelab.umd.edu/papers/?search=%22tag:%20image-reconstruction%22" class="tag" data-tooltip='Show items with the tag "image-reconstruction"' onclick="onTagClick('image-reconstruction')">
         image-reconstruction
       </a>
     
-      <a href="http://inspirelab.umd.edu/papers/?search=%22tag:%20theory%22" class="tag" data-tooltip='Show items with the tag "theory"'>
+      <a href="http://inspirelab.umd.edu/papers/?search=%22tag:%20theory%22" class="tag" data-tooltip='Show items with the tag "theory"' onclick="onTagClick('theory')">
         theory
       </a>
     
@@ -3056,11 +3062,11 @@
 
   <div class="tags" data-link="http://inspirelab.umd.edu/papers/">
     
-      <a href="http://inspirelab.umd.edu/papers/?search=%22tag:%20journal%22" class="tag" data-tooltip='Show items with the tag "journal"'>
+      <a href="http://inspirelab.umd.edu/papers/?search=%22tag:%20journal%22" class="tag" data-tooltip='Show items with the tag "journal"' onclick="onTagClick('journal')">
         journal
       </a>
     
-      <a href="http://inspirelab.umd.edu/papers/?search=%22tag:%20brain-dynamics%22" class="tag" data-tooltip='Show items with the tag "brain-dynamics"'>
+      <a href="http://inspirelab.umd.edu/papers/?search=%22tag:%20brain-dynamics%22" class="tag" data-tooltip='Show items with the tag "brain-dynamics"' onclick="onTagClick('brain-dynamics')">
         brain-dynamics
       </a>
     
@@ -3121,19 +3127,19 @@
 
   <div class="tags" data-link="http://inspirelab.umd.edu/papers/">
     
-      <a href="http://inspirelab.umd.edu/papers/?search=%22tag:%20conference%22" class="tag" data-tooltip='Show items with the tag "conference"'>
+      <a href="http://inspirelab.umd.edu/papers/?search=%22tag:%20conference%22" class="tag" data-tooltip='Show items with the tag "conference"' onclick="onTagClick('conference')">
         conference
       </a>
     
-      <a href="http://inspirelab.umd.edu/papers/?search=%22tag:%20causal-interactions%22" class="tag" data-tooltip='Show items with the tag "causal-interactions"'>
+      <a href="http://inspirelab.umd.edu/papers/?search=%22tag:%20causal-interactions%22" class="tag" data-tooltip='Show items with the tag "causal-interactions"' onclick="onTagClick('causal-interactions')">
         causal-interactions
       </a>
     
-      <a href="http://inspirelab.umd.edu/papers/?search=%22tag:%20cognitive-functions%22" class="tag" data-tooltip='Show items with the tag "cognitive-functions"'>
+      <a href="http://inspirelab.umd.edu/papers/?search=%22tag:%20cognitive-functions%22" class="tag" data-tooltip='Show items with the tag "cognitive-functions"' onclick="onTagClick('cognitive-functions')">
         cognitive-functions
       </a>
     
-      <a href="http://inspirelab.umd.edu/papers/?search=%22tag:%20recognition%22" class="tag" data-tooltip='Show items with the tag "recognition"'>
+      <a href="http://inspirelab.umd.edu/papers/?search=%22tag:%20recognition%22" class="tag" data-tooltip='Show items with the tag "recognition"' onclick="onTagClick('recognition')">
         recognition
       </a>
     
@@ -3215,11 +3221,11 @@
 
   <div class="tags" data-link="http://inspirelab.umd.edu/papers/">
     
-      <a href="http://inspirelab.umd.edu/papers/?search=%22tag:%20journal%22" class="tag" data-tooltip='Show items with the tag "journal"'>
+      <a href="http://inspirelab.umd.edu/papers/?search=%22tag:%20journal%22" class="tag" data-tooltip='Show items with the tag "journal"' onclick="onTagClick('journal')">
         journal
       </a>
     
-      <a href="http://inspirelab.umd.edu/papers/?search=%22tag:%20image-reconstruction%22" class="tag" data-tooltip='Show items with the tag "image-reconstruction"'>
+      <a href="http://inspirelab.umd.edu/papers/?search=%22tag:%20image-reconstruction%22" class="tag" data-tooltip='Show items with the tag "image-reconstruction"' onclick="onTagClick('image-reconstruction')">
         image-reconstruction
       </a>
     
@@ -3299,15 +3305,15 @@
 
   <div class="tags" data-link="http://inspirelab.umd.edu/papers/">
     
-      <a href="http://inspirelab.umd.edu/papers/?search=%22tag:%20journal%22" class="tag" data-tooltip='Show items with the tag "journal"'>
+      <a href="http://inspirelab.umd.edu/papers/?search=%22tag:%20journal%22" class="tag" data-tooltip='Show items with the tag "journal"' onclick="onTagClick('journal')">
         journal
       </a>
     
-      <a href="http://inspirelab.umd.edu/papers/?search=%22tag:%20deep-phenotyping%22" class="tag" data-tooltip='Show items with the tag "deep-phenotyping"'>
+      <a href="http://inspirelab.umd.edu/papers/?search=%22tag:%20deep-phenotyping%22" class="tag" data-tooltip='Show items with the tag "deep-phenotyping"' onclick="onTagClick('deep-phenotyping')">
         deep-phenotyping
       </a>
     
-      <a href="http://inspirelab.umd.edu/papers/?search=%22tag:%20big-data%22" class="tag" data-tooltip='Show items with the tag "big-data"'>
+      <a href="http://inspirelab.umd.edu/papers/?search=%22tag:%20big-data%22" class="tag" data-tooltip='Show items with the tag "big-data"' onclick="onTagClick('big-data')">
         big-data
       </a>
     
@@ -3370,11 +3376,11 @@
 
   <div class="tags" data-link="http://inspirelab.umd.edu/papers/">
     
-      <a href="http://inspirelab.umd.edu/papers/?search=%22tag:%20journal%22" class="tag" data-tooltip='Show items with the tag "journal"'>
+      <a href="http://inspirelab.umd.edu/papers/?search=%22tag:%20journal%22" class="tag" data-tooltip='Show items with the tag "journal"' onclick="onTagClick('journal')">
         journal
       </a>
     
-      <a href="http://inspirelab.umd.edu/papers/?search=%22tag:%20image-reconstruction%22" class="tag" data-tooltip='Show items with the tag "image-reconstruction"'>
+      <a href="http://inspirelab.umd.edu/papers/?search=%22tag:%20image-reconstruction%22" class="tag" data-tooltip='Show items with the tag "image-reconstruction"' onclick="onTagClick('image-reconstruction')">
         image-reconstruction
       </a>
     
@@ -3456,15 +3462,15 @@
 
   <div class="tags" data-link="http://inspirelab.umd.edu/papers/">
     
-      <a href="http://inspirelab.umd.edu/papers/?search=%22tag:%20journal%22" class="tag" data-tooltip='Show items with the tag "journal"'>
+      <a href="http://inspirelab.umd.edu/papers/?search=%22tag:%20journal%22" class="tag" data-tooltip='Show items with the tag "journal"' onclick="onTagClick('journal')">
         journal
       </a>
     
-      <a href="http://inspirelab.umd.edu/papers/?search=%22tag:%20causal-interactions%22" class="tag" data-tooltip='Show items with the tag "causal-interactions"'>
+      <a href="http://inspirelab.umd.edu/papers/?search=%22tag:%20causal-interactions%22" class="tag" data-tooltip='Show items with the tag "causal-interactions"' onclick="onTagClick('causal-interactions')">
         causal-interactions
       </a>
     
-      <a href="http://inspirelab.umd.edu/papers/?search=%22tag:%20modeling%22" class="tag" data-tooltip='Show items with the tag "modeling"'>
+      <a href="http://inspirelab.umd.edu/papers/?search=%22tag:%20modeling%22" class="tag" data-tooltip='Show items with the tag "modeling"' onclick="onTagClick('modeling')">
         modeling
       </a>
     
@@ -3527,15 +3533,15 @@
 
   <div class="tags" data-link="http://inspirelab.umd.edu/papers/">
     
-      <a href="http://inspirelab.umd.edu/papers/?search=%22tag:%20conference%22" class="tag" data-tooltip='Show items with the tag "conference"'>
+      <a href="http://inspirelab.umd.edu/papers/?search=%22tag:%20conference%22" class="tag" data-tooltip='Show items with the tag "conference"' onclick="onTagClick('conference')">
         conference
       </a>
     
-      <a href="http://inspirelab.umd.edu/papers/?search=%22tag:%20causal-interactions%22" class="tag" data-tooltip='Show items with the tag "causal-interactions"'>
+      <a href="http://inspirelab.umd.edu/papers/?search=%22tag:%20causal-interactions%22" class="tag" data-tooltip='Show items with the tag "causal-interactions"' onclick="onTagClick('causal-interactions')">
         causal-interactions
       </a>
     
-      <a href="http://inspirelab.umd.edu/papers/?search=%22tag:%20recognition%22" class="tag" data-tooltip='Show items with the tag "recognition"'>
+      <a href="http://inspirelab.umd.edu/papers/?search=%22tag:%20recognition%22" class="tag" data-tooltip='Show items with the tag "recognition"' onclick="onTagClick('recognition')">
         recognition
       </a>
     
@@ -3617,15 +3623,15 @@
 
   <div class="tags" data-link="http://inspirelab.umd.edu/papers/">
     
-      <a href="http://inspirelab.umd.edu/papers/?search=%22tag:%20conference%22" class="tag" data-tooltip='Show items with the tag "conference"'>
+      <a href="http://inspirelab.umd.edu/papers/?search=%22tag:%20conference%22" class="tag" data-tooltip='Show items with the tag "conference"' onclick="onTagClick('conference')">
         conference
       </a>
     
-      <a href="http://inspirelab.umd.edu/papers/?search=%22tag:%20image-reconstruction%22" class="tag" data-tooltip='Show items with the tag "image-reconstruction"'>
+      <a href="http://inspirelab.umd.edu/papers/?search=%22tag:%20image-reconstruction%22" class="tag" data-tooltip='Show items with the tag "image-reconstruction"' onclick="onTagClick('image-reconstruction')">
         image-reconstruction
       </a>
     
-      <a href="http://inspirelab.umd.edu/papers/?search=%22tag:%20recognition%22" class="tag" data-tooltip='Show items with the tag "recognition"'>
+      <a href="http://inspirelab.umd.edu/papers/?search=%22tag:%20recognition%22" class="tag" data-tooltip='Show items with the tag "recognition"' onclick="onTagClick('recognition')">
         recognition
       </a>
     
@@ -3681,11 +3687,11 @@
 
   <div class="tags" data-link="http://inspirelab.umd.edu/papers/">
     
-      <a href="http://inspirelab.umd.edu/papers/?search=%22tag:%20journal%22" class="tag" data-tooltip='Show items with the tag "journal"'>
+      <a href="http://inspirelab.umd.edu/papers/?search=%22tag:%20journal%22" class="tag" data-tooltip='Show items with the tag "journal"' onclick="onTagClick('journal')">
         journal
       </a>
     
-      <a href="http://inspirelab.umd.edu/papers/?search=%22tag:%20image-reconstruction%22" class="tag" data-tooltip='Show items with the tag "image-reconstruction"'>
+      <a href="http://inspirelab.umd.edu/papers/?search=%22tag:%20image-reconstruction%22" class="tag" data-tooltip='Show items with the tag "image-reconstruction"' onclick="onTagClick('image-reconstruction')">
         image-reconstruction
       </a>
     
@@ -3769,15 +3775,15 @@
 
   <div class="tags" data-link="http://inspirelab.umd.edu/papers/">
     
-      <a href="http://inspirelab.umd.edu/papers/?search=%22tag:%20conference%22" class="tag" data-tooltip='Show items with the tag "conference"'>
+      <a href="http://inspirelab.umd.edu/papers/?search=%22tag:%20conference%22" class="tag" data-tooltip='Show items with the tag "conference"' onclick="onTagClick('conference')">
         conference
       </a>
     
-      <a href="http://inspirelab.umd.edu/papers/?search=%22tag:%20image-reconstruction%22" class="tag" data-tooltip='Show items with the tag "image-reconstruction"'>
+      <a href="http://inspirelab.umd.edu/papers/?search=%22tag:%20image-reconstruction%22" class="tag" data-tooltip='Show items with the tag "image-reconstruction"' onclick="onTagClick('image-reconstruction')">
         image-reconstruction
       </a>
     
-      <a href="http://inspirelab.umd.edu/papers/?search=%22tag:%20recognition%22" class="tag" data-tooltip='Show items with the tag "recognition"'>
+      <a href="http://inspirelab.umd.edu/papers/?search=%22tag:%20recognition%22" class="tag" data-tooltip='Show items with the tag "recognition"' onclick="onTagClick('recognition')">
         recognition
       </a>
     
@@ -3852,11 +3858,11 @@
 
   <div class="tags" data-link="http://inspirelab.umd.edu/papers/">
     
-      <a href="http://inspirelab.umd.edu/papers/?search=%22tag:%20conference%22" class="tag" data-tooltip='Show items with the tag "conference"'>
+      <a href="http://inspirelab.umd.edu/papers/?search=%22tag:%20conference%22" class="tag" data-tooltip='Show items with the tag "conference"' onclick="onTagClick('conference')">
         conference
       </a>
     
-      <a href="http://inspirelab.umd.edu/papers/?search=%22tag:%20image-reconstruction%22" class="tag" data-tooltip='Show items with the tag "image-reconstruction"'>
+      <a href="http://inspirelab.umd.edu/papers/?search=%22tag:%20image-reconstruction%22" class="tag" data-tooltip='Show items with the tag "image-reconstruction"' onclick="onTagClick('image-reconstruction')">
         image-reconstruction
       </a>
     
@@ -3933,15 +3939,15 @@
 
   <div class="tags" data-link="http://inspirelab.umd.edu/papers/">
     
-      <a href="http://inspirelab.umd.edu/papers/?search=%22tag:%20conference%22" class="tag" data-tooltip='Show items with the tag "conference"'>
+      <a href="http://inspirelab.umd.edu/papers/?search=%22tag:%20conference%22" class="tag" data-tooltip='Show items with the tag "conference"' onclick="onTagClick('conference')">
         conference
       </a>
     
-      <a href="http://inspirelab.umd.edu/papers/?search=%22tag:%20causal-interactions%22" class="tag" data-tooltip='Show items with the tag "causal-interactions"'>
+      <a href="http://inspirelab.umd.edu/papers/?search=%22tag:%20causal-interactions%22" class="tag" data-tooltip='Show items with the tag "causal-interactions"' onclick="onTagClick('causal-interactions')">
         causal-interactions
       </a>
     
-      <a href="http://inspirelab.umd.edu/papers/?search=%22tag:%20modeling%22" class="tag" data-tooltip='Show items with the tag "modeling"'>
+      <a href="http://inspirelab.umd.edu/papers/?search=%22tag:%20modeling%22" class="tag" data-tooltip='Show items with the tag "modeling"' onclick="onTagClick('modeling')">
         modeling
       </a>
     
@@ -3995,11 +4001,11 @@
 
   <div class="tags" data-link="http://inspirelab.umd.edu/papers/">
     
-      <a href="http://inspirelab.umd.edu/papers/?search=%22tag:%20conference%22" class="tag" data-tooltip='Show items with the tag "conference"'>
+      <a href="http://inspirelab.umd.edu/papers/?search=%22tag:%20conference%22" class="tag" data-tooltip='Show items with the tag "conference"' onclick="onTagClick('conference')">
         conference
       </a>
     
-      <a href="http://inspirelab.umd.edu/papers/?search=%22tag:%20causal-interactions%22" class="tag" data-tooltip='Show items with the tag "causal-interactions"'>
+      <a href="http://inspirelab.umd.edu/papers/?search=%22tag:%20causal-interactions%22" class="tag" data-tooltip='Show items with the tag "causal-interactions"' onclick="onTagClick('causal-interactions')">
         causal-interactions
       </a>
     
@@ -4074,11 +4080,11 @@
 
   <div class="tags" data-link="http://inspirelab.umd.edu/papers/">
     
-      <a href="http://inspirelab.umd.edu/papers/?search=%22tag:%20conference%22" class="tag" data-tooltip='Show items with the tag "conference"'>
+      <a href="http://inspirelab.umd.edu/papers/?search=%22tag:%20conference%22" class="tag" data-tooltip='Show items with the tag "conference"' onclick="onTagClick('conference')">
         conference
       </a>
     
-      <a href="http://inspirelab.umd.edu/papers/?search=%22tag:%20image-reconstruction%22" class="tag" data-tooltip='Show items with the tag "image-reconstruction"'>
+      <a href="http://inspirelab.umd.edu/papers/?search=%22tag:%20image-reconstruction%22" class="tag" data-tooltip='Show items with the tag "image-reconstruction"' onclick="onTagClick('image-reconstruction')">
         image-reconstruction
       </a>
     
@@ -4114,8 +4120,8 @@
 
 
   <div class="button-wrapper">
-    <a class="button" href="https://scholar.google.com/citations?user=94oRMMcAAAAJ" data-tooltip="Google Scholar" data-style="bare" aria-label="Google Scholar">
-      <i class="icon fa-brands fa-google"></i>
+    <a class="button" href="mailto:contact@your-lab.com" data-tooltip="Email" data-style="bare" aria-label="Email">
+      <i class="icon fa-solid fa-envelope"></i>
       
     </a>
   </div>
@@ -4131,6 +4137,21 @@
   <div class="button-wrapper">
     <a class="button" href="https://orcid.org/0000-0002-3900-3220" data-tooltip="ORCID" data-style="bare" aria-label="ORCID">
       <i class="icon fa-brands fa-orcid"></i>
+      
+    </a>
+  </div>
+
+
+    
+      
+      
+      
+
+
+
+  <div class="button-wrapper">
+    <a class="button" href="https://scholar.google.com/citations?user=94oRMMcAAAAJ" data-tooltip="Google Scholar" data-style="bare" aria-label="Google Scholar">
+      <i class="icon fa-brands fa-google"></i>
       
     </a>
   </div>
@@ -4161,21 +4182,6 @@
   <div class="button-wrapper">
     <a class="button" href="https://youtube.com/@nanxu942" data-tooltip="YouTube" data-style="bare" aria-label="YouTube">
       <i class="icon fa-brands fa-youtube"></i>
-      
-    </a>
-  </div>
-
-
-    
-      
-      
-      
-
-
-
-  <div class="button-wrapper">
-    <a class="button" href="mailto:nanxu@umd.edu" data-tooltip="Email" data-style="bare" aria-label="Email">
-      <i class="icon fa-solid fa-envelope"></i>
       
     </a>
   </div>
