@@ -2,8 +2,8 @@
 
 # team member roles
 
-principal-investigator:
-  icon: fa-solid fa-microscope
+pi:
+  icon: fa-solid fa-person-chalkboard
   description: Principal Investigator
 
 postdoc:
@@ -14,6 +14,10 @@ phd:
   icon: fa-solid fa-graduation-cap
   description: PhD Student
 
+masters:
+  icon: fa-solid fa-graduation-cap
+  description: Master's Student
+
 undergrad:
   icon: fa-solid fa-user-graduate
   description: Undergraduate Student
@@ -22,6 +26,10 @@ programmer:
   icon: fa-solid fa-code
   description: Programmer
 
+manager:
+  icon: fa-solid fa-list-check
+  description: Lab Manager
+    
 mascot:
   icon: fa-solid fa-dog
   description: Mascot
@@ -42,6 +50,11 @@ external:
   icon: fa-solid fa-up-right-from-square
   text: External Link
   tooltip: External link
+
+cv:
+  icon: fa-solid fa-file
+  text: C.V.
+  tooltip: C.V.
 
 home-page:
   icon: fa-solid fa-house-user
@@ -96,12 +109,6 @@ twitter:
   tooltip: Twitter
   link: https://twitter.com/$VALUE
 
-bluesky:
-  icon: fa-brands fa-bluesky
-  text: Bluesky
-  tooltip: Bluesky
-  link: https://bsky.app/profile/$VALUE
-
 facebook:
   icon: fa-brands fa-facebook
   text: Facebook
@@ -125,6 +132,12 @@ linkedin:
   text: LinkedIn
   tooltip: LinkedIn
   link: https://www.linkedin.com/in/$VALUE
+
+faculty-page:
+  icon: fa-solid fa-arrow-up-right-from-square
+  text: Faculty Page
+  tooltip: Faculty Page
+  link: $VALUE
 
 # alerts
 
@@ -217,6 +230,6 @@ data:
   tooltip: Data
 
 package:
-  icon: fa-solid fa-box
+  icon: fa-brands fa-uncharted
   text: Package
   tooltip: Package

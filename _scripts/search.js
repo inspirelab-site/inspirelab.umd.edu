@@ -212,4 +212,16 @@
   window.addEventListener("load", searchFromUrl);
   // after tags load
   window.addEventListener("tagsfetched", searchFromUrl);
+
+  window.onTagClick = (tag) => {
+    const current = new URLSearchParams(window.location.search).get("search") || "";
+    const tagString = `"tag: ${tag}"`;
+    let newQuery;
+    if (current.includes(tagString))
+      newQuery = current.replace(tagString, "").trim();
+    else
+      newQuery = (current + " " + tagString).trim();
+    runSearch(newQuery);
+    updateUrl(newQuery);
+  };
 }

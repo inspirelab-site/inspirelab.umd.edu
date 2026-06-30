@@ -1,282 +1,1004 @@
 # DO NOT EDIT, GENERATED AUTOMATICALLY
 
-- id: doi:10.1016/j.patter.2026.101514
-  title: Scalable data harmonization for single-cell image-based profiling with CytoTable
+- id: doi:10.1073/pnas.2526828123
+  title: Attention control ability is associated with frontoparietal control network
+    interactions
   authors:
-  - Dave Bunten
-  - Jenna Tomkinson
-  - Erik Serrano
-  - Michael J. Lippincott
-  - Kenneth I. Brewer
-  - Vince Rubinetti
-  - Faisal Alquaddoomi
-  - Gregory P. Way
-  publisher: Patterns
-  date: '2026-05-01'
-  link: https://doi.org/hbvg3p
-  orcid: 0000-0002-4655-3773
+  - Dolly T. Seeburger
+  - Jason S. Tsukahara
+  - Nan Xu
+  - Vishwadeep Ahluwalia
+  - Shella D. Keilholz
+  - Randall W. Engle
+  publisher: Proceedings of the National Academy of Sciences
+  date: '2026-05-04'
+  link: https://doi.org/hb4mjn
+  orcid: 0000-0002-3900-3220
+  nan-xu-list: true
   plugin: orcid.py
   file: orcid.yaml
-- id: doi:10.1101/2025.06.19.660613
-  title: Scalable data harmonization for single-cell image-based profiling with CytoTable
+- id: doi:10.64898/2026.03.28.714906
+  title: Channel Capacity for Time-Resolved Effective Connectivity in Functional Neuroimaging
   authors:
-  - Dave Bunten
-  - Jenna Tomkinson
-  - Erik Serrano
-  - Michael J. Lippincott
-  - Kenneth I. Brewer
-  - Vince Rubinetti
-  - Faisal Alquaddoomi
-  - Gregory P. Way
+  - Jianan Jian
+  - Benjamin Li
+  - Nurahmed Multezem
+  - Francesca Mandino
+  - Evelyn Lake
+  - Nan Xu
   publisher: openRxiv
-  date: '2025-06-25'
-  link: https://doi.org/g9rfr3
-  orcid: 0000-0002-4655-3773
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1093/nar/gkad1082
-  title: "The Monarch Initiative in 2024: an analytic platform integrating phenotypes,\
-    \ genes\_and diseases across species"
-  authors:
-  - Tim E Putman
-  - Kevin Schaper
-  - Nicolas Matentzoglu
-  - "Vincent\_P Rubinetti"
-  - "Faisal\_S Alquaddoomi"
-  - Corey Cox
-  - J Harry Caufield
-  - Glass Elsarboukh
-  - Sarah Gehrke
-  - Harshad Hegde
-  - "Justin\_T Reese"
-  - Ian Braun
-  - "Richard\_M Bruskiewich"
-  - Luca Cappelletti
-  - Seth Carbon
-  - "Anita\_R Caron"
-  - "Lauren\_E Chan"
-  - "Christopher\_G Chute"
-  - "Katherina\_G Cortes"
-  - "Vin\xEDcius De\_Souza"
-  - Tommaso Fontana
-  - "Nomi\_L Harris"
-  - "Emily\_L Hartley"
-  - Eric Hurwitz
-  - "Julius\_O B Jacobsen"
-  - Madan Krishnamurthy
-  - "Bryan\_J Laraway"
-  - "James\_A McLaughlin"
-  - "Julie\_A McMurry"
-  - "Sierra\_A T Moxon"
-  - "Kathleen\_R Mullen"
-  - "Shawn\_T O\u2019Neil"
-  - "Kent\_A Shefchek"
-  - Ray Stefancsik
-  - Sabrina Toro
-  - "Nicole\_A Vasilevsky"
-  - "Ramona\_L Walls"
-  - "Patricia\_L Whetzel"
-  - David Osumi-Sutherland
-  - Damian Smedley
-  - "Peter\_N Robinson"
-  - "Christopher\_J Mungall"
-  - "Melissa\_A Haendel"
-  - "Monica\_C Munoz-Torres"
-  publisher: Nucleic Acids Research
-  date: '2023-11-24'
-  link: https://doi.org/gs6kmr
-  orcid: 0000-0002-4655-3773
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1101/2023.10.11.560955
-  title: Integration of 168,000 samples reveals global patterns of the human gut microbiome
-  authors:
-  - Richard J. Abdill
-  - Samantha P. Graham
-  - Vincent Rubinetti
-  - Frank W. Albert
-  - Casey S. Greene
-  - Sean Davis
-  - Ran Blekhman
-  publisher: openRxiv
-  date: '2023-10-11'
-  link: https://doi.org/gsvf5z
-  orcid: 0000-0002-4655-3773
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1093/nar/gkad289
-  title: 'MyGeneset.info: an interactive and programmatic platform for community-curated
-    and user-created collections of genes'
-  authors:
-  - Ricardo Avila
-  - Vincent Rubinetti
-  - Xinghua Zhou
-  - Dongbo Hu
-  - Zhongchao Qian
-  - Marco Alvarado Cano
-  - Everaldo Rodolpho
-  - Ginger Tsueng
-  - Casey Greene
-  - Chunlei Wu
-  publisher: Nucleic Acids Research
-  date: '2023-04-18'
-  link: https://doi.org/gr5hb5
-  orcid: 0000-0002-4655-3773
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1101/2023.01.05.522941
-  title: Hetnet connectivity search provides rapid insights into how two biomedical
-    entities are related
-  authors:
-  - Daniel S. Himmelstein
-  - Michael Zietz
-  - Vincent Rubinetti
-  - Kyle Kloster
-  - Benjamin J. Heil
-  - Faisal Alquaddoomi
-  - Dongbo Hu
-  - David N. Nicholson
-  - Yun Hao
-  - Blair D. Sullivan
-  - Michael W. Nagle
-  - Casey S. Greene
-  publisher: openRxiv
-  date: '2023-01-07'
-  link: https://doi.org/grmcb9
-  orcid: 0000-0002-4655-3773
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1093/gigascience/giad047
-  title: Hetnet connectivity search provides rapid insights into how biomedical entities
-    are related
-  authors:
-  - Daniel S Himmelstein
-  - Michael Zietz
-  - Vincent Rubinetti
-  - Kyle Kloster
-  - Benjamin J Heil
-  - Faisal Alquaddoomi
-  - Dongbo Hu
-  - David N Nicholson
-  - Yun Hao
-  - Blair D Sullivan
-  - Michael W Nagle
-  - Casey S Greene
-  publisher: GigaScience
-  date: '2022-12-28'
-  link: https://doi.org/gsd85n
-  orcid: 0000-0002-4655-3773
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1101/2022.02.18.461833
-  title: 'MolEvolvR: A web-app for characterizing proteins using molecular evolution
-    and phylogeny'
-  authors:
-  - Faisal S Alquaddoomi
-  - Joseph T Burke
-  - Lo Sosinski
-  - David A Mayer
-  - Evan P Brenner
-  - Samuel Z Chen
-  - Jacob D Krol
-  - Ethan P Wolfe
-  - Vincent P Rubinetti
-  - Shaddai Amolitos
-  - Kellen M Reason
-  - John B Johnston
-  - Janani Ravi
-  publisher: openRxiv
-  date: '2022-02-22'
-  link: https://doi.org/gstx7j
-  orcid: 0000-0002-4655-3773
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1186/s13059-020-02021-3
-  title: Compressing gene expression data using multiple latent space dimensionalities
-    learns complementary biological representations
-  authors:
-  - Gregory P. Way
-  - Michael Zietz
-  - Vincent Rubinetti
-  - Daniel S. Himmelstein
-  - Casey S. Greene
-  publisher: Genome Biology
-  date: '2020-05-11'
-  link: https://doi.org/gg2mjh
-  orcid: 0000-0002-4655-3773
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1371/journal.pcbi.1007128
-  title: Open collaborative writing with Manubot
-  authors:
-  - Daniel S. Himmelstein
-  - Vincent Rubinetti
-  - David R. Slochower
-  - Dongbo Hu
-  - Venkat S. Malladi
-  - Casey S. Greene
-  - Anthony Gitter
-  publisher: PLOS Computational Biology
-  date: '2020-12-04'
-  link: https://doi.org/c7np
-  orcid: 0000-0002-4655-3773
+  date: '2026-03-31'
+  link: https://doi.org/hbvg32
+  orcid: 0000-0002-3900-3220
+  nan-xu-list: true
   plugin: sources.py
   file: sources.yaml
-  type: paper
-  description: Lorem ipsum _dolor_ **sit amet**, consectetur adipiscing elit, sed
-    do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  image: https://journals.plos.org/ploscompbiol/article/figure/image?size=inline&id=info:doi/10.1371/journal.pcbi.1007128.g001&rev=2
+  type: journal
   buttons:
-  - type: manubot
-    link: https://greenelab.github.io/meta-review/
   - type: source
-    text: Manuscript Source
-    link: https://github.com/greenelab/meta-review
-  - type: website
-    link: http://manubot.org/
+    text: code
+    link: https://github.com/inspirelab-site/swcc
   tags:
-  - open science
-  - collaboration
-  repo: greenelab/meta-review
-- id: doi:10.1101/573782
-  title: Sequential compression of gene expression across dimensionalities and methods
-    reveals no single best method or dimensionality
+  - preprint
+  - causal interactions
+  - brain dynamics
+  - cross-species
+  - modeling
+- id: doi:10.1007/s11682-026-01124-y
+  title: 'A comprehensive analysis of brain network complexity in task-based fMRI
+    using entropy: systematic review'
   authors:
-  - Gregory P. Way
-  - Michael Zietz
-  - Vincent Rubinetti
-  - Daniel S. Himmelstein
-  - Casey S. Greene
-  publisher: openRxiv
-  date: '2019-03-11'
-  link: https://doi.org/gfxjxf
-  orcid: 0000-0002-4655-3773
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1016/j.csbj.2020.05.017
-  title: Constructing knowledge graphs and their biomedical applications
-  authors:
-  - David N. Nicholson
-  - Casey S. Greene
-  publisher: Computational and Structural Biotechnology Journal
-  date: '2020-01-01'
-  link: https://doi.org/gg7m48
-  image: https://ars.els-cdn.com/content/image/1-s2.0-S2001037020302804-gr1.jpg
+  - Jeonghoon Park
+  - Nan Xu
+  - Maysam Nezafati
+  publisher: Brain Imaging and Behavior
+  date: '2026-03-26'
+  link: https://doi.org/hbt82b
+  orcid: 0000-0002-3900-3220
+  nan-xu-list: true
   plugin: sources.py
   file: sources.yaml
-- id: doi:10.7554/eLife.32822
-  title: Sci-Hub provides access to nearly all scholarly literature
+  type: journal
+  tags:
+  - journal
+  - brain dynamics
+  - causal interactions
+- id: doi:10.64898/2026.03.26.713939
+  title: 'Harmonizing brain rhythms: cortex-wide neuronal dynamics underpin quasi-periodic
+    patterns in resting-state fMRI'
   authors:
-  - Daniel S Himmelstein
-  - Ariel Rodriguez Romero
-  - Jacob G Levernier
-  - Thomas Anthony Munro
-  - Stephen Reid McLaughlin
-  - Bastian Greshake Tzovaras
-  - Casey S Greene
-  publisher: eLife
-  date: '2018-03-01'
-  link: https://doi.org/ckcj
-  image: https://iiif.elifesciences.org/lax:32822%2Felife-32822-fig8-v3.tif/full/863,/0/default.webp
+  - Francesca Mandino
+  - Xilin Shen
+  - Corey Horien
+  - Xenophon Papademetris
+  - Stephen M. Strittmatter
+  - Shella D. Keilholz
+  - Nan Xu
+  - Evelyn M.R. Lake
+  publisher: openRxiv
+  date: '2026-03-26'
+  link: https://doi.org/hbt82c
+  orcid: 0000-0002-3900-3220
+  nan-xu-list: true
+  plugin: sources.py
+  file: sources.yaml
+  type: journal
+  tags:
+  - preprint
+  - brain dynamics
+- id: doi:10.64898/2026.02.15.706049
+  title: 'Time-resolved directional organization of brain networks: distinct strength
+    and temporal signatures from neurophysiology to disease'
+  authors:
+  - Nan Xu
+  - Xiaodi Zhang
+  - Wen-Ju Pan
+  - Jeremy L. Smith
+  - Eric H. Schumacher
+  - Jason W. Allen
+  - Vince D. Calhoun
+  - Shella D. Keilholz
+  publisher: openRxiv
+  date: '2026-02-17'
+  link: https://doi.org/hbptzh
+  orcid: 0000-0002-3900-3220
+  nan-xu-list: true
+  plugin: sources.py
+  file: sources.yaml
+  type: journal
+  buttons:
+  - type: source
+    text: code
+    link: https://github.com/inspirelab-site/swpc
+  tags:
+  - preprint
+  - causal interactions
+  - brain dynamics
+  - neuro disorders
+  - cross-species
+  - modeling
+- id: doi:10.1016/j.softx.2025.102067
+  title: 'QPPLab: A generally applicable software package for detecting, analyzing,
+    and visualizing large-scale quasiperiodic spatiotemporal patterns (QPPs) of brain
+    activity'
+  authors:
+  - Nan Xu
+  - Behnaz Yousefi
+  - Nmachi Anumba
+  - Theodore J. LaGrow
+  - Xiaodi Zhang
+  - Shella Keilholz
+  publisher: SoftwareX
+  date: '2025-02-01'
+  link: https://doi.org/g83xt7
+  orcid: 0000-0002-3900-3220
+  nan-xu-list: true
+  plugin: sources.py
+  file: sources.yaml
+  type: journal
+  buttons:
+  - type: source
+    text: code
+    link: https://github.com/imnanxu/QPPLab
+  tags:
+  - journal
+  - brain dynamics
+- id: doi:10.1162/imag_a_00314
+  title: "The effects of locus coeruleus optogenetic stimulation on global\n     \
+    \               spatiotemporal patterns in rats"
+  authors:
+  - Nmachi Anumba
+  - Michael A. Kelberman
+  - Wenju Pan
+  - Alexia Marriott
+  - Xiaodi Zhang
+  - Nan Xu
+  - David Weinshenker
+  - Shella Keilholz
+  publisher: Imaging Neuroscience
+  date: '2024-01-01'
+  link: https://doi.org/g79q3n
+  orcid: 0000-0002-3900-3220
+  nan-xu-list: true
+  plugin: sources.py
+  file: sources.yaml
+  type: journal
+  tags:
+  - journal
+  - brain dynamics
+  - cross-species
+  - neuro disorders
+- id: doi:10.3389/fnsys.2024.1425491
+  title: Variation in the distribution of large-scale spatiotemporal patterns of activity
+    across brain states
+  authors:
+  - Lisa Meyer-Baese
+  - Nmachi Anumba
+  - T. Bolt
+  - L. Daley
+  - T. J. LaGrow
+  - Xiaodi Zhang
+  - Nan Xu
+  - Wen-Ju Pan
+  - E. H. Schumacher
+  - Shella Keilholz
+  publisher: Frontiers in Systems Neuroscience
+  date: '2024-08-02'
+  link: https://doi.org/gt7vkg
+  orcid: 0000-0002-3900-3220
+  nan-xu-list: true
+  plugin: sources.py
+  file: sources.yaml
+  type: journal
+  tags:
+  - journal
+  - brain dynamics
+  - cross-species
+- id: doi:10.3758/s13415-024-01156-1
+  title: Time-varying functional connectivity predicts fluctuations in sustained attention
+    in a serial tapping task
+  authors:
+  - Dolly T. Seeburger
+  - Nan Xu
+  - Marcus Ma
+  - Sam Larson
+  - Christine Godwin
+  - Shella D. Keilholz
+  - Eric H. Schumacher
+  publisher: Cognitive, Affective, &amp; Behavioral Neuroscience
+  date: '2024-01-22'
+  link: https://doi.org/gt44tf
+  orcid: 0000-0002-3900-3220
+  nan-xu-list: true
+  plugin: sources.py
+  file: sources.yaml
+  type: journal
+  tags:
+  - journal
+  - brain dynamics
+- id: doi:10.1002/mrm.29824
+  title: "Spatial and Spectral Components of the\n                    <scp>BOLD</scp>\n\
+    \                    Global Signal in Rat\n                    <scp>Resting\u2010\
+    State</scp>\n                    Functional\n                    <scp>MRI</scp>"
+  authors:
+  - Nmachi Anumba
+  - Eric Maltbie
+  - "Wen\u2010Ju Pan"
+  - Theodore J. LaGrow
+  - Nan Xu
+  - Shella Keilholz
+  publisher: Magnetic Resonance in Medicine
+  date: '2023-08-15'
+  link: https://doi.org/gt44nf
+  orcid: 0000-0002-3900-3220
+  nan-xu-list: true
+  plugin: sources.py
+  file: sources.yaml
+  type: journal
+  tags:
+  - journal
+  - brain dynamics
+  - cross-species
+- id: doi:10.1162/imag_a_00002
+  title: "The interaction between random and systematic visual stimulation and\n \
+    \                   infraslow quasi-periodic spatiotemporal patterns of whole-brain\n\
+    \                    activity"
+  authors:
+  - Nan Xu
+  - Derek M. Smith
+  - George Jeno
+  - Dolly T. Seeburger
+  - Eric H. Schumacher
+  - Shella D. Keilholz
+  publisher: Imaging Neuroscience
+  date: '2023-08-01'
+  link: https://doi.org/gt44ng
+  orcid: 0000-0002-3900-3220
+  nan-xu-list: true
+  plugin: sources.py
+  file: sources.yaml
+  type: journal
+  description: 'Employed the statistical inferences techniques to study the interplay
+    between infraslow dynamic processes and visual perceptions. Discovered that these
+    intrinsic dynamic processes are notably resilient in humans, as contrast with
+    anesthetized rodents (Belloy et al., 2021). Yet, their stability can still be
+    affected in diverse ways: they can swamp an overlapping BOLD response evoked by
+    the flickering checkerboard, but their phase-locked waveform can still be modulated
+    by different sequences of stimuli that affects the reaction time and sustained
+    attention.'
+  image: papers/images/xu-in-2023.png
+  buttons:
+  - type: source
+    text: preprocessing code
+    link: https://github.com/imnanxu/PartialHumanBrain_preprocessing
+  - type: source
+    text: analysis code
+    link: https://github.com/imnanxu/QPPLab
+  tags:
+  - journal
+  - brain dynamics
+  - open science
+- id: doi:10.52294/001c.85075
+  title: Rodent Whole-Brain fMRI Data Preprocessing Toolbox
+  authors:
+  - Nan Xu
+  - Leo Zhang
+  - Sam Larson
+  - Zengmin Li
+  - Nmachi Anumba
+  - Lauren Daley
+  - Wen-Ju Pan
+  - Kai-Hsiang Chuang
+  - Shella D. Keilholz
+  publisher: Aperture Neuro
+  date: '2023-08-09'
+  link: https://doi.org/gt44nh
+  orcid: 0000-0002-3900-3220
+  nan-xu-list: true
+  plugin: sources.py
+  file: sources.yaml
+  type: journal
+  description: '> **Featured at the Aperture Symposium of the OHBM 2024 Annual Meeting!**'
+  buttons:
+  - type: youtube
+    text: tutorial
+    link: https://www.youtube.com/playlist?list=PLzl6lxEF9yCb3i0Coc5noXWzINKqWXTOd
+  - type: source
+    text: code
+    link: https://github.com/GT-EmoryMINDlab/rodent-whole-brain-preprocessing-recipe
+  tags:
+  - journal
+  - preprocessing
+  - open science
+  - recognition
+- id: doi:10.3389/fnins.2022.816331
+  title: Functional Connectivity of the Brain Across Rodents and Humans
+  authors:
+  - Nan Xu
+  - Theodore J. LaGrow
+  - Nmachi Anumba
+  - Azalea Lee
+  - Xiaodi Zhang
+  - Behnaz Yousefi
+  - Yasmine Bassil
+  - Gloria P. Clavijo
+  - Vahid Khalilzad Sharghi
+  - Eric Maltbie
+  - Lisa Meyer-Baese
+  - Maysam Nezafati
+  - Wen-Ju Pan
+  - Shella Keilholz
+  publisher: Frontiers in Neuroscience
+  date: '2022-03-08'
+  link: https://doi.org/gtdtsw
+  orcid: 0000-0002-3900-3220
+  nan-xu-list: true
+  plugin: sources.py
+  file: sources.yaml
+  type: journal
+  tags:
+  - journal
+  - brain dynamics
+  - cross-species
+- id: doi:10.1137/20M1318183
+  title: Computation of Real-Valued Basis Functions which Transform as Irreducible
+    Representations of the Polyhedral Groups
+  authors:
+  - Nan Xu
+  - Peter Doerschuk
+  publisher: SIAM Journal on Scientific Computing
+  date: '2021-01-01'
+  link: https://doi.org/gt44nk
+  orcid: 0000-0002-3900-3220
+  nan-xu-list: true
+  plugin: sources.py
+  file: sources.yaml
+  type: journal
+  image: papers/images/xu-sisc-2021.png
+  buttons:
+  - type: source
+    text: code
+    link: https://github.com/imnanxu/PolyhedralBasisFunction/releases/tag/sisc2021
+  - type: source
+    text: numerical solutions
+    link: https://github.com/imnanxu/PolyhedralBasisFunction/releases/tag/sisc2021
+  tags:
+  - journal
+  - scientific computing
+  - image reconstruction
+  - theory
+- id: doi:10.1016/j.neuroimage.2020.117628
+  title: Spatiotemporal functional interactivity among large-scale brain networks
+  authors:
+  - Nan Xu
+  - Peter C. Doerschuk
+  - Shella D. Keilholz
+  - R. Nathan Spreng
+  publisher: NeuroImage
+  date: '2021-02-01'
+  link: https://doi.org/gsx2rt
+  orcid: 0000-0002-3900-3220
+  nan-xu-list: true
+  plugin: sources.py
+  file: sources.yaml
+  type: journal
+  image: papers/images/xu-ni-2021-brain.jpg
+  buttons:
+  - type: source
+    text: code
+    link: https://www.mathworks.com/matlabcentral/fileexchange/62781-pcorrelation
+  tags:
+  - journal
+  - causal interactions
+  - discovery
+- id: doi:10.3389/fnins.2020.550923
+  title: Relationship Between Basic Properties of BOLD Fluctuations and Calculated
+    Metrics of Complexity in the Human Connectome Project
+  authors:
+  - Shella Keilholz
+  - Eric Maltbie
+  - Xiaodi Zhang
+  - Behnaz Yousefi
+  - Wen-Ju Pan
+  - Nan Xu
+  - Maysam Nezafati
+  - Theodore J. LaGrow
+  - Ying Guo
+  publisher: Frontiers in Neuroscience
+  date: '2020-09-15'
+  link: https://doi.org/gt44nm
+  orcid: 0000-0002-3900-3220
+  nan-xu-list: true
+  plugin: sources.py
+  file: sources.yaml
+  type: journal
+  tags:
+  - journal
+  - brain dynamics
+- id: doi:10.1109/tip.2019.2915631
+  title: Reconstruction of Stochastic 3D Signals With Symmetric Statistics From 2D
+    Projection Images Motivated by Cryo-Electron Microscopy
+  authors:
+  - Nan Xu
+  - Peter C. Doerschuk
+  publisher: IEEE Transactions on Image Processing
+  date: '2019-11-01'
+  link: https://doi.org/gmddq4
+  orcid: 0000-0002-3900-3220
+  nan-xu-list: true
+  plugin: sources.py
+  file: sources.yaml
+  image: papers/images/xu-TIP-2019.png
+  type: journal
+  description: "Using cryo-EM, we transform highly noisy and randomly-oriented projection\
+    \ images of 103\u2500106 virus particles into a 3D model of the virus. Unlike\
+    \ traditional methods that assume strict geometric symmetry, we adopted a more\
+    \ realistic approach, allowing individual particles to be asymmetric while maintaining\
+    \ symmetry in the overall mean and covariance. This novel method eliminates long-standing\
+    \ distortions along the symmetry axes."
+  tags:
+  - journal
+  - image reconstruction
+  buttons:
+  - type: journal
+    text: manuscript
+    link: https://arxiv.org/pdf/1701.01206
+- id: doi:10.1038/s41684-019-0326-6
+  title: 'Digging deeper: methodologies for high-content phenotyping in Caenorhabditis
+    elegans'
+  authors:
+  - Nan Xu+
+  - Dhaval S Patel+
+  - Hang Lu
+  publisher: Lab Animal
+  date: '2019-06-19'
+  link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8102135/
+  orcid: 0000-0002-3900-3220
+  nan-xu-list: true
+  plugin: sources.py
+  file: sources.yaml
+  type: journal
+  description: +equal contributions
+  tags:
+  - journal
+  - deep phenotyping
+  - big data
+  buttons:
+  - type: journal
+    text: manuscript
+    link: https://arxiv.org/pdf/1904.01096
+- id: doi:10.1016/j.jsb.2017.12.013
+  title: Allosteric effects in bacteriophage HK97 procapsids revealed directly from
+    covariance analysis of cryo EM data
+  authors:
+  - Nan Xu
+  - David Veesler
+  - Peter C. Doerschuk
+  - John E. Johnson
+  publisher: Journal of Structural Biology
+  date: '2018-05-01'
+  link: https://doi.org/gdc4w6
+  orcid: 0000-0002-3900-3220
+  nan-xu-list: true
+  plugin: sources.py
+  file: sources.yaml
+  type: journal
+  description: We developed a cyro-EM image reconstruction algortihm for virus particles,
+    allowing for asymmetry and eliminating distortions along symmetry axes (Xu & Doerschuk,
+    2019). In collaboration with virologists from the Scripps Institute, we uncovered
+    allosteric effects along the symmetry axes of the bacteriophage HK97.
+  tags:
+  - journal
+  - image reconstruction
+- id: doi:10.3389/fnins.2017.00271
+  title: Initial Validation for the Estimation of Resting-State fMRI Effective Connectivity
+    by a Generalization of the Correlation Approach
+  authors:
+  - Nan Xu
+  - R. Nathan Spreng
+  - Peter C. Doerschuk
+  publisher: Frontiers in Neuroscience
+  date: '2017-05-16'
+  link: https://doi.org/gt44mv
+  orcid: 0000-0002-3900-3220
+  nan-xu-list: true
+  plugin: sources.py
+  file: sources.yaml
+  type: journal
+  description: We developed p-corr, an innovative algorithm enhancing traditional
+    correlation analysis with a causal dynamic model. P-corr identifies information
+    flow in functional connectivity, maintains sensitivity in detecting modular architecture,
+    and scales to handle hundreds of ROIs for comprehensive whole-brain connectivity
+    assessments.
+  image: papers/images/xu-ft-2017-pcorr.png
+  buttons:
+  - type: source
+    text: code
+    link: https://www.mathworks.com/matlabcentral/fileexchange/62781-pcorrelation
+  tags:
+  - journal
+  - causal interactions
+  - modeling
+- id: doi:10.1109/embc.2016.7591598
+  title: 'Statistical characterization of ensembles of symmetric virus particles:
+    3-D stochastic signal reconstruction from electron microscope images'
+  authors:
+  - Nan Xu
+  - Peter C. Doerschuk
+  publisher: IEEE Engineering In Medicine And Biology Society Annual International
+    Conference
+  date: '2016-08-01'
+  link: https://ieeexplore.ieee.org/document/7591598
+  orcid: 0000-0002-3900-3220
+  nan-xu-list: true
+  plugin: sources.py
+  file: sources.yaml
+  type: conference
+  description: '> **EMBS Student Paper Competition Finalist - Top 0.4% conference
+    proceedings!**'
+  buttons:
+  - type: paper
+    text: proceedings
+    link: /papers/manuscripts/xu-embc-2016.pdf
+  tags:
+  - conference
+  - image reconstruction
+  - recognition
+- id: doi:10.1016/j.coviro.2016.02.011
+  title: Virus particle dynamics derived from CryoEM studies
+  authors:
+  - Peter C Doerschuk
+  - Yunye Gong
+  - Nan Xu
+  - Tatiana Domitrovic
+  - John E Johnson
+  publisher: Current Opinion in Virology
+  date: '2016-06-01'
+  link: https://doi.org/gt44ms
+  orcid: 0000-0002-3900-3220
+  nan-xu-list: true
+  plugin: sources.py
+  file: sources.yaml
+  tags:
+  - journal
+  - image reconstruction
+- id: doi:10.1117/12.2193791
+  title: Characterizing heterogeneity among virus particles by stochastic 3D signal
+    reconstruction
+  authors:
+  - Nan Xu
+  - Yunye Gong
+  - Qiu Wang
+  - Yili Zheng
+  - Peter C. Doerschuk
+  publisher: SPIE Proceedings
+  date: '2015-09-21'
+  link: https://doi.org/gt44nn
+  orcid: 0000-0002-3900-3220
+  nan-xu-list: true
+  plugin: sources.py
+  file: sources.yaml
+  type: conference
+  description: '> **Top 10% Paper Recognition; Top 34 papers demonstrated in the Show
+    & Tell session!**'
+  buttons:
+  - type: paper
+    text: proceedings
+    link: /papers/manuscripts/xu-spie-2015.pdf
+  tags:
+  - conference
+  - image reconstruction
+  - recognition
+- id: doi:10.1109/ICIP.2015.7351039
+  title: 'Reconstruction for stochastic 3-D signals with symmetric statistics in noise:
+    Electron microscopy of virus particles'
+  authors:
+  - Nan Xu
+  - Peter C. Doerschuk
+  publisher: 2015 IEEE International Conference on Image Processing (ICIP)
+  date: '2015-09-01'
+  link: https://doi.org/gt44np
+  orcid: 0000-0002-3900-3220
+  nan-xu-list: true
+  plugin: sources.py
+  file: sources.yaml
+  type: conference
+  buttons:
+  - type: paper
+    text: proceedings
+    link: /papers/manuscripts/xu-icip-2015.pdf
+  tags:
+  - conference
+  - image reconstruction
+- id: doi:10.1364/srs.2014.stu3f.4
+  title: 3-D statistical characterization of the heterogeneity of biological macromolecular
+    complexes by electron microscopy
+  authors:
+  - Nan Xu
+  - Yunye Gong
+  - Yili Zheng
+  - Qiu Wang
+  - Peter C. Doerschuk
+  publisher: Imaging and Applied Optics 2014
+  date: '2014-01-01'
+  link: https://doi.org/gt44nq
+  orcid: 0000-0002-3900-3220
+  nan-xu-list: true
+  plugin: sources.py
+  file: sources.yaml
+  type: conference
+  buttons:
+  - type: paper
+    text: proceedings
+    link: /papers/manuscripts/xu-srs-2014.pdf
+  tags:
+  - conference
+  - image reconstruction
+- id: doi:10.1109/ICIP.2014.7025712
+  title: 'Directed interactivity of large-scale brain networks: Introducing a new
+    method for estimating resting-state effective connectivity MRI'
+  authors:
+  - Nan Xu
+  - R. Nathan Spreng
+  - Peter C. Doerschuk
+  publisher: 2014 IEEE International Conference on Image Processing (ICIP)
+  date: '2014-10-01'
+  link: https://doi.org/gt44nr
+  orcid: 0000-0002-3900-3220
+  nan-xu-list: true
+  plugin: sources.py
+  file: sources.yaml
+  type: conference
+  buttons:
+  - type: paper
+    text: proceedings
+    link: /papers/manuscripts/xu-icip-2014.pdf
+  tags:
+  - conference
+  - causal interactions
+  - modeling
+- id: doi:10.31234/osf.io/qzv47_v1
+  title: Trait-level Attention Control Emerges from Dynamic Frontoparietal Control
+    Network Interactions
+  authors:
+  - Dolly Tan Seeburger
+  - Jason Tsukahara
+  - Nan Xu
+  - Vishwadeep Ahluwalia
+  - Shella Keilholz
+  - Randall W Engle
+  publisher: Center for Open Science
+  date: '2025-10-02'
+  link: https://doi.org/hbcj4r
+  type: journal
+  tags:
+  - preprint
+  - brain dynamics
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1002/alz.061608
+  title: "The effects of locus coeruleus stimulation on the BOLD global signal in\
+    \ TgF344\u2010AD rats"
+  authors:
+  - Nmachi Anumba
+  - Michael Kelberman
+  - Corrie Smith
+  - Wen Ju Pan
+  - Perrin G Clavijo
+  - Nan Xu
+  - Alexia Marriott
+  - Ellen Kim
+  - David Weinshenker
+  - Shella Keilholz
+  publisher: Alzheimer's &amp; Dementia
+  date: '2022-12-01'
+  link: https://doi.org/gt46xm
+  tags:
+  - conference
+  - neuro disorders
+  plugin: sources.py
+  file: sources.yaml
+- title: Task-sensitivity and subcortical propagation of patterned spatiotemporal
+    neural activity
+  description: '> **Oral Presentation.**'
+  authors:
+  - Archana Sathiyamoorthy
+  - Matthew Wang
+  - Linnea Hoheisel
+  - Nan Xu
+  publisher: 2026 Northeast Bioengineering Conference
+  date: '2026-04-16'
+  type: conference
+  tags:
+  - conference
+  - brain dynamics
+  plugin: sources.py
+  file: sources.yaml
+- title: Brain states in simultaneous EEG-fMRI
+  authors:
+  - Linnea Hoheisel
+  - Kavya Rajendran
+  - Edward Bernat
+  - Nan Xu
+  publisher: Organization for Human Brain Mapping 2026 Annual Meeting (Accepted)
+  date: '2026-06-14'
+  type: conference
+  tags:
+  - conference
+  - brain dynamics
+  plugin: sources.py
+  file: sources.yaml
+- title: Validation of channel capacity as an effective connectivity measure in fMRI
+  authors:
+  - Jianan Jian
+  - Benjamin Li
+  - Nurahmed Multezem
+  - Francesca Mandino
+  - Evelyn Lake
+  - Nan Xu
+  publisher: Organization for Human Brain Mapping 2026 Annual Meeting (Accepted)
+  date: '2026-06-14'
+  type: conference
+  tags:
+  - conference
+  - causal interactions
+  - brain dynamics
+  - cross-species
+  - modeling
+  plugin: sources.py
+  file: sources.yaml
+- title: 'Sliding-window prediction correlation (SWpC): a sensitive approach for detecting
+    task-specific directed functional connectivity dynamics'
+  authors:
+  - Nan Xu
+  - Vince D. Calhoun
+  - Shella D. Keilholz
+  publisher: Organization for Human Brain Mapping 2025 Annual Meeting
+  date: '2025-06-24'
+  type: conference
+  tags:
+  - conference
+  - causal interactions
+  - brain dynamics
+  - modeling
+  plugin: sources.py
+  file: sources.yaml
+- title: The effects of locus coeruleus stimulation on quasi-periodic patterns in
+    rats
+  authors:
+  - Nmachi Anumba
+  - Michael A. Keilberman
+  - Wenju Pan
+  - Alexia Marriott
+  - Nan Xu
+  - David Weinshenker
+  - Shella Keilholz
+  publisher: Organization for Human Brain Mapping 2024 Annual Meeting
+  date: '2024-06-23'
+  type: conference
+  tags:
+  - conference
+  - brain dynamics
+  - cross-species
+  plugin: sources.py
+  file: sources.yaml
+- title: 'Time-varying causal interactions in the functional brain networks: modeling
+    and validation'
+  authors:
+  - Nan Xu
+  - Xiaodi Zhang
+  - Wenju Pan
+  - Jeremy L. Smith
+  - Jason W. Allen
+  - Vince D. Calhoun
+  - Shella D. Keilholz
+  publisher: Organization for Human Brain Mapping 2024 Annual Meeting
+  date: '2024-06-23'
+  type: conference
+  tags:
+  - conference
+  - causal interactions
+  - brain dynamics
+  - modeling
+  - neuro disorders
+  plugin: sources.py
+  file: sources.yaml
+- title: Modeling and validation of dynamic causal interactions in functional brain
+    network
+  authors:
+  - Nan Xu
+  - Xiaodi Zhang
+  - Wenju Pan
+  - Jeremy L. Smith
+  - Jason W. Allen
+  - Vince D. Calhoun
+  - Shella D. Keilholz
+  publisher: 10th Annual BRAIN Initiative Conference
+  date: '2024-06-18'
+  type: conference
+  tags:
+  - conference
+  - causal interactions
+  - brain dynamics
+  - modeling
+  - neuro disorders
+  plugin: sources.py
+  file: sources.yaml
+- title: '``Hyperconnected'''' vestibular state in subacute and chronic post-concussive
+    vestibular dysfunction using dynamic whole brain functional connectivity analysis'
+  description: '> **Oral Presentation.**'
+  authors:
+  - Anna Trofimova
+  - Jeremy Smith
+  - Nan Xu
+  - Shella Keilholz
+  - Russell Gore
+  - Jason W. Allen
+  publisher: The 16th Annual Meeting of the American Society of Functional Neuroradiology
+  date: '2023-10-07'
+  type: conference
+  tags:
+  - conference
+  - brain dynamics
+  - neuro disorders
+  - recognition
+  plugin: sources.py
+  file: sources.yaml
+- title: Distribution of large-scale spatiotemporal patterns within and across individuals
+  authors:
+  - Taylor Bolt
+  - Nan Xu
+  - Laren Daley
+  - T.J. LaGrow
+  - W-J Pan
+  - Eric Schumacher
+  - Shella Keilholz
+  publisher: Organization for Human Brain Mapping 2023 Annual Meeting
+  date: '2023-07-22'
+  type: conference
+  tags:
+  - conference
+  - brain dynamics
+  plugin: sources.py
+  file: sources.yaml
+- title: The interaction between visual stimulation and intrinsic infraslow whole
+    brain activity in humans
+  authors:
+  - Nan Xu
+  - Derek Smith
+  - George Geno
+  - Dolly T. Seeburger
+  - Eric H. Schumacher
+  - Shella D. Keilholz
+  publisher: Organization for Human Brain Mapping 2023 Annual Meeting
+  date: '2023-07-22'
+  type: conference
+  tags:
+  - conference
+  - brain dynamics
+  plugin: sources.py
+  file: sources.yaml
+- title: Dynamic spatiotemporal interactions in vestibular networks affected by concussive
+    syndromes
+  authors:
+  - Nan Xu
+  - Jeremy Smith
+  - Jason Allen
+  - Shella Keilholz
+  publisher: Organization for Human Brain Mapping 2022 Annual Meeting
+  date: '2022-06-19'
+  type: conference
+  tags:
+  - conference
+  - causal interactions
+  - neuro disorders
+  plugin: sources.py
+  file: sources.yaml
+- title: Investigating the relationship between sustained attention and quasi-periodic
+    brain activity patterns with the psychomotor vigilance task.
+  authors:
+  - Yunji Lee
+  - Dolly T. Seeburger
+  - Sakshi Dhawan
+  - Tiffany Nguyen
+  - Nan Xu
+  - Marcus Ma
+  - Anzar Abbas
+  - Waqas Majeed
+  - Garth Thompson
+  - Shella D. Keilholz
+  - Eric H. Schumacher
+  publisher: Cognitive Neuroscience Society 2022 Annual Meeting
+  date: '2022-04-23'
+  type: conference
+  tags:
+  - conference
+  - brain dynamics
+  - cognitive functions
+  plugin: sources.py
+  file: sources.yaml
+- title: Identifying the neural mechanisms of zone state performance using time-varying
+    functional connectivity methods.
+  description: '> **Oral Presentation.**'
+  authors:
+  - Dolly T. Seeburger
+  - Nan Xu
+  - C Godwin
+  - Marcus Ma
+  - Shella D. Keilholz
+  - Eric H. Schumacher
+  publisher: Cognitive Neuroscience Society 2022 Annual Meeting
+  date: '2022-04-23'
+  type: conference
+  tags:
+  - conference
+  - brain dynamics
+  - cognitive functions
+  - recognition
+  plugin: sources.py
+  file: sources.yaml
+- title: Quasiperiodic patterns and BOLD response entrained by visual stimulation
+    in the human brain.
+  authors:
+  - Nan Xu
+  - Derek M. Smith
+  - George Jeno
+  - Dolly T. Seeburger
+  - Eric H. Schumacher
+  - Shella D. Keilholz
+  publisher: Organization for Human Brain Mapping 2021 Annual Meeting
+  date: '2021-05-30'
+  type: conference
+  tags:
+  - conference
+  - brain dynamics
+  - cognitive functions
+  plugin: sources.py
+  file: sources.yaml
+- title: Investigation of spatiotemporal functional interactivity among large-scale
+    brain networks
+  description: '> **Oral Presentation; Selected 4% of Accepted Abstract Papers.**'
+  authors:
+  - Nan Xu
+  - R Nathan Spreng
+  - Shella D. Keilholz
+  publisher: Organization for Human Brain Mapping 2020 Annual Meeting
+  date: '2020-06-23'
+  type: conference
+  tags:
+  - conference
+  - causal interactions
+  - cognitive functions
+  - recognition
+  plugin: sources.py
+  file: sources.yaml
+- title: What are the most talkative brain regions?
+  publisher: IEEE Engineering In Medicine And Biology Society Annual International
+    Conference
+  description: '> **Late-breaking Research Paper!**'
+  authors:
+  - Nan Xu
+  - Peter C. Doerschuk
+  - R Nathan Spreng
+  date: '2016-08-01'
+  type: conference
+  tags:
+  - conference
+  - causal interactions
+  - recognition
+  plugin: sources.py
+  file: sources.yaml
+- title: 'Directed interactivity of large-scale brain networks: Introducing a new
+    method for estimating brain connectivity MRI'
+  authors:
+  - Nan Xu
+  - R Nathan Spreng
+  - Peter C. Doerschuk
+  publisher: Cognitive Neuroscience Society 2014 Annual Meeting
+  date: '2014-04-07'
+  type: conference
+  tags:
+  - conference
+  - causal interactions
   plugin: sources.py
   file: sources.yaml

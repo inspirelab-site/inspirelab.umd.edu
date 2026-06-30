@@ -1,79 +1,45 @@
 ---
+title: Home
+nav:
+  order: 1
+  tooltip: Homepage
 ---
-
-# Lab Website Template
-
-[Lab Website Template](https://github.com/greenelab/lab-website-template) is an easy-to-use, flexible website template for [labs](https://www.greenelab.com/).
-Spend less time worrying about managing a website and citations, and more time running your lab.
-
-{%
-  include button.html
-  type="docs"
-  link="https://greene-lab.gitbook.io/lab-website-template-docs"
-%}
-{%
-  include button.html
-  type="github"
-  text="On GitHub"
-  link="greenelab/lab-website-template"
-%}
-
-{% include section.html %}
-
+# Welcome to INSPIRE Lab!
+**I**maging- and **N**euro-computation**s** for **P**recision **I**nformatics **Re**search (**INSPIRE**) Lab, led by [Dr. Nan Xu](members/nan-xu.html), is anchored at the intersection of data science and brain science. We are dedicated to developing advanced computational models and data science approaches to uncover brain function, neurological disorders, and other biological processes. By leveraging multimodal functional neuroimaging data—including fMRI-BOLD, LFP/EEG, and optical imaging—from animal models, healthy individuals, and patients, we decode complex brain activities and diseases. This integrative approach aims to provide groundbreaking insights that advance both fundamental understanding and translational applications in brain science, informatics, and beyond.
 ## Highlights
+{% include list.html data="posts" component="post-excerpt" 
+filter="tags.include?('latest')" style="fill"%}
 
 {% capture text %}
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-
+We develop advanced data science approaches to interpret data from cutting-edge imaging techniques, providing novel insights for brain science, informatics, and beyond.
 {%
   include button.html
   link="research"
-  text="See our publications"
+  text="See our research themes"
   icon="fa-solid fa-arrow-right"
   flip=true
   style="bare"
 %}
-
+{%
+  include button.html
+  link="papers"
+  text="Publications"
+  icon="fa-solid fa-arrow-right"
+  flip=true
+  style="bare"
+%}
 {% endcapture %}
 
 {%
   include feature.html
-  image="images/photo.jpg"
+  image="research/images/research.jpg"
   link="research"
   title="Our Research"
   text=text
 %}
 
-{% capture text %}
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-
-{%
-  include button.html
-  link="projects"
-  text="Browse our projects"
-  icon="fa-solid fa-arrow-right"
-  flip=true
-  style="bare"
-%}
-
-{% endcapture %}
-
-{%
-  include feature.html
-  image="images/photo.jpg"
-  link="projects"
-  title="Our Projects"
-  flip=true
-  style="bare"
-  text=text
-%}
-
-{% capture text %}
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-
+{% capture text %} 
+We are an interdisciplinary team of researchers passionate about innovative, rigorous, and transparent science. We warmly welcome students and trainees from diverse backgrounds, fostering mutual respect and collaboration. We are committed to fairness and inclusion, ensuring that everyone feels supported and valued.
 {%
   include button.html
   link="team"
@@ -82,13 +48,41 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
   flip=true
   style="bare"
 %}
-
+{%
+  include button.html
+  link="contact"
+  text="Join us!"
+  icon="fa-solid fa-arrow-right"
+  flip=true
+  style="bare"
+%}
 {% endcapture %}
 
 {%
   include feature.html
-  image="images/photo.jpg"
+  image="team/images/team0.png"
   link="team"
   title="Our Team"
+  text=text
+%}
+
+{% capture text %}
+Explore our new repositories of data science software tools. Our code is completely open source, and we welcome contributions from the community. Join us to advance open science!
+{%
+  include button.html
+  link="software"
+  text="Browse our open software"
+  icon="fa-solid fa-arrow-right"
+  flip=true
+  style="bare"
+%}
+{% endcapture %}
+
+{%
+  include feature.html
+  image="software/images/software.jpg"
+  title="Open Software"
+  flip=true
+  style="bare"
   text=text
 %}

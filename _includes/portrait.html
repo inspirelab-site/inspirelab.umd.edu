@@ -12,18 +12,18 @@
 <div class="portrait-wrapper">
   <a
     {% if page.slug != member.slug %}
-      href="{{ member.url | relative_url | uri_escape }}"
+      href="{{ member.url | relative_url }}"
     {% endif %}
     class="portrait"
     data-style="{{ include.style }}"
-    aria-label="{{ member.name | default: "member link" | regex_strip }}"
+    aria-label="{{ member.name | default: "member link" }}"
   >
     {% if type %}
       {% include icon.html icon=type.icon %}
     {% endif %}
 
     <img
-      src="{{ member.image | relative_url | uri_escape }}"
+      src="{{ member.image | relative_url }}"
       class="portrait-image"
       alt="member portrait"
       loading="lazy"
@@ -42,9 +42,31 @@
       </span>
     {% endif %}
 
+    {% if member.start and member.end %}
+      <span class="portrait-tenure">
+        ({{ member.start }} - {{ member.end }})
+      </span>
+    {% elsif member.start %}
+      <span class="portrait-tenure">
+        ({{ member.start }} - )
+      </span>
+    {% endif %}
+
     {% if member.affiliation %}
       <span class="portrait-affiliation">
-        {{ member.affiliation }}
+        {{ member.affiliation}}
+      </span>
+    {% endif %}
+    
+    {% if member.brief-desc %}
+      <span class="portrait-affiliation">
+        {{ member.brief-desc}}
+      </span>
+    {% endif %}
+
+    {% if member.post %}
+      <span class="portrait-post">
+        {{ member.post}}
       </span>
     {% endif %}
   </a>

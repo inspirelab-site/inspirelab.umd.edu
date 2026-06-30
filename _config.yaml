@@ -1,7 +1,7 @@
 # site properties and page defaults
-title: Lab Website Template
-subtitle: by the Greene Lab
-description: An easy-to-use, flexible website template for labs, with automatic citations, GitHub tag imports, pre-built components, and more.
+title: INSPIRE Lab
+subtitle: Imaging- and Neuro-computations for Precision Informatics Research
+description:
 header: images/background.jpg
 footer: images/background.jpg
 proofer: false
@@ -9,11 +9,11 @@ proofer: false
 # site social media and other links
 links:
   email: contact@your-lab.com
-  orcid: 0000-0001-8713-9213
-  google-scholar: ETJoidYAAAAJ
-  github: your-lab
-  twitter: YourLabHandle
-  youtube: YourLabChannel
+  orcid: 0000-0002-3900-3220
+  google-scholar: 94oRMMcAAAAJ
+  github: imnanxu
+  # twitter: imnanxu
+  youtube: "@nanxu942"
 
 ### jekyll settings
 

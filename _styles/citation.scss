@@ -1,7 +1,6 @@
 ---
 ---
-
-$thumb-size: 180px;
+$thumb-size: 170px;
 $wrap: 800px;
 
 .citation-container {
@@ -10,7 +9,7 @@ $wrap: 800px;
 
 .citation {
   display: flex;
-  margin: 20px 0;
+  margin: 10px 0;
   border-radius: var(--rounded);
   background: var(--background);
   overflow: hidden;
@@ -36,12 +35,12 @@ $wrap: 800px;
   position: relative;
   display: inline-flex;
   flex-wrap: wrap;
-  gap: 10px;
+  gap: 7px;
   max-width: 100%;
   height: min-content;
-  padding: 20px;
-  padding-left: 30px;
-  text-align: left;
+  padding: 10px;
+  padding-left: 20px;
+  text-align: justify;
   overflow-wrap: break-word;
   z-index: 0;
 }
@@ -51,6 +50,7 @@ $wrap: 800px;
 .citation-details,
 .citation-description {
   width: 100%;
+  font-size: 100%;
 }
 
 .citation-title {

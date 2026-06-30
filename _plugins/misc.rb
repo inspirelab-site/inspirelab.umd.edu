@@ -7,7 +7,7 @@ module Jekyll
     def is_nil(value, fallback)
       return value == nil ? fallback : value
     end
-
+    
     # get list of hash keys or array entries
     def object_items(object)
       if object.is_a?(Hash)

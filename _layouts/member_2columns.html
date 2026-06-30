@@ -1,0 +1,58 @@
+---
+layout: default
+---
+
+<style>
+  .container {
+    display: flex;
+  }
+  .left-column {
+    flex: 1;
+    padding: 20px 0 0 0;
+    text-align: center;
+    max-width: 220px;
+    font-size: 95%;
+  }
+  .right-column {
+    flex: 2;
+    padding: 20px;
+  }
+  .right-column * {
+    line-height: 2; /* Set line spacing for all elements inside right column */
+  }
+  .center {
+    display: flex;
+    flex-direction: column; /* Align icons vertically */
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 0px; /* Adjust the gap between icons as needed */
+    font-size: 100%;
+  }
+</style>
+
+<div class="container">
+  <div class="left-column">
+    {% capture floatcontent %}
+      {% include portrait.html lookup=page.slug %}
+      <div class="center">
+        {% for link in page.links %}
+          {% assign key = link[0] %}
+          {% assign value = link[1] %}
+          {% include button.html type=key link=value style="bare" %}
+        {% endfor %}
+      </div>
+    {% endcapture %}
+    {{ floatcontent }}
+  </div>
+  <div class="right-column">
+    {{ content }}
+  </div>
+</div>
+
+{% assign aliases = page.aliases
+  | default: page.name
+  | default: page.title
+  | join: ","
+  | split: ","
+  | array_filter
+%}

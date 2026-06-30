@@ -1,16 +1,81 @@
 ---
 layout: default
 ---
+{% assign member = site.members | where_exp: "member", "member.slug == page.slug" | first %}
+{% assign type = site.data.types[member.role] %}
+<nav aria-label="breadcrumb" class="breadcrumb">
+  <ol class="breadcrumb px-0">
+    {% if page.name != "Hiring" %}
+      <li class="breadcrumb-item"><a href="/team">TEAM</a></li>
+      <li class="breadcrumb-item active" aria-current="page">
+        {% if member.role == "pi" %}{{ type.description }}
+        {% else %}{{ member.description | default: type.description }}
+        {% endif %}
+      </li>
+      <li class="breadcrumb-item active" aria-current="page">{{ page.name }}</li>
+    {% else %}
+      <li class="breadcrumb-item"><a href="/contact/#join-us">Openings</a></li>
+      <li class="breadcrumb-item active" aria-current="page"> {{ member.description | default: type.description }}</li>
+    {% endif %}
+  </ol>
+</nav>
 
+<style>
+  .icon-container {
+    display: flex;
+    gap: 0px; /* Adjust this value to control the space between icons */
+    align-items: center; /* Vertically align icons and text */
+    padding-top: 10px;
+    padding-left: 10px;
+  }
+
+  .icon-container .icon {
+    display: inline-flex;
+    align-items: center; /* Align text with the icon */
+    vertical-align: middle; /* Align text with icon */
+  }
+
+  .wide-icons {
+    display: none;
+    flex-flow: row wrap;
+    max-width: 250px;
+    justify-content: center;
+  }
+
+  .narrow-icons {
+    flex-flow: row wrap; /* Vertical layout for narrow screen */
+    justify-content: center;
+    font-size: 120%; /* Adjust this value to increase the size of the icons */
+  }
+
+  @media (min-width: 769px) { /* Adjust the min-width value as needed */
+    .wide-icons {
+      display: flex;
+    }
+    .narrow-icons {
+      display: none;
+    }
+  }
+</style>
 {% capture floatcontent %}
 
 {% include portrait.html lookup=page.slug %}
 
-<div>
+<!-- Narrow window icon container -->
+<div class="icon-container narrow-icons">
   {% for link in page.links %}
     {% assign key = link[0] %}
     {% assign value = link[1] %}
-    {% include button.html type=key link=value style="bare" %}<br>
+    {% include button.html type=key text="" link=value style="bare" %}
+  {% endfor %}
+</div>
+
+<!-- Wide window icon container -->
+<div class="icon-container wide-icons">
+  {% for link in page.links %}
+    {% assign key = link[0] %}
+    {% assign value = link[1] %}
+    {% include button.html type=key link=value style="bare" %}
   {% endfor %}
 </div>
 
@@ -27,24 +92,9 @@ layout: default
   | split: ","
   | array_filter
 %}
-
-{% capture search -%}
-  research/?search={% for alias in aliases %}"{{ alias }}" {% endfor %}
-{%- endcapture %}
-
-<p class="center">
-  <a href="{{ search | relative_url | uri_escape }}">
-    Search for {{ page.name | default: page.title }}'s papers on the Research page
-  </a>
-</p>
-
-{% capture search -%}
-  blog/?search={{ page.name }}
-{%- endcapture %}
-
 <!--
 <p class="center">
-  <a href="{{ search | relative_url | uri_escape }}">
+  <a href="{{ search | relative_url }}">
     See {{ page.name | default: page.title }}'s posts on the Blog page
   </a>
 </p>

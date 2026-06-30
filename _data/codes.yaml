@@ -1,0 +1,77 @@
+- title: SWpC
+  subtitle: Sliding-Window Prediction Correlation (Xu et al., preprint, 2026)
+  group: dynamics
+  image: software/images/software.jpg
+  link: https://github.com/inspirelab-site/swpc
+  description: MATLAB toolbox to estimate time-varying directed functional connectivity and directional information flow using sliding-window prediction correlation.
+  repo: inspirelab-site
+  tags:
+    - computational neuro
+    - connectivity
+
+- title: SWCC
+  subtitle: Sliding-Window Channel Capacity (Jian et al., preprint, 2026)
+  group: dynamics
+  image: software/images/software.jpg
+  link: https://github.com/inspirelab-site/swcc
+  description: MATLAB reference implementation of the SWCC framework for estimating time-varying strength and duration of directed interactions (effective connectivity) in fMRI.
+  repo: inspirelab-site
+  tags:
+    - computational neuro
+    - connectivity
+
+- title: QPPLab
+  subtitle: Quasi-periodic patterns (Xu et al., SoftwareX, 2025)
+  group: dynamics
+  image: software/images/software.jpg
+  link: https://github.com/imnanxu/QPPLab
+  description: A generally applicable and user friendly toolbox for analyzing QPPs.
+  repo: imnanxu
+  tags:
+   - computational neuro
+   - analysis
+
+- title: Rodent Brain fMRI Preprocessing
+  subtitle: Featured at the OHBM 2024 Annual Meeting (Xu et al., Aperture, 2023)
+  group: preprocessing
+  image: software/images/software.jpg
+  link: https://github.com/imnanxu/rodent-whole-brain-preprocessing-recipe
+  description: A generally applicable whole-brain preprocessing toolbox for mice and rats.
+  repo: imnanxu
+  tags:
+   - preprocessing
+   - rodents
+
+- title: Human Partial Brain fMRI Preprocessing
+  subtitle: used in (Xu et al., Imaging Neurosci., 2023)
+  group: preprocessing
+  image: software/images/software.jpg
+  link: https://github.com/imnanxu/PartialHumanBrain_preprocessing/releases/tag/in2023
+  description: A software pipeline for processing EPI data of partially covered human brain
+  repo: imnanxu
+  tags:
+   - preprocessing
+   - humans
+   - partial brains
+
+- title: Real Polyhedral Basis Functions
+  subtitle: (Xu & Doerschuk, SISC, 2021)
+  group: scientific-comp
+  image: software/images/software.jpg
+  link: https://github.com/imnanxu/PolyhedralBasisFunction/releases/tag/sisc2021
+  description: Software and numerical results for computing real-valued polyhedral basis functions.
+  repo: imnanxu
+  tags:
+    - data science
+    - group theory
+
+- title: p-Corr
+  subtitle: Prediction Correlation (Xu et al., Front. Neurosci., 2017)
+  group: dynamics
+  image: software/images/software.jpg
+  link: https://www.mathworks.com/matlabcentral/fileexchange/62781-pcorrelation
+  description: Matlab toolbox for estimating the strength and duration of the information flow.
+  repo: matlab-file-exchange
+  tags:
+    - computational neuro
+    - modeling
