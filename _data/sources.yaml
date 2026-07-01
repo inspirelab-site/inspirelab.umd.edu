@@ -13,6 +13,18 @@
 #     - open science
 #     - other (e.g., recognition)
 
+#Seeburger-PNAS-2026
+- id: doi:10.1073/pnas.2526828123
+  type: journal
+  buttons:
+    - type: source
+      text: code
+      link: https://github.com/imnanxu/QPPLab
+  tags:
+    - journal
+    - brain dynamics
+
+
 #Jian-SWcC-2026
 - id: doi:10.64898/2026.03.28.714906 
   type: journal
@@ -57,19 +69,6 @@
     - cross-species
     - modeling
 
-#Seeburger-PNAS-2026
-- id: doi:10.31234/osf.io/qzv47_v1
-  type: journal
-  authors: 
-  - Dolly Tan Seeburger
-  - Jason Tsukahara
-  - Nan Xu
-  - Vishwadeep Ahluwalia
-  - Shella Keilholz
-  - Randall W Engle
-  tags:
-    - preprint
-    - brain dynamics
 
 #Xu-SoftwareX-2025
 - id: doi:10.1016/j.softx.2025.102067
