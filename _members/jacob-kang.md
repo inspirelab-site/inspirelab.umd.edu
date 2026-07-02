@@ -1,8 +1,8 @@
 ---
 name: Jacob Kang
 image: team/images/jacob-kang.jpg
-role: postdoc
-description: "Postdoctoral Researcher"
+role: masters
+description: "Faculty Assistant"
 start: Aug 2026 #Nov 2025
 affiliation: "Computer Science, Mathematics"
 brief-desc:  "University of Maryland, College Park"
