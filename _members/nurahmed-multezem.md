@@ -6,7 +6,7 @@ description: "Undergraduate Researcher"
 start: Oct 2025
 affiliation: "Computer Engineering"
 brief-desc:  "University of Maryland, College Park"
-group: member
+group: former
 links:
   email: nmulteze@umd.edu
   linkedin: nurahmed-multezem

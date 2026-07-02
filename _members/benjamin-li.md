@@ -6,7 +6,7 @@ description: "Undergraduate Researcher"
 start: Jan 2025
 affiliation: "Computer Science"
 brief-desc:  "University of Maryland, College Park"
-group: member
+group: former
 links:
   email: bli9485@umd.edu
   linkedin: benjamin-li-26a307236

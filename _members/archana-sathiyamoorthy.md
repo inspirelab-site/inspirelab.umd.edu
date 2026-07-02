@@ -6,7 +6,7 @@ description: "Undergraduate Researcher"
 start: Jan 2025
 affiliation: "Psychology, Criminology & Criminal Justice"
 brief-desc:  "University of Maryland, College Park"
-group: member
+group: former
 links:
   email: asathiya@umd.edu
   linkedin: archana-s-831206270

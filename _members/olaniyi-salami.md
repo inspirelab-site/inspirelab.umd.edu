@@ -6,7 +6,7 @@ description: "Undergraduate Researcher"
 start: Jan 2025
 affiliation: "Computer Science, Mathematics"
 brief-desc:  "University of Maryland, College Park"
-group: member
+group: former
 links:
   email: osalami2@umd.edu
   # linkedin: 

@@ -6,7 +6,7 @@ description: "Undergraduate Researcher"
 start: Oct 2025
 affiliation: "Biocomputational Engineering"
 brief-desc:  "University of Maryland, College Park"
-group: member
+group: former
 links:
   email: cosmith7@umd.edu
   linkedin: catherine-smith77

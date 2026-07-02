@@ -9,7 +9,7 @@ brief-desc:  "University of Maryland, College Park"
 group: member
 links:
   email: ckurniaw@umd.edu
-  linkedin: https://www.linkedin.com/in/colin-kurniawan-15b541353/ 
+  linkedin: colin-kurniawan-15b541353 
   # google-scholar: 
   # orcid: 
   github: colin-kurniawan
