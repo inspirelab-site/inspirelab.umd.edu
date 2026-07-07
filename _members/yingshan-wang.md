@@ -1,8 +1,8 @@
 ---
 name: Yingshan Wang
 image: team/images/yingshan-wang.jpg
-role: postdoc
-description: "Postdoctoral Researcher"
+role: masters
+description: "Faculty Assistant"
 start: Jun 2026
 affiliation: "Fischell Department of Bioengineering"
 brief-desc:  "University of Maryland, College Park"
