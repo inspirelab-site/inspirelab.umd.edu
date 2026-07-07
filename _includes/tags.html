@@ -23,13 +23,13 @@
     
     {% for tag in tags %}
       <a
-        href="{{ link }}?search=&quot;tag: {{ tag }}&quot;"
-        class="tag"
-        data-tooltip="Show items with the tag &quot;{{ tag }}&quot;"
-        onclick="onTagClick('{{ tag }}')"
-      >
-        {{ tag }}
-      </a>
+        href="{{ link | relative_url }}?search=&quot;tag: {{ tag }}&quot;"
+  class="tag"
+  data-tooltip="Show items with the tag &quot;{{ tag }}&quot;"
+  onclick="return onTagClick(event, '{{ tag }}')"
+>
+  {{ tag }}
+</a>
     {% endfor %}
   </div>
 {% endif %}

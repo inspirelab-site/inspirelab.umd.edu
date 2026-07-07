@@ -68,7 +68,7 @@
     return (
       (terms.every(hasText) || !terms.length) &&
       (phrases.some(hasText) || !phrases.length) &&
-      (tags.some(hasTag) || !tags.length)
+      (tags.every(hasTag) || !tags.length)
     );
   };
 
@@ -213,15 +213,30 @@
   // after tags load
   window.addEventListener("tagsfetched", searchFromUrl);
 
-  window.onTagClick = (tag) => {
-    const current = new URLSearchParams(window.location.search).get("search") || "";
-    const tagString = `"tag: ${tag}"`;
-    let newQuery;
-    if (current.includes(tagString))
-      newQuery = current.replace(tagString, "").trim();
-    else
-      newQuery = (current + " " + tagString).trim();
+  window.onTagClick = (event, tag) => {
+    if (event) event.preventDefault();
+
+    tag = normalizeTag(tag);
+
+    const box = document.querySelector(`${searchBoxSelector} input`);
+    const current =
+      (box && box.value) ||
+      new URLSearchParams(window.location.search).get("search") ||
+      "";
+
+    const { terms, phrases, tags } = splitQuery(current);
+    const index = tags.indexOf(tag);
+    if (index === -1) tags.push(tag);
+    else tags.splice(index, 1);
+
+    const newQuery = [
+      ...terms,
+      ...phrases.map((p) => `"${p}"`),
+      ...tags.map((t) => `"tag: ${t}"`),
+    ].join(" ");
+
     runSearch(newQuery);
     updateUrl(newQuery);
+    return false;
   };
 }
