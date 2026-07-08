@@ -1,13 +1,14 @@
 ---
 title: Celebrating One Year of INSPIRE Lab
-image: images/sigma-xi.png
+image: images/one-year.jpg
 author: colin-kurniawan
 tags:
   - news
   - awards
+  - latest
 ---
 We are excited to celebrate more than one year since INSPIRE Lab launched in January 2025!
-Over the past year and a half, our lab has grown from its early foundation into a vibrant research group. We are grateful to our alumni, X, X, and X, for their contributions and wish them the very best in their next chapters. We are also delighted to welcome new members, X, X, and X, to INSPIRE Lab.
+Over the past year and a half, our lab has grown from its early foundation into a vibrant research group. We are grateful to our alumni, Mike DellaFera, Ali Fayyaz, Nida Shah, Artur Alsina, Archana Sathiyamoorthy, Benjamin Li, Catherine Smith, Hernan Gonzalez, Nurahmed Multezem, Olaniyi Salami, and Matthew Wang, for their contributions and wish them the very best in their next chapters. We are also delighted to welcome new members, Gabriela Poulose, Grace Min, Nghia Truong,David Simberg, Zuzana Lucy, and Noah Hill, to INSPIRE Lab.
 We are excited to share several recent updates:
 INSPIRE Lab is proud to contribute to computational brain research as part of the University of Maryland Grand Challenges Impact Award, Predictive Biology Hub for Human and Environmental Health.
 Congratulations to Archana, whose paper was selected for an oral presentation at the 2026 Northeast Bioengineering Conference!
