@@ -12,7 +12,7 @@ links:
   linkedin: david-simberg-a3b642354 
   # google-scholar: 
   # orcid: 
-  github: dsimberg
+  github: dmsimberg
   # twitter:   
   # cv: 
   # faculty-page: 
