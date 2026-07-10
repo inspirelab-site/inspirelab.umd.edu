@@ -1,6 +1,6 @@
 ---
 name: Zuzana Huserova
-image: team/images/zuzana-huserova.png
+image: team/images/zuzana-huserova.PNG
 role: undergrad
 description: "Undergraduate Researcher"
 start: Jun 2025
