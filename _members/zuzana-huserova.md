@@ -9,7 +9,7 @@ brief-desc:  "University of Maryland, College Park"
 group: member
 links:
   email: zhuserov@terpmail.umd.edu
-  linkedin: zuzana-huserova-a47346262
+  linkedin: zuzana-huserova-a47346262 
   # google-scholar: 
   # orcid: 
   # github: olaniyisalami
