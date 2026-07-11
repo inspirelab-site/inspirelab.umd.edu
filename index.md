@@ -60,7 +60,7 @@ We are an interdisciplinary team of researchers passionate about innovative, rig
 
 {%
   include feature.html
-  image="team/images/team0.png"
+  image="images/inspire-group1.jpg"
   link="team"
   title="Our Team"
   text=text
