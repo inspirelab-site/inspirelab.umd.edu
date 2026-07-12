@@ -32,9 +32,10 @@ We develop advanced data science approaches to interpret data from cutting-edge 
 
 {%
   include feature.html
-  image="research/images/research.jpg"
+  image="images/jianan-research.webp"
   link="research"
   title="Our Research"
+  flip=true
   text=text
 %}
 
