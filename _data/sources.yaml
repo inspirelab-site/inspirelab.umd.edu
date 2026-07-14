@@ -344,6 +344,25 @@
 ##################### Abstracts w/o official ids ################
 ###################################################################
 ###################################################################
+- #id: embc2026
+  title: "Channel Capacity as a Dynamic Effective Connectivity Measure for Functional Neuroimaging"
+  description: "> **Oral Presentation.**"
+  authors:
+    - Jianan Jian
+    - Benjamin Li
+    - Nurahmed Multezem
+    - Francesca Mandino
+    - Evelyn Lake
+    - Nan Xu
+  publisher: IEEE Engineering in Medicine and Biology Conference (EMBC)
+  date: '2026-07-28'
+  type: conference
+  tags:
+    - conference
+    - causal interactions
+    - brain dynamics
+    - recognition
+
 - #id: nebec2026
   title: "Task-sensitivity and subcortical propagation of patterned spatiotemporal neural activity"
   description: "> **Oral Presentation.**"
@@ -358,6 +377,7 @@
   tags:
     - conference
     - brain dynamics
+    - recognition
     
 - #id: ohbm2026b
   title: "Brain states in simultaneous EEG-fMRI"
