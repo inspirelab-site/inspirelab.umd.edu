@@ -3,6 +3,12 @@
     | where_exp: "member", "member.slug == include.lookup"
     | first
   %}
+  {% unless member %}
+    {% assign member = site.collaborators 
+      | where_exp: "member", "member.slug == include.lookup"
+      | first
+    %}
+  {% endunless %}
 {% else %}
   {% assign member = include %}
 {% endif %}
@@ -11,7 +17,11 @@
 
 <div class="portrait-wrapper">
   <a
-    {% if page.slug != member.slug %}
+    {% if member.link %}
+      href="{{ member.link }}"
+      target="_blank"
+      rel="noopener"
+    {% elsif page.slug != member.slug %}
       href="{{ member.url | relative_url }}"
     {% endif %}
     class="portrait"

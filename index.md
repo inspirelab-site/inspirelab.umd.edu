@@ -81,7 +81,7 @@ Explore our new repositories of data science software tools. Our code is complet
 
 {%
   include feature.html
-  image="software/images/software.jpg"
+  image="software/images/fsleyes.png"
   title="Open Software"
   flip=true
   style="bare"
