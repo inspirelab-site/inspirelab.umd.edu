@@ -1,5 +1,5 @@
 ---
-name: Anna Li Lab
+name: Dr. Anna Li Lab
 image: collaborators/images/anna-li.jpg
 role: collaborator
 description: "Univesity of Maryland, Department of Psychology"
