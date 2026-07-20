@@ -1,5 +1,5 @@
 ---
-name: Dr. Jason Allen Group
+name: Dr. Jason Allen Lab
 image: collaborators/images/jason-allen.jpg
 role: collaborator
 description: "Indiana University Medical School, Radiology & Imaging Science, Emory Med School, Radiology"

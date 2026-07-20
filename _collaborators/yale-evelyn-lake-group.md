@@ -1,5 +1,5 @@
 ---
-name: Dr. Evelyn Lake Group
+name: Dr. Evelyn Lake Lab
 image: collaborators/images/evelyn-lake.jpeg
 role: collaborator
 description: "Yale School of Medicine, Radiology & Biomedical Imaging"

@@ -50,5 +50,7 @@ Nan earned a B.S. in Electrical and Computer Engineering and a B.A. in Mathemati
 [![UMD BioE](/images/funders/umd-bioe.png)](https://bioe.umd.edu/)
 
 [![UMD BBI](/images/funders/umd-bbi-resized2.png)](https://bbi.umd.edu/)
+
+[![Grand Challenges Grant](/images/funders/grand-challenges.jpg)](https://research.umd.edu/grand-challenges-grants)
 {% endcapture %}
 {% include grid.html style="cover" content=content %}

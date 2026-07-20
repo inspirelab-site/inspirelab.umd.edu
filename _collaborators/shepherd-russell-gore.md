@@ -1,7 +1,7 @@
 ---
 name: Dr. Russell Gore's Lab 
-image: collaborators/images/russell-gore
+image: collaborators/images/russell-gore.webp
 role: collaborator
-description: "Shepherd Center, SHARE Military Initiative, Complex Concussion Clinic, mTBI Brain Health and Recovery Lab"
+description: "Shepherd Center, Complex Concussion Clinic"
 link: https://shepherd.org/staff-directory/russell-gore/
 ---
