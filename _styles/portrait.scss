@@ -1,5 +1,12 @@
 ---
 ---
+.portrait-wrapper.collaborator .portrait {
+  width: 125px; 
+}
+
+.portrait-wrapper.collaborator .portrait span {
+  font-size: 0.8rem;
+}
 
 .portrait-wrapper {
   display: contents;
