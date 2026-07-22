@@ -1,5 +1,5 @@
 ---
-name: Dr. Ellen Schur
+name: Dr. Ellen Schur Lab
 image: collaborators/images/ellen-schur.jpg
 role: collaborator
 description: "University of Washington School of Medicine, Diabetes Institute"
