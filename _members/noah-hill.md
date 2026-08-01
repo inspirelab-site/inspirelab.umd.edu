@@ -3,7 +3,7 @@ name: Noah Hill
 image: team/images/noah-hill.jpg
 role: undergrad
 description: "Undergraduate Researcher"
-start: Jun 2025
+start: Jun 2026
 affiliation: "Bioengineering, Piano Performance"
 brief-desc:  "University of Maryland, College Park"
 group: member

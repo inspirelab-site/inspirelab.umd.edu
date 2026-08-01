@@ -3,7 +3,7 @@ name: Nghia Truong
 image: team/images/nghia-truong.jpg
 role: undergrad
 description: "Undergraduate Researcher"
-start: Jun 2025
+start: Jun 2026
 affiliation: "Computer Science, Mathematics"
 brief-desc:  "University of Maryland, College Park"
 group: member

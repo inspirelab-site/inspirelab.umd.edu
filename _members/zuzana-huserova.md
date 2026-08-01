@@ -3,7 +3,7 @@ name: Zuzana Huserova
 image: team/images/zuzana-huserova.PNG
 role: undergrad
 description: "Undergraduate Researcher"
-start: Jun 2025
+start: Jun 2026
 affiliation: "Bioengineering, Computer Science"
 brief-desc:  "University of Maryland, College Park"
 group: member

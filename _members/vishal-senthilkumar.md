@@ -3,7 +3,7 @@ name: Vishal Senthilkumar
 image: team/images/vishil-senthilkumar.jpg
 role: undergrad
 description: "Undergraduate Researcher" 
-start: Jun 2025
+start: Jun 2026
 # end: May 2025
 affiliation: "Computer Science"
 # post: "Now SDE @ Amazon"

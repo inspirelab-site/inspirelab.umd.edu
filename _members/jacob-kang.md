@@ -3,7 +3,7 @@ name: Jacob Kang
 image: team/images/jacob-kang.jpg
 role: masters
 description: "Faculty Assistant"
-start: Aug 2026 #Nov 2025
+start: Dec 2025 #Nov 2025
 affiliation: "Fischell Department of Bioengineering"
 brief-desc:  "University of Maryland, College Park"
 group: member
@@ -13,6 +13,7 @@ links:
   google-scholar: opKB0pYAAAAJ
   orcid: 0009-0002-6581-9829 
   github: mdsnpr
+  website: https://mdsnpr.github.io
   # twitter:   
   # cv: 
   # faculty-page: 

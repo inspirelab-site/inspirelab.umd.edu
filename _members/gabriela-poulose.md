@@ -3,7 +3,7 @@ name: Gabriela Poulose
 image: team/images/gabriela-poulose.jpg
 role: undergrad
 description: "Undergraduate Researcher"
-start: Jun 2025
+start: Jun 2026
 affiliation: "Bioengineering"
 brief-desc:  "University of Maryland, College Park"
 group: member

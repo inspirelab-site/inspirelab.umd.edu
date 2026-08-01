@@ -1,11 +1,11 @@
 ---
 name: Jasper Hood
 image: team/images/jasper-hood.jpg
-role: phd
-description: "Graduate Researcher" 
-start: Jul 2025
+role: masters
+description: "Faculty Assistant" 
+start: Jul 2026
 # end: May 2025
-affiliation: "Computer Science, Neuroscience"
+affiliation: "Fischell Department of Bioengineering"
 # post: "Now SDE @ Amazon"
 brief-desc:  "University of Maryland, College Park"
 group: member
