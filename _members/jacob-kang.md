@@ -1,10 +1,10 @@
 ---
 name: Jacob Kang
 image: team/images/jacob-kang.jpg
-role: masters
-description: "Faculty Assistant"
+role: phd
+description: "Graduate Researcher | PhD Student"
 start: Dec 2025 #Nov 2025
-affiliation: "Fischell Department of Bioengineering"
+affiliation: "Bioengineering"
 brief-desc:  "University of Maryland, College Park"
 group: member
 links:

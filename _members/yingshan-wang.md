@@ -4,7 +4,7 @@ image: team/images/yingshan-wang.jpg
 role: phd
 description: "Graduate Researcher | PhD Student"
 start: Aug 2026
-affiliation: "BioEngineering"
+affiliation: "Bioengineering"
 brief-desc:  "University of Maryland, College Park"
 group: member
 links:
