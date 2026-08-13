@@ -344,6 +344,43 @@
 ##################### Abstracts w/o official ids ################
 ###################################################################
 ###################################################################
+- #id: bic2026b
+  title: "A conserved brain state linking nerual and hemodynamic dynamics to spontaneous movement across species"
+  image: images/BRAIN_Initiative_Conference_2026_Jacob.png
+  authors:
+    - Jacob Kang
+    - Linnea Hoheisel
+    - Archana Sathiyamoorthy
+    - Francesca Mandino
+    - Edward Bernat
+    - Evelyn Lake
+    - Nan Xu
+  publisher: 2026 Brain Initiative Conference
+  date: '2026-08-11'
+  type: conference
+  tags:
+    - conference
+    - brain dynamics
+
+- #id: bic2026a
+  title: "Brain states in simultaneous EEG-fMRI"
+  image: images/BRAIN_Initiative_Conference_2026_Jianan.png
+  authors:
+    - Jianan Jian
+    - Benjamin Li
+    - Nurahmed Multezem
+    - Jacob Kang
+    - Francesca Mandino
+    - Evelyn Lake
+    - Nan Xu
+  publisher: 2026 Brain Initiative Conference
+  date: '2026-08-11'
+  type: conference
+  tags:
+    - conference
+    - brain dynamics
+    - causal-interactions
+
 - #id: embc2026
   title: "Channel Capacity as a Dynamic Effective Connectivity Measure for Functional Neuroimaging"
   description: "> **Oral Presentation.**"
