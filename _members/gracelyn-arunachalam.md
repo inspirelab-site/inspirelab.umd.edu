@@ -1,6 +1,6 @@
 ---
 name: Gracelyn Arunachalam
-image: team/images/gracelyn-Arunachalam.jpg 
+image: team/images/gracelyn-arunachalam.jpg 
 role: undergrad
 description: "Undergraduate Researcher"
 start: Aug 2026
