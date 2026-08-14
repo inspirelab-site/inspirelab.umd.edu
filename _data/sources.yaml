@@ -345,7 +345,7 @@
 ###################################################################
 ###################################################################
 - #id: bic2026b
-  title: "A conserved brain state linking nerual and hemodynamic dynamics to spontaneous movement across species"
+  title: "A conserved brain state linking neural and hemodynamic dynamics to spontaneous movement across species"
   image: images/BRAIN_Initiative_Conference_2026_Jacob.png
   authors:
     - Jacob Kang
@@ -363,7 +363,7 @@
     - brain dynamics
 
 - #id: bic2026a
-  title: "Brain states in simultaneous EEG-fMRI"
+  title: "Sliding-window channel capacity an information-theoretic measure of time-resolved effective connectivity and neural noise"
   image: images/BRAIN_Initiative_Conference_2026_Jianan.png
   authors:
     - Jianan Jian
@@ -423,7 +423,7 @@
     - Kavya Rajendran
     - Edward Bernat
     - Nan Xu
-  publisher: Organization for Human Brain Mapping 2026 Annual Meeting (Accepted)
+  publisher: Organization for Human Brain Mapping 2026 Annual Meeting
   date: '2026-06-14'
   type: conference
   tags:
@@ -439,7 +439,7 @@
     - Francesca Mandino
     - Evelyn Lake
     - Nan Xu
-  publisher: Organization for Human Brain Mapping 2026 Annual Meeting (Accepted)
+  publisher: Organization for Human Brain Mapping 2026 Annual Meeting
   date: '2026-06-14'
   type: conference
   tags:
