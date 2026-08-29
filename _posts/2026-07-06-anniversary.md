@@ -5,7 +5,6 @@ author: colin-kurniawan
 tags:
   - news
   - awards
-  - latest
 ---
 We are excited to celebrate more than one year since INSPIRE Lab launched in January 2025!
 Over the past year and a half, our lab has grown from its early foundation into a vibrant research group. We are grateful to our alumni, [Mike DellaFera](/members/mike-dellafera), [Ali Fayyaz](/members/ali-fayyaz), [Nida Shah](/members/nida-shah), [Artur Alsina](/members/artur-alsina), [Archana Sathiyamoorthy](/members/archana-sathiyamoorthy), [Catherine Smith](/members/catherine-smith), [Hernan Gonzalez](/members/hernan-gonzalez), [Nurahmed Multezem](/members/nurahmed-multezem), [Olaniyi Salami](/members/olaniyi-salami), and [Matthew Wang](/members/matthew-wang), for their contributions and wish them the very best in their next chapters. We are also delighted to welcome new members, [Colin Kurniawan](/members/colin-kurniawan), [Gabriela Poulose](/members/gabriela-poulose), [Vishal Senthilkumar](/members/vishal-senthilkumar), [Nghia Truong](/members/nghia-truong), [David Simberg](/members/david-simberg), and [Zuzana Lucy](/members/zuzana-alsina), to INSPIRE Lab.
