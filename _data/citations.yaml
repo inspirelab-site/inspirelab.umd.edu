@@ -56,6 +56,7 @@
   - brain dynamics
   - cross-species
   - modeling
+  - neuro AI/ML
 - id: doi:10.1007/s11682-026-01124-y
   title: 'A comprehensive analysis of brain network complexity in task-based fMRI
     using entropy: systematic review'
@@ -102,6 +103,7 @@
   tags:
   - preprint
   - brain dynamics
+  - cross-species
 - id: doi:10.64898/2026.02.15.706049
   title: 'Time-resolved directional organization of brain networks: distinct strength
     and temporal signatures from neurophysiology to disease'
@@ -132,7 +134,7 @@
   - preprint
   - causal interactions
   - brain dynamics
-  - neuro disorders
+  - precision brain health
   - cross-species
   - modeling
 - id: doi:10.1016/j.softx.2025.102067
@@ -188,8 +190,7 @@
   tags:
   - journal
   - brain dynamics
-  - cross-species
-  - neuro disorders
+  - precision brain health
 - id: doi:10.3389/fnsys.2024.1425491
   title: Variation in the distribution of large-scale spatiotemporal patterns of activity
     across brain states
@@ -266,7 +267,6 @@
   tags:
   - journal
   - brain dynamics
-  - cross-species
 - id: doi:10.1162/imag_a_00002
   title: "The interaction between random and systematic visual stimulation and\n \
     \                   infraslow quasi-periodic spatiotemporal patterns of whole-brain\n\
@@ -308,6 +308,7 @@
   - journal
   - brain dynamics
   - open science
+  - cross-species
 - id: doi:10.52294/001c.85075
   title: Rodent Whole-Brain fMRI Data Preprocessing Toolbox
   authors:
@@ -426,6 +427,7 @@
   - journal
   - causal interactions
   - discovery
+  - brain dynamics
 - id: doi:10.3389/fnins.2020.550923
   title: Relationship Between Basic Properties of BOLD Fluctuations and Calculated
     Metrics of Complexity in the Human Connectome Project
@@ -477,6 +479,7 @@
   tags:
   - journal
   - image reconstruction
+  - theory
   buttons:
   - type: journal
     text: manuscript
@@ -562,6 +565,7 @@
   - journal
   - causal interactions
   - modeling
+  - brain dynamics
 - id: doi:10.1109/embc.2016.7591598
   title: 'Statistical characterization of ensembles of symmetric virus particles:
     3-D stochastic signal reconstruction from electron microscope images'
@@ -588,6 +592,7 @@
   - conference
   - image reconstruction
   - recognition
+  - theory
 - id: doi:10.1016/j.coviro.2016.02.011
   title: Virus particle dynamics derived from CryoEM studies
   authors:
@@ -634,6 +639,7 @@
   - conference
   - image reconstruction
   - recognition
+  - theory
 - id: doi:10.1109/ICIP.2015.7351039
   title: 'Reconstruction for stochastic 3-D signals with symmetric statistics in noise:
     Electron microscopy of virus particles'
@@ -655,6 +661,7 @@
   tags:
   - conference
   - image reconstruction
+  - theory
 - id: doi:10.1364/srs.2014.stu3f.4
   title: 3-D statistical characterization of the heterogeneity of biological macromolecular
     complexes by electron microscopy
@@ -679,6 +686,7 @@
   tags:
   - conference
   - image reconstruction
+  - theory
 - id: doi:10.1109/ICIP.2014.7025712
   title: 'Directed interactivity of large-scale brain networks: Introducing a new
     method for estimating resting-state effective connectivity MRI'
@@ -702,6 +710,7 @@
   - conference
   - causal interactions
   - modeling
+  - brain dynamics
 - id: doi:10.1002/alz.061608
   title: "The effects of locus coeruleus stimulation on the BOLD global signal in\
     \ TgF344\u2010AD rats"
@@ -721,7 +730,8 @@
   link: https://doi.org/gt46xm
   tags:
   - conference
-  - neuro disorders
+  - brain dynamics
+  - precision brain health
   plugin: sources.py
   file: sources.yaml
 - title: A conserved brain state linking neural and hemodynamic dynamics to spontaneous
@@ -741,6 +751,7 @@
   tags:
   - conference
   - brain dynamics
+  - cross-species
   plugin: sources.py
   file: sources.yaml
 - title: Sliding-window channel capacity an information-theoretic measure of time-resolved
@@ -761,6 +772,8 @@
   - conference
   - brain dynamics
   - causal-interactions
+  - neuro AI/ML
+  - cross-species
   plugin: sources.py
   file: sources.yaml
 - title: Channel Capacity as a Dynamic Effective Connectivity Measure for Functional
@@ -780,6 +793,8 @@
   - conference
   - causal interactions
   - brain dynamics
+  - neuro AI/ML
+  - theory
   - recognition
   plugin: sources.py
   file: sources.yaml
@@ -828,6 +843,7 @@
   tags:
   - conference
   - causal interactions
+  - neuro AI/ML
   - brain dynamics
   - cross-species
   - modeling
@@ -865,7 +881,6 @@
   tags:
   - conference
   - brain dynamics
-  - cross-species
   plugin: sources.py
   file: sources.yaml
 - title: 'Time-varying causal interactions in the functional brain networks: modeling
@@ -886,7 +901,7 @@
   - causal interactions
   - brain dynamics
   - modeling
-  - neuro disorders
+  - precision brain health
   plugin: sources.py
   file: sources.yaml
 - title: Modeling and validation of dynamic causal interactions in functional brain
@@ -907,7 +922,7 @@
   - causal interactions
   - brain dynamics
   - modeling
-  - neuro disorders
+  - precision brain health
   plugin: sources.py
   file: sources.yaml
 - title: '``Hyperconnected'''' vestibular state in subacute and chronic post-concussive
@@ -926,7 +941,7 @@
   tags:
   - conference
   - brain dynamics
-  - neuro disorders
+  - precision brain health
   - recognition
   plugin: sources.py
   file: sources.yaml
@@ -977,7 +992,8 @@
   tags:
   - conference
   - causal interactions
-  - neuro disorders
+  - brain dynamics
+  - precision brain health
   plugin: sources.py
   file: sources.yaml
 - title: Investigating the relationship between sustained attention and quasi-periodic
@@ -1056,6 +1072,7 @@
   - causal interactions
   - cognitive functions
   - recognition
+  - brain dynamics
   plugin: sources.py
   file: sources.yaml
 - title: What are the most talkative brain regions?
@@ -1072,6 +1089,7 @@
   - conference
   - causal interactions
   - recognition
+  - brain dynamics
   plugin: sources.py
   file: sources.yaml
 - title: 'Directed interactivity of large-scale brain networks: Introducing a new
@@ -1086,5 +1104,6 @@
   tags:
   - conference
   - causal interactions
+  - brain dynamics
   plugin: sources.py
   file: sources.yaml

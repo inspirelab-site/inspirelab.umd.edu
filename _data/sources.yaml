@@ -7,7 +7,7 @@
 #   tags for research themes:
 #     - casual interactions
 #     - brain dynamics
-#     - neuro disorders
+#     - precision brain health
 #     - image reconstruction
 #   tags for other properties (limited to 2):
 #     - open science
@@ -38,6 +38,7 @@
   - brain dynamics
   - cross-species
   - modeling
+  - neuro AI/ML
     
 #Mandino-QPP-2026
 - id: doi:10.64898/2026.03.26.713939 
@@ -45,6 +46,7 @@
   tags:
   - preprint
   - brain dynamics
+  - cross-species
     
 #Park-Entropy-review-2026
 - id: doi:10.1007/s11682-026-01124-y 
@@ -65,7 +67,7 @@
     - preprint
     - causal interactions
     - brain dynamics
-    - neuro disorders
+    - precision brain health
     - cross-species
     - modeling
 
@@ -87,8 +89,7 @@
   tags:
     - journal
     - brain dynamics
-    - cross-species
-    - neuro disorders
+    - precision brain health
 
 #Meyer-Baese-FT-2024
 - id: doi:10.3389/fnsys.2024.1425491
@@ -112,7 +113,6 @@
   tags:
     - journal
     - brain dynamics
-    - cross-species
 
 #Xu-Aperture-2023
 - id: doi:10.52294/001c.85075
@@ -147,6 +147,7 @@
     - journal
     - brain dynamics
     - open science
+    - cross-species
 
 #Anumba-ad-2022-missed Nan's name
 - id: doi:10.1002/alz.061608
@@ -163,7 +164,8 @@
   - Shella Keilholz
   tags:
   - conference
-  - neuro disorders
+  - brain dynamics
+  - precision brain health
 
 #Xu-FT-2022-rev
 - id: doi:10.3389/fnins.2022.816331
@@ -186,6 +188,7 @@
   - journal
   - causal interactions
   - discovery
+  - brain dynamics
 
 #Xu-SISC-2021
 - id: doi:10.1137/20M1318183
@@ -238,6 +241,7 @@
   tags:
   - journal
   - image reconstruction
+  - theory
   buttons:
     - type: journal
       text: manuscript
@@ -257,6 +261,7 @@
   - journal
   - causal interactions
   - modeling
+  - brain dynamics
 
 
 #Xu-JSB-2016
@@ -290,6 +295,7 @@
   - conference
   - image reconstruction
   - recognition
+  - theory
 
 #xu-spie-2015
 - id: doi:10.1117/12.2193791
@@ -303,6 +309,7 @@
   - conference
   - image reconstruction
   - recognition
+  - theory
 
 #xu-icip-2015
 - id: doi:10.1109/ICIP.2015.7351039
@@ -314,6 +321,7 @@
   tags:
   - conference
   - image reconstruction
+  - theory
 
 #xu-icip-2014
 - id: doi:10.1109/ICIP.2014.7025712
@@ -326,6 +334,7 @@
   - conference
   - causal interactions
   - modeling
+  - brain dynamics
 
 #xu-imagoptics-2014
 - id: doi:10.1364/srs.2014.stu3f.4
@@ -337,6 +346,7 @@
   tags:
   - conference
   - image reconstruction
+  - theory
 
 
 ###################################################################
@@ -361,6 +371,7 @@
   tags:
     - conference
     - brain dynamics
+    - cross-species
 
 - #id: bic2026a
   title: "Sliding-window channel capacity an information-theoretic measure of time-resolved effective connectivity and neural noise"
@@ -380,6 +391,8 @@
     - conference
     - brain dynamics
     - causal-interactions
+    - neuro AI/ML
+    - cross-species
 
 - #id: embc2026
   title: "Channel Capacity as a Dynamic Effective Connectivity Measure for Functional Neuroimaging"
@@ -398,6 +411,8 @@
     - conference
     - causal interactions
     - brain dynamics
+    - neuro AI/ML
+    - theory
     - recognition
 
 - #id: nebec2026
@@ -445,6 +460,7 @@
   tags:
     - conference
     - causal interactions
+    - neuro AI/ML
     - brain dynamics
     - cross-species
     - modeling
@@ -480,7 +496,6 @@
   tags: 
     - conference
     - brain dynamics
-    - cross-species
 
 - #id: ohbm2024ii
   title: "Time-varying causal interactions in the functional brain networks: modeling and validation"
@@ -500,7 +515,7 @@
     - causal interactions
     - brain dynamics
     - modeling
-    - neuro disorders
+    - precision brain health
 
 - #id: bic2024i
   title: "Modeling and validation of dynamic causal interactions in functional brain network"
@@ -520,7 +535,7 @@
     - causal interactions
     - brain dynamics
     - modeling
-    - neuro disorders
+    - precision brain health
 
 - #id: asfnr2023i
   title: "``Hyperconnected'' vestibular state in subacute and chronic post-concussive vestibular dysfunction using dynamic whole brain functional connectivity analysis"
@@ -538,7 +553,7 @@
   tags:
     - conference
     - brain dynamics
-    - neuro disorders
+    - precision brain health
     - recognition
 
 - #id: ohbm2023i
@@ -587,7 +602,8 @@
   tags:
     - conference   
     - causal interactions
-    - neuro disorders
+    - brain dynamics
+    - precision brain health
 
 - #id: cns2022i
   title: "Investigating the relationship between sustained attention and quasi-periodic brain activity patterns with the psychomotor vigilance task."
@@ -662,6 +678,7 @@
     - causal interactions
     - cognitive functions
     - recognition
+    - brain dynamics
 
 - #id: embs2016i
   title: "What are the most talkative brain regions?"
@@ -677,6 +694,7 @@
     - conference
     - causal interactions
     - recognition
+    - brain dynamics
 
 - #id: cns2014i
   title: "Directed interactivity of large-scale brain networks: Introducing a new method for estimating brain connectivity MRI"
@@ -690,3 +708,4 @@
   tags:
     - conference
     - causal interactions
+    - brain dynamics
