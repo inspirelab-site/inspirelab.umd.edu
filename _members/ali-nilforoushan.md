@@ -17,4 +17,4 @@ links:
   # cv: 
   # faculty-page: 
 ---
-Hey :> I'm a sophomore studying Computer Science + Psychology @ UMD. I'm the personification of "curiosity killed the cat" (why I like psych) and a creative (why I like CS) who hopes to go to grad school for computer science if the <5% acceptance rates bless him the opportunity to do so. If I magically have free time on my hands, which normally isn't the case, I like doing stuff that revolves around video games, guitar, Youtube, baking, piano, cooking, reading, and art.
+Hey o/ I'm a junior studying Computer Science + Psychology @ UMD. I hope to go to grad school, but due to my curious nature I'm unsure what I want to specifically pursue. Outside of INSPIRE, I'm the Systems Software Lead at UMD's SatDev THIEA mission, and like to spend my free time on video games, guitar, piano, baking, Youtube, cooking, and reading.
