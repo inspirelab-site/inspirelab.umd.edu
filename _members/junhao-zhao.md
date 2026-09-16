@@ -28,7 +28,7 @@ manual_publications:
     code: "https://github.com/Jhziiiig/CARE"
     venue: "IEEE International Conference on Pervasive Computing and Communications (PerCom), 2026"
   - title: "Everything to the Synthetic: Diffusion-driven Test-time Adaptation via Synthetic-Domain Alignment"
-    authors: "Junhao Zhao, Chaoqun Du, Yulin Wang, Chunjiang Ge, Zanlin Ni, Shiji Song, Humphrey Shi, Gao Huang"
+    authors: "Jiayi Guo, Junhao Zhao, Chaoqun Du, Yulin Wang, Chunjiang Ge, Zanlin Ni, Shiji Song, Humphrey Shi, Gao Huang"
     link: "https://openaccess.thecvf.com/content/CVPR2025/papers/Guo_Everything_to_the_Synthetic_Diffusion-driven_Test-time_Adaptation_via_Synthetic-Domain_Alignment_CVPR_2025_paper.pdf"
     code: "https://github.com/SHI-Labs/Diffusion-Driven-Test-Time-Adaptation-via-Synthetic-Domain-Alignment"
     venue: "IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2025"
