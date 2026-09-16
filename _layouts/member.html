@@ -85,6 +85,33 @@ layout: default
 
 {{ content }}
 
+{% if page.manual_publications %}
+<section class="member-publications" style="margin-top: 250px">
+  <h2>Publications</h2>
+  <p style="color: gray; font-size: small; margin-top: -10px; margin-bottom: -20px">
+    * denotes equal contribution † denotes equal supervision
+  </p>
+  {% for pub in page.manual_publications %}
+    <div class="pub-entry">
+      {% if pub.link and pub.link != "" %}
+        <h3><a href="{{ pub.link }}" style="text-decoration: none;">{{ pub.title }}</a></h3>
+      {% else %}
+        <h3>{{ pub.title }}</h3>
+      {% endif %}
+      {% assign self_name = page.pub_author_name | default: page.name | default: page.title %}
+      {% capture bold_self %}<strong>{{ self_name }}</strong>{% endcapture %}
+      {% assign display_authors = pub.authors | replace: self_name, bold_self %}
+      <p class="pub-authors" style="margin-top: -10px">
+        {{ display_authors }}
+        {% if pub.venue and pub.venue != "" %} <em>{{ pub.venue }}</em>{% endif %}
+        {% if pub.link and pub.link != "" %}<a href="{{ pub.link }}"> [Link]</a>{% endif %}
+        {% if pub.code and pub.code != "" %}<a href="{{ pub.code }}"> [Code]</a>{% endif %}
+      </p>
+    </div>
+  {% endfor %}
+</section>
+{% endif %}
+
 {% assign aliases = page.aliases
   | default: page.name
   | default: page.title
