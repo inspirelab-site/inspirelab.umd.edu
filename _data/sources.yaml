@@ -13,6 +13,29 @@
 #     - open science
 #     - other (e.g., recognition)
 
+#Zhao-pre-2026
+- id: doi:10.48550/arXiv.2609.12890
+  type: preprint
+  tabs:
+    - preprint
+    - theory
+    - dynamic systems
+    - neuro AI/ML
+
+#Jian-pre-2026
+- id: doi:10.48550/arXiv.2609.32774
+  type: preprint
+  buttons:
+    - type: source
+      text: code
+      link: https://github.com/inspirelab-site/EC-dual-flow
+  tags:
+    - preprint
+    - causal interactions
+    - brain dynamics
+    - theory
+    - neuro AI/ML
+
 #Seeburger-PNAS-2026
 - id: doi:10.1073/pnas.2526828123
   type: journal
