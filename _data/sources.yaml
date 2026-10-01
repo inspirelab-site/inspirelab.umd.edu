@@ -14,17 +14,17 @@
 #     - other (e.g., recognition)
 
 #Zhao-pre-2026
-- id: doi:10.48550/arXiv.2609.12890
-  type: preprint
-  tabs:
+- id: doi:10.48550/ARXIV.2609.12890
+  type: journal
+  tags:
     - preprint
     - theory
     - dynamic systems
     - neuro AI/ML
 
 #Jian-pre-2026
-- id: doi:10.48550/arXiv.2609.32774
-  type: preprint
+- id: doi:10.48550/ARXIV.2609.32774
+  type: journal
   buttons:
     - type: source
       text: code

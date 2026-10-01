@@ -12,7 +12,6 @@
   - Randall W. Engle
   publisher: Proceedings of the National Academy of Sciences
   pmid: '42081721'
-  pmcid: PMC13167721
   date: '2026-05-04'
   link: https://doi.org/hb4mjn
   orcid: 0000-0002-3900-3220
@@ -38,7 +37,6 @@
   - Nan Xu
   publisher: openRxiv
   pmid: '41959056'
-  pmcid: PMC13060110
   date: '2026-03-31'
   link: https://doi.org/hbvg32
   orcid: 0000-0002-3900-3220
@@ -151,8 +149,14 @@
   link: https://doi.org/hckxb4
   orcid: 0000-0002-3900-3220
   nan-xu-list: true
-  plugin: orcid.py
-  file: orcid.yaml
+  plugin: sources.py
+  file: sources.yaml
+  type: journal
+  tags:
+  - preprint
+  - theory
+  - dynamic systems
+  - neuro AI/ML
 - id: doi:10.1016/j.softx.2025.102067
   title: 'QPPLab: A generally applicable software package for detecting, analyzing,
     and visualizing large-scale quasiperiodic spatiotemporal patterns (QPPs) of brain
@@ -727,27 +731,7 @@
   - causal interactions
   - modeling
   - brain dynamics
-- id: doi:10.48550/arXiv.2609.12890
-  title: 'Large Distant Gradients Need Not Be Reliable: reliability-weighted credit
-    assignment for long-horizon autoregressive forecasting'
-  authors:
-  - Junhao Zhao
-  - David Michael Simberg
-  - Jacob Kang
-  - Colin Connor Kurniawan
-  - Nan Xu
-  publisher: arXiv
-  date: '2026-01-01'
-  link: https://doi.org/hckxb4
-  type: preprint
-  tabs:
-  - preprint
-  - theory
-  - dynamic systems
-  - neuro AI/ML
-  plugin: sources.py
-  file: sources.yaml
-- id: doi:10.48550/arXiv.2609.32774
+- id: doi:10.48550/ARXIV.2609.32774
   title: 'Beyond Gaussian Assumptions: Distribution-Aware Channel Capacity for Effective
     Connectivity'
   authors:
@@ -759,7 +743,7 @@
   publisher: arXiv
   date: '2026-01-01'
   link: https://doi.org/hckxb5
-  type: preprint
+  type: journal
   buttons:
   - type: source
     text: code
