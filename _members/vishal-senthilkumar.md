@@ -4,9 +4,7 @@ image: team/images/vishil-senthilkumar.jpg
 role: undergrad
 description: "Undergraduate Researcher" 
 start: Jun 2026
-# end: May 2025
 affiliation: "Computer Science"
-# post: "Now SDE @ Amazon"
 brief-desc:  "University of Maryland, College Park"
 group: member
 links:

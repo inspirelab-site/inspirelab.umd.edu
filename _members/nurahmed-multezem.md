@@ -4,6 +4,7 @@ image: team/images/nurahmed-multezem.jpg
 role: undergrad
 description: "Undergraduate Researcher"
 start: Oct 2025
+end: May 2026
 affiliation: "Computer Engineering"
 brief-desc:  "University of Maryland, College Park"
 group: former

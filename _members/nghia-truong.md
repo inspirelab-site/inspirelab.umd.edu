@@ -4,9 +4,10 @@ image: team/images/nghia-truong.jpg
 role: undergrad
 description: "Undergraduate Researcher"
 start: Jun 2026
+end: Aug 2026
 affiliation: "Computer Science, Mathematics"
 brief-desc:  "University of Maryland, College Park"
-group: member
+group: former-short
 links:
   email: ntruong8@umd.edu
   linkedin: nghia-truong-850ba2312 

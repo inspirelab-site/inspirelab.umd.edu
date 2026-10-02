@@ -4,9 +4,10 @@ image: team/images/hernan-gonzalez.jpg
 role: undergrad
 description: "Undergraduate Researcher"
 start: Jan 2026
+end: May 2026
 affiliation: "Computer Science, Mathematics"
 brief-desc:  "University of Maryland, College Park"
-group: former
+group: former-short
 links:
   email: gonzah45@umd.edu
   # linkedin: 

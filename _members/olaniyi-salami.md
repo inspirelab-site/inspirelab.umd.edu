@@ -4,6 +4,7 @@ image: team/images/olaniyi-salami.jpg
 role: undergrad
 description: "Undergraduate Researcher"
 start: Jan 2025
+end: Dec 2025
 affiliation: "Computer Science, Mathematics"
 brief-desc:  "University of Maryland, College Park"
 group: former

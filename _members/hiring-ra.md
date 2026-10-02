@@ -3,7 +3,7 @@ name: Hiring
 image: images/photo.jpg
 description: IT Research Technician
 role: programmer
-group: close
+group: closed
 # links:
 #  email: 
 #  github: xxx

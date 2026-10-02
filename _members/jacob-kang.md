@@ -3,7 +3,7 @@ name: Jacob Kang
 image: team/images/jacob-kang.jpg
 role: phd
 description: "Graduate Researcher | PhD Student"
-start: Dec 2025 #Nov 2025
+start: Dec 2025
 affiliation: "Bioengineering"
 brief-desc:  "University of Maryland, College Park"
 group: member

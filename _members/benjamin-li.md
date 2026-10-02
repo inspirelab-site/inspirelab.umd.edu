@@ -4,9 +4,10 @@ image: team/images/benjamin-li.jpg
 role: undergrad
 description: "Undergraduate Researcher"
 start: Jan 2025
+end: May 2026
 affiliation: "Computer Science"
 brief-desc:  "Northwestern University"
-group: member
+group: former
 links:
   email: bli9485@umd.edu
   linkedin: benjamin-li-26a307236
