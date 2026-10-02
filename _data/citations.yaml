@@ -12,7 +12,6 @@
   - Randall W. Engle
   publisher: Proceedings of the National Academy of Sciences
   pmid: '42081721'
-  pmcid: PMC13167721
   date: '2026-05-04'
   link: https://doi.org/hb4mjn
   orcid: 0000-0002-3900-3220
@@ -38,7 +37,6 @@
   - Nan Xu
   publisher: openRxiv
   pmid: '41959056'
-  pmcid: PMC13060110
   date: '2026-03-31'
   link: https://doi.org/hbvg32
   orcid: 0000-0002-3900-3220
@@ -147,7 +145,7 @@
   - Colin Connor Kurniawan
   - Nan Xu
   publisher: arXiv
-  date: '2026-01-01'
+  date: '2026-09-11'
   link: https://doi.org/hckxb4
   orcid: 0000-0002-3900-3220
   nan-xu-list: true
@@ -743,7 +741,7 @@
   - Benjamin Li
   - Nan Xu
   publisher: arXiv
-  date: '2026-01-01'
+  date: '2026-09-26'
   link: https://doi.org/hckxb5
   type: journal
   buttons:

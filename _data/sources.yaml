@@ -15,6 +15,7 @@
 
 #Zhao-pre-2026
 - id: doi:10.48550/ARXIV.2609.12890
+  date: 2026-09-11
   type: journal
   tags:
     - preprint
@@ -24,6 +25,7 @@
 
 #Jian-pre-2026
 - id: doi:10.48550/ARXIV.2609.32774
+  date: 2026-09-26
   type: journal
   buttons:
     - type: source
