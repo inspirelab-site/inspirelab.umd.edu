@@ -8,14 +8,17 @@ group: hiring
 #  email: xx@gmail.com
 #  twitter: xx
 ---
-We are seeking highly motivated graduate students to join us at INSPIRE Lab! Our research is centered on advancing machine learning, statistical, and deep learning methods to analyze functional neuroimaging data. Current research directions include but not limited to:
-  1. **Computational Brain Imaging & Brain Science**: Modeling functional brain networks using information theory, statistical inference, and network science.
-  <!-- 2. **Artificial Intelligence and Data Analytics**: Developing brain-informed AI models, predictive modeling approaches, and data-driven methods for understanding brain function and therapeutic outcomes. -->
-  2. **Functional Brain Dynamics**: Applying statistical and machine learning techniques to explore the spatiotemporal dynamics of the brain through multimodal neuroimaging.
+We are seeking highly motivated Ph.D. students to join the INSPIRE Lab at the University of Maryland, College Park. Our research develops computational, statistical, and AI approaches to understand and predict **brain dynamics across individuals, disease states, and interventions**, with applications spanning fundamental neuroscience and **precision brain health**.
 
-* **PhD Students**: We are currently recruiting Ph.D. students with solid mathematical and quantitative skills, coding experience, and a genuine interest in computational brain science. If this sounds like you, please apply directly through the [BioE](https://bioe.umd.edu/graduate/prospective-students/admissions), [ECE](https://ece.umd.edu/graduate/prospective-students/admissions), or [NACS](https://nacs.umd.edu/students/application) PhD programs at UMD, and mention my name and your areas of interest in your application.
+**Current Ph.D. positions are open in the following areas:**
+- **Computational Brain Dynamics and NeuroAI** — modeling brain states, functional and effective connectivity, neural dynamics, and naturalistic brain responses using machine learning, dynamical systems, information theory, statistical inference, graphical models, and network science.
+- **Translational Neuroscience and Precision Brain Health** — developing individualized computational biomarkers and predictive models from multimodal brain data to characterize disease-related brain states, behavioral and clinical outcomes, and individual differences in treatment response.
+- **Multimodal and Cross-Scale Brain Modeling** — integrating fMRI, EEG, iEEG, electrophysiology, optical imaging, and other neural measurements to study brain dynamics across spatial, temporal, and biological scales.
 
-{% capture lorem %} PhD admissions at UMD are managed by the respective departments/programs rather than individual labs. We would be happy to discussing specific projects and delving into details once you’ve been admitted or formally invited through the admissions process. If this applies to you, please feel free to send along your CV and transcript. Due to the high volume of inquiries, I’m only able to respond to applicants who meet these criteria. Good luck with your applications!{% endcapture %}
-{%  include alert.html type="warning" content=lorem %}
+**Prospective Ph.D. Applicants**
+We welcome applicants with strong quantitative and computational backgrounds in Bioengineering/Biomedical Engineering, Electrical and Computer Engineering, Computer Science, Applied Mathematics, Statistics, Physics, Neuroscience, or related fields. **A strong academic record is a major consideration. Applicants are generally expected to have a cumulative GPA of 3.7/4.0 or above (or equivalent), although academic performance will be evaluated in the context of the institution, grading system, major, and class ranking.**
 
-* **Master’s Students**: If you’ve been admitted to a data science-related master’s program at UMD and are interested in pursuing a thesis at INSPIRE Lab, feel free to reach out with your CV and transcript.
+Strong programming skills in Python and/or MATLAB are required. Prior research experience in machine learning, signal processing, neuroimaging, neural data analysis, computational neuroscience, or related quantitative fields is highly desirable. **Evidence of research independence is strongly valued**, including first-author or leading-author work submitted to or published in top conferences or well-regarded peer-reviewed journals, or other work demonstrating substantial intellectual ownership and research leadership.
+Qualified applicants should email **Dr. Nan Xu at nanxu@umd.edu** with their **CV and transcript**. Please include your **major/class ranking on your CV**, if available, and use **“Prospective PhD Applicant”** as the email subject line.
+
+Applicants should also apply through one of the relevant UMD Ph.D. programs, including **[BioE](https://bioe.umd.edu/graduate/prospective-students/admissions), [ECE](https://ece.umd.edu/graduate/prospective-students/admissions), or [NACS](https://nacs.umd.edu/students/application)**, and indicate their interest in working with Dr. Xu in the application.
