@@ -6,7 +6,7 @@ description: "Graduate Researcher | PhD Rotational Student"
 start: Oct 2025
 end: Nov 2025
 affiliation: "Bioengineering"
-post: "Now researcher at the Andrew Bower Lab"
+post: "Now researcher at UMD SoM"
 brief-desc:  "University of Maryland, School of Medicine"
 group: former
 links:

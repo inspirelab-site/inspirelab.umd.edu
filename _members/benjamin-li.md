@@ -6,7 +6,7 @@ description: "Undergraduate Researcher"
 start: Jan 2025
 end: May 2026
 affiliation: "Computer Science"
-post: "Northwestern University"
+post: "Now undergrad at Northwestern University"
 # brief-desc:  "University of Maryland, College Park"
 group: former
 links:
