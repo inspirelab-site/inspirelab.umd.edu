@@ -6,7 +6,8 @@ description: "Undergraduate Researcher"
 start: Jan 2025
 end: Dec 2025
 affiliation: "Computer Science, Mathematics"
-brief-desc:  "University of Maryland, College Park"
+post: "Now SDE at NVIDIA"
+# brief-desc:  "University of Maryland, College Park"
 group: former
 links:
   email: osalami2@umd.edu
@@ -18,4 +19,4 @@ links:
   # cv: 
   # faculty-page: 
 ---
-Hello, my name is Olaniyi Oluwaniolami Salami, an undergraduate student currently studying Computer Science and Math at the University of Maryland. Outside of classes, I was born and raised in Baltimore County, Maryland, and in my free time enjoy gaming and game development, crocheting, and learning languages. I am studying the functional Brain Dynamics Biomarkers in Children with obesity. Super excited to work on this computational research and hope to truly make a difference.
+Olaniyi was an undergraduate student currently studying Computer Science and Math at the University of Maryland. Outside of classes, he was born and raised in Baltimore County, Maryland, and in his free time enjoys gaming and game development, crocheting, and learning languages. He was studying the functional Brain Dynamics Biomarkers in Children with obesity hopes to truly make a difference. After graduating, he is now working as an SDE at NVIDIA. 

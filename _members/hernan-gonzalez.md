@@ -7,7 +7,7 @@ start: Jan 2026
 end: May 2026
 affiliation: "Computer Science, Mathematics"
 brief-desc:  "University of Maryland, College Park"
-group: former-short
+group: former
 links:
   email: gonzah45@umd.edu
   # linkedin: 
@@ -18,4 +18,4 @@ links:
   # cv: 
   # faculty-page: 
 ---
-Hernan is a sophomore majoring in Computer Science and Math. His academic interests are in data science and applied machine learning. He enjoys reading, discovering the best food spots around campus (his favorites are Chipotle and Seoul Spice), and watching Premier League football. After graduation, he plans to pursue a master's degree.
+Hernan is a junior majoring in Computer Science and Math. His academic interests are in data science and applied machine learning. He enjoys reading, discovering the best food spots around campus (his favorites are Chipotle and Seoul Spice), and watching Premier League football. After graduation, he plans to pursue a master's degree.
