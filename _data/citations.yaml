@@ -154,6 +154,10 @@
   plugin: sources.py
   file: sources.yaml
   type: journal
+  buttons:
+  - type: source
+    text: code
+    link: https://github.com/inspirelab-site/Internal-DW
   tags:
   - preprint
   - theory
